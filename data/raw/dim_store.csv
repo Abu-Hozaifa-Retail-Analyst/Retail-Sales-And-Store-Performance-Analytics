@@ -1,0 +1,26 @@
+store_id,store_name,city,region,store_type,store_size_sqft,opening_date,target_sales,target_margin
+GM001,GulfMart Riyadh North,Riyadh,Central,Hypermarket,30251,2020-02-08,13023504,0.28
+GM002,GulfMart Riyadh South,Riyadh,Central,Hypermarket,34235,2020-04-22,12605221,0.28
+GM003,GulfMart Riyadh Central,Riyadh,Central,Supermarket,13929,2021-05-17,9748688,0.3
+GM004,GulfMart Riyadh East,Riyadh,Central,Supermarket,13013,2020-10-02,9920367,0.3
+GM005,GulfMart Riyadh West,Riyadh,Central,Supermarket,12226,2019-12-11,8949709,0.3
+GM006,GulfMart Riyadh Express 1,Riyadh,Central,Express,7225,2020-09-18,2879653,0.32
+GM007,GulfMart Riyadh Express 2,Riyadh,Central,Express,5828,2019-05-12,3610178,0.32
+GM008,GulfMart Jeddah North,Jeddah,Western,Hypermarket,32909,2020-03-11,12300269,0.28
+GM009,GulfMart Jeddah South,Jeddah,Western,Hypermarket,30588,2019-06-06,14431373,0.28
+GM010,GulfMart Jeddah Central,Jeddah,Western,Supermarket,14023,2020-03-02,6566510,0.3
+GM011,GulfMart Jeddah East,Jeddah,Western,Supermarket,16966,2018-06-22,9981383,0.3
+GM012,GulfMart Jeddah Express,Jeddah,Western,Express,6452,2020-09-23,3790894,0.32
+GM013,GulfMart Dammam North,Dammam,Eastern,Hypermarket,39537,2022-05-12,10708092,0.28
+GM014,GulfMart Dammam Central,Dammam,Eastern,Supermarket,17891,2024-05-23,9530522,0.3
+GM015,GulfMart Dammam Express,Dammam,Eastern,Express,4187,2022-11-25,3597996,0.32
+GM016,GulfMart Khobar Central,Khobar,Eastern,Supermarket,13080,2021-04-09,6599792,0.3
+GM017,GulfMart Khobar Express,Khobar,Eastern,Express,4940,2021-12-07,4075326,0.32
+GM018,GulfMart Makkah Central,Makkah,Western,Supermarket,14563,2019-06-15,8368756,0.3
+GM019,GulfMart Makkah Express,Makkah,Western,Express,7292,2023-01-08,3123607,0.32
+GM020,GulfMart Makkah Neighborhood,Makkah,Western,Neighborhood,6525,2023-11-21,3664635,0.31
+GM021,GulfMart Madinah Central,Madinah,Western,Supermarket,15586,2018-02-20,8060293,0.3
+GM022,GulfMart Madinah Neighborhood,Madinah,Western,Neighborhood,9799,2021-12-03,5096836,0.31
+GM023,GulfMart Abha Central,Abha,Southern,Supermarket,16431,2022-03-15,6668629,0.3
+GM024,GulfMart Abha Neighborhood,Abha,Southern,Neighborhood,8745,2021-10-02,4702457,0.31
+GM025,GulfMart Tabuk Central,Tabuk,Northern,Express,5078,2021-07-05,3671248,0.32
