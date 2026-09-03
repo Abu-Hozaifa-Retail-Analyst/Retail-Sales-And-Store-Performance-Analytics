@@ -63,7 +63,7 @@ Business Recommendations
 
 
 
-🏪 Retail Business Scenario
+# **🏪 Retail Business Scenario**
 
 The fictional company used in this project is GulfMart, a Saudi/GCC-style retail business.
 
@@ -76,7 +76,7 @@ Neighborhood stores
 
 The dataset is synthetic and was designed specifically for analytics practice and portfolio development.
 
-📦 Dataset Design
+# 📦 Dataset Design
 
 The project is designed around a retail star-schema structure.
 
@@ -95,7 +95,7 @@ Sales Transactions	120,000
 Historical Period	Multi-year
 ⭐ Data Model
 
-The project uses a Star Schema.
+# The project uses a Star Schema.
 
                     dim_date
                        |
@@ -109,7 +109,7 @@ fact_sales
 
 Contains transaction-level retail sales information.
 
-Key fields include:
+# Key fields include:
 
 transaction_id
 transaction_date
@@ -127,12 +127,12 @@ total_cost
 gross_profit
 payment_method
 sales_channel
-🏬 Store Dimension
+# 🏬 Store Dimension
 dim_store
 
 Contains store-level attributes.
 
-Key fields include:
+# Key fields include:
 
 store_id
 store_name
@@ -153,7 +153,7 @@ Express	7
 Hypermarket	5
 Neighborhood	3
 Total	25
-🛒 Product Dimension
+# 🛒 Product Dimension
 dim_product
 
 Contains product master information.
@@ -182,7 +182,7 @@ Electronics
 
 Category-level demand weights are used during synthetic transaction generation to create realistic differences in product demand.
 
-👥 Customer Dimension
+# 👥 Customer Dimension
 dim_customer
 
 Contains customer-level information.
@@ -197,7 +197,7 @@ customer_segment
 
 Customers are used to simulate differences in purchasing frequency and geographic behavior.
 
-📅 Date Dimension
+# 📅 Date Dimension
 dim_date
 
 Contains calendar attributes used for time-based retail analysis.
