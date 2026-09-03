@@ -57,7 +57,7 @@ Root Cause Analysis
 Power BI Dashboard
    ↓
 Business Recommendations
-
+```
 
 
 
@@ -744,4 +744,3 @@ Power BI
 Customer Analytics
 Store Performance
 Sales Analytics
-```
