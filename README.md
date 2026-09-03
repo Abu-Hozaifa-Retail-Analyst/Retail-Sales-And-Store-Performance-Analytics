@@ -132,7 +132,7 @@ dim_store
 
 Contains store-level attributes.
 
-# Key fields include:
+### Key fields include:
 
 store_id
 store_name
