@@ -109,7 +109,7 @@ fact_sales
 
 Contains transaction-level retail sales information.
 
-# Key fields include:
+### Key fields include:
 
 transaction_id
 transaction_date
@@ -158,7 +158,7 @@ dim_product
 
 Contains product master information.
 
-Key fields include:
+### Key fields include:
 
 product_id
 product_name
@@ -187,7 +187,7 @@ dim_customer
 
 Contains customer-level information.
 
-Key fields include:
+### Key fields include:
 
 customer_id
 gender
@@ -202,7 +202,7 @@ dim_date
 
 Contains calendar attributes used for time-based retail analysis.
 
-Fields include:
+### Fields include:
 
 date
 year
@@ -219,11 +219,11 @@ Year-over-year performance
 Seasonality
 Weekday vs weekend behavior
 Quarterly trends
-🐍 Python Transaction Generation
+# 🐍 Python Transaction Generation
 
 Python is being used to create a realistic synthetic retail transaction dataset.
 
-The transaction-generation process includes:
+### The transaction-generation process includes:
 
 Transaction Skeleton
         ↓
@@ -247,24 +247,24 @@ Gross Profit
         ↓
 Validation
 
-The project uses:
+### The project uses:
 
 Pandas
 NumPy
 Vectorized operations
 Probability-based sampling
 Business-rule-based synthetic data generation
-🏬 Store Assignment Logic
+# 🏬 Store Assignment Logic
 
 Transactions are distributed across stores using a probability-based approach.
 
-Store transaction probability considers:
+### Store transaction probability considers:
 
 Store type
 Store size
 Store performance factor
 
-The current store types are:
+### The current store types are:
 
 Hypermarket
 Supermarket
@@ -275,7 +275,7 @@ Larger stores and higher-performing store formats receive higher transaction wei
 
 This allows the dataset to contain realistic differences in transaction volume between stores.
 
-🛍️ Store Product Assortment
+# 🛍️ Store Product Assortment
 
 Product availability differs by store type.
 
@@ -291,7 +291,7 @@ This reflects the assumption that larger-format stores carry broader product ass
 
 These values are synthetic modeling assumptions and are not intended to represent actual GulfMart policies.
 
-🎯 Promotion Behavior
+# 🎯 Promotion Behavior
 
 Promotion probability also varies by store type.
 
@@ -316,7 +316,7 @@ Net Sales
 Gross Profit
     ↓
 Margin Impact
-💰 Financial Calculations
+# 💰 Financial Calculations
 
 The transaction model calculates the following financial metrics.
 
@@ -331,7 +331,7 @@ Gross Profit = Net Sales − Total Cost
 
 These calculations have been validated using a 0.01 currency-unit tolerance to account for monetary rounding and floating-point precision.
 
-🔍 Financial Validation
+# 🔍 Financial Validation
 
 The following validation checks have passed:
 
@@ -342,11 +342,11 @@ PASS: Gross profit calculation
 
 The financial calculation validation was completed successfully across the generated transaction dataset.
 
-⚠️ Loss-Making Transactions
+# ⚠️ Loss-Making Transactions
 
 The dataset intentionally allows some promotional transactions to become loss-making.
 
-Current validation:
+### Current validation:
 
 Total transactions:          120,000
 Negative-profit transactions: 2,832
@@ -368,7 +368,7 @@ Negative Gross Profit
 
 This will provide an opportunity for future analysis of promotional effectiveness and margin risk.
 
-📊 Gross Profit Validation
+# 📊 Gross Profit Validation
 
 Current gross-profit summary:
 
@@ -383,7 +383,7 @@ Maximum Gross Profit	539.44
 
 The majority of transactions are profitable, while a smaller percentage become loss-making.
 
-🔎 Promotion & Profitability Analysis
+# 🔎 Promotion & Profitability Analysis
 
 Negative-profit transactions were analyzed by discount level.
 
@@ -406,7 +406,7 @@ Category
 Promotion level
 Store type
 Customer segment
-🧪 Data Validation Approach
+# 🧪 Data Validation Approach
 
 The project uses validation checks throughout the data-generation process.
 
@@ -420,7 +420,7 @@ Product Validation
 
 Product-category mappings are checked to ensure every product category has a valid demand weight.
 
-Financial Validation
+# Financial Validation
 
 The following relationships are validated:
 
@@ -431,7 +431,7 @@ Gross Profit
 
 Financial validations use a small currency tolerance instead of requiring exact floating-point equality.
 
-🧠 Business Questions
+# 🧠 Business Questions
 
 The completed dataset will eventually be used to answer:
 
@@ -460,7 +460,7 @@ Which customers purchase most frequently?
 Which cities generate the highest sales?
 📈 Planned KPIs
 
-The project will calculate retail KPIs including:
+# The project will calculate retail KPIs including:
 
 Sales KPIs
 Net Sales
@@ -491,13 +491,13 @@ Product Profit
 Product Margin
 Units Sold
 Category Contribution
-📊 Power BI Dashboard
+# 📊 Power BI Dashboard
 
 Power BI will be used to build an executive retail performance dashboard.
 
 Planned dashboard areas include:
 
-Page 1 — Executive Retail Overview
+### Page 1 — Executive Retail Overview
 
 KPIs:
 
@@ -544,7 +544,7 @@ DAX	KPI calculations
 Git	Version control
 GitHub	Portfolio and project management
 VS Code	Development environment
-📁 Project Structure
+# 📁 Project Structure
 
 The project is being organized approximately as follows:
 
@@ -577,7 +577,7 @@ Retail-Sales-Store-Performance/
 
 The exact structure may evolve as the project progresses.
 
-🔄 Project Workflow
+# 🔄 Project Workflow
 
 The complete project is being developed incrementally.
 
@@ -627,7 +627,7 @@ Create project summary
 Create LinkedIn portfolio content
 Prepare interview questions
 Practice explaining business insights
-🚀 Current Project Status
+# 🚀 Current Project Status
 Completed
  Retail business scenario defined
  Star schema designed
@@ -648,7 +648,7 @@ Completed
  Financial calculation validation completed
 Current Status
 
-🚧 Synthetic transaction generation and validation are still in progress.
+# 🚧 Synthetic transaction generation and validation are still in progress.
 
 Next steps include:
 
@@ -660,7 +660,7 @@ Export CSV files
 Load data into SQL Server
 Build SQL analytics
 Build Power BI dashboard
-💡 Key Learning Outcomes
+# 💡 Key Learning Outcomes
 
 This project is designed to demonstrate more than technical skills.
 
@@ -678,7 +678,7 @@ Investigate profitability
 Analyze promotional impact
 Identify root causes
 Translate analysis into business recommendations
-👔 Portfolio Objective
+# 👔 Portfolio Objective
 
 This project is intended as a portfolio project for roles such as:
 
@@ -692,13 +692,13 @@ E-commerce Analyst
 
 The project is specifically designed around retail use cases relevant to the Saudi/GCC retail and e-commerce environment.
 
-📌 Important Note
+# 📌 Important Note
 
 This is a synthetic retail analytics project.
 
 The company, stores, products, customers, transactions, targets, probabilities, and business assumptions are simulated for educational and portfolio purposes.
 
-The purpose is to demonstrate:
+### The purpose is to demonstrate:
 
 Technical Skills
         +
@@ -710,7 +710,7 @@ Business Storytelling
 
 rather than represent actual company performance.
 
-📈 Future Enhancements
+# 📈 Future Enhancements
 
 Potential future enhancements include:
 
@@ -733,7 +733,7 @@ Automated KPI reporting
 
 Retail Analytics Portfolio Project
 
-Focus areas:
+### Focus areas:
 
 Retail Analytics
 Data Analytics
