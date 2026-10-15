@@ -1,0 +1,26 @@
+product_id,loss_tx,loss,product_name,category,breakeven_discount
+499,568,-5491.43,Accessories Item 499,Electronics,0.12
+500,14,-1373.78,Small Appliances Item 500,Electronics,0.13
+490,16,-1325.77,Mobile Item 490,Electronics,0.15
+475,93,-1322.95,Accessories Item 475,Electronics,0.16
+482,10,-846.83,Mobile Item 482,Electronics,0.18
+486,30,-696.69,Mobile Item 486,Electronics,0.19
+489,16,-565.24,Audio Item 489,Electronics,0.16
+496,3,-535.31,Small Appliances Item 496,Electronics,0.15
+485,62,-380.92,Audio Item 485,Electronics,0.16
+477,17,-375.74,Audio Item 477,Electronics,0.13
+492,4,-338.37,Small Appliances Item 492,Electronics,0.18
+483,50,-326.92,Accessories Item 483,Electronics,0.16
+491,12,-239.58,Accessories Item 491,Electronics,0.17
+498,5,-230.89,Mobile Item 498,Electronics,0.16
+497,9,-228.9,Audio Item 497,Electronics,0.15
+479,6,-208.98,Accessories Item 479,Electronics,0.13
+476,55,-197.51,Small Appliances Item 476,Electronics,0.18
+75,83,-176.97,Frozen Item 075,Food & Beverages,0.23
+478,15,-157.62,Mobile Item 478,Electronics,0.15
+177,13,-140.36,Vegetables Item 177,Fresh Food,0.21
+416,15,-133.22,Baby Hygiene Item 416,Baby Care,0.22
+473,4,-120.24,Audio Item 473,Electronics,0.23
+22,112,-110.32,Beverages Item 022,Food & Beverages,0.22
+152,57,-109.26,Vegetables Item 152,Fresh Food,0.2
+57,38,-108.74,Beverages Item 057,Food & Beverages,0.23

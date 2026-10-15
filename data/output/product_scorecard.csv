@@ -1,0 +1,501 @@
+product_id,net_sales,gp,units,tx,disc,gross,loss_tx,promo_share,product_name,category,subcategory,brand,unit_cost,selling_price,gm_pct,discount_rate,cum_share,abc,cv,xyz,abc_xyz,matrix
+447,675178.87,277348.79,6509,2069,42112.93,717291.8,0,0.3171,Fragrance Item 447,Beauty,Fragrance,Brand R,61.12,110.2,0.4108,0.0587,0.0363,A,0.1668,X,AX,Stars
+464,603301.7,244060.93,3383,1039,38250.42,641552.12,0,0.3128,Makeup Item 464,Beauty,Makeup,Brand A,106.19,189.64,0.4045,0.0596,0.0687,A,0.2367,X,AX,Stars
+331,417736.58,117711.03,12221,3552,23441.56,441178.1,0,0.3069,Oral Care Item 331,Personal Care,Oral Care,Brand C,24.55,36.1,0.2818,0.0531,0.0912,A,0.1211,X,AX,Stars
+379,381821.4,112878.0,15510,5071,20818.2,402639.6,0,0.3134,Fitness Nutrition Item 379,Health & Wellness,Fitness Nutrition,Brand O,17.34,25.96,0.2956,0.0517,0.1117,A,0.1346,X,AX,Stars
+428,377709.35,91089.35,4496,1201,19377.37,397086.72,0,0.3189,Baby Hygiene Item 428,Baby Care,Baby Hygiene,Brand F,63.75,88.32,0.2412,0.0488,0.132,A,0.2247,X,AX,Stars
+440,372423.11,160003.35,1684,530,19797.35,392220.44,0,0.3,Makeup Item 440,Beauty,Makeup,Brand L,126.14,232.91,0.4296,0.0505,0.152,A,0.3112,X,AX,Stars
+252,366070.9,78446.29,5733,1508,25091.55,391162.59,0,0.3448,Paper Goods Item 252,Household,Paper Goods,Brand L,50.17,68.23,0.2143,0.0641,0.1717,A,0.1995,X,AX,Traffic drivers (low margin)
+499,301658.21,21605.17,3622,2573,16788.03,318446.24,568,0.3148,Accessories Item 499,Electronics,Accessories,Brand S,77.32,87.92,0.0716,0.0527,0.1879,A,0.2111,X,AX,Traffic drivers (low margin)
+247,277905.95,78201.17,2601,686,18009.82,295915.77,0,0.3324,Cleaning Item 247,Household,Cleaning,Brand J,76.78,113.77,0.2814,0.0609,0.2029,A,0.3227,X,AX,Stars
+221,272155.45,58460.38,2757,737,18322.07,290477.52,0,0.3487,Kitchenware Item 221,Household,Kitchenware,Brand C,77.51,105.36,0.2148,0.0631,0.2175,A,0.2356,X,AX,Traffic drivers (low margin)
+147,261851.26,52229.98,5476,1246,14851.02,276702.28,44,0.2841,Vegetables Item 147,Fresh Food,Vegetables,Brand E,38.28,50.53,0.1995,0.0537,0.2316,A,0.2301,X,AX,Traffic drivers (low margin)
+459,254179.4,94434.14,1194,381,17801.86,271981.26,0,0.3412,Fragrance Item 459,Beauty,Fragrance,Brand L,133.79,227.79,0.3715,0.0655,0.2452,A,0.3995,X,AX,Stars
+169,236456.35,56567.2,7455,1717,15522.65,251979.0,0,0.332,Bakery Item 169,Fresh Food,Bakery,Brand P,24.13,33.8,0.2392,0.0616,0.2579,A,0.1643,X,AX,Stars
+362,234118.59,55840.59,2580,858,14231.99,248350.8,0,0.3333,OTC Item 362,Health & Wellness,OTC,Brand M,69.1,96.26,0.2385,0.0573,0.2705,A,0.2178,X,AX,Stars
+18,200529.15,51514.03,7729,1519,13409.57,213938.72,0,0.3022,Pantry Item 018,Food & Beverages,Pantry,Brand D,19.28,27.68,0.2569,0.0627,0.2813,A,0.1813,X,AX,Stars
+424,195435.1,52435.5,2620,705,11885.41,207320.6,0,0.339,Baby Hygiene Item 424,Baby Care,Baby Hygiene,Brand C,54.58,79.13,0.2683,0.0573,0.2918,A,0.3465,X,AX,Stars
+442,176701.77,66436.01,682,219,13153.43,189855.16,0,0.3425,Nail Care Item 442,Beauty,Nail Care,Brand P,161.68,278.38,0.376,0.0693,0.3013,A,0.453,X,AX,Stars
+417,173639.56,37686.91,1191,311,8142.81,181782.33,0,0.283,Toys Item 417,Baby Care,Toys,Brand T,114.15,152.63,0.217,0.0448,0.3106,A,0.4149,X,AX,Traffic drivers (low margin)
+256,166172.09,46732.34,6729,1809,9993.17,176165.22,0,0.3096,Paper Goods Item 256,Household,Paper Goods,Brand K,17.75,26.18,0.2812,0.0567,0.3196,A,0.1891,X,AX,Stars
+188,159036.27,37211.55,2664,621,10980.21,170016.48,0,0.3349,Meat & Poultry Item 188,Fresh Food,Meat & Poultry,Brand I,45.73,63.82,0.234,0.0646,0.3281,A,0.2526,X,AX,Traffic drivers (low margin)
+490,151140.89,17127.89,220,137,6896.18,158037.0,16,0.2482,Mobile Item 490,Electronics,Mobile,Brand C,609.15,718.35,0.1133,0.0436,0.3362,A,0.5891,Y,AY,Review / rationalise
+165,145858.81,30953.99,3098,712,10001.61,155860.38,0,0.3118,Seafood Item 165,Fresh Food,Seafood,Brand M,37.09,50.31,0.2122,0.0642,0.3441,A,0.2638,X,AX,Traffic drivers (low margin)
+74,140341.46,36868.37,2553,476,9008.96,149350.5,0,0.2983,Dairy & Eggs Item 074,Food & Beverages,Dairy & Eggs,Brand K,40.53,58.5,0.2627,0.0603,0.3516,A,0.3626,X,AX,Stars
+163,139379.23,29139.79,2696,617,8712.03,148091.28,0,0.295,Meat & Poultry Item 163,Fresh Food,Meat & Poultry,Brand M,40.89,54.93,0.2091,0.0588,0.3591,A,0.3243,X,AX,Traffic drivers (low margin)
+264,137385.75,35695.09,2033,532,8522.74,145908.41,0,0.2989,Paper Goods Item 264,Household,Paper Goods,Brand R,50.02,71.77,0.2598,0.0584,0.3665,A,0.3018,X,AX,Stars
+475,134443.26,15340.84,841,615,7475.77,141918.75,93,0.3203,Accessories Item 475,Electronics,Accessories,Brand H,141.62,168.75,0.1141,0.0527,0.3737,A,0.321,X,AX,Traffic drivers (low margin)
+167,134211.81,27779.06,1975,445,8106.72,142318.5,0,0.2921,Vegetables Item 167,Fresh Food,Vegetables,Brand N,53.89,72.06,0.207,0.057,0.3809,A,0.3461,X,AX,Traffic drivers (low margin)
+117,133338.95,32071.85,4246,842,9284.2,142623.14,0,0.3183,Beverages Item 117,Food & Beverages,Beverages,Brand S,23.85,33.59,0.2405,0.0651,0.3881,A,0.2451,X,AX,Stars
+486,132364.53,19212.66,351,239,7259.79,139624.29,30,0.318,Mobile Item 486,Electronics,Mobile,Brand T,322.37,397.79,0.1451,0.052,0.3952,A,0.4091,X,AX,Review / rationalise
+466,132050.89,45237.19,786,241,8808.15,140859.06,0,0.3029,Nail Care Item 466,Beauty,Nail Care,Brand R,110.45,179.21,0.3426,0.0625,0.4023,A,0.51,Y,AY,Stars
+159,129866.33,28149.58,2273,516,8491.23,138357.51,0,0.3275,Bakery Item 159,Fresh Food,Bakery,Brand E,44.75,60.87,0.2168,0.0614,0.4093,A,0.3467,X,AX,Traffic drivers (low margin)
+482,128183.46,17633.7,128,81,7359.58,135543.04,10,0.3086,Mobile Item 482,Electronics,Mobile,Brand K,863.67,1058.93,0.1376,0.0543,0.4162,A,0.7066,Y,AY,Review / rationalise
+410,126418.29,29990.31,4713,1259,6629.81,133047.99,0,0.3058,Diapers Item 410,Baby Care,Diapers,Brand F,20.46,28.23,0.2372,0.0498,0.423,A,0.2458,X,AX,Traffic drivers (low margin)
+75,124168.29,22110.67,8386,1606,8582.28,132750.38,83,0.3182,Frozen Item 075,Food & Beverages,Frozen,Brand S,12.17,15.83,0.1781,0.0646,0.4297,A,0.1956,X,AX,Traffic drivers (low margin)
+195,120940.55,29807.75,5280,1218,8419.42,129360.0,0,0.3259,Seafood Item 195,Fresh Food,Seafood,Brand G,17.26,24.5,0.2465,0.0651,0.4362,A,0.1918,X,AX,Stars
+204,119774.44,24694.07,1843,421,7558.44,127332.87,0,0.3088,Bakery Item 204,Fresh Food,Bakery,Brand T,51.59,69.09,0.2062,0.0594,0.4426,A,0.3557,X,AX,Traffic drivers (low margin)
+452,117106.43,45417.8,611,192,8478.51,125584.94,0,0.3125,Makeup Item 452,Beauty,Makeup,Brand Q,117.33,205.54,0.3878,0.0675,0.4489,A,0.6019,Y,AY,Stars
+386,115243.78,30045.22,3604,965,6499.29,121743.12,0,0.2964,Diapers Item 386,Baby Care,Diapers,Brand M,23.64,33.78,0.2607,0.0534,0.4551,A,0.2825,X,AX,Stars
+500,113889.35,10961.15,102,72,4467.37,118356.72,14,0.25,Small Appliances Item 500,Electronics,Small Appliances,Brand S,1009.1,1160.36,0.0962,0.0377,0.4612,A,0.757,Y,AY,Review / rationalise
+455,113391.06,46763.64,498,160,5640.86,119031.96,0,0.2188,Fragrance Item 455,Beauty,Fragrance,Brand B,133.79,239.02,0.4124,0.0474,0.4673,A,0.5186,Y,AY,Stars
+444,109604.29,38614.21,456,142,5781.95,115386.24,0,0.2817,Makeup Item 444,Beauty,Makeup,Brand P,155.68,253.04,0.3523,0.0501,0.4732,A,0.5956,Y,AY,Stars
+458,108941.59,31898.39,520,165,6493.21,115434.8,0,0.2788,Nail Care Item 458,Beauty,Nail Care,Brand J,148.16,221.99,0.2928,0.0563,0.479,A,0.5258,Y,AY,Stars
+421,107982.0,26273.73,641,171,7359.54,115341.54,0,0.3626,Toys Item 421,Baby Care,Toys,Brand B,127.47,179.94,0.2433,0.0638,0.4849,A,0.5517,Y,AY,Stars
+437,106919.96,33806.46,1643,525,6036.33,112956.25,0,0.2876,Beauty Tools Item 437,Beauty,Beauty Tools,Brand A,44.5,68.75,0.3162,0.0534,0.4906,A,0.2335,X,AX,Stars
+414,106302.71,28101.86,5055,1339,5210.68,111513.3,0,0.295,Diapers Item 414,Baby Care,Diapers,Brand A,15.47,22.06,0.2644,0.0467,0.4963,A,0.2238,X,AX,Stars
+370,101793.81,22954.61,5456,1790,5525.98,107319.52,0,0.3101,OTC Item 370,Health & Wellness,OTC,Brand T,14.45,19.67,0.2255,0.0515,0.5018,A,0.1738,X,AX,Traffic drivers (low margin)
+488,97493.58,17098.37,119,82,6047.13,103540.71,1,0.3659,Small Appliances Item 488,Electronics,Small Appliances,Brand D,675.59,870.09,0.1754,0.0584,0.507,A,0.8303,Y,AY,Review / rationalise
+492,96524.5,14237.68,77,54,4049.07,100573.55,4,0.2407,Small Appliances Item 492,Electronics,Small Appliances,Brand T,1068.66,1306.15,0.1475,0.0403,0.5122,A,0.751,Y,AY,Review / rationalise
+220,95076.52,27482.02,2025,565,6295.02,101371.5,0,0.3274,Paper Goods Item 220,Household,Paper Goods,Brand R,33.38,50.06,0.2891,0.0621,0.5173,A,0.3317,X,AX,Stars
+72,94639.04,18575.53,4751,928,6319.73,100958.75,38,0.3179,Beverages Item 072,Food & Beverages,Beverages,Brand L,16.01,21.25,0.1963,0.0626,0.5224,A,0.1683,X,AX,Traffic drivers (low margin)
+376,94300.98,23085.35,787,257,5309.61,99610.59,0,0.323,First Aid Item 376,Health & Wellness,First Aid,Brand F,90.49,126.57,0.2448,0.0533,0.5275,A,0.2971,X,AX,Stars
+389,92395.51,24146.56,933,240,5821.43,98216.91,0,0.3875,Toys Item 389,Baby Care,Toys,Brand C,73.15,105.27,0.2613,0.0593,0.5324,A,0.396,X,AX,Stars
+426,86659.46,16402.43,519,142,5110.13,91769.58,9,0.3521,Diapers Item 426,Baby Care,Diapers,Brand G,135.37,176.82,0.1893,0.0557,0.5371,A,0.5851,Y,AY,Traffic drivers (low margin)
+262,85878.26,20427.95,1119,306,5443.33,91321.59,0,0.3203,Laundry Item 262,Household,Laundry,Brand S,58.49,81.61,0.2379,0.0596,0.5417,A,0.368,X,AX,Traffic drivers (low margin)
+111,83922.18,15459.66,1788,348,5066.57,88988.76,16,0.3075,Snacks Item 111,Food & Beverages,Snacks,Brand P,38.29,49.77,0.1842,0.0569,0.5462,A,0.4045,X,AX,Traffic drivers (low margin)
+213,80583.82,16157.74,948,259,6708.02,87291.84,0,0.3784,Kitchenware Item 213,Household,Kitchenware,Brand J,67.96,92.08,0.2005,0.0768,0.5506,A,0.5181,Y,AY,Traffic drivers (low margin)
+416,79787.74,13933.12,1062,297,4588.19,84375.9,15,0.3199,Baby Hygiene Item 416,Baby Care,Baby Hygiene,Brand A,62.01,79.45,0.1746,0.0544,0.5549,A,0.442,X,AX,Traffic drivers (low margin)
+236,79765.65,17965.89,792,205,6174.29,85939.92,0,0.4049,Paper Goods Item 236,Household,Paper Goods,Brand D,78.03,108.51,0.2252,0.0718,0.5591,A,0.4517,X,AX,Traffic drivers (low margin)
+37,79145.19,16900.18,1523,295,5472.69,84617.88,0,0.322,Beverages Item 037,Food & Beverages,Beverages,Brand S,40.87,55.56,0.2135,0.0647,0.5634,A,0.3721,X,AX,Traffic drivers (low margin)
+279,78283.95,16428.75,1089,304,5177.01,83460.96,0,0.3257,Cleaning Item 279,Household,Cleaning,Brand D,56.8,76.64,0.2099,0.062,0.5676,A,0.512,Y,AY,Traffic drivers (low margin)
+341,76083.95,21042.6,455,149,4432.85,80516.8,0,0.3557,Vitamins Item 341,Health & Wellness,Vitamins,Brand S,120.97,176.96,0.2766,0.0551,0.5717,A,0.7125,Y,AY,Stars
+57,72751.99,12784.59,3415,652,5314.96,78066.9,38,0.3267,Beverages Item 057,Food & Beverages,Beverages,Brand O,17.56,22.86,0.1757,0.0681,0.5756,A,0.2484,X,AX,Traffic drivers (low margin)
+342,72188.75,20232.11,432,144,4283.88,76472.64,0,0.3333,OTC Item 342,Health & Wellness,OTC,Brand I,120.27,177.02,0.2803,0.056,0.5795,A,0.4988,X,AX,Niche (high margin)
+467,71873.62,23473.84,858,261,4608.46,76482.12,0,0.3372,Fragrance Item 467,Beauty,Fragrance,Brand B,56.41,89.14,0.3266,0.0603,0.5833,A,0.4239,X,AX,Stars
+97,71504.58,18815.58,2100,411,4914.5,76419.0,0,0.3114,Beverages Item 097,Food & Beverages,Beverages,Brand M,25.09,36.39,0.2631,0.0643,0.5872,A,0.3311,X,AX,Stars
+33,70539.78,17770.51,2983,554,4810.71,75350.58,0,0.3267,Pantry Item 033,Food & Beverages,Pantry,Brand F,17.69,25.26,0.2519,0.0638,0.591,A,0.3006,X,AX,Stars
+454,69255.62,26045.63,513,156,3503.17,72758.79,0,0.2628,Nail Care Item 454,Beauty,Nail Care,Brand J,84.23,141.83,0.3761,0.0481,0.5947,A,0.6063,Y,AY,Stars
+142,68848.28,12436.78,4390,1002,4333.08,73181.3,49,0.3154,Vegetables Item 142,Fresh Food,Vegetables,Brand E,12.85,16.67,0.1806,0.0592,0.5984,A,0.2519,X,AX,Traffic drivers (low margin)
+103,68717.96,14882.94,5858,1131,4682.69,73400.74,0,0.3254,Pantry Item 103,Food & Beverages,Pantry,Brand L,9.19,12.53,0.2166,0.0638,0.6021,A,0.2343,X,AX,Traffic drivers (low margin)
+420,68343.97,12999.45,833,221,3802.16,72146.13,10,0.3077,Baby Hygiene Item 420,Baby Care,Baby Hygiene,Brand C,66.44,86.61,0.1902,0.0527,0.6058,A,0.4392,X,AX,Traffic drivers (low margin)
+95,68123.88,15516.36,2763,542,4515.31,72639.27,0,0.3081,Frozen Item 095,Food & Beverages,Frozen,Brand B,19.04,26.29,0.2278,0.0622,0.6094,A,0.3304,X,AX,Traffic drivers (low margin)
+489,64976.36,7601.6,116,85,3326.78,68303.12,16,0.3294,Audio Item 489,Electronics,Audio,Brand L,494.61,588.82,0.117,0.0487,0.6129,A,0.6167,Y,AY,Review / rationalise
+105,63893.34,13424.74,1820,347,4483.99,68377.4,0,0.3314,Frozen Item 105,Food & Beverages,Frozen,Brand J,27.73,37.57,0.2101,0.0656,0.6164,A,0.344,X,AX,Traffic drivers (low margin)
+143,63450.11,12032.59,982,231,3483.01,66933.12,15,0.2641,Meat & Poultry Item 143,Fresh Food,Meat & Poultry,Brand S,52.36,68.16,0.1896,0.052,0.6198,A,0.4373,X,AX,Traffic drivers (low margin)
+218,62296.44,16438.94,3250,857,3905.98,66202.5,0,0.3197,Laundry Item 218,Household,Laundry,Brand A,14.11,20.37,0.2639,0.059,0.6231,A,0.2399,X,AX,Stars
+435,61470.35,17601.55,320,92,4849.64,66320.0,0,0.3696,Fragrance Item 435,Beauty,Fragrance,Brand B,137.09,207.25,0.2863,0.0731,0.6264,A,0.6781,Y,AY,Niche (high margin)
+112,59987.03,15821.09,8089,1594,3997.02,63983.99,0,0.3124,Beverages Item 112,Food & Beverages,Beverages,Brand K,5.46,7.91,0.2637,0.0625,0.6297,A,0.1786,X,AX,Stars
+291,59693.76,18646.26,842,237,3624.64,63318.4,0,0.3249,Oral Care Item 291,Personal Care,Oral Care,Brand C,48.75,75.2,0.3124,0.0572,0.6329,A,0.4382,X,AX,Stars
+22,59316.33,10079.7,12923,2469,3876.93,63193.47,112,0.3094,Beverages Item 022,Food & Beverages,Beverages,Brand G,3.81,4.89,0.1699,0.0614,0.636,A,0.1833,X,AX,Traffic drivers (low margin)
+468,58567.47,21441.55,338,107,3546.76,62114.26,0,0.2991,Makeup Item 468,Beauty,Makeup,Brand I,109.84,183.77,0.3661,0.0571,0.6392,A,0.7358,Y,AY,Niche (high margin)
+392,58235.18,12943.18,650,163,3930.82,62166.0,0,0.3742,Baby Hygiene Item 392,Baby Care,Baby Hygiene,Brand E,69.68,95.64,0.2223,0.0632,0.6423,A,0.5304,Y,AY,Traffic drivers (low margin)
+177,57597.88,9285.84,1099,250,3748.3,61346.18,13,0.304,Vegetables Item 177,Fresh Food,Vegetables,Brand G,43.96,55.82,0.1612,0.0611,0.6454,A,0.4308,X,AX,Traffic drivers (low margin)
+219,57065.31,15808.71,1045,276,3231.18,60296.5,0,0.2899,Cleaning Item 219,Household,Cleaning,Brand B,39.48,57.7,0.277,0.0536,0.6485,A,0.5361,Y,AY,Stars
+198,56696.44,12578.61,1151,275,3604.44,60300.89,0,0.3345,Meat & Poultry Item 198,Fresh Food,Meat & Poultry,Brand Q,38.33,52.39,0.2219,0.0598,0.6515,A,0.4849,X,AX,Traffic drivers (low margin)
+145,56568.13,12072.41,922,211,3675.34,60243.48,0,0.2986,Seafood Item 145,Fresh Food,Seafood,Brand A,48.26,65.34,0.2134,0.061,0.6546,A,0.5006,Y,AY,Traffic drivers (low margin)
+321,56295.04,17126.92,1558,437,3111.5,59406.54,0,0.3066,Hair Care Item 321,Personal Care,Hair Care,Brand A,25.14,38.13,0.3042,0.0524,0.6576,A,0.3251,X,AX,Stars
+187,55342.48,12996.48,1240,268,3545.1,58887.6,0,0.3358,Vegetables Item 187,Fresh Food,Vegetables,Brand K,34.15,47.49,0.2348,0.0602,0.6606,A,0.3814,X,AX,Traffic drivers (low margin)
+393,54874.26,12294.46,1055,280,3171.85,58046.1,0,0.3036,Toys Item 393,Baby Care,Toys,Brand F,40.36,55.02,0.224,0.0546,0.6635,A,0.335,X,AX,Traffic drivers (low margin)
+302,54284.17,13600.45,588,174,2775.35,57059.52,0,0.2931,Skin Care Item 302,Personal Care,Skin Care,Brand D,69.19,97.04,0.2505,0.0486,0.6664,A,0.498,X,AX,Stars
+465,54259.7,20134.1,1180,371,3336.07,57595.8,0,0.3261,Beauty Tools Item 465,Beauty,Beauty Tools,Brand E,28.92,48.81,0.3711,0.0579,0.6694,A,0.4081,X,AX,Stars
+120,54185.82,12333.57,3135,591,3874.38,58060.2,0,0.3519,Frozen Item 120,Food & Beverages,Frozen,Brand P,13.35,18.52,0.2276,0.0667,0.6723,A,0.2902,X,AX,Traffic drivers (low margin)
+461,53816.03,17808.67,272,89,2942.22,56758.24,0,0.3371,Beauty Tools Item 461,Beauty,Beauty Tools,Brand D,132.38,208.67,0.3309,0.0518,0.6752,A,0.7113,Y,AY,Niche (high margin)
+190,51643.42,8712.07,1593,364,3139.88,54783.27,14,0.3049,Seafood Item 190,Fresh Food,Seafood,Brand G,26.95,34.39,0.1687,0.0573,0.6779,A,0.4105,X,AX,Traffic drivers (low margin)
+174,51435.74,9552.47,5577,1282,3163.21,54598.83,50,0.2933,Bakery Item 174,Fresh Food,Bakery,Brand O,7.51,9.79,0.1857,0.0579,0.6807,A,0.2855,X,AX,Traffic drivers (low margin)
+251,49785.35,12829.79,1338,344,3092.41,52877.76,0,0.311,Cleaning Item 251,Household,Cleaning,Brand I,27.62,39.52,0.2577,0.0585,0.6834,A,0.3935,X,AX,Stars
+316,49711.88,13922.59,1013,289,2933.73,52645.61,0,0.301,Hygiene Item 316,Personal Care,Hygiene,Brand B,35.33,51.97,0.2801,0.0557,0.6861,A,0.4487,X,AX,Stars
+261,49231.0,11852.68,798,223,2639.0,51870.0,0,0.278,Kitchenware Item 261,Household,Kitchenware,Brand E,46.84,65.0,0.2408,0.0509,0.6887,A,0.3818,X,AX,Stars
+485,48655.92,5938.56,658,465,2503.71,51159.5,62,0.3118,Audio Item 485,Electronics,Audio,Brand Q,64.92,77.75,0.1221,0.0489,0.6913,A,0.3088,X,AX,Traffic drivers (low margin)
+387,47433.47,11357.57,287,76,2487.31,49920.78,0,0.3158,Baby Food Item 387,Baby Care,Baby Food,Brand B,125.7,173.94,0.2394,0.0498,0.6939,A,0.7255,Y,AY,Niche (high margin)
+107,47201.77,8450.27,970,183,3189.7,50391.5,8,0.3224,Beverages Item 107,Food & Beverages,Beverages,Brand K,39.95,51.95,0.179,0.0633,0.6964,A,0.5724,Y,AY,Traffic drivers (low margin)
+304,46364.78,12991.02,752,217,2853.63,49218.4,0,0.3548,Hygiene Item 304,Personal Care,Hygiene,Brand J,44.38,65.45,0.2802,0.058,0.6989,A,0.5002,Y,AY,Stars
+323,45860.65,15480.65,3875,1148,2654.35,48515.0,0,0.311,Oral Care Item 323,Personal Care,Oral Care,Brand J,7.84,12.52,0.3376,0.0547,0.7014,B,0.2061,X,BX,Stars
+216,45768.21,9080.16,1197,322,2542.71,48310.92,15,0.3043,Paper Goods Item 216,Household,Paper Goods,Brand P,30.65,40.36,0.1984,0.0526,0.7038,B,0.2472,X,BX,Traffic drivers (low margin)
+269,43610.81,10588.73,4536,1201,3019.27,46630.08,0,0.3281,Kitchenware Item 269,Household,Kitchenware,Brand G,7.28,10.28,0.2428,0.0647,0.7062,B,0.2348,X,BX,Stars
+297,41930.26,12267.78,599,165,2665.29,44595.55,0,0.3515,Hair Care Item 297,Personal Care,Hair Care,Brand G,49.52,74.45,0.2926,0.0598,0.7084,B,0.5234,Y,BY,Stars
+498,41690.57,4939.52,63,45,1975.36,43665.93,5,0.2889,Mobile Item 498,Electronics,Mobile,Brand C,583.35,693.11,0.1185,0.0452,0.7107,B,1.1129,Z,BZ,Review / rationalise
+229,41421.94,11612.5,508,139,2789.31,44211.24,0,0.3309,Kitchenware Item 229,Household,Kitchenware,Brand E,58.68,87.03,0.2803,0.0631,0.7129,B,0.601,Y,BY,Stars
+15,40863.68,11184.84,1549,309,2322.44,43186.12,0,0.2557,Frozen Item 015,Food & Beverages,Frozen,Brand C,19.16,27.88,0.2737,0.0538,0.7151,B,0.3238,X,BX,Stars
+286,39665.57,13235.13,3676,1060,2351.21,42016.68,0,0.3075,Skin Care Item 286,Personal Care,Skin Care,Brand G,7.19,11.43,0.3337,0.056,0.7172,B,0.286,X,BX,Stars
+443,39337.42,14186.84,1183,369,2055.75,41393.17,0,0.3035,Fragrance Item 443,Beauty,Fragrance,Brand M,21.26,34.99,0.3606,0.0497,0.7193,B,0.3479,X,BX,Stars
+259,39112.92,10913.68,764,199,2013.21,41126.12,0,0.3166,Cleaning Item 259,Household,Cleaning,Brand G,36.91,53.83,0.279,0.049,0.7214,B,0.4374,X,BX,Stars
+25,38813.28,9566.48,2530,486,2577.52,41390.8,0,0.3107,Frozen Item 025,Food & Beverages,Frozen,Brand H,11.56,16.36,0.2465,0.0623,0.7235,B,0.2829,X,BX,Stars
+473,38703.82,6836.86,46,32,2556.34,41260.16,4,0.3438,Audio Item 473,Electronics,Audio,Brand O,692.76,896.96,0.1766,0.062,0.7256,B,0.9281,Y,BY,Review / rationalise
+434,38629.45,10810.53,229,68,3767.57,42397.06,0,0.3824,Nail Care Item 434,Beauty,Nail Care,Brand Q,121.48,185.14,0.2799,0.0889,0.7277,B,0.8148,Y,BY,Niche (high margin)
+481,38463.13,6651.07,42,29,2126.09,40589.22,1,0.2414,Audio Item 481,Electronics,Audio,Brand P,757.43,966.41,0.1729,0.0524,0.7297,B,1.2878,Z,BZ,Review / rationalise
+228,38160.97,8770.12,615,169,2355.23,40516.2,0,0.3373,Paper Goods Item 228,Household,Paper Goods,Brand I,47.79,65.88,0.2298,0.0581,0.7318,B,0.6006,Y,BY,Traffic drivers (low margin)
+185,38114.51,9021.35,762,183,1928.61,40043.1,0,0.2514,Seafood Item 185,Fresh Food,Seafood,Brand R,38.18,52.55,0.2367,0.0482,0.7338,B,0.5312,Y,BY,Traffic drivers (low margin)
+491,37181.36,4371.23,137,97,2229.43,39410.79,12,0.3196,Accessories Item 491,Electronics,Accessories,Brand N,239.49,287.67,0.1176,0.0566,0.7358,B,0.6244,Y,BY,Review / rationalise
+483,37004.21,4064.81,533,354,2016.72,39020.93,50,0.3305,Accessories Item 483,Electronics,Accessories,Brand F,61.8,73.21,0.1098,0.0517,0.7378,B,0.4433,X,BX,Traffic drivers (low margin)
+307,36808.77,12847.17,936,272,1791.87,38600.64,0,0.2904,Oral Care Item 307,Personal Care,Oral Care,Brand R,25.6,41.24,0.349,0.0464,0.7398,B,0.3949,X,BX,Stars
+134,36625.63,7820.65,618,140,2561.75,39187.38,0,0.3143,Bakery Item 134,Fresh Food,Bakery,Brand A,46.61,63.41,0.2135,0.0654,0.7418,B,0.6342,Y,BY,Traffic drivers (low margin)
+139,36569.82,7152.6,631,136,2571.13,39140.93,7,0.3162,Bakery Item 139,Fresh Food,Bakery,Brand D,46.62,62.03,0.1956,0.0657,0.7437,B,0.5093,Y,BY,Traffic drivers (low margin)
+243,36420.86,8070.86,600,165,2045.17,38466.0,0,0.3333,Cleaning Item 243,Household,Cleaning,Brand A,47.25,64.11,0.2216,0.0532,0.7457,B,0.4676,X,BX,Traffic drivers (low margin)
+381,36373.34,12027.98,1768,564,2063.01,38436.32,0,0.3014,Vitamins Item 381,Health & Wellness,Vitamins,Brand T,13.77,21.74,0.3307,0.0537,0.7477,B,0.2651,X,BX,Stars
+448,35938.75,11490.69,1414,454,1984.65,37923.48,0,0.2863,Makeup Item 448,Beauty,Makeup,Brand B,17.29,26.82,0.3197,0.0523,0.7496,B,0.2915,X,BX,Stars
+306,35708.55,9044.15,623,174,2045.25,37753.8,0,0.3161,Skin Care Item 306,Personal Care,Skin Care,Brand L,42.8,60.6,0.2533,0.0542,0.7515,B,0.5049,Y,BY,Stars
+7,35532.51,7018.71,2628,505,2468.32,38000.88,20,0.3109,Beverages Item 007,Food & Beverages,Beverages,Brand J,10.85,14.46,0.1975,0.065,0.7534,B,0.3006,X,BX,Traffic drivers (low margin)
+330,35210.93,12156.21,326,91,2021.52,37232.46,0,0.2857,Skin Care Item 330,Personal Care,Skin Care,Brand R,70.72,114.21,0.3452,0.0543,0.7553,B,0.861,Y,BY,Niche (high margin)
+242,35067.23,8625.53,3326,900,2150.85,37217.94,0,0.3144,Laundry Item 242,Household,Laundry,Brand D,7.95,11.19,0.246,0.0578,0.7572,B,0.2946,X,BX,Stars
+359,35002.06,9857.53,1049,342,1629.02,36631.08,0,0.2661,Fitness Nutrition Item 359,Health & Wellness,Fitness Nutrition,Brand L,23.97,34.92,0.2816,0.0445,0.7591,B,0.4486,X,BX,Stars
+476,34900.58,4862.18,560,383,1902.62,36803.2,55,0.3029,Small Appliances Item 476,Electronics,Small Appliances,Brand R,53.64,65.72,0.1393,0.0517,0.761,B,0.4032,X,BX,Traffic drivers (low margin)
+469,34734.67,11725.95,454,144,1998.48,36733.14,0,0.3403,Beauty Tools Item 469,Beauty,Beauty Tools,Brand E,50.68,80.91,0.3376,0.0544,0.7628,B,0.663,Y,BY,Stars
+227,34620.64,8759.74,349,90,2076.73,36697.35,0,0.3333,Cleaning Item 227,Household,Cleaning,Brand N,74.1,105.15,0.253,0.0566,0.7647,B,0.7017,Y,BY,Niche (high margin)
+82,33746.94,9090.14,2072,394,2347.3,36094.24,0,0.3274,Beverages Item 082,Food & Beverages,Beverages,Brand I,11.9,17.42,0.2694,0.065,0.7665,B,0.3804,X,BX,Stars
+436,33681.74,10387.49,175,59,2314.01,35995.75,0,0.3051,Makeup Item 436,Beauty,Makeup,Brand H,133.11,205.69,0.3084,0.0643,0.7683,B,0.8216,Y,BY,Niche (high margin)
+361,33661.97,9317.65,364,114,2181.11,35843.08,0,0.307,Vitamins Item 361,Health & Wellness,Vitamins,Brand J,66.88,98.47,0.2768,0.0609,0.7701,B,0.5523,Y,BY,Niche (high margin)
+394,33579.41,8675.41,220,56,973.79,34553.2,0,0.1607,Diapers Item 394,Baby Care,Diapers,Brand J,113.2,157.06,0.2584,0.0282,0.7719,B,0.9394,Y,BY,Niche (high margin)
+152,33529.23,5128.75,5108,1167,2124.49,35653.84,57,0.3016,Vegetables Item 152,Fresh Food,Vegetables,Brand T,5.56,6.98,0.153,0.0596,0.7737,B,0.2378,X,BX,Traffic drivers (low margin)
+301,33230.78,9384.28,925,271,2011.73,35242.5,0,0.3173,Hair Care Item 301,Personal Care,Hair Care,Brand E,25.78,38.1,0.2824,0.0571,0.7755,B,0.4216,X,BX,Stars
+432,32074.23,10555.59,242,76,1433.08,33507.32,0,0.2632,Makeup Item 432,Beauty,Makeup,Brand M,88.92,138.46,0.3291,0.0428,0.7772,B,0.8329,Y,BY,Niche (high margin)
+470,32017.78,12049.78,512,152,1702.55,33720.32,0,0.2697,Nail Care Item 470,Beauty,Nail Care,Brand C,39.0,65.86,0.3763,0.0505,0.779,B,0.594,Y,BY,Stars
+290,32017.05,8975.3,925,262,1967.39,33984.5,0,0.2939,Skin Care Item 290,Personal Care,Skin Care,Brand P,24.91,36.74,0.2803,0.0579,0.7807,B,0.4756,X,BX,Stars
+496,31818.08,3379.61,31,23,1674.63,33492.71,3,0.3043,Small Appliances Item 496,Electronics,Small Appliances,Brand Q,917.37,1080.41,0.1062,0.05,0.7824,B,1.1497,Z,BZ,Review / rationalise
+254,31621.26,7106.46,465,131,1830.84,33452.1,0,0.3053,Laundry Item 254,Household,Laundry,Brand J,52.72,71.94,0.2247,0.0547,0.7841,B,0.6878,Y,BY,Traffic drivers (low margin)
+445,31164.92,12970.6,974,313,1649.11,32814.06,0,0.2652,Beauty Tools Item 445,Beauty,Beauty Tools,Brand D,18.68,33.69,0.4162,0.0503,0.7858,B,0.3389,X,BX,Stars
+441,31154.92,9149.04,404,121,2530.59,33685.52,0,0.3967,Beauty Tools Item 441,Beauty,Beauty Tools,Brand R,54.47,83.38,0.2937,0.0751,0.7874,B,0.5444,Y,BY,Niche (high margin)
+24,30651.56,5496.92,1127,212,2211.76,32863.32,13,0.3491,Dairy & Eggs Item 024,Food & Beverages,Dairy & Eggs,Brand K,22.32,29.16,0.1793,0.0673,0.7891,B,0.4191,X,BX,Traffic drivers (low margin)
+238,30511.35,7082.83,551,156,1556.85,32068.2,0,0.25,Laundry Item 238,Household,Laundry,Brand F,42.52,58.2,0.2321,0.0485,0.7907,B,0.4909,X,BX,Traffic drivers (low margin)
+390,30016.6,7858.42,722,192,1563.68,31580.28,0,0.3073,Diapers Item 390,Baby Care,Diapers,Brand L,30.69,43.74,0.2618,0.0495,0.7923,B,0.4268,X,BX,Stars
+401,30008.3,7403.3,1650,439,1787.21,31795.5,0,0.3189,Toys Item 401,Baby Care,Toys,Brand Q,13.7,19.27,0.2467,0.0562,0.7939,B,0.3406,X,BX,Stars
+4,29910.86,6159.4,1607,290,2261.22,32172.14,0,0.3448,Dairy & Eggs Item 004,Food & Beverages,Dairy & Eggs,Brand T,14.78,20.02,0.2059,0.0703,0.7956,B,0.3645,X,BX,Traffic drivers (low margin)
+366,29785.24,8040.91,227,76,1913.04,31698.28,0,0.3026,OTC Item 366,Health & Wellness,OTC,Brand L,95.79,139.64,0.27,0.0604,0.7972,B,0.7101,Y,BY,Niche (high margin)
+277,29772.77,5836.93,422,113,1835.06,31607.8,6,0.3186,Kitchenware Item 277,Household,Kitchenware,Brand O,56.72,74.9,0.196,0.0581,0.7988,B,0.5141,Y,BY,Review / rationalise
+178,29754.77,4697.49,1024,236,1876.56,31631.36,11,0.3305,Meat & Poultry Item 178,Fresh Food,Meat & Poultry,Brand S,24.47,30.89,0.1579,0.0593,0.8004,B,0.4527,X,BX,Traffic drivers (low margin)
+439,29504.56,10576.63,173,55,1299.82,30804.38,0,0.2364,Fragrance Item 439,Beauty,Fragrance,Brand E,109.41,178.06,0.3585,0.0422,0.8019,B,0.8336,Y,BY,Niche (high margin)
+403,29196.82,7189.82,373,96,1825.62,31022.41,0,0.3542,Baby Food Item 403,Baby Care,Baby Food,Brand D,59.0,83.17,0.2463,0.0588,0.8035,B,0.7501,Y,BY,Niche (high margin)
+182,29098.01,5477.65,1084,269,1774.31,30872.32,13,0.3086,Vegetables Item 182,Fresh Food,Vegetables,Brand K,21.79,28.48,0.1882,0.0575,0.8051,B,0.4212,X,BX,Traffic drivers (low margin)
+104,28824.15,5195.19,807,151,1656.24,30480.39,4,0.298,Dairy & Eggs Item 104,Food & Beverages,Dairy & Eggs,Brand J,29.28,37.77,0.1802,0.0543,0.8066,B,0.609,Y,BY,Traffic drivers (low margin)
+282,28549.8,9294.3,330,93,1886.11,30435.9,0,0.2903,Skin Care Item 282,Personal Care,Skin Care,Brand K,58.35,92.23,0.3255,0.062,0.8082,B,0.7139,Y,BY,Niche (high margin)
+433,28430.28,10997.43,465,130,2217.87,30648.15,0,0.3615,Beauty Tools Item 433,Beauty,Beauty Tools,Brand N,37.49,65.91,0.3868,0.0724,0.8097,B,0.5485,Y,BY,Stars
+43,28082.66,7811.45,921,178,1610.38,29693.04,0,0.2809,Pantry Item 043,Food & Beverages,Pantry,Brand K,22.01,32.24,0.2782,0.0542,0.8112,B,0.5802,Y,BY,Stars
+398,27480.42,7271.92,650,173,1561.58,29042.0,0,0.3179,Diapers Item 398,Baby Care,Diapers,Brand J,31.09,44.68,0.2646,0.0538,0.8127,B,0.6041,Y,BY,Stars
+324,27340.53,9004.89,564,171,1773.15,29113.68,0,0.345,Hygiene Item 324,Personal Care,Hygiene,Brand B,32.51,51.62,0.3294,0.0609,0.8141,B,0.5896,Y,BY,Stars
+460,27257.85,9596.4,285,99,2057.25,29315.1,0,0.404,Makeup Item 460,Beauty,Makeup,Brand J,61.97,102.86,0.3521,0.0702,0.8156,B,0.6862,Y,BY,Niche (high margin)
+429,26611.17,7020.41,1708,451,1570.83,28182.0,0,0.337,Toys Item 429,Baby Care,Toys,Brand J,11.47,16.5,0.2638,0.0557,0.817,B,0.3324,X,BX,Stars
+86,26014.7,4892.94,1936,385,1515.15,27529.92,11,0.2935,Snacks Item 086,Food & Beverages,Snacks,Brand T,10.91,14.22,0.1881,0.055,0.8184,B,0.3645,X,BX,Traffic drivers (low margin)
+335,25763.71,7092.79,862,242,1432.42,27196.1,0,0.2893,Oral Care Item 335,Personal Care,Oral Care,Brand F,21.66,31.55,0.2753,0.0527,0.8198,B,0.4791,X,BX,Stars
+408,25733.71,4901.29,257,69,1955.47,27689.18,4,0.4348,Baby Hygiene Item 408,Baby Care,Baby Hygiene,Brand E,81.06,107.74,0.1905,0.0706,0.8212,B,0.7556,Y,BY,Review / rationalise
+128,25250.93,5400.83,635,150,1495.27,26746.2,0,0.2733,Meat & Poultry Item 128,Fresh Food,Meat & Poultry,Brand Q,31.26,42.12,0.2139,0.0559,0.8226,B,0.6693,Y,BY,Traffic drivers (low margin)
+248,25164.73,6171.73,974,254,1542.34,26707.08,0,0.311,Paper Goods Item 248,Household,Paper Goods,Brand A,19.5,27.42,0.2453,0.0578,0.8239,B,0.4356,X,BX,Stars
+160,24975.15,5423.79,599,134,1632.42,26607.58,0,0.2836,Seafood Item 160,Fresh Food,Seafood,Brand Q,32.64,44.42,0.2172,0.0614,0.8253,B,0.5687,Y,BY,Traffic drivers (low margin)
+289,24974.08,7635.43,735,208,1258.04,26232.15,0,0.2788,Hair Care Item 289,Personal Care,Hair Care,Brand H,23.59,35.69,0.3057,0.048,0.8266,B,0.4957,X,BX,Stars
+155,24817.54,4329.02,1922,437,1571.52,26389.06,19,0.3066,Seafood Item 155,Fresh Food,Seafood,Brand J,10.66,13.73,0.1744,0.0596,0.8279,B,0.3985,X,BX,Traffic drivers (low margin)
+310,24736.67,8280.36,1339,380,1360.44,26097.11,0,0.3132,Skin Care Item 310,Personal Care,Skin Care,Brand J,12.29,19.49,0.3347,0.0521,0.8293,B,0.389,X,BX,Stars
+175,24317.52,5583.52,580,137,1765.06,26082.6,0,0.3796,Seafood Item 175,Fresh Food,Seafood,Brand K,32.3,44.97,0.2296,0.0677,0.8306,B,0.5794,Y,BY,Traffic drivers (low margin)
+196,24220.18,5751.73,615,145,1290.02,25510.2,0,0.3103,Fruits Item 196,Fresh Food,Fruits,Brand L,30.03,41.48,0.2375,0.0506,0.8319,B,0.5504,Y,BY,Traffic drivers (low margin)
+406,24121.67,5025.23,759,195,1099.9,25221.57,7,0.2923,Diapers Item 406,Baby Care,Diapers,Brand K,25.16,33.23,0.2083,0.0436,0.8332,B,0.454,X,BX,Traffic drivers (low margin)
+294,23914.2,7804.2,600,162,1249.79,25164.0,0,0.2963,Skin Care Item 294,Personal Care,Skin Care,Brand G,26.85,41.94,0.3263,0.0497,0.8345,B,0.5628,Y,BY,Stars
+235,23720.43,4672.06,253,69,1108.99,24829.42,4,0.2609,Cleaning Item 235,Household,Cleaning,Brand I,75.29,98.14,0.197,0.0447,0.8357,B,0.7797,Y,BY,Review / rationalise
+47,23423.9,4034.21,551,99,1806.41,25230.29,3,0.3535,Beverages Item 047,Food & Beverages,Beverages,Brand N,35.19,45.79,0.1722,0.0716,0.837,B,0.574,Y,BY,Traffic drivers (low margin)
+205,23328.25,3809.53,884,204,1609.4,24937.64,11,0.3039,Seafood Item 205,Fresh Food,Seafood,Brand S,22.08,28.21,0.1633,0.0645,0.8382,B,0.4343,X,BX,Traffic drivers (low margin)
+494,23292.79,3318.87,124,89,1446.45,24739.24,14,0.3483,Mobile Item 494,Electronics,Mobile,Brand N,161.08,199.51,0.1425,0.0585,0.8395,B,0.7616,Y,BY,Review / rationalise
+80,22209.53,4710.23,455,90,1277.59,23487.1,0,0.2778,Frozen Item 080,Food & Beverages,Frozen,Brand D,38.46,51.62,0.2121,0.0544,0.8407,B,0.714,Y,BY,Traffic drivers (low margin)
+38,22199.75,4661.23,491,91,1304.42,23504.17,0,0.2747,Pantry Item 038,Food & Beverages,Pantry,Brand R,35.72,47.87,0.21,0.0555,0.8419,B,0.778,Y,BY,Traffic drivers (low margin)
+375,22114.4,6964.82,178,54,1102.14,23216.54,0,0.2963,Fitness Nutrition Item 375,Health & Wellness,Fitness Nutrition,Brand I,85.11,130.43,0.3149,0.0475,0.8431,B,0.7315,Y,BY,Niche (high margin)
+68,21778.88,5253.06,2983,571,1518.25,23297.23,0,0.3292,Pantry Item 068,Food & Beverages,Pantry,Brand M,5.54,7.81,0.2412,0.0652,0.8442,B,0.2887,X,BX,Stars
+462,21746.34,7567.68,766,233,1432.89,23179.16,0,0.3391,Nail Care Item 462,Beauty,Nail Care,Brand G,18.51,30.26,0.348,0.0618,0.8454,B,0.4859,X,BX,Stars
+409,21636.23,4273.95,173,46,1348.54,22984.78,0,0.413,Toys Item 409,Baby Care,Toys,Brand K,100.36,132.86,0.1975,0.0587,0.8466,B,0.9197,Y,BY,Review / rationalise
+239,21521.88,5201.01,369,103,1068.33,22590.18,0,0.2816,Cleaning Item 239,Household,Cleaning,Brand C,44.23,61.22,0.2417,0.0473,0.8477,B,0.6971,Y,BY,Niche (high margin)
+415,21476.39,4233.73,766,206,1082.23,22558.7,14,0.2864,Baby Food Item 415,Baby Care,Baby Food,Brand T,22.51,29.45,0.1971,0.048,0.8489,B,0.5742,Y,BY,Traffic drivers (low margin)
+241,21427.76,5856.32,1602,435,1160.38,22588.2,0,0.2943,Kitchenware Item 241,Household,Kitchenware,Brand R,9.72,14.1,0.2733,0.0514,0.85,B,0.2947,X,BX,Stars
+446,21195.68,8932.84,562,184,1379.85,22575.54,0,0.3261,Nail Care Item 446,Beauty,Nail Care,Brand Q,21.82,40.17,0.4214,0.0611,0.8512,B,0.4896,X,BX,Stars
+53,20719.25,5367.55,490,94,1399.35,22118.6,0,0.2766,Pantry Item 053,Food & Beverages,Pantry,Brand M,31.33,45.14,0.2591,0.0633,0.8523,B,0.6309,Y,BY,Stars
+271,20566.04,5470.41,407,106,1029.38,21595.42,0,0.3019,Cleaning Item 271,Household,Cleaning,Brand S,37.09,53.06,0.266,0.0477,0.8534,B,0.76,Y,BY,Niche (high margin)
+430,20472.0,5465.08,493,132,1239.72,21711.72,0,0.3636,Diapers Item 430,Baby Care,Diapers,Brand D,30.44,44.04,0.267,0.0571,0.8545,B,0.5077,Y,BY,Stars
+225,20257.29,5962.99,223,60,1177.47,21434.76,0,0.2667,Kitchenware Item 225,Household,Kitchenware,Brand B,64.1,96.12,0.2944,0.0549,0.8556,B,0.8636,Y,BY,Niche (high margin)
+343,19842.77,5485.07,129,43,1311.94,21154.71,0,0.3023,Fitness Nutrition Item 343,Health & Wellness,Fitness Nutrition,Brand D,111.3,163.99,0.2764,0.062,0.8567,B,1.0037,Z,BZ,Niche (high margin)
+118,19783.6,5064.95,431,83,1348.35,21131.93,0,0.3373,Pantry Item 118,Food & Beverages,Pantry,Brand Q,34.15,49.03,0.256,0.0638,0.8577,B,0.6236,Y,BY,Niche (high margin)
+249,19611.26,5207.38,293,82,1253.27,20864.53,0,0.3171,Kitchenware Item 249,Household,Kitchenware,Brand G,49.16,71.21,0.2655,0.0601,0.8588,B,0.6666,Y,BY,Niche (high margin)
+232,19554.03,4471.45,722,197,1152.93,20706.96,0,0.3096,Paper Goods Item 232,Household,Paper Goods,Brand J,20.89,28.68,0.2287,0.0557,0.8598,B,0.5671,Y,BY,Traffic drivers (low margin)
+233,19519.32,3922.04,568,163,968.47,20487.76,5,0.2515,Kitchenware Item 233,Household,Kitchenware,Brand H,27.46,36.07,0.2009,0.0473,0.8609,B,0.5911,Y,BY,Traffic drivers (low margin)
+92,19301.88,4806.96,3058,591,1217.3,20519.18,0,0.2995,Beverages Item 092,Food & Beverages,Beverages,Brand O,4.74,6.71,0.249,0.0593,0.8619,B,0.3515,X,BX,Stars
+419,18871.11,4841.49,319,83,1088.75,19959.83,0,0.3253,Baby Food Item 419,Baby Care,Baby Food,Brand K,43.98,62.57,0.2566,0.0545,0.8629,B,0.5673,Y,BY,Niche (high margin)
+64,18867.98,4618.1,1721,342,1095.62,19963.6,0,0.3041,Dairy & Eggs Item 064,Food & Beverages,Dairy & Eggs,Brand S,8.28,11.6,0.2448,0.0549,0.8639,B,0.3462,X,BX,Stars
+253,18684.34,3969.34,218,59,1155.81,19840.18,0,0.3051,Kitchenware Item 253,Household,Kitchenware,Brand P,67.5,91.01,0.2124,0.0583,0.8649,B,0.8252,Y,BY,Review / rationalise
+183,18683.52,3161.26,454,95,1174.44,19857.96,7,0.3368,Meat & Poultry Item 183,Fresh Food,Meat & Poultry,Brand P,34.19,43.74,0.1692,0.0591,0.8659,B,0.6001,Y,BY,Traffic drivers (low margin)
+451,18626.22,6281.0,263,89,964.63,19590.87,0,0.2584,Fragrance Item 451,Beauty,Fragrance,Brand J,46.94,74.49,0.3372,0.0492,0.8669,B,0.7686,Y,BY,Niche (high margin)
+349,18533.52,5783.76,152,47,1474.25,20007.76,0,0.383,Vitamins Item 349,Health & Wellness,Vitamins,Brand S,83.88,131.63,0.3121,0.0737,0.8679,B,0.7682,Y,BY,Niche (high margin)
+96,18404.22,4811.06,602,117,1371.5,19775.7,0,0.2991,Snacks Item 096,Food & Beverages,Snacks,Brand K,22.58,32.85,0.2614,0.0694,0.8689,B,0.5748,Y,BY,Stars
+222,18391.36,4267.52,437,118,1120.72,19512.05,0,0.2712,Laundry Item 222,Household,Laundry,Brand M,32.32,44.65,0.232,0.0574,0.8699,B,0.5263,Y,BY,Review / rationalise
+81,18224.57,3162.95,987,190,1485.8,19710.39,12,0.3684,Snacks Item 081,Food & Beverages,Snacks,Brand Q,15.26,19.97,0.1736,0.0754,0.8709,B,0.4557,X,BX,Traffic drivers (low margin)
+127,18192.64,3878.09,335,76,1250.76,19443.4,0,0.3158,Vegetables Item 127,Fresh Food,Vegetables,Brand I,42.73,58.04,0.2132,0.0643,0.8719,B,0.8143,Y,BY,Review / rationalise
+497,18134.31,1528.76,59,42,1497.35,19631.66,9,0.381,Audio Item 497,Electronics,Audio,Brand H,281.45,332.74,0.0843,0.0763,0.8729,B,0.9009,Y,BY,Review / rationalise
+268,18124.2,3299.52,258,68,1697.95,19822.14,0,0.3382,Paper Goods Item 268,Household,Paper Goods,Brand O,57.46,76.83,0.1821,0.0857,0.8738,B,0.7243,Y,BY,Review / rationalise
+318,18031.6,5960.2,330,94,775.1,18806.7,0,0.2447,Skin Care Item 318,Personal Care,Skin Care,Brand J,36.58,56.99,0.3305,0.0412,0.8748,B,0.6006,Y,BY,Niche (high margin)
+17,17885.11,3598.75,548,105,1289.41,19174.52,0,0.4,Beverages Item 017,Food & Beverages,Beverages,Brand J,26.07,34.99,0.2012,0.0672,0.8758,B,0.6286,Y,BY,Traffic drivers (low margin)
+94,17596.89,3542.49,1920,359,1295.91,18892.8,0,0.3343,Dairy & Eggs Item 094,Food & Beverages,Dairy & Eggs,Brand B,7.32,9.84,0.2013,0.0686,0.8767,B,0.3199,X,BX,Traffic drivers (low margin)
+29,17540.14,4080.54,644,120,1251.78,18791.92,0,0.325,Dairy & Eggs Item 029,Food & Beverages,Dairy & Eggs,Brand H,20.9,29.18,0.2326,0.0666,0.8776,B,0.5858,Y,BY,Traffic drivers (low margin)
+382,17503.73,4597.73,120,41,753.06,18256.8,0,0.2927,OTC Item 382,Health & Wellness,OTC,Brand J,107.55,152.14,0.2627,0.0412,0.8786,B,1.0167,Z,BZ,Niche (high margin)
+320,17421.48,5616.78,218,57,1086.72,18508.2,0,0.3158,Hygiene Item 320,Personal Care,Hygiene,Brand C,54.15,84.9,0.3224,0.0587,0.8795,B,0.6115,Y,BY,Niche (high margin)
+274,17325.87,4427.27,205,62,558.33,17884.2,0,0.2258,Laundry Item 274,Household,Laundry,Brand J,62.92,87.24,0.2555,0.0312,0.8805,B,0.7784,Y,BY,Niche (high margin)
+30,17279.7,3436.64,1246,241,986.65,18266.36,10,0.2573,Frozen Item 030,Food & Beverages,Frozen,Brand D,11.11,14.66,0.1989,0.054,0.8814,B,0.4469,X,BX,Traffic drivers (low margin)
+384,17187.13,4583.53,180,57,1156.68,18343.8,0,0.4211,First Aid Item 384,Health & Wellness,First Aid,Brand P,70.02,101.91,0.2667,0.0631,0.8823,B,0.7812,Y,BY,Niche (high margin)
+456,17072.11,6789.01,453,161,848.57,17920.68,0,0.2981,Makeup Item 456,Beauty,Makeup,Brand G,22.7,39.56,0.3977,0.0474,0.8832,B,0.4796,X,BX,Stars
+299,16964.42,5529.78,196,58,999.0,17963.4,0,0.3448,Oral Care Item 299,Personal Care,Oral Care,Brand T,58.34,91.65,0.326,0.0556,0.8841,B,0.7835,Y,BY,Niche (high margin)
+99,16852.36,3384.36,370,74,874.35,17726.7,2,0.2432,Dairy & Eggs Item 099,Food & Beverages,Dairy & Eggs,Brand D,36.4,47.91,0.2008,0.0493,0.885,B,0.8192,Y,BY,Review / rationalise
+402,16724.39,4187.23,206,55,952.47,17676.86,0,0.3273,Diapers Item 402,Baby Care,Diapers,Brand L,60.86,85.81,0.2504,0.0539,0.8859,B,0.8161,Y,BY,Niche (high margin)
+463,16641.06,6666.48,238,78,918.58,17559.64,0,0.2949,Fragrance Item 463,Beauty,Fragrance,Brand N,41.91,73.78,0.4006,0.0523,0.8868,B,0.7474,Y,BY,Niche (high margin)
+194,16616.7,4211.1,1723,398,906.21,17522.91,0,0.2764,Bakery Item 194,Fresh Food,Bakery,Brand H,7.2,10.17,0.2534,0.0517,0.8877,B,0.3192,X,BX,Stars
+119,16509.52,3238.84,386,79,833.46,17342.98,4,0.2152,Dairy & Eggs Item 119,Food & Beverages,Dairy & Eggs,Brand C,34.38,44.93,0.1962,0.0481,0.8886,B,0.8184,Y,BY,Review / rationalise
+54,16477.73,3568.13,528,103,1252.53,17730.24,0,0.3204,Dairy & Eggs Item 054,Food & Beverages,Dairy & Eggs,Brand B,24.45,33.58,0.2165,0.0706,0.8895,B,0.6596,Y,BY,Traffic drivers (low margin)
+39,16324.81,3655.73,601,116,1128.23,17453.04,0,0.3707,Dairy & Eggs Item 039,Food & Beverages,Dairy & Eggs,Brand J,21.08,29.04,0.2239,0.0646,0.8904,B,0.5673,Y,BY,Traffic drivers (low margin)
+168,16306.02,3776.01,501,114,923.38,17229.39,0,0.2982,Meat & Poultry Item 168,Fresh Food,Meat & Poultry,Brand P,25.01,34.39,0.2316,0.0536,0.8913,B,0.6265,Y,BY,Traffic drivers (low margin)
+479,16292.77,1572.84,47,35,705.25,16998.02,6,0.2571,Accessories Item 479,Electronics,Accessories,Brand L,313.19,361.66,0.0965,0.0415,0.8921,B,0.9304,Y,BY,Review / rationalise
+171,16025.87,3245.87,300,68,1044.13,17070.0,0,0.3088,Fruits Item 171,Fresh Food,Fruits,Brand B,42.6,56.9,0.2025,0.0612,0.893,B,0.8437,Y,BY,Review / rationalise
+336,15974.07,4783.65,414,124,1103.44,17077.5,0,0.3468,Hygiene Item 336,Personal Care,Hygiene,Brand G,27.03,41.25,0.2995,0.0646,0.8939,B,0.4991,X,BX,Niche (high margin)
+267,15940.44,4262.04,360,89,1080.36,17020.8,0,0.3596,Cleaning Item 267,Household,Cleaning,Brand E,32.44,47.28,0.2674,0.0635,0.8947,B,0.7418,Y,BY,Niche (high margin)
+317,15877.34,4554.34,335,92,1154.06,17031.4,0,0.3261,Hair Care Item 317,Personal Care,Hair Care,Brand J,33.8,50.84,0.2868,0.0678,0.8956,B,0.7058,Y,BY,Niche (high margin)
+322,15766.02,3955.1,1579,458,829.3,16595.29,0,0.2904,Skin Care Item 322,Personal Care,Skin Care,Brand A,7.48,10.51,0.2509,0.05,0.8964,B,0.3385,X,BX,Stars
+411,15652.78,3166.23,205,54,1200.27,16853.05,0,0.3889,Baby Food Item 411,Baby Care,Baby Food,Brand N,60.91,82.21,0.2023,0.0712,0.8973,B,1.0221,Z,BZ,Review / rationalise
+59,15194.96,3786.84,614,123,1223.36,16418.36,0,0.3659,Dairy & Eggs Item 059,Food & Beverages,Dairy & Eggs,Brand E,18.58,26.74,0.2492,0.0745,0.8981,B,0.4923,X,BX,Stars
+260,15191.77,4065.27,275,67,1016.71,16208.5,0,0.3582,Paper Goods Item 260,Household,Paper Goods,Brand L,40.46,58.94,0.2676,0.0627,0.8989,B,0.6727,Y,BY,Niche (high margin)
+132,15140.38,3096.86,1552,366,1093.54,16233.92,0,0.3361,Vegetables Item 132,Fresh Food,Vegetables,Brand Q,7.76,10.46,0.2045,0.0674,0.8997,B,0.3152,X,BX,Traffic drivers (low margin)
+407,15098.9,3685.91,633,159,757.77,15856.65,0,0.2956,Baby Food Item 407,Baby Care,Baby Food,Brand L,18.03,25.05,0.2441,0.0478,0.9005,C,0.543,Y,CY,Stars
+472,15097.9,2049.34,189,133,676.04,15773.94,14,0.2707,Small Appliances Item 472,Electronics,Small Appliances,Brand K,69.04,83.46,0.1357,0.0429,0.9013,C,0.5838,Y,CY,Review / rationalise
+223,15016.06,3146.53,519,148,740.78,15756.84,6,0.2838,Cleaning Item 223,Household,Cleaning,Brand H,22.87,30.36,0.2095,0.047,0.9021,C,0.5382,Y,CY,Traffic drivers (low margin)
+137,14769.66,3090.72,403,94,838.53,15608.19,0,0.2872,Vegetables Item 137,Fresh Food,Vegetables,Brand J,28.98,38.73,0.2093,0.0537,0.9029,C,0.7056,Y,CY,Review / rationalise
+31,14747.9,3745.34,1168,220,1101.85,15849.76,0,0.3364,Snacks Item 031,Food & Beverages,Snacks,Brand N,9.42,13.57,0.254,0.0695,0.9037,C,0.4467,X,CX,Stars
+84,14606.13,3074.61,1386,270,806.19,15412.32,0,0.2667,Dairy & Eggs Item 084,Food & Beverages,Dairy & Eggs,Brand I,8.32,11.12,0.2105,0.0523,0.9045,C,0.4591,X,CX,Traffic drivers (low margin)
+245,14422.42,3160.18,144,39,747.98,15170.4,0,0.2564,Kitchenware Item 245,Household,Kitchenware,Brand K,78.21,105.35,0.2191,0.0493,0.9053,C,1.1196,Z,CZ,Review / rationalise
+333,14411.19,4809.87,174,49,883.4,15294.6,0,0.3878,Hair Care Item 333,Personal Care,Hair Care,Brand F,55.18,87.9,0.3338,0.0578,0.9061,C,0.8588,Y,CY,Niche (high margin)
+203,14286.28,2407.27,429,98,986.12,15272.4,2,0.3673,Meat & Poultry Item 203,Fresh Food,Meat & Poultry,Brand H,27.69,35.6,0.1685,0.0646,0.9068,C,0.6132,Y,CY,Review / rationalise
+146,14231.7,3228.02,1552,362,714.1,14945.76,0,0.2624,Fruits Item 146,Fresh Food,Fruits,Brand M,7.09,9.63,0.2268,0.0478,0.9076,C,0.3164,X,CX,Traffic drivers (low margin)
+309,14054.2,3513.16,668,187,995.82,15050.04,0,0.3369,Hair Care Item 309,Personal Care,Hair Care,Brand F,15.78,22.53,0.25,0.0662,0.9083,C,0.5601,Y,CY,Stars
+422,14042.99,2871.14,213,63,477.22,14520.21,1,0.254,Diapers Item 422,Baby Care,Diapers,Brand N,52.45,68.17,0.2045,0.0329,0.9091,C,1.0128,Z,CZ,Review / rationalise
+78,14019.58,2583.59,929,178,955.9,14975.48,4,0.3483,Pantry Item 078,Food & Beverages,Pantry,Brand T,12.31,16.12,0.1843,0.0638,0.9098,C,0.4865,X,CX,Traffic drivers (low margin)
+41,13996.4,3838.68,244,40,946.16,14942.56,0,0.35,Snacks Item 041,Food & Beverages,Snacks,Brand G,41.63,61.24,0.2743,0.0633,0.9106,C,1.107,Z,CZ,Niche (high margin)
+400,13914.51,3771.63,678,186,757.41,14671.92,0,0.3011,Baby Hygiene Item 400,Baby Care,Baby Hygiene,Brand O,14.96,21.64,0.2711,0.0516,0.9113,C,0.5285,Y,CY,Stars
+116,13909.47,3606.24,301,64,884.68,14794.15,0,0.3125,Snacks Item 116,Food & Beverages,Snacks,Brand C,34.23,49.15,0.2593,0.0598,0.9121,C,0.8097,Y,CY,Niche (high margin)
+115,13812.76,3704.7,229,43,747.06,14559.82,0,0.2791,Frozen Item 115,Food & Beverages,Frozen,Brand L,44.14,63.58,0.2682,0.0513,0.9128,C,0.8209,Y,CY,Niche (high margin)
+20,13804.39,3340.03,372,71,636.65,14441.04,0,0.2394,Frozen Item 020,Food & Beverages,Frozen,Brand M,28.13,38.82,0.242,0.0441,0.9136,C,0.9411,Y,CY,Niche (high margin)
+44,13712.24,2221.04,1026,198,1051.91,14764.14,15,0.3333,Dairy & Eggs Item 044,Food & Beverages,Dairy & Eggs,Brand T,11.2,14.39,0.162,0.0712,0.9143,C,0.5313,Y,CY,Traffic drivers (low margin)
+404,13544.62,3020.12,175,44,786.13,14330.75,0,0.2955,Baby Hygiene Item 404,Baby Care,Baby Hygiene,Brand D,60.14,81.89,0.223,0.0549,0.915,C,1.0258,Z,CZ,Review / rationalise
+89,13462.51,2522.59,316,63,921.81,14384.32,1,0.381,Dairy & Eggs Item 089,Food & Beverages,Dairy & Eggs,Brand S,34.62,45.52,0.1874,0.0641,0.9158,C,0.8779,Y,CY,Review / rationalise
+372,13452.92,4130.92,316,99,836.6,14289.52,0,0.2929,First Aid Item 372,Health & Wellness,First Aid,Brand L,29.5,45.22,0.3071,0.0585,0.9165,C,0.7543,Y,CY,Niche (high margin)
+383,13448.66,2948.66,112,36,876.11,14324.8,0,0.3333,Fitness Nutrition Item 383,Health & Wellness,Fitness Nutrition,Brand K,93.75,127.9,0.2193,0.0612,0.9172,C,1.0723,Z,CZ,Review / rationalise
+478,13384.2,1378.2,115,91,756.2,14140.4,15,0.3187,Mobile Item 478,Electronics,Mobile,Brand P,104.4,122.96,0.103,0.0535,0.9179,C,0.6117,Y,CY,Review / rationalise
+314,13373.33,4165.25,1624,454,950.35,14323.68,0,0.3414,Skin Care Item 314,Personal Care,Skin Care,Brand J,5.67,8.82,0.3115,0.0663,0.9187,C,0.2316,X,CX,Stars
+55,13275.69,3370.17,447,85,956.79,14232.48,0,0.3529,Frozen Item 055,Food & Beverages,Frozen,Brand F,22.16,31.84,0.2539,0.0672,0.9194,C,0.799,Y,CY,Stars
+200,13225.67,2527.52,365,84,852.38,14078.05,6,0.3214,Seafood Item 200,Fresh Food,Seafood,Brand K,29.31,38.57,0.1911,0.0605,0.9201,C,0.6375,Y,CY,Review / rationalise
+170,13151.71,3216.61,1494,352,817.18,13968.9,0,0.3097,Seafood Item 170,Fresh Food,Seafood,Brand M,6.65,9.35,0.2446,0.0585,0.9208,C,0.3707,X,CX,Stars
+240,13104.6,3758.34,561,153,836.23,13940.85,0,0.2941,Paper Goods Item 240,Household,Paper Goods,Brand I,16.66,24.85,0.2868,0.06,0.9215,C,0.5354,Y,CY,Stars
+369,13042.34,3546.95,113,38,522.18,13564.52,0,0.2632,Vitamins Item 369,Health & Wellness,Vitamins,Brand N,84.03,120.04,0.272,0.0385,0.9222,C,1.3648,Z,CZ,Niche (high margin)
+355,12879.88,2736.32,119,31,1091.91,13971.79,0,0.4516,Fitness Nutrition Item 355,Health & Wellness,Fitness Nutrition,Brand J,85.24,117.41,0.2124,0.0782,0.9229,C,1.1384,Z,CZ,Review / rationalise
+474,12866.39,1530.52,91,63,607.07,13473.46,5,0.3016,Mobile Item 474,Electronics,Mobile,Brand T,124.57,148.06,0.119,0.0451,0.9236,C,0.794,Y,CY,Review / rationalise
+450,12747.89,4917.83,543,171,740.23,13488.12,0,0.3392,Nail Care Item 450,Beauty,Nail Care,Brand Q,14.42,24.84,0.3858,0.0549,0.9243,C,0.5291,Y,CY,Stars
+396,12624.33,2465.61,176,45,800.95,13425.28,3,0.3333,Baby Hygiene Item 396,Baby Care,Baby Hygiene,Brand E,57.72,76.28,0.1953,0.0597,0.9249,C,0.9958,Y,CY,Review / rationalise
+144,12622.68,2643.42,354,85,577.97,13200.66,2,0.2824,Bakery Item 144,Fresh Food,Bakery,Brand S,28.19,37.29,0.2094,0.0438,0.9256,C,0.7343,Y,CY,Review / rationalise
+69,12525.29,3250.04,249,48,955.56,13480.86,0,0.3958,Dairy & Eggs Item 069,Food & Beverages,Dairy & Eggs,Brand B,37.25,54.14,0.2595,0.0709,0.9263,C,0.9231,Y,CY,Niche (high margin)
+334,12501.35,3627.59,168,48,584.17,13085.52,0,0.2292,Skin Care Item 334,Personal Care,Skin Care,Brand C,52.82,77.89,0.2902,0.0446,0.927,C,0.9773,Y,CY,Niche (high margin)
+395,12431.88,2639.88,306,84,658.81,13090.68,0,0.2976,Baby Food Item 395,Baby Care,Baby Food,Brand R,32.0,42.78,0.2123,0.0503,0.9276,C,0.5936,Y,CY,Review / rationalise
+226,12324.92,3384.52,217,61,551.86,12876.78,0,0.2951,Laundry Item 226,Household,Laundry,Brand R,41.2,59.34,0.2746,0.0429,0.9283,C,0.8881,Y,CY,Niche (high margin)
+140,12298.4,2009.44,316,72,771.36,13069.76,2,0.3472,Seafood Item 140,Fresh Food,Seafood,Brand G,32.56,41.36,0.1634,0.059,0.929,C,0.9272,Y,CY,Review / rationalise
+60,12163.83,2307.23,2210,429,919.37,13083.2,19,0.338,Frozen Item 060,Food & Beverages,Frozen,Brand L,4.46,5.92,0.1897,0.0703,0.9296,C,0.3887,X,CX,Traffic drivers (low margin)
+148,12064.09,2395.76,413,104,693.48,12757.57,5,0.2404,Meat & Poultry Item 148,Fresh Food,Meat & Poultry,Brand D,23.41,30.89,0.1986,0.0544,0.9303,C,0.7288,Y,CY,Review / rationalise
+157,12019.58,2406.73,643,142,924.01,12943.59,0,0.3521,Vegetables Item 157,Fresh Food,Vegetables,Brand B,14.95,20.13,0.2002,0.0714,0.9309,C,0.5126,Y,CY,Traffic drivers (low margin)
+438,11989.47,4696.67,212,63,1025.21,13014.68,0,0.3333,Nail Care Item 438,Beauty,Nail Care,Brand A,34.4,61.39,0.3917,0.0788,0.9315,C,0.921,Y,CY,Niche (high margin)
+275,11969.36,2056.18,271,67,989.86,12959.22,5,0.3731,Cleaning Item 275,Household,Cleaning,Brand J,36.58,47.82,0.1718,0.0764,0.9322,C,0.7697,Y,CY,Review / rationalise
+325,11922.78,3819.23,959,272,812.74,12735.52,0,0.3309,Hair Care Item 325,Personal Care,Hair Care,Brand T,8.45,13.28,0.3203,0.0638,0.9328,C,0.4186,X,CX,Stars
+70,11893.25,2490.01,602,111,995.56,12888.82,0,0.3063,Frozen Item 070,Food & Beverages,Frozen,Brand M,15.62,21.41,0.2094,0.0772,0.9335,C,0.6503,Y,CY,Traffic drivers (low margin)
+224,11783.86,2962.68,194,54,698.11,12481.96,0,0.2407,Paper Goods Item 224,Household,Paper Goods,Brand P,45.47,64.34,0.2514,0.0559,0.9341,C,1.1347,Z,CZ,Niche (high margin)
+9,11782.01,2247.61,944,180,876.95,12659.04,12,0.3389,Dairy & Eggs Item 009,Food & Beverages,Dairy & Eggs,Brand H,10.1,13.41,0.1908,0.0693,0.9347,C,0.4868,X,CX,Traffic drivers (low margin)
+162,11778.72,2554.36,172,35,987.13,12765.84,0,0.3143,Vegetables Item 162,Fresh Food,Vegetables,Brand R,53.63,74.22,0.2169,0.0773,0.9354,C,0.9322,Y,CY,Review / rationalise
+214,11772.96,3444.66,391,113,531.81,12304.77,0,0.3009,Laundry Item 214,Household,Laundry,Brand F,21.3,31.47,0.2926,0.0432,0.936,C,0.7098,Y,CY,Niche (high margin)
+293,11726.96,3305.21,171,41,1041.62,12768.57,0,0.439,Hair Care Item 293,Personal Care,Hair Care,Brand D,49.25,74.67,0.2818,0.0816,0.9366,C,1.1156,Z,CZ,Niche (high margin)
+425,11694.18,2380.66,376,96,533.34,12227.52,2,0.2604,Toys Item 425,Baby Care,Toys,Brand T,24.77,32.52,0.2036,0.0436,0.9373,C,0.5706,Y,CY,Review / rationalise
+209,11502.93,2155.57,226,50,1064.93,12567.86,0,0.42,Bakery Item 209,Fresh Food,Bakery,Brand D,41.36,55.61,0.1874,0.0847,0.9379,C,0.9064,Y,CY,Review / rationalise
+327,11477.03,2878.47,122,39,810.81,12287.84,0,0.3333,Oral Care Item 327,Personal Care,Oral Care,Brand N,70.48,100.72,0.2508,0.066,0.9385,C,0.9549,Y,CY,Niche (high margin)
+180,11315.47,1759.38,1747,415,721.37,12036.83,18,0.3012,Seafood Item 180,Fresh Food,Seafood,Brand G,5.47,6.89,0.1555,0.0599,0.9391,C,0.2998,X,CX,Traffic drivers (low margin)
+42,11157.45,2203.41,348,70,817.24,11974.68,0,0.3429,Beverages Item 042,Food & Beverages,Beverages,Brand J,25.73,34.41,0.1975,0.0682,0.9397,C,0.8393,Y,CY,Review / rationalise
+313,11054.06,3236.56,590,185,616.14,11670.2,0,0.2973,Hair Care Item 313,Personal Care,Hair Care,Brand D,13.25,19.78,0.2928,0.0528,0.9403,C,0.4749,X,CX,Stars
+14,11042.82,2537.82,1125,211,859.66,11902.5,0,0.3412,Dairy & Eggs Item 014,Food & Beverages,Dairy & Eggs,Brand B,7.56,10.58,0.2298,0.0722,0.9409,C,0.4502,X,CX,Traffic drivers (low margin)
+130,10999.27,2680.93,666,146,735.63,11734.92,0,0.3356,Seafood Item 130,Fresh Food,Seafood,Brand G,12.49,17.62,0.2437,0.0627,0.9415,C,0.6085,Y,CY,Stars
+110,10975.97,2944.94,1169,224,784.17,11760.14,0,0.3036,Frozen Item 110,Food & Beverages,Frozen,Brand S,6.87,10.06,0.2683,0.0667,0.9421,C,0.5511,Y,CY,Stars
+244,10924.05,3105.45,332,94,642.83,11566.88,0,0.266,Paper Goods Item 244,Household,Paper Goods,Brand C,23.55,34.84,0.2843,0.0556,0.9427,C,0.8271,Y,CY,Niche (high margin)
+207,10784.43,2704.59,362,83,462.91,11247.34,0,0.241,Vegetables Item 207,Fresh Food,Vegetables,Brand M,22.32,31.07,0.2508,0.0412,0.9432,C,0.7385,Y,CY,Niche (high margin)
+189,10720.77,1806.72,279,66,986.07,11706.84,2,0.4091,Bakery Item 189,Fresh Food,Bakery,Brand S,31.95,41.96,0.1685,0.0842,0.9438,C,0.9271,Y,CY,Review / rationalise
+263,10600.91,3185.99,172,50,513.73,11114.64,0,0.2,Cleaning Item 263,Household,Cleaning,Brand J,43.11,64.62,0.3005,0.0462,0.9444,C,1.0802,Z,CZ,Niche (high margin)
+391,10380.45,2235.17,176,43,491.07,10871.52,0,0.3256,Baby Food Item 391,Baby Care,Baby Food,Brand P,46.28,61.77,0.2153,0.0452,0.9449,C,1.003,Z,CZ,Review / rationalise
+48,10139.34,1888.84,725,131,655.91,10795.25,4,0.3206,Pantry Item 048,Food & Beverages,Pantry,Brand E,11.38,14.89,0.1863,0.0608,0.9455,C,0.4809,X,CX,Traffic drivers (low margin)
+231,10031.43,1894.47,192,48,764.74,10796.16,2,0.3542,Cleaning Item 231,Household,Cleaning,Brand G,42.38,56.23,0.1889,0.0708,0.946,C,0.9561,Y,CY,Review / rationalise
+296,10012.44,2814.24,180,57,645.36,10657.8,0,0.3684,Hygiene Item 296,Personal Care,Hygiene,Brand A,39.99,59.21,0.2811,0.0606,0.9466,C,0.8944,Y,CY,Niche (high margin)
+125,9999.49,1995.21,316,69,630.75,10630.24,4,0.3478,Seafood Item 125,Fresh Food,Seafood,Brand C,25.33,33.64,0.1995,0.0593,0.9471,C,0.7548,Y,CY,Review / rationalise
+19,9967.93,2772.13,716,141,643.17,10611.12,0,0.2766,Dairy & Eggs Item 019,Food & Beverages,Dairy & Eggs,Brand I,10.05,14.82,0.2781,0.0606,0.9476,C,0.5771,Y,CY,Stars
+154,9866.72,2064.8,216,49,514.24,10380.96,1,0.3265,Bakery Item 154,Fresh Food,Bakery,Brand O,36.12,48.06,0.2093,0.0495,0.9482,C,0.8489,Y,CY,Review / rationalise
+234,9754.58,1969.04,222,60,681.64,10436.22,0,0.35,Laundry Item 234,Household,Laundry,Brand E,35.07,47.01,0.2019,0.0653,0.9487,C,1.0267,Z,CZ,Review / rationalise
+100,9733.31,1882.95,1219,232,689.14,10422.45,10,0.3319,Frozen Item 100,Food & Beverages,Frozen,Brand C,6.44,8.55,0.1935,0.0661,0.9492,C,0.4989,X,CX,Traffic drivers (low margin)
+477,9721.13,333.76,67,44,1008.95,10730.05,17,0.4773,Audio Item 477,Electronics,Audio,Brand E,140.11,160.15,0.0343,0.094,0.9497,C,1.0044,Z,CZ,Review / rationalise
+237,9668.28,2365.98,505,137,749.89,10418.15,0,0.365,Kitchenware Item 237,Household,Kitchenware,Brand A,14.46,20.63,0.2447,0.072,0.9503,C,0.524,Y,CY,Stars
+16,9598.08,1748.28,534,95,756.19,10354.26,5,0.3263,Snacks Item 016,Food & Beverages,Snacks,Brand I,14.7,19.39,0.1821,0.073,0.9508,C,0.7894,Y,CY,Traffic drivers (low margin)
+347,9589.38,3084.42,168,52,616.63,10206.0,0,0.2885,Fitness Nutrition Item 347,Health & Wellness,Fitness Nutrition,Brand H,38.72,60.75,0.3216,0.0604,0.9513,C,1.056,Z,CZ,Niche (high margin)
+423,9573.81,2046.21,360,97,560.18,10134.0,0,0.3299,Baby Food Item 423,Baby Care,Baby Food,Brand O,20.91,28.15,0.2137,0.0553,0.9518,C,0.7031,Y,CY,Review / rationalise
+150,9502.77,2097.09,354,84,494.19,9996.96,0,0.2857,Seafood Item 150,Fresh Food,Seafood,Brand D,20.92,28.24,0.2207,0.0494,0.9523,C,0.7635,Y,CY,Review / rationalise
+122,9344.2,1386.76,324,76,725.72,10069.92,5,0.3158,Vegetables Item 122,Fresh Food,Vegetables,Brand Q,24.56,31.08,0.1484,0.0721,0.9528,C,0.7332,Y,CY,Review / rationalise
+21,9157.91,1686.02,1361,266,627.71,9785.59,12,0.3346,Snacks Item 021,Food & Beverages,Snacks,Brand E,5.49,7.19,0.1841,0.0641,0.9533,C,0.3652,X,CX,Traffic drivers (low margin)
+88,9120.21,1691.09,256,49,472.12,9592.32,2,0.2245,Pantry Item 088,Food & Beverages,Pantry,Brand S,29.02,37.47,0.1854,0.0492,0.9538,C,0.8516,Y,CY,Review / rationalise
+287,9049.69,2400.45,247,70,531.44,9581.13,0,0.3143,Oral Care Item 287,Personal Care,Oral Care,Brand H,26.92,38.79,0.2653,0.0555,0.9543,C,0.7745,Y,CY,Niche (high margin)
+191,9027.05,1812.19,194,43,729.19,9756.26,0,0.3488,Fruits Item 191,Fresh Food,Fruits,Brand L,37.19,50.29,0.2008,0.0747,0.9548,C,0.9762,Y,CY,Review / rationalise
+374,8904.19,2569.99,108,30,741.29,9645.48,0,0.4333,OTC Item 374,Health & Wellness,OTC,Brand T,58.65,89.31,0.2886,0.0769,0.9553,C,1.543,Z,CZ,Niche (high margin)
+255,8807.91,1882.31,880,238,414.49,9222.4,11,0.2479,Cleaning Item 255,Household,Cleaning,Brand Q,7.87,10.48,0.2137,0.0449,0.9557,C,0.5398,Y,CY,Traffic drivers (low margin)
+3,8700.2,2056.28,456,86,684.28,9384.48,0,0.3488,Pantry Item 003,Food & Beverages,Pantry,Brand K,14.57,20.58,0.2363,0.0729,0.9562,C,0.6299,Y,CY,Traffic drivers (low margin)
+305,8698.79,2748.23,483,144,487.86,9186.66,0,0.3264,Hair Care Item 305,Personal Care,Hair Care,Brand P,12.32,19.02,0.3159,0.0531,0.9567,C,0.6038,Y,CY,Stars
+138,8603.82,1640.13,361,79,580.02,9183.84,4,0.3165,Meat & Poultry Item 138,Fresh Food,Meat & Poultry,Brand S,19.29,25.44,0.1906,0.0632,0.9571,C,0.6866,Y,CY,Review / rationalise
+257,8594.16,1911.66,825,211,472.61,9066.75,0,0.3081,Kitchenware Item 257,Household,Kitchenware,Brand F,8.1,10.99,0.2224,0.0521,0.9576,C,0.456,X,CX,Traffic drivers (low margin)
+484,8591.19,930.68,121,85,551.57,9142.76,15,0.3765,Small Appliances Item 484,Electronics,Small Appliances,Brand K,63.31,75.56,0.1083,0.0603,0.958,C,0.6485,Y,CY,Review / rationalise
+124,8540.36,2244.84,196,49,377.64,8918.0,0,0.1837,Bakery Item 124,Fresh Food,Bakery,Brand N,32.12,45.5,0.2629,0.0423,0.9585,C,0.9733,Y,CY,Niche (high margin)
+319,8473.7,2726.66,468,130,465.05,8938.8,0,0.3,Oral Care Item 319,Personal Care,Oral Care,Brand F,12.28,19.1,0.3218,0.052,0.959,C,0.6346,Y,CY,Stars
+300,8441.02,2501.74,339,104,498.4,8939.43,0,0.3173,Hygiene Item 300,Personal Care,Hygiene,Brand O,17.52,26.37,0.2964,0.0558,0.9594,C,0.5988,Y,CY,Niche (high margin)
+158,8437.76,1870.02,607,135,557.96,8995.74,0,0.3037,Meat & Poultry Item 158,Fresh Food,Meat & Poultry,Brand F,10.82,14.82,0.2216,0.062,0.9599,C,0.5878,Y,CY,Traffic drivers (low margin)
+308,8320.29,2095.61,658,191,536.39,8856.68,0,0.3717,Hygiene Item 308,Personal Care,Hygiene,Brand G,9.46,13.46,0.2519,0.0606,0.9603,C,0.4139,X,CX,Stars
+350,8317.56,1993.02,138,42,457.86,8775.42,0,0.3095,OTC Item 350,Health & Wellness,OTC,Brand M,45.83,63.59,0.2396,0.0522,0.9608,C,0.9731,Y,CY,Niche (high margin)
+283,8189.69,1951.85,1128,329,450.77,8640.48,0,0.31,Oral Care Item 283,Personal Care,Oral Care,Brand J,5.53,7.66,0.2383,0.0522,0.9612,C,0.2952,X,CX,Traffic drivers (low margin)
+63,8153.37,2247.03,471,89,432.97,8586.33,0,0.2809,Pantry Item 063,Food & Beverages,Pantry,Brand R,12.54,18.23,0.2756,0.0504,0.9616,C,0.6997,Y,CY,Stars
+10,8041.14,1485.37,211,44,510.69,8551.83,3,0.3182,Frozen Item 010,Food & Beverages,Frozen,Brand N,31.07,40.53,0.1847,0.0597,0.9621,C,0.8806,Y,CY,Review / rationalise
+1,8037.0,1697.7,255,49,477.47,8514.45,0,0.3469,Snacks Item 001,Food & Beverages,Snacks,Brand J,24.86,33.39,0.2112,0.0561,0.9625,C,0.933,Y,CY,Review / rationalise
+371,8002.8,2131.41,219,78,384.91,8387.7,0,0.3077,Fitness Nutrition Item 371,Health & Wellness,Fitness Nutrition,Brand Q,26.81,38.3,0.2663,0.0459,0.9629,C,0.8772,Y,CY,Niche (high margin)
+76,7977.06,1425.06,252,51,497.71,8474.76,3,0.3333,Snacks Item 076,Food & Beverages,Snacks,Brand O,26.0,33.63,0.1786,0.0587,0.9634,C,0.775,Y,CY,Review / rationalise
+156,7934.3,1803.9,395,88,325.17,8259.45,0,0.2159,Fruits Item 156,Fresh Food,Fruits,Brand A,15.52,20.91,0.2274,0.0394,0.9638,C,0.524,Y,CY,Review / rationalise
+176,7886.8,1675.72,729,172,401.9,8288.73,0,0.2965,Fruits Item 176,Fresh Food,Fruits,Brand R,8.52,11.37,0.2125,0.0485,0.9642,C,0.4516,X,CX,Traffic drivers (low margin)
+303,7867.17,2603.21,382,111,521.55,8388.72,0,0.3153,Oral Care Item 303,Personal Care,Oral Care,Brand B,13.78,21.96,0.3309,0.0622,0.9646,C,0.566,Y,CY,Niche (high margin)
+449,7857.24,2492.21,323,97,521.34,8378.62,0,0.3402,Beauty Tools Item 449,Beauty,Beauty Tools,Brand J,16.61,25.94,0.3172,0.0622,0.9651,C,0.9005,Y,CY,Niche (high margin)
+27,7815.35,1830.91,469,88,448.43,8263.78,0,0.2614,Beverages Item 027,Food & Beverages,Beverages,Brand G,12.76,17.62,0.2343,0.0543,0.9655,C,0.6431,Y,CY,Traffic drivers (low margin)
+98,7812.64,1365.65,1363,269,501.7,8314.3,17,0.2974,Pantry Item 098,Food & Beverages,Pantry,Brand D,4.73,6.1,0.1748,0.0603,0.9659,C,0.38,X,CX,Traffic drivers (low margin)
+102,7782.13,1934.13,400,78,369.87,8152.0,0,0.2564,Beverages Item 102,Food & Beverages,Beverages,Brand A,14.62,20.38,0.2485,0.0454,0.9663,C,0.6507,Y,CY,Niche (high margin)
+58,7748.65,1987.81,366,68,581.51,8330.16,0,0.3824,Pantry Item 058,Food & Beverages,Pantry,Brand A,15.74,22.76,0.2565,0.0698,0.9667,C,0.7603,Y,CY,Niche (high margin)
+431,7644.77,2497.72,311,97,391.47,8036.24,0,0.299,Fragrance Item 431,Beauty,Fragrance,Brand I,16.55,25.84,0.3267,0.0487,0.9671,C,0.7099,Y,CY,Niche (high margin)
+135,7529.94,1846.74,384,90,484.16,8014.08,0,0.3556,Seafood Item 135,Fresh Food,Seafood,Brand I,14.8,20.87,0.2453,0.0604,0.9676,C,0.7715,Y,CY,Niche (high margin)
+344,7439.5,1999.5,500,157,450.53,7890.0,0,0.3312,First Aid Item 344,Health & Wellness,First Aid,Brand P,10.88,15.78,0.2688,0.0571,0.968,C,0.4738,X,CX,Stars
+272,7429.31,2080.15,692,192,549.42,7978.76,0,0.3698,Paper Goods Item 272,Household,Paper Goods,Brand J,7.73,11.53,0.28,0.0689,0.9684,C,0.406,X,CX,Stars
+83,7403.55,1394.05,850,164,484.45,7888.0,5,0.3171,Pantry Item 083,Food & Beverages,Pantry,Brand L,7.07,9.28,0.1883,0.0614,0.9687,C,0.5043,Y,CY,Traffic drivers (low margin)
+493,7304.68,883.96,124,82,420.52,7725.2,17,0.3293,Audio Item 493,Electronics,Audio,Brand B,51.78,62.3,0.121,0.0544,0.9691,C,0.8398,Y,CY,Review / rationalise
+93,7209.03,1566.61,287,56,456.74,7665.77,0,0.25,Pantry Item 093,Food & Beverages,Pantry,Brand L,19.66,26.71,0.2173,0.0596,0.9695,C,1.0667,Z,CZ,Review / rationalise
+328,7178.59,2231.83,906,257,531.48,7710.06,0,0.3813,Hygiene Item 328,Personal Care,Hygiene,Brand N,5.46,8.51,0.3109,0.0689,0.9699,C,0.3792,X,CX,Stars
+270,7169.67,1590.21,223,64,198.25,7367.92,1,0.1562,Laundry Item 270,Household,Laundry,Brand E,25.02,33.04,0.2218,0.0269,0.9703,C,0.8765,Y,CY,Review / rationalise
+295,7129.47,2463.06,567,154,411.61,7541.1,0,0.3117,Oral Care Item 295,Personal Care,Oral Care,Brand N,8.23,13.3,0.3455,0.0546,0.9707,C,0.4808,X,CX,Stars
+339,7086.72,2174.67,195,59,401.28,7488.0,0,0.322,Oral Care Item 339,Personal Care,Oral Care,Brand R,25.19,38.4,0.3069,0.0536,0.9711,C,0.9334,Y,CY,Niche (high margin)
+418,6930.22,1783.72,282,78,353.86,7284.06,0,0.2564,Diapers Item 418,Baby Care,Diapers,Brand A,18.25,25.83,0.2574,0.0486,0.9714,C,0.7908,Y,CY,Niche (high margin)
+133,6824.65,1496.47,702,169,469.14,7293.78,0,0.355,Meat & Poultry Item 133,Fresh Food,Meat & Poultry,Brand P,7.59,10.39,0.2193,0.0643,0.9718,C,0.461,X,CX,Traffic drivers (low margin)
+360,6747.51,1874.31,186,59,279.57,7027.08,0,0.2203,First Aid Item 360,Health & Wellness,First Aid,Brand B,26.2,37.78,0.2778,0.0398,0.9722,C,0.9166,Y,CY,Niche (high margin)
+136,6730.87,1145.47,428,98,391.05,7121.92,5,0.3061,Fruits Item 136,Fresh Food,Fruits,Brand J,13.05,16.64,0.1702,0.0549,0.9725,C,0.6361,Y,CY,Review / rationalise
+471,6712.49,884.25,74,55,338.23,7050.72,6,0.2727,Accessories Item 471,Electronics,Accessories,Brand I,78.76,95.28,0.1317,0.048,0.9729,C,0.8852,Y,CY,Review / rationalise
+397,6626.65,1723.51,187,54,410.16,7036.81,0,0.3519,Toys Item 397,Baby Care,Toys,Brand N,26.22,37.63,0.2601,0.0583,0.9732,C,0.9074,Y,CY,Niche (high margin)
+131,6572.11,1113.51,490,113,532.89,7105.0,3,0.3805,Fruits Item 131,Fresh Food,Fruits,Brand B,11.14,14.5,0.1694,0.075,0.9736,C,0.5036,Y,CY,Traffic drivers (low margin)
+109,6553.59,1146.61,409,76,423.95,6977.54,1,0.3289,Dairy & Eggs Item 109,Food & Beverages,Dairy & Eggs,Brand P,13.22,17.06,0.175,0.0608,0.974,C,0.8935,Y,CY,Review / rationalise
+51,6473.61,1513.16,319,57,467.83,6941.44,0,0.2982,Snacks Item 051,Food & Beverages,Snacks,Brand K,15.55,21.76,0.2337,0.0674,0.9743,C,0.8536,Y,CY,Review / rationalise
+141,6429.42,1008.18,333,85,470.34,6899.76,4,0.3059,Fruits Item 141,Fresh Food,Fruits,Brand D,16.28,20.72,0.1568,0.0682,0.9746,C,0.7767,Y,CY,Review / rationalise
+193,6399.14,1185.01,607,136,441.77,6840.89,9,0.3456,Meat & Poultry Item 193,Fresh Food,Meat & Poultry,Brand R,8.59,11.27,0.1852,0.0646,0.975,C,0.562,Y,CY,Traffic drivers (low margin)
+453,6343.01,2388.01,250,82,339.49,6682.5,0,0.3293,Beauty Tools Item 453,Beauty,Beauty Tools,Brand S,15.82,26.73,0.3765,0.0508,0.9753,C,0.6745,Y,CY,Niche (high margin)
+34,6328.31,1092.97,583,103,510.28,6838.59,8,0.3883,Dairy & Eggs Item 034,Food & Beverages,Dairy & Eggs,Brand P,8.98,11.73,0.1727,0.0746,0.9757,C,0.5447,Y,CY,Traffic drivers (low margin)
+326,6300.71,1438.93,242,71,526.11,6826.82,0,0.4225,Skin Care Item 326,Personal Care,Skin Care,Brand E,20.09,28.21,0.2284,0.0771,0.976,C,0.7405,Y,CY,Review / rationalise
+250,6268.77,1557.05,533,144,415.05,6683.82,0,0.3403,Laundry Item 250,Household,Laundry,Brand I,8.84,12.54,0.2484,0.0621,0.9763,C,0.6069,Y,CY,Stars
+210,6259.19,1416.94,175,41,483.56,6742.75,0,0.3902,Seafood Item 210,Fresh Food,Seafood,Brand A,27.67,38.53,0.2264,0.0717,0.9767,C,0.9959,Y,CY,Review / rationalise
+184,6190.09,1113.04,543,126,429.09,6619.17,12,0.3254,Bakery Item 184,Fresh Food,Bakery,Brand N,9.35,12.19,0.1798,0.0648,0.977,C,0.5754,Y,CY,Traffic drivers (low margin)
+258,6150.66,1535.7,492,139,368.35,6519.0,0,0.3381,Laundry Item 258,Household,Laundry,Brand E,9.38,13.25,0.2497,0.0565,0.9773,C,0.4922,X,CX,Stars
+427,6135.67,1300.48,159,46,400.82,6536.49,0,0.3043,Baby Food Item 427,Baby Care,Baby Food,Brand G,30.41,41.11,0.212,0.0613,0.9777,C,0.8304,Y,CY,Review / rationalise
+337,6106.4,1842.96,389,102,370.47,6476.85,0,0.3137,Hair Care Item 337,Personal Care,Hair Care,Brand P,10.96,16.65,0.3018,0.0572,0.978,C,0.7236,Y,CY,Niche (high margin)
+373,6038.89,1775.77,248,80,327.27,6366.16,0,0.2875,Vitamins Item 373,Health & Wellness,Vitamins,Brand A,17.19,25.67,0.2941,0.0514,0.9783,C,0.7804,Y,CY,Niche (high margin)
+480,5983.95,538.23,63,40,216.51,6200.46,7,0.25,Small Appliances Item 480,Electronics,Small Appliances,Brand P,86.44,98.42,0.0899,0.0349,0.9787,C,1.1129,Z,CZ,Review / rationalise
+126,5980.32,1370.88,396,86,395.28,6375.6,0,0.3488,Fruits Item 126,Fresh Food,Fruits,Brand K,11.64,16.1,0.2292,0.062,0.979,C,0.6599,Y,CY,Review / rationalise
+354,5902.37,1354.43,331,110,267.47,6169.84,0,0.2545,OTC Item 354,Health & Wellness,OTC,Brand O,13.74,18.64,0.2295,0.0434,0.9793,C,0.5905,Y,CY,Review / rationalise
+280,5895.71,1206.27,316,92,263.13,6158.84,1,0.2935,Paper Goods Item 280,Household,Paper Goods,Brand M,14.84,19.49,0.2046,0.0427,0.9796,C,0.6163,Y,CY,Review / rationalise
+91,5798.7,1436.29,299,57,300.9,6099.6,0,0.2982,Snacks Item 091,Food & Beverages,Snacks,Brand F,14.59,20.4,0.2477,0.0493,0.9799,C,0.9014,Y,CY,Niche (high margin)
+288,5774.02,1794.62,394,115,301.44,6075.48,0,0.2522,Hygiene Item 288,Personal Care,Hygiene,Brand H,10.1,15.42,0.3108,0.0496,0.9802,C,0.5363,Y,CY,Niche (high margin)
+46,5644.41,1361.94,933,171,382.77,6027.18,0,0.3099,Snacks Item 046,Food & Beverages,Snacks,Brand J,4.59,6.46,0.2413,0.0635,0.9805,C,0.5913,Y,CY,Stars
+385,5617.67,1278.23,123,39,369.97,5987.64,0,0.3846,Vitamins Item 385,Health & Wellness,Vitamins,Brand N,35.28,48.68,0.2275,0.0618,0.9808,C,1.0433,Z,CZ,Review / rationalise
+151,5617.48,1004.52,176,43,398.2,6015.68,3,0.3023,Fruits Item 151,Fresh Food,Fruits,Brand J,26.21,34.18,0.1788,0.0662,0.9811,C,1.4837,Z,CZ,Review / rationalise
+457,5555.79,1655.53,182,57,255.47,5811.26,0,0.2807,Beauty Tools Item 457,Beauty,Beauty Tools,Brand E,21.43,31.93,0.298,0.044,0.9814,C,1.053,Z,CZ,Niche (high margin)
+179,5475.26,1295.82,712,151,348.86,5824.16,0,0.3444,Bakery Item 179,Fresh Food,Bakery,Brand Q,5.87,8.18,0.2367,0.0599,0.9817,C,0.7282,Y,CY,Traffic drivers (low margin)
+487,5405.66,1029.2,66,43,226.12,5631.78,3,0.2791,Accessories Item 487,Electronics,Accessories,Brand S,66.31,85.33,0.1904,0.0402,0.982,C,0.809,Y,CY,Review / rationalise
+357,5355.26,1409.57,63,20,263.08,5618.34,0,0.3,Vitamins Item 357,Health & Wellness,Vitamins,Brand N,62.63,89.18,0.2632,0.0468,0.9823,C,1.5295,Z,CZ,Niche (high margin)
+363,5325.06,1830.81,225,76,187.44,5512.5,0,0.2895,Fitness Nutrition Item 363,Health & Wellness,Fitness Nutrition,Brand T,15.53,24.5,0.3438,0.034,0.9826,C,0.6517,Y,CY,Niche (high margin)
+6,5211.38,1301.93,1005,190,376.42,5587.8,0,0.3316,Snacks Item 006,Food & Beverages,Snacks,Brand Q,3.89,5.56,0.2498,0.0674,0.9829,C,0.4259,X,CX,Stars
+364,5190.94,1735.26,32,11,124.58,5315.52,0,0.0909,First Aid Item 364,Health & Wellness,First Aid,Brand K,107.99,166.11,0.3343,0.0234,0.9832,C,2.1137,Z,CZ,Niche (high margin)
+202,5158.75,707.81,442,104,414.86,5573.62,6,0.3558,Vegetables Item 202,Fresh Food,Vegetables,Brand A,10.07,12.61,0.1372,0.0744,0.9834,C,0.5628,Y,CY,Traffic drivers (low margin)
+121,5124.26,854.2,646,135,340.9,5465.16,5,0.3185,Fruits Item 121,Fresh Food,Fruits,Brand C,6.61,8.46,0.1667,0.0624,0.9837,C,0.5947,Y,CY,Traffic drivers (low margin)
+28,5089.16,1349.13,707,143,220.42,5309.57,0,0.2098,Pantry Item 028,Food & Beverages,Pantry,Brand I,5.29,7.51,0.2651,0.0415,0.984,C,0.5789,Y,CY,Stars
+217,5038.6,1205.01,523,137,207.09,5245.69,0,0.2482,Kitchenware Item 217,Household,Kitchenware,Brand G,7.33,10.03,0.2392,0.0395,0.9842,C,0.5305,Y,CY,Stars
+197,4993.84,961.84,175,39,259.66,5253.5,1,0.2821,Vegetables Item 197,Fresh Food,Vegetables,Brand J,23.04,30.02,0.1926,0.0494,0.9845,C,0.9319,Y,CY,Review / rationalise
+181,4962.85,907.49,667,155,299.79,5262.63,3,0.3226,Fruits Item 181,Fresh Food,Fruits,Brand J,6.08,7.89,0.1829,0.057,0.9848,C,0.6074,Y,CY,Traffic drivers (low margin)
+412,4919.78,963.58,262,73,291.4,5211.18,3,0.3562,Baby Hygiene Item 412,Baby Care,Baby Hygiene,Brand P,15.1,19.89,0.1959,0.0559,0.985,C,0.7812,Y,CY,Review / rationalise
+276,4917.29,1384.49,276,70,354.3,5271.6,0,0.3143,Paper Goods Item 276,Household,Paper Goods,Brand R,12.8,19.1,0.2816,0.0672,0.9853,C,0.8267,Y,CY,Niche (high margin)
+13,4843.33,870.47,542,109,387.0,5230.3,6,0.3761,Pantry Item 013,Food & Beverages,Pantry,Brand F,7.33,9.65,0.1797,0.074,0.9856,C,0.6379,Y,CY,Traffic drivers (low margin)
+495,4802.18,644.84,33,28,268.92,5071.11,2,0.2857,Accessories Item 495,Electronics,Accessories,Brand S,125.98,153.67,0.1343,0.053,0.9858,C,1.0553,Z,CZ,Review / rationalise
+278,4789.55,927.23,231,65,262.43,5051.97,1,0.2923,Laundry Item 278,Household,Laundry,Brand D,16.72,21.87,0.1936,0.0519,0.9861,C,0.8342,Y,CY,Review / rationalise
+266,4704.7,1326.5,266,69,296.1,5000.8,0,0.2754,Laundry Item 266,Household,Laundry,Brand G,12.7,18.8,0.282,0.0592,0.9863,C,0.7665,Y,CY,Niche (high margin)
+101,4693.25,939.17,948,178,302.72,4995.96,9,0.2528,Snacks Item 101,Food & Beverages,Snacks,Brand L,3.96,5.27,0.2001,0.0606,0.9866,C,0.5271,Y,CY,Traffic drivers (low margin)
+173,4660.86,1013.66,388,89,394.81,5055.64,0,0.427,Meat & Poultry Item 173,Fresh Food,Meat & Poultry,Brand H,9.4,13.03,0.2175,0.0781,0.9868,C,0.6386,Y,CY,Review / rationalise
+36,4532.59,1229.74,681,140,309.31,4841.91,0,0.3214,Snacks Item 036,Food & Beverages,Snacks,Brand N,4.85,7.11,0.2713,0.0639,0.9871,C,0.7496,Y,CY,Stars
+215,4518.39,910.31,238,65,308.25,4826.64,0,0.3385,Cleaning Item 215,Household,Cleaning,Brand K,15.16,20.28,0.2015,0.0639,0.9873,C,0.8837,Y,CY,Review / rationalise
+399,4502.29,1126.29,100,28,302.7,4805.0,0,0.2857,Baby Food Item 399,Baby Care,Baby Food,Brand C,33.76,48.05,0.2502,0.063,0.9876,C,1.3664,Z,CZ,Niche (high margin)
+246,4429.9,1034.83,153,35,204.46,4634.37,0,0.3429,Laundry Item 246,Household,Laundry,Brand F,22.19,30.29,0.2336,0.0441,0.9878,C,0.9893,Y,CY,Review / rationalise
+311,4399.21,1470.98,443,129,283.3,4682.51,0,0.3333,Oral Care Item 311,Personal Care,Oral Care,Brand E,6.61,10.57,0.3344,0.0605,0.988,C,0.4766,X,CX,Stars
+85,4362.49,902.71,258,57,173.15,4535.64,2,0.2105,Frozen Item 085,Food & Beverages,Frozen,Brand P,13.41,17.58,0.2069,0.0382,0.9883,C,0.8816,Y,CY,Review / rationalise
+281,4321.34,1295.1,392,103,335.62,4656.96,0,0.3786,Hair Care Item 281,Personal Care,Hair Care,Brand A,7.72,11.88,0.2997,0.0721,0.9885,C,0.7412,Y,CY,Niche (high margin)
+284,4241.1,1284.3,336,101,261.3,4502.4,0,0.3366,Hygiene Item 284,Personal Care,Hygiene,Brand B,8.8,13.4,0.3028,0.058,0.9887,C,0.6925,Y,CY,Niche (high margin)
+273,4236.77,1060.43,167,47,218.79,4455.56,0,0.2766,Kitchenware Item 273,Household,Kitchenware,Brand A,19.02,26.68,0.2503,0.0491,0.989,C,0.8118,Y,CY,Niche (high margin)
+32,4206.99,1069.02,407,82,257.78,4464.79,0,0.3049,Beverages Item 032,Food & Beverages,Beverages,Brand E,7.71,10.97,0.2541,0.0577,0.9892,C,0.5844,Y,CY,Niche (high margin)
+348,4205.95,1219.61,257,87,157.91,4363.86,0,0.2529,First Aid Item 348,Health & Wellness,First Aid,Brand D,11.62,16.98,0.29,0.0362,0.9894,C,0.7939,Y,CY,Niche (high margin)
+8,4177.24,1125.57,493,96,299.2,4476.44,0,0.3333,Pantry Item 008,Food & Beverages,Pantry,Brand P,6.19,9.08,0.2695,0.0668,0.9896,C,0.6375,Y,CY,Stars
+129,4160.81,646.38,349,82,320.35,4481.16,4,0.3415,Bakery Item 129,Fresh Food,Bakery,Brand H,10.07,12.84,0.1553,0.0715,0.9899,C,0.6657,Y,CY,Review / rationalise
+106,3961.83,858.09,387,75,337.75,4299.57,0,0.32,Snacks Item 106,Food & Beverages,Snacks,Brand N,8.02,11.11,0.2166,0.0786,0.9901,C,0.8265,Y,CY,Review / rationalise
+388,3906.82,921.52,107,27,139.92,4046.74,0,0.2222,Baby Hygiene Item 388,Baby Care,Baby Hygiene,Brand S,27.9,37.82,0.2359,0.0346,0.9903,C,1.255,Z,CZ,Review / rationalise
+338,3876.48,1078.23,455,132,259.47,4135.95,0,0.3409,Skin Care Item 338,Personal Care,Skin Care,Brand G,6.15,9.09,0.2781,0.0627,0.9905,C,0.5524,Y,CY,Stars
+378,3863.7,977.83,79,21,323.3,4187.0,0,0.3333,OTC Item 378,Health & Wellness,OTC,Brand O,36.53,53.0,0.2531,0.0772,0.9907,C,1.6077,Z,CZ,Niche (high margin)
+405,3844.57,831.52,265,68,247.03,4091.6,0,0.3824,Toys Item 405,Baby Care,Toys,Brand I,11.37,15.44,0.2163,0.0604,0.9909,C,0.6154,Y,CY,Review / rationalise
+211,3827.77,908.02,255,66,313.43,4141.2,0,0.3485,Cleaning Item 211,Household,Cleaning,Brand G,11.45,16.24,0.2372,0.0757,0.9911,C,0.6308,Y,CY,Review / rationalise
+340,3800.91,1320.65,214,53,179.49,3980.4,0,0.2642,Hygiene Item 340,Personal Care,Hygiene,Brand P,11.59,18.6,0.3475,0.0451,0.9913,C,0.98,Y,CY,Niche (high margin)
+164,3769.59,707.49,295,66,283.72,4053.3,7,0.3333,Bakery Item 164,Fresh Food,Bakery,Brand L,10.38,13.74,0.1877,0.07,0.9915,C,0.9389,Y,CY,Review / rationalise
+71,3757.06,669.01,357,64,348.44,4105.5,5,0.4219,Snacks Item 071,Food & Beverages,Snacks,Brand O,8.65,11.5,0.1781,0.0849,0.9917,C,0.8568,Y,CY,Review / rationalise
+413,3756.25,1046.56,123,34,87.5,3843.75,0,0.2059,Toys Item 413,Baby Care,Toys,Brand N,22.03,31.25,0.2786,0.0228,0.9919,C,0.8465,Y,CY,Niche (high margin)
+208,3754.52,910.42,478,111,279.8,4034.32,0,0.3514,Meat & Poultry Item 208,Fresh Food,Meat & Poultry,Brand H,5.95,8.44,0.2425,0.0694,0.9921,C,0.674,Y,CY,Stars
+65,3753.16,831.19,563,100,227.26,3980.41,0,0.37,Frozen Item 065,Food & Beverages,Frozen,Brand C,5.19,7.07,0.2215,0.0571,0.9923,C,0.6877,Y,CY,Traffic drivers (low margin)
+40,3749.94,929.94,400,81,234.06,3984.0,0,0.3086,Frozen Item 040,Food & Beverages,Frozen,Brand P,7.05,9.96,0.248,0.0588,0.9925,C,0.786,Y,CY,Niche (high margin)
+79,3715.93,981.33,220,42,235.27,3951.2,0,0.3333,Dairy & Eggs Item 079,Food & Beverages,Dairy & Eggs,Brand T,12.43,17.96,0.2641,0.0595,0.9927,C,0.8849,Y,CY,Niche (high margin)
+67,3652.0,825.36,178,36,207.04,3859.04,0,0.2778,Beverages Item 067,Food & Beverages,Beverages,Brand M,15.88,21.68,0.226,0.0537,0.9929,C,0.9198,Y,CY,Review / rationalise
+315,3630.52,1193.26,294,90,247.34,3877.86,0,0.3778,Oral Care Item 315,Personal Care,Oral Care,Brand K,8.29,13.19,0.3287,0.0638,0.9931,C,0.7107,Y,CY,Niche (high margin)
+356,3535.25,1221.95,55,17,75.5,3610.75,0,0.1176,First Aid Item 356,Health & Wellness,First Aid,Brand G,42.06,65.65,0.3456,0.0209,0.9933,C,1.5209,Z,CZ,Niche (high margin)
+90,3477.5,599.57,561,104,236.33,3713.82,4,0.3269,Frozen Item 090,Food & Beverages,Frozen,Brand B,5.13,6.62,0.1724,0.0636,0.9935,C,0.6104,Y,CY,Traffic drivers (low margin)
+108,3425.26,871.86,340,65,267.13,3692.4,0,0.3077,Pantry Item 108,Food & Beverages,Pantry,Brand O,7.51,10.86,0.2545,0.0723,0.9937,C,0.7399,Y,CY,Niche (high margin)
+113,3422.67,920.04,621,120,235.0,3657.69,0,0.3083,Pantry Item 113,Food & Beverages,Pantry,Brand J,4.03,5.89,0.2688,0.0642,0.9939,C,0.5502,Y,CY,Stars
+153,3417.17,665.94,179,42,218.33,3635.49,0,0.3571,Meat & Poultry Item 153,Fresh Food,Meat & Poultry,Brand L,15.37,20.31,0.1949,0.0601,0.9941,C,1.1966,Z,CZ,Review / rationalise
+161,3413.76,639.7,398,90,204.06,3617.82,3,0.3,Fruits Item 161,Fresh Food,Fruits,Brand Q,6.97,9.09,0.1874,0.0564,0.9942,C,0.5898,Y,CY,Review / rationalise
+298,3377.16,811.38,246,75,170.16,3547.32,0,0.2533,Skin Care Item 298,Personal Care,Skin Care,Brand A,10.43,14.42,0.2403,0.048,0.9944,C,0.9045,Y,CY,Niche (high margin)
+312,3273.49,836.55,418,129,212.63,3486.12,0,0.3411,Hygiene Item 312,Personal Care,Hygiene,Brand T,5.83,8.34,0.2556,0.061,0.9946,C,0.5929,Y,CY,Niche (high margin)
+50,3235.59,895.59,300,59,211.42,3447.0,0,0.3559,Frozen Item 050,Food & Beverages,Frozen,Brand L,7.8,11.49,0.2768,0.0613,0.9948,C,0.7692,Y,CY,Niche (high margin)
+351,3227.11,1005.17,59,22,55.65,3282.76,0,0.1364,Fitness Nutrition Item 351,Health & Wellness,Fitness Nutrition,Brand G,37.66,55.64,0.3115,0.017,0.9949,C,1.5239,Z,CZ,Niche (high margin)
+45,3111.5,655.62,343,64,304.78,3416.28,0,0.4062,Frozen Item 045,Food & Beverages,Frozen,Brand Q,7.16,9.96,0.2107,0.0892,0.9951,C,0.7575,Y,CY,Review / rationalise
+52,3095.44,860.33,397,78,183.78,3279.22,0,0.3205,Beverages Item 052,Food & Beverages,Beverages,Brand P,5.63,8.26,0.2779,0.056,0.9953,C,0.6407,Y,CY,Niche (high margin)
+61,3076.59,751.05,226,45,146.15,3222.76,0,0.2444,Snacks Item 061,Food & Beverages,Snacks,Brand N,10.29,14.26,0.2441,0.0453,0.9954,C,1.005,Z,CZ,Niche (high margin)
+365,3008.67,942.88,167,62,132.59,3141.27,0,0.2419,Vitamins Item 365,Health & Wellness,Vitamins,Brand G,12.37,18.81,0.3134,0.0422,0.9956,C,0.8532,Y,CY,Niche (high margin)
+2,2993.24,828.55,121,24,111.62,3104.86,0,0.25,Beverages Item 002,Food & Beverages,Beverages,Brand G,17.89,25.66,0.2768,0.036,0.9958,C,1.4904,Z,CZ,Niche (high margin)
+285,2896.82,793.08,359,109,122.34,3019.19,0,0.2385,Hair Care Item 285,Personal Care,Hair Care,Brand D,5.86,8.41,0.2738,0.0405,0.9959,C,0.6662,Y,CY,Niche (high margin)
+352,2819.73,676.05,154,51,177.1,2996.84,0,0.3922,First Aid Item 352,Health & Wellness,First Aid,Brand I,13.92,19.46,0.2398,0.0591,0.9961,C,0.9833,Y,CY,Niche (high margin)
+212,2792.57,635.27,282,75,182.5,2975.1,0,0.3867,Paper Goods Item 212,Household,Paper Goods,Brand T,7.65,10.55,0.2275,0.0613,0.9962,C,0.7522,Y,CY,Review / rationalise
+346,2774.77,624.07,107,38,191.27,2966.04,0,0.3421,OTC Item 346,Health & Wellness,OTC,Brand J,20.1,27.72,0.2249,0.0645,0.9964,C,1.0715,Z,CZ,Review / rationalise
+5,2741.27,552.95,282,60,101.29,2842.56,2,0.2,Frozen Item 005,Food & Beverages,Frozen,Brand R,7.76,10.08,0.2017,0.0356,0.9965,C,0.7855,Y,CY,Review / rationalise
+62,2708.44,660.44,512,101,158.76,2867.2,0,0.3069,Beverages Item 062,Food & Beverages,Beverages,Brand K,4.0,5.6,0.2438,0.0554,0.9967,C,0.7492,Y,CY,Stars
+206,2697.52,420.88,372,85,211.53,2909.04,5,0.3294,Fruits Item 206,Fresh Food,Fruits,Brand M,6.12,7.82,0.156,0.0727,0.9968,C,0.8133,Y,CY,Review / rationalise
+201,2671.24,557.82,251,61,200.2,2871.44,0,0.3443,Fruits Item 201,Fresh Food,Fruits,Brand C,8.42,11.44,0.2088,0.0697,0.997,C,0.7919,Y,CY,Review / rationalise
+11,2592.99,675.49,295,56,180.01,2773.0,0,0.3571,Snacks Item 011,Food & Beverages,Snacks,Brand M,6.5,9.4,0.2605,0.0649,0.9971,C,0.9797,Y,CY,Niche (high margin)
+23,2579.0,513.36,457,88,158.43,2737.43,7,0.2614,Pantry Item 023,Food & Beverages,Pantry,Brand H,4.52,5.99,0.1991,0.0579,0.9972,C,0.7508,Y,CY,Traffic drivers (low margin)
+186,2555.71,399.71,350,90,146.29,2702.0,4,0.2111,Fruits Item 186,Fresh Food,Fruits,Brand H,6.16,7.72,0.1564,0.0541,0.9974,C,0.8611,Y,CY,Review / rationalise
+114,2528.08,670.48,172,33,213.6,2741.68,0,0.3939,Dairy & Eggs Item 114,Food & Beverages,Dairy & Eggs,Brand E,10.8,15.94,0.2652,0.0779,0.9975,C,1.3398,Z,CZ,Niche (high margin)
+123,2526.01,402.01,150,36,194.99,2721.0,0,0.4444,Meat & Poultry Item 123,Fresh Food,Meat & Poultry,Brand T,14.16,18.14,0.1591,0.0717,0.9976,C,1.1694,Z,CZ,Review / rationalise
+377,2488.29,791.21,77,28,163.59,2651.88,0,0.3214,Vitamins Item 377,Health & Wellness,Vitamins,Brand R,22.04,34.44,0.318,0.0617,0.9978,C,1.2097,Z,CZ,Niche (high margin)
+199,2377.84,548.2,237,55,129.61,2507.46,0,0.2545,Bakery Item 199,Fresh Food,Bakery,Brand K,7.72,10.58,0.2305,0.0517,0.9979,C,0.886,Y,CY,Review / rationalise
+56,2376.36,414.6,183,37,141.72,2518.08,2,0.2973,Snacks Item 056,Food & Beverages,Snacks,Brand D,10.72,13.76,0.1745,0.0563,0.998,C,0.9398,Y,CY,Review / rationalise
+292,2230.4,704.27,279,82,141.1,2371.5,0,0.3171,Hygiene Item 292,Personal Care,Hygiene,Brand G,5.47,8.5,0.3158,0.0595,0.9982,C,0.8759,Y,CY,Niche (high margin)
+332,2163.29,693.29,196,55,118.15,2281.44,0,0.2909,Hygiene Item 332,Personal Care,Hygiene,Brand E,7.5,11.64,0.3205,0.0518,0.9983,C,0.9246,Y,CY,Niche (high margin)
+35,2095.26,375.59,383,75,149.12,2244.38,5,0.2933,Frozen Item 035,Food & Beverages,Frozen,Brand S,4.49,5.86,0.1793,0.0664,0.9984,C,0.6849,Y,CY,Review / rationalise
+358,2088.37,613.87,75,27,108.38,2196.75,0,0.2593,OTC Item 358,Health & Wellness,OTC,Brand N,19.66,29.29,0.2939,0.0493,0.9985,C,1.2796,Z,CZ,Niche (high margin)
+329,1960.71,454.83,267,74,124.56,2085.27,0,0.2568,Hair Care Item 329,Personal Care,Hair Care,Brand J,5.64,7.81,0.232,0.0597,0.9986,C,0.9693,Y,CY,Review / rationalise
+66,1957.53,411.76,331,62,137.69,2095.23,0,0.3387,Snacks Item 066,Food & Beverages,Snacks,Brand T,4.67,6.33,0.2103,0.0657,0.9987,C,0.9297,Y,CY,Review / rationalise
+192,1930.02,349.38,267,64,77.82,2007.84,0,0.2188,Vegetables Item 192,Fresh Food,Vegetables,Brand C,5.92,7.52,0.181,0.0388,0.9988,C,0.7637,Y,CY,Review / rationalise
+265,1852.53,498.16,167,43,128.08,1980.62,0,0.2558,Kitchenware Item 265,Household,Kitchenware,Brand N,8.11,11.86,0.2689,0.0647,0.9989,C,1.0423,Z,CZ,Niche (high margin)
+49,1640.91,380.91,210,38,76.89,1717.8,0,0.2368,Dairy & Eggs Item 049,Food & Beverages,Dairy & Eggs,Brand Q,6.0,8.18,0.2321,0.0448,0.999,C,1.0371,Z,CZ,Review / rationalise
+26,1631.9,279.4,250,50,133.1,1765.0,3,0.32,Snacks Item 026,Food & Beverages,Snacks,Brand O,5.41,7.06,0.1712,0.0754,0.9991,C,0.8694,Y,CY,Review / rationalise
+73,1630.65,407.64,321,64,118.8,1749.45,0,0.3125,Pantry Item 073,Food & Beverages,Pantry,Brand B,3.81,5.45,0.25,0.0679,0.9992,C,0.7845,Y,CY,Niche (high margin)
+380,1622.13,334.38,75,25,117.13,1739.25,0,0.36,First Aid Item 380,Health & Wellness,First Aid,Brand F,17.17,23.19,0.2061,0.0673,0.9993,C,1.4164,Z,CZ,Review / rationalise
+149,1582.86,288.71,181,44,82.34,1665.2,1,0.1818,Bakery Item 149,Fresh Food,Bakery,Brand F,7.15,9.2,0.1824,0.0494,0.9993,C,1.1366,Z,CZ,Review / rationalise
+230,1511.27,391.45,118,37,55.77,1567.04,0,0.1892,Laundry Item 230,Household,Laundry,Brand T,9.49,13.28,0.259,0.0356,0.9994,C,1.1705,Z,CZ,Niche (high margin)
+166,1441.22,254.42,172,45,115.41,1556.6,2,0.4222,Fruits Item 166,Fresh Food,Fruits,Brand I,6.9,9.05,0.1765,0.0741,0.9995,C,1.0963,Z,CZ,Review / rationalise
+172,1328.63,261.18,185,43,99.57,1428.2,0,0.3721,Vegetables Item 172,Fresh Food,Vegetables,Brand O,5.77,7.72,0.1966,0.0697,0.9996,C,1.1997,Z,CZ,Review / rationalise
+87,1276.37,204.77,282,57,99.79,1376.16,2,0.3333,Beverages Item 087,Food & Beverages,Beverages,Brand P,3.8,4.88,0.1604,0.0725,0.9996,C,1.0864,Z,CZ,Review / rationalise
+353,1266.18,317.94,54,18,69.24,1335.42,0,0.2778,Vitamins Item 353,Health & Wellness,Vitamins,Brand O,17.56,24.73,0.2511,0.0518,0.9997,C,1.3286,Z,CZ,Niche (high margin)
+12,1260.84,251.7,242,52,62.9,1323.74,2,0.2692,Beverages Item 012,Food & Beverages,Beverages,Brand E,4.17,5.47,0.1996,0.0475,0.9998,C,1.192,Z,CZ,Review / rationalise
+368,1151.18,373.31,43,11,63.57,1214.75,0,0.1818,First Aid Item 368,Health & Wellness,First Aid,Brand B,18.09,28.25,0.3243,0.0523,0.9998,C,1.8648,Z,CZ,Niche (high margin)
+367,1052.2,219.37,71,27,101.56,1153.75,0,0.4444,Fitness Nutrition Item 367,Health & Wellness,Fitness Nutrition,Brand D,11.73,16.25,0.2085,0.088,0.9999,C,1.0669,Z,CZ,Review / rationalise
+77,1024.94,199.1,186,33,130.12,1155.06,0,0.4545,Beverages Item 077,Food & Beverages,Beverages,Brand C,4.44,6.21,0.1943,0.1127,1.0,C,1.1855,Z,CZ,Review / rationalise
+345,908.69,209.39,54,16,56.29,964.98,0,0.375,Vitamins Item 345,Health & Wellness,Vitamins,Brand M,12.95,17.87,0.2304,0.0583,1.0,C,1.5492,Z,CZ,Review / rationalise

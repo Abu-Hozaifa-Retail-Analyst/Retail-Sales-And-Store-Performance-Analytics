@@ -1,0 +1,86 @@
+// ============ GulfMart DAX measure library ============
+// Model: fact_sales[transaction_date] -> dim_date[date] (mark dim_date as date table); other relationships on *_id keys, single direction.
+
+// ---- Core
+Net Sales = SUM ( fact_sales[net_sales] )
+Gross Sales = SUM ( fact_sales[gross_sales] )
+Gross Profit = SUM ( fact_sales[gross_profit] )
+Gross Margin % = DIVIDE ( [Gross Profit], [Net Sales] )
+Transactions = COUNTROWS ( fact_sales )
+Units Sold = SUM ( fact_sales[quantity] )
+ATV = DIVIDE ( [Net Sales], [Transactions] )
+UPT = DIVIDE ( [Units Sold], [Transactions] )
+Profit per Transaction = DIVIDE ( [Gross Profit], [Transactions] )
+Discount Cost = SUM ( fact_sales[discount_amount] )
+Discount Rate = DIVIDE ( [Discount Cost], [Gross Sales] )
+Promo Penetration = DIVIDE ( CALCULATE ( [Transactions], fact_sales[discount_pct] > 0 ), [Transactions] )
+Loss-Making Tx = CALCULATE ( [Transactions], fact_sales[gross_profit] < 0 )
+Loss Tx % = DIVIDE ( [Loss-Making Tx], [Transactions] )
+Loss Value = CALCULATE ( [Gross Profit], fact_sales[gross_profit] < 0 )
+Active Customers = DISTINCTCOUNT ( fact_sales[customer_id] )
+Sales per Customer = DIVIDE ( [Net Sales], [Active Customers] )
+Purchase Frequency = DIVIDE ( [Transactions], [Active Customers] )
+
+// ---- Time intelligence
+Net Sales LY = CALCULATE ( [Net Sales], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+Net Sales YoY % = DIVIDE ( [Net Sales] - [Net Sales LY], [Net Sales LY] )
+Gross Profit LY = CALCULATE ( [Gross Profit], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+GP YoY % = DIVIDE ( [Gross Profit] - [Gross Profit LY], [Gross Profit LY] )
+Net Sales YTD = TOTALYTD ( [Net Sales], dim_date[date] )
+Net Sales Rolling 3M = CALCULATE ( [Net Sales], DATESINPERIOD ( dim_date[date], MAX ( dim_date[date] ), -3, MONTH ) )
+Net Sales MoM % = VAR prev = CALCULATE ( [Net Sales], DATEADD ( dim_date[date], -1, MONTH ) ) RETURN DIVIDE ( [Net Sales] - prev, prev )
+Sales per Trading Day = DIVIDE ( [Net Sales], DISTINCTCOUNT ( fact_sales[transaction_date] ) )
+Event Uplift vs Normal Day =
+VAR normal = CALCULATE ( [Sales per Trading Day], dim_date[event] = "No Event", ALL ( dim_date[event] ) )
+RETURN DIVIDE ( [Sales per Trading Day], normal ) - 1
+
+// ---- Store performance (annual target on dim_store; shown per year selected)
+Target Sales = SUMX ( VALUES ( dim_store[store_id] ), CALCULATE ( MAX ( dim_store[target_sales] ) ) )
+Sales vs Target % = DIVIDE ( [Net Sales], [Target Sales] ) - 1
+Target Margin = AVERAGE ( dim_store[target_margin] )
+Margin vs Target (pp) = ( [Gross Margin %] - [Target Margin] ) * 100
+Sales per Sqft = DIVIDE ( [Net Sales], SUM ( dim_store[store_size_sqft] ) )
+Store Sales Rank = RANKX ( ALL ( dim_store[store_name] ), [Net Sales], , DESC, DENSE )
+Peer Index (Sales/Sqft) =
+VAR peerMedian = CALCULATE ( MEDIANX ( VALUES ( dim_store[store_id] ), [Sales per Sqft] ),
+                             ALLEXCEPT ( dim_store, dim_store[store_type] ) )
+RETURN DIVIDE ( [Sales per Sqft], peerMedian )
+Store Quadrant =
+SWITCH ( TRUE (),
+  [Sales vs Target %] >= 0 && [Margin vs Target (pp)] >= 0, "Star",
+  [Sales vs Target %] >= 0, "Volume without margin",
+  [Margin vs Target (pp)] >= 0, "Profitable but under-selling", "Problem store" )
+
+// ---- Product
+Sales Share of Total = DIVIDE ( [Net Sales], CALCULATE ( [Net Sales], ALL ( dim_product ) ) )
+Profit Share of Total = DIVIDE ( [Gross Profit], CALCULATE ( [Gross Profit], ALL ( dim_product ) ) )
+Profit - Sales Share (pp) = ( [Profit Share of Total] - [Sales Share of Total] ) * 100
+Break-even Discount = AVERAGEX ( dim_product, 1 - DIVIDE ( dim_product[unit_cost], dim_product[selling_price] ) )
+ABC Class =
+VAR tot = CALCULATE ( [Net Sales], ALLSELECTED ( dim_product ) )
+// Pareto: cumulative share of SKUs with sales >= this SKU (fine for 500 SKUs; use a helper table for larger catalogues)
+VAR thisSales = [Net Sales]
+VAR cumSales = SUMX ( FILTER ( ALLSELECTED ( dim_product[product_id] ), [Net Sales] >= thisSales ), [Net Sales] )
+RETURN SWITCH ( TRUE (), DIVIDE ( cumSales, tot ) <= .7, "A", DIVIDE ( cumSales, tot ) <= .9, "B", "C" )
+
+// ---- Promotion economics
+Margin on Promo = DIVIDE ( CALCULATE ( [Gross Profit], fact_sales[discount_pct] > 0 ), CALCULATE ( [Net Sales], fact_sales[discount_pct] > 0 ) )
+Margin off Promo = DIVIDE ( CALCULATE ( [Gross Profit], fact_sales[discount_pct] = 0 ), CALCULATE ( [Net Sales], fact_sales[discount_pct] = 0 ) )
+Margin Dilution (pp) = ( [Margin on Promo] - [Margin off Promo] ) * 100
+Discount Cost % of GP = DIVIDE ( [Discount Cost], [Gross Profit] )
+Units per Tx (Promo) = DIVIDE ( CALCULATE ( [Units Sold], fact_sales[discount_pct] > 0 ), CALCULATE ( [Transactions], fact_sales[discount_pct] > 0 ) )
+Units per Tx (No Promo) = DIVIDE ( CALCULATE ( [Units Sold], fact_sales[discount_pct] = 0 ), CALCULATE ( [Transactions], fact_sales[discount_pct] = 0 ) )
+Promo Unit Lift % = DIVIDE ( [Units per Tx (Promo)], [Units per Tx (No Promo)] ) - 1
+// What-if parameter: create Discount Cap table =GENERATESERIES(0.05,0.25,0.05) named 'Discount Cap'
+Capped Gross Profit =
+VAR cap = SELECTEDVALUE ( 'Discount Cap'[Value], 0.25 )
+RETURN SUMX ( fact_sales, fact_sales[quantity] * fact_sales[unit_price] * ( 1 - MIN ( fact_sales[discount_pct], cap ) ) - fact_sales[total_cost] )
+GP Uplift from Cap (static volume) = [Capped Gross Profit] - [Gross Profit]
+
+// ---- Customer
+Customer Net Sales = [Net Sales]
+Champions Count = COUNTROWS ( FILTER ( VALUES ( dim_customer[customer_id] ), [RFM Segment] = "Champions" ) )
+Recency Days = DATEDIFF ( MAX ( fact_sales[transaction_date] ), DATE ( 2026, 1, 1 ), DAY )
+// RFM scores are best built as calculated columns in Power Query / SQL view vw_customer_rfm and imported as dim_customer_rfm.
+RFM Segment = SELECTEDVALUE ( dim_customer_rfm[rfm_segment] )
+Repeat Customers % = DIVIDE ( COUNTROWS ( FILTER ( VALUES ( fact_sales[customer_id] ), CALCULATE ( [Transactions] ) > 1 ) ), [Active Customers] )

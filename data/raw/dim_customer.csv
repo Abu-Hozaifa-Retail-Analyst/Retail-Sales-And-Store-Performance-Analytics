@@ -1,0 +1,5001 @@
+customer_id,gender,age,city,customer_segment
+1,Female,30,Abha,Budget Shopper
+2,Female,54,Tabuk,Budget Shopper
+3,Female,39,Jeddah,Regular Family
+4,Male,47,Tabuk,Premium
+5,Female,41,Riyadh,Regular Family
+6,Male,32,Jeddah,Budget Shopper
+7,Female,44,Dammam,Regular Family
+8,Female,41,Tabuk,Occasional
+9,Female,18,Buraidah,Budget Shopper
+10,Female,35,Riyadh,Regular Family
+11,Female,46,Madinah,Budget Shopper
+12,Female,39,Buraidah,Regular Family
+13,Male,41,Taif,Premium
+14,Female,28,Jeddah,Budget Shopper
+15,Female,39,Riyadh,Premium
+16,Male,35,Dammam,Premium
+17,Female,34,Buraidah,Regular Family
+18,Male,29,Jeddah,Occasional
+19,Female,46,Dammam,Premium
+20,Female,40,Taif,Regular Family
+21,Male,39,Dammam,Budget Shopper
+22,Male,59,Makkah,Regular Family
+23,Female,41,Taif,Regular Family
+24,Male,49,Jeddah,Budget Shopper
+25,Female,39,Jeddah,Regular Family
+26,Male,32,Jeddah,Occasional
+27,Male,24,Makkah,Budget Shopper
+28,Male,39,Riyadh,Premium
+29,Female,18,Riyadh,Regular Family
+30,Female,39,Jeddah,Premium
+31,Female,39,Khobar,Occasional
+32,Female,34,Tabuk,Regular Family
+33,Female,35,Dammam,Regular Family
+34,Male,22,Abha,Budget Shopper
+35,Male,51,Taif,Budget Shopper
+36,Female,32,Madinah,Regular Family
+37,Male,25,Makkah,Budget Shopper
+38,Female,42,Riyadh,Budget Shopper
+39,Female,37,Dammam,Budget Shopper
+40,Female,32,Jeddah,Budget Shopper
+41,Female,31,Dammam,Regular Family
+42,Female,36,Taif,Budget Shopper
+43,Female,51,Jeddah,Budget Shopper
+44,Female,41,Riyadh,Premium
+45,Male,36,Tabuk,Premium
+46,Male,45,Taif,Occasional
+47,Male,36,Abha,Occasional
+48,Female,40,Riyadh,Occasional
+49,Female,38,Khobar,Premium
+50,Female,42,Jeddah,Budget Shopper
+51,Male,31,Makkah,Budget Shopper
+52,Female,23,Makkah,Occasional
+53,Male,46,Tabuk,Occasional
+54,Female,53,Riyadh,Regular Family
+55,Male,24,Taif,Regular Family
+56,Female,38,Riyadh,Budget Shopper
+57,Female,31,Riyadh,Budget Shopper
+58,Male,46,Tabuk,Regular Family
+59,Male,39,Dammam,Budget Shopper
+60,Male,73,Dammam,Regular Family
+61,Male,33,Jeddah,Premium
+62,Male,53,Riyadh,Occasional
+63,Male,54,Riyadh,Occasional
+64,Male,42,Abha,Budget Shopper
+65,Male,36,Riyadh,Regular Family
+66,Female,37,Taif,Regular Family
+67,Male,36,Abha,Regular Family
+68,Male,48,Tabuk,Occasional
+69,Female,26,Buraidah,Budget Shopper
+70,Male,34,Madinah,Budget Shopper
+71,Female,33,Dammam,Regular Family
+72,Female,18,Buraidah,Regular Family
+73,Female,45,Jeddah,Regular Family
+74,Female,48,Riyadh,Regular Family
+75,Female,29,Khobar,Budget Shopper
+76,Female,47,Riyadh,Regular Family
+77,Female,19,Makkah,Premium
+78,Male,36,Taif,Budget Shopper
+79,Female,35,Makkah,Occasional
+80,Female,37,Riyadh,Regular Family
+81,Female,37,Riyadh,Budget Shopper
+82,Male,35,Jeddah,Budget Shopper
+83,Male,32,Riyadh,Budget Shopper
+84,Male,35,Khobar,Budget Shopper
+85,Male,51,Abha,Regular Family
+86,Female,30,Makkah,Occasional
+87,Male,61,Makkah,Budget Shopper
+88,Male,29,Dammam,Budget Shopper
+89,Male,39,Riyadh,Occasional
+90,Female,42,Makkah,Regular Family
+91,Female,33,Jeddah,Regular Family
+92,Female,51,Jeddah,Regular Family
+93,Female,42,Makkah,Budget Shopper
+94,Female,34,Jeddah,Budget Shopper
+95,Male,51,Riyadh,Occasional
+96,Male,25,Dammam,Regular Family
+97,Female,30,Jeddah,Budget Shopper
+98,Female,42,Madinah,Occasional
+99,Male,45,Riyadh,Regular Family
+100,Female,40,Buraidah,Budget Shopper
+101,Male,35,Dammam,Occasional
+102,Female,33,Riyadh,Premium
+103,Female,48,Riyadh,Premium
+104,Male,39,Taif,Budget Shopper
+105,Female,26,Khobar,Budget Shopper
+106,Female,26,Abha,Occasional
+107,Female,53,Buraidah,Budget Shopper
+108,Female,28,Jeddah,Occasional
+109,Male,39,Khobar,Premium
+110,Male,51,Makkah,Regular Family
+111,Male,42,Tabuk,Occasional
+112,Male,28,Jeddah,Occasional
+113,Male,25,Taif,Occasional
+114,Female,57,Makkah,Regular Family
+115,Male,25,Buraidah,Regular Family
+116,Female,30,Riyadh,Regular Family
+117,Male,40,Dammam,Budget Shopper
+118,Male,34,Riyadh,Occasional
+119,Female,42,Buraidah,Occasional
+120,Female,20,Riyadh,Budget Shopper
+121,Female,34,Madinah,Premium
+122,Male,43,Riyadh,Occasional
+123,Female,43,Riyadh,Regular Family
+124,Male,30,Jeddah,Budget Shopper
+125,Female,25,Abha,Budget Shopper
+126,Female,38,Jeddah,Regular Family
+127,Male,22,Tabuk,Occasional
+128,Female,50,Abha,Budget Shopper
+129,Female,38,Taif,Regular Family
+130,Male,28,Makkah,Premium
+131,Male,24,Makkah,Occasional
+132,Female,29,Makkah,Occasional
+133,Male,19,Riyadh,Occasional
+134,Male,41,Dammam,Regular Family
+135,Male,27,Buraidah,Occasional
+136,Female,40,Riyadh,Regular Family
+137,Male,42,Riyadh,Regular Family
+138,Female,47,Makkah,Budget Shopper
+139,Female,39,Tabuk,Regular Family
+140,Male,48,Jeddah,Budget Shopper
+141,Male,51,Buraidah,Occasional
+142,Female,39,Jeddah,Budget Shopper
+143,Male,40,Dammam,Regular Family
+144,Male,30,Taif,Occasional
+145,Male,25,Jeddah,Premium
+146,Female,50,Khobar,Premium
+147,Female,43,Taif,Premium
+148,Male,44,Jeddah,Budget Shopper
+149,Male,30,Riyadh,Budget Shopper
+150,Male,54,Taif,Premium
+151,Female,33,Khobar,Occasional
+152,Male,27,Taif,Regular Family
+153,Female,30,Buraidah,Budget Shopper
+154,Female,53,Khobar,Budget Shopper
+155,Male,24,Dammam,Regular Family
+156,Female,28,Dammam,Budget Shopper
+157,Female,68,Riyadh,Budget Shopper
+158,Female,46,Dammam,Regular Family
+159,Male,28,Tabuk,Regular Family
+160,Female,24,Taif,Regular Family
+161,Male,18,Taif,Regular Family
+162,Female,37,Taif,Regular Family
+163,Male,44,Riyadh,Budget Shopper
+164,Male,53,Dammam,Regular Family
+165,Female,18,Riyadh,Budget Shopper
+166,Male,21,Makkah,Occasional
+167,Male,35,Taif,Budget Shopper
+168,Female,67,Buraidah,Premium
+169,Male,46,Buraidah,Regular Family
+170,Female,40,Jeddah,Regular Family
+171,Female,23,Dammam,Premium
+172,Male,18,Jeddah,Budget Shopper
+173,Female,36,Khobar,Regular Family
+174,Female,35,Jeddah,Budget Shopper
+175,Female,33,Tabuk,Regular Family
+176,Female,32,Dammam,Occasional
+177,Female,28,Madinah,Regular Family
+178,Female,25,Buraidah,Premium
+179,Male,51,Jeddah,Budget Shopper
+180,Female,26,Makkah,Regular Family
+181,Male,33,Tabuk,Premium
+182,Male,36,Taif,Budget Shopper
+183,Male,44,Riyadh,Budget Shopper
+184,Female,27,Madinah,Budget Shopper
+185,Male,47,Dammam,Budget Shopper
+186,Male,30,Jeddah,Occasional
+187,Male,34,Riyadh,Budget Shopper
+188,Male,54,Khobar,Budget Shopper
+189,Female,25,Jeddah,Budget Shopper
+190,Male,44,Makkah,Budget Shopper
+191,Male,47,Jeddah,Regular Family
+192,Female,39,Riyadh,Budget Shopper
+193,Male,35,Abha,Budget Shopper
+194,Male,59,Riyadh,Budget Shopper
+195,Female,36,Jeddah,Premium
+196,Female,38,Riyadh,Regular Family
+197,Male,32,Jeddah,Premium
+198,Female,38,Dammam,Budget Shopper
+199,Female,47,Tabuk,Regular Family
+200,Female,33,Makkah,Occasional
+201,Male,18,Riyadh,Budget Shopper
+202,Female,42,Riyadh,Regular Family
+203,Female,24,Tabuk,Budget Shopper
+204,Female,44,Riyadh,Budget Shopper
+205,Female,36,Riyadh,Regular Family
+206,Female,46,Riyadh,Regular Family
+207,Female,26,Abha,Regular Family
+208,Male,30,Madinah,Regular Family
+209,Male,32,Jeddah,Regular Family
+210,Female,20,Riyadh,Regular Family
+211,Male,48,Abha,Occasional
+212,Female,18,Riyadh,Premium
+213,Female,48,Dammam,Budget Shopper
+214,Female,41,Tabuk,Budget Shopper
+215,Male,34,Riyadh,Premium
+216,Female,40,Jeddah,Budget Shopper
+217,Female,39,Makkah,Occasional
+218,Male,32,Makkah,Occasional
+219,Female,39,Dammam,Budget Shopper
+220,Male,44,Dammam,Occasional
+221,Female,26,Jeddah,Budget Shopper
+222,Male,40,Dammam,Budget Shopper
+223,Female,18,Jeddah,Occasional
+224,Male,18,Jeddah,Premium
+225,Male,42,Jeddah,Regular Family
+226,Male,31,Dammam,Occasional
+227,Male,27,Jeddah,Budget Shopper
+228,Female,35,Khobar,Premium
+229,Female,32,Makkah,Occasional
+230,Male,25,Taif,Occasional
+231,Male,18,Makkah,Regular Family
+232,Female,18,Madinah,Regular Family
+233,Male,44,Riyadh,Occasional
+234,Male,31,Abha,Budget Shopper
+235,Male,47,Dammam,Occasional
+236,Female,31,Buraidah,Regular Family
+237,Female,40,Taif,Budget Shopper
+238,Male,35,Riyadh,Budget Shopper
+239,Female,36,Buraidah,Regular Family
+240,Female,37,Makkah,Budget Shopper
+241,Female,31,Madinah,Regular Family
+242,Female,22,Dammam,Occasional
+243,Female,44,Jeddah,Budget Shopper
+244,Female,54,Tabuk,Regular Family
+245,Female,54,Riyadh,Regular Family
+246,Male,30,Khobar,Regular Family
+247,Female,28,Riyadh,Regular Family
+248,Female,30,Jeddah,Occasional
+249,Male,34,Madinah,Regular Family
+250,Male,35,Abha,Regular Family
+251,Male,25,Buraidah,Budget Shopper
+252,Male,20,Madinah,Regular Family
+253,Male,37,Makkah,Budget Shopper
+254,Male,18,Taif,Regular Family
+255,Male,35,Khobar,Regular Family
+256,Female,26,Makkah,Premium
+257,Male,45,Buraidah,Regular Family
+258,Male,48,Abha,Regular Family
+259,Male,48,Abha,Budget Shopper
+260,Male,32,Khobar,Premium
+261,Male,24,Dammam,Occasional
+262,Female,27,Makkah,Regular Family
+263,Male,39,Madinah,Budget Shopper
+264,Male,18,Khobar,Regular Family
+265,Female,51,Riyadh,Budget Shopper
+266,Female,32,Riyadh,Regular Family
+267,Male,42,Dammam,Budget Shopper
+268,Male,18,Riyadh,Regular Family
+269,Female,26,Jeddah,Occasional
+270,Male,18,Riyadh,Budget Shopper
+271,Male,47,Riyadh,Regular Family
+272,Female,34,Tabuk,Budget Shopper
+273,Female,42,Khobar,Budget Shopper
+274,Female,37,Abha,Regular Family
+275,Male,41,Riyadh,Premium
+276,Female,32,Jeddah,Occasional
+277,Female,34,Riyadh,Budget Shopper
+278,Female,35,Riyadh,Budget Shopper
+279,Male,40,Riyadh,Regular Family
+280,Male,41,Dammam,Regular Family
+281,Male,67,Riyadh,Premium
+282,Female,54,Abha,Premium
+283,Male,18,Dammam,Occasional
+284,Male,34,Riyadh,Budget Shopper
+285,Male,32,Tabuk,Occasional
+286,Male,50,Dammam,Occasional
+287,Female,33,Jeddah,Budget Shopper
+288,Male,41,Khobar,Regular Family
+289,Male,18,Makkah,Premium
+290,Female,19,Khobar,Regular Family
+291,Female,59,Taif,Budget Shopper
+292,Female,37,Jeddah,Regular Family
+293,Female,25,Jeddah,Regular Family
+294,Male,39,Buraidah,Occasional
+295,Male,24,Makkah,Occasional
+296,Male,33,Taif,Occasional
+297,Female,20,Abha,Regular Family
+298,Female,27,Dammam,Premium
+299,Male,31,Makkah,Budget Shopper
+300,Female,48,Jeddah,Regular Family
+301,Female,41,Riyadh,Occasional
+302,Female,43,Jeddah,Occasional
+303,Male,36,Jeddah,Premium
+304,Male,45,Makkah,Budget Shopper
+305,Female,26,Makkah,Budget Shopper
+306,Female,28,Taif,Premium
+307,Female,40,Riyadh,Regular Family
+308,Female,33,Dammam,Regular Family
+309,Male,36,Jeddah,Occasional
+310,Female,34,Dammam,Budget Shopper
+311,Male,50,Riyadh,Regular Family
+312,Male,50,Dammam,Budget Shopper
+313,Male,29,Makkah,Budget Shopper
+314,Male,18,Jeddah,Budget Shopper
+315,Male,28,Makkah,Budget Shopper
+316,Female,26,Jeddah,Regular Family
+317,Female,45,Jeddah,Regular Family
+318,Male,46,Buraidah,Regular Family
+319,Male,25,Riyadh,Occasional
+320,Male,28,Jeddah,Regular Family
+321,Male,20,Taif,Regular Family
+322,Male,37,Riyadh,Regular Family
+323,Female,36,Jeddah,Regular Family
+324,Female,45,Dammam,Regular Family
+325,Male,41,Makkah,Occasional
+326,Female,43,Makkah,Regular Family
+327,Female,19,Makkah,Regular Family
+328,Male,29,Taif,Regular Family
+329,Male,46,Jeddah,Occasional
+330,Male,30,Dammam,Regular Family
+331,Male,18,Taif,Regular Family
+332,Female,45,Riyadh,Regular Family
+333,Male,30,Taif,Premium
+334,Male,48,Taif,Regular Family
+335,Male,36,Taif,Occasional
+336,Male,33,Riyadh,Occasional
+337,Female,51,Khobar,Budget Shopper
+338,Male,22,Tabuk,Regular Family
+339,Female,52,Jeddah,Occasional
+340,Male,29,Khobar,Budget Shopper
+341,Male,38,Jeddah,Regular Family
+342,Male,38,Riyadh,Budget Shopper
+343,Female,31,Buraidah,Budget Shopper
+344,Male,28,Taif,Regular Family
+345,Female,32,Riyadh,Premium
+346,Male,25,Riyadh,Premium
+347,Female,58,Khobar,Budget Shopper
+348,Female,31,Riyadh,Regular Family
+349,Female,49,Makkah,Regular Family
+350,Male,47,Madinah,Regular Family
+351,Male,40,Jeddah,Regular Family
+352,Female,35,Abha,Occasional
+353,Female,38,Riyadh,Occasional
+354,Male,42,Jeddah,Premium
+355,Male,37,Tabuk,Regular Family
+356,Male,19,Riyadh,Regular Family
+357,Male,18,Jeddah,Regular Family
+358,Male,53,Makkah,Premium
+359,Male,18,Riyadh,Occasional
+360,Male,38,Dammam,Occasional
+361,Female,33,Tabuk,Regular Family
+362,Female,38,Jeddah,Premium
+363,Female,23,Dammam,Regular Family
+364,Male,40,Riyadh,Budget Shopper
+365,Female,38,Madinah,Premium
+366,Male,66,Jeddah,Occasional
+367,Female,37,Buraidah,Occasional
+368,Male,51,Riyadh,Occasional
+369,Male,20,Abha,Regular Family
+370,Female,47,Tabuk,Premium
+371,Male,38,Abha,Regular Family
+372,Female,39,Madinah,Regular Family
+373,Female,39,Riyadh,Budget Shopper
+374,Male,55,Jeddah,Regular Family
+375,Male,39,Jeddah,Budget Shopper
+376,Female,27,Riyadh,Premium
+377,Female,29,Dammam,Occasional
+378,Female,45,Madinah,Premium
+379,Male,41,Dammam,Budget Shopper
+380,Female,19,Taif,Regular Family
+381,Male,42,Madinah,Regular Family
+382,Male,24,Dammam,Premium
+383,Female,41,Jeddah,Budget Shopper
+384,Male,27,Khobar,Regular Family
+385,Male,33,Dammam,Occasional
+386,Male,30,Riyadh,Budget Shopper
+387,Female,53,Dammam,Premium
+388,Female,40,Makkah,Occasional
+389,Female,50,Jeddah,Premium
+390,Male,68,Jeddah,Occasional
+391,Male,37,Riyadh,Premium
+392,Female,53,Jeddah,Regular Family
+393,Male,28,Riyadh,Regular Family
+394,Male,50,Abha,Budget Shopper
+395,Male,27,Makkah,Budget Shopper
+396,Female,36,Jeddah,Regular Family
+397,Female,42,Taif,Budget Shopper
+398,Male,44,Makkah,Regular Family
+399,Male,22,Riyadh,Occasional
+400,Female,26,Tabuk,Budget Shopper
+401,Female,43,Abha,Budget Shopper
+402,Male,32,Dammam,Premium
+403,Male,21,Riyadh,Budget Shopper
+404,Female,35,Tabuk,Regular Family
+405,Female,35,Riyadh,Budget Shopper
+406,Female,38,Jeddah,Premium
+407,Female,42,Tabuk,Regular Family
+408,Female,41,Tabuk,Regular Family
+409,Male,28,Makkah,Budget Shopper
+410,Male,31,Riyadh,Premium
+411,Male,46,Jeddah,Regular Family
+412,Female,30,Buraidah,Regular Family
+413,Male,32,Madinah,Budget Shopper
+414,Male,19,Tabuk,Budget Shopper
+415,Male,36,Riyadh,Budget Shopper
+416,Female,40,Taif,Budget Shopper
+417,Female,18,Riyadh,Budget Shopper
+418,Male,24,Jeddah,Budget Shopper
+419,Male,20,Tabuk,Occasional
+420,Female,45,Jeddah,Regular Family
+421,Male,18,Makkah,Regular Family
+422,Female,35,Khobar,Budget Shopper
+423,Male,44,Buraidah,Budget Shopper
+424,Female,38,Riyadh,Occasional
+425,Male,31,Riyadh,Budget Shopper
+426,Female,40,Makkah,Occasional
+427,Male,47,Tabuk,Premium
+428,Male,35,Buraidah,Regular Family
+429,Female,18,Jeddah,Premium
+430,Female,49,Madinah,Premium
+431,Female,40,Jeddah,Occasional
+432,Female,36,Jeddah,Regular Family
+433,Female,18,Riyadh,Budget Shopper
+434,Female,33,Jeddah,Regular Family
+435,Male,26,Riyadh,Budget Shopper
+436,Female,23,Jeddah,Regular Family
+437,Male,34,Jeddah,Regular Family
+438,Male,30,Buraidah,Budget Shopper
+439,Female,31,Riyadh,Occasional
+440,Male,44,Tabuk,Occasional
+441,Male,39,Buraidah,Budget Shopper
+442,Male,31,Dammam,Budget Shopper
+443,Male,29,Madinah,Regular Family
+444,Female,31,Jeddah,Budget Shopper
+445,Male,33,Riyadh,Budget Shopper
+446,Male,42,Madinah,Occasional
+447,Male,25,Makkah,Budget Shopper
+448,Male,52,Dammam,Budget Shopper
+449,Male,42,Buraidah,Regular Family
+450,Male,18,Madinah,Budget Shopper
+451,Female,37,Jeddah,Occasional
+452,Female,47,Riyadh,Occasional
+453,Male,40,Buraidah,Regular Family
+454,Male,31,Taif,Budget Shopper
+455,Male,35,Makkah,Occasional
+456,Male,38,Abha,Premium
+457,Male,44,Dammam,Regular Family
+458,Female,20,Riyadh,Regular Family
+459,Female,29,Buraidah,Regular Family
+460,Male,54,Madinah,Budget Shopper
+461,Male,36,Khobar,Regular Family
+462,Female,53,Madinah,Premium
+463,Female,69,Dammam,Regular Family
+464,Male,31,Riyadh,Premium
+465,Female,23,Makkah,Premium
+466,Male,33,Riyadh,Premium
+467,Female,48,Riyadh,Regular Family
+468,Male,50,Riyadh,Budget Shopper
+469,Female,61,Jeddah,Premium
+470,Male,36,Buraidah,Occasional
+471,Female,41,Riyadh,Budget Shopper
+472,Female,28,Jeddah,Occasional
+473,Female,18,Abha,Occasional
+474,Female,36,Buraidah,Premium
+475,Male,23,Madinah,Budget Shopper
+476,Female,43,Taif,Premium
+477,Male,18,Madinah,Regular Family
+478,Female,28,Madinah,Regular Family
+479,Male,39,Jeddah,Budget Shopper
+480,Male,40,Jeddah,Premium
+481,Male,35,Dammam,Regular Family
+482,Female,57,Abha,Regular Family
+483,Female,53,Makkah,Regular Family
+484,Male,28,Abha,Regular Family
+485,Female,54,Makkah,Regular Family
+486,Male,55,Madinah,Regular Family
+487,Male,35,Riyadh,Budget Shopper
+488,Male,36,Jeddah,Regular Family
+489,Female,35,Khobar,Budget Shopper
+490,Female,29,Riyadh,Premium
+491,Female,30,Buraidah,Regular Family
+492,Male,51,Riyadh,Premium
+493,Male,41,Riyadh,Regular Family
+494,Female,30,Makkah,Budget Shopper
+495,Male,26,Riyadh,Budget Shopper
+496,Female,28,Khobar,Budget Shopper
+497,Female,34,Riyadh,Regular Family
+498,Male,46,Riyadh,Premium
+499,Male,27,Madinah,Budget Shopper
+500,Female,46,Jeddah,Regular Family
+501,Female,38,Khobar,Budget Shopper
+502,Female,38,Riyadh,Regular Family
+503,Female,47,Khobar,Regular Family
+504,Male,45,Jeddah,Budget Shopper
+505,Female,21,Riyadh,Budget Shopper
+506,Female,24,Madinah,Premium
+507,Female,33,Khobar,Regular Family
+508,Male,40,Buraidah,Regular Family
+509,Male,51,Tabuk,Premium
+510,Male,37,Khobar,Budget Shopper
+511,Male,55,Riyadh,Occasional
+512,Female,28,Abha,Premium
+513,Female,30,Khobar,Regular Family
+514,Female,33,Tabuk,Regular Family
+515,Female,27,Khobar,Regular Family
+516,Male,49,Riyadh,Premium
+517,Female,18,Tabuk,Budget Shopper
+518,Female,30,Abha,Premium
+519,Female,49,Riyadh,Regular Family
+520,Female,33,Madinah,Premium
+521,Female,48,Dammam,Occasional
+522,Female,60,Khobar,Budget Shopper
+523,Male,37,Buraidah,Regular Family
+524,Female,49,Riyadh,Regular Family
+525,Male,63,Riyadh,Regular Family
+526,Male,40,Riyadh,Budget Shopper
+527,Female,35,Buraidah,Regular Family
+528,Female,46,Riyadh,Premium
+529,Female,49,Makkah,Occasional
+530,Male,36,Abha,Premium
+531,Male,31,Tabuk,Regular Family
+532,Male,55,Riyadh,Budget Shopper
+533,Female,33,Riyadh,Budget Shopper
+534,Female,49,Taif,Regular Family
+535,Female,39,Dammam,Regular Family
+536,Male,56,Riyadh,Occasional
+537,Female,27,Riyadh,Regular Family
+538,Male,27,Tabuk,Budget Shopper
+539,Female,45,Buraidah,Budget Shopper
+540,Female,24,Dammam,Regular Family
+541,Male,37,Jeddah,Regular Family
+542,Female,53,Madinah,Budget Shopper
+543,Female,18,Riyadh,Budget Shopper
+544,Male,40,Buraidah,Regular Family
+545,Male,49,Jeddah,Regular Family
+546,Female,36,Riyadh,Occasional
+547,Female,26,Jeddah,Occasional
+548,Female,33,Riyadh,Budget Shopper
+549,Male,27,Jeddah,Premium
+550,Female,37,Madinah,Regular Family
+551,Male,33,Dammam,Occasional
+552,Male,30,Makkah,Regular Family
+553,Male,41,Riyadh,Budget Shopper
+554,Male,53,Jeddah,Budget Shopper
+555,Male,40,Dammam,Occasional
+556,Male,51,Khobar,Occasional
+557,Male,53,Riyadh,Regular Family
+558,Female,30,Tabuk,Regular Family
+559,Male,39,Riyadh,Regular Family
+560,Male,31,Riyadh,Premium
+561,Female,20,Riyadh,Regular Family
+562,Female,40,Makkah,Budget Shopper
+563,Female,24,Riyadh,Regular Family
+564,Male,41,Riyadh,Regular Family
+565,Female,19,Dammam,Regular Family
+566,Female,38,Jeddah,Occasional
+567,Female,19,Riyadh,Occasional
+568,Female,43,Makkah,Budget Shopper
+569,Male,32,Makkah,Occasional
+570,Male,31,Riyadh,Premium
+571,Male,48,Riyadh,Regular Family
+572,Male,32,Jeddah,Budget Shopper
+573,Female,37,Taif,Regular Family
+574,Male,34,Abha,Occasional
+575,Female,42,Jeddah,Regular Family
+576,Female,47,Taif,Regular Family
+577,Female,45,Dammam,Budget Shopper
+578,Male,31,Jeddah,Regular Family
+579,Female,49,Taif,Regular Family
+580,Male,26,Madinah,Regular Family
+581,Male,28,Khobar,Occasional
+582,Male,35,Makkah,Regular Family
+583,Male,48,Taif,Budget Shopper
+584,Female,23,Riyadh,Budget Shopper
+585,Male,46,Jeddah,Budget Shopper
+586,Female,35,Jeddah,Budget Shopper
+587,Male,31,Taif,Regular Family
+588,Female,48,Riyadh,Premium
+589,Male,27,Riyadh,Regular Family
+590,Female,61,Dammam,Occasional
+591,Male,34,Riyadh,Occasional
+592,Female,38,Madinah,Budget Shopper
+593,Female,53,Jeddah,Premium
+594,Female,38,Tabuk,Budget Shopper
+595,Male,49,Madinah,Budget Shopper
+596,Female,18,Dammam,Budget Shopper
+597,Female,31,Tabuk,Budget Shopper
+598,Female,40,Riyadh,Premium
+599,Female,48,Khobar,Premium
+600,Female,44,Makkah,Regular Family
+601,Female,43,Riyadh,Regular Family
+602,Female,48,Riyadh,Premium
+603,Male,41,Khobar,Premium
+604,Male,18,Dammam,Occasional
+605,Female,52,Makkah,Premium
+606,Female,27,Riyadh,Regular Family
+607,Male,39,Riyadh,Regular Family
+608,Male,38,Taif,Regular Family
+609,Male,37,Riyadh,Budget Shopper
+610,Male,24,Taif,Occasional
+611,Female,18,Madinah,Occasional
+612,Female,25,Makkah,Occasional
+613,Male,45,Jeddah,Budget Shopper
+614,Male,20,Buraidah,Budget Shopper
+615,Male,26,Buraidah,Budget Shopper
+616,Female,41,Madinah,Occasional
+617,Female,25,Madinah,Regular Family
+618,Male,30,Dammam,Premium
+619,Male,37,Riyadh,Occasional
+620,Female,39,Taif,Budget Shopper
+621,Female,24,Riyadh,Regular Family
+622,Female,38,Dammam,Premium
+623,Male,40,Jeddah,Budget Shopper
+624,Female,22,Abha,Regular Family
+625,Female,38,Madinah,Regular Family
+626,Female,28,Makkah,Regular Family
+627,Male,37,Riyadh,Occasional
+628,Male,44,Riyadh,Budget Shopper
+629,Male,34,Riyadh,Regular Family
+630,Female,46,Taif,Occasional
+631,Female,45,Riyadh,Regular Family
+632,Male,46,Taif,Premium
+633,Female,40,Riyadh,Occasional
+634,Female,48,Buraidah,Budget Shopper
+635,Male,40,Khobar,Budget Shopper
+636,Female,18,Tabuk,Budget Shopper
+637,Female,27,Makkah,Budget Shopper
+638,Male,34,Abha,Regular Family
+639,Female,35,Madinah,Budget Shopper
+640,Male,40,Jeddah,Regular Family
+641,Female,27,Taif,Premium
+642,Female,58,Makkah,Budget Shopper
+643,Female,35,Riyadh,Regular Family
+644,Female,36,Jeddah,Budget Shopper
+645,Male,29,Khobar,Premium
+646,Male,25,Buraidah,Regular Family
+647,Female,35,Abha,Budget Shopper
+648,Male,36,Jeddah,Occasional
+649,Female,35,Madinah,Premium
+650,Male,54,Riyadh,Premium
+651,Male,35,Jeddah,Premium
+652,Male,35,Tabuk,Regular Family
+653,Female,45,Riyadh,Budget Shopper
+654,Male,34,Jeddah,Regular Family
+655,Female,42,Riyadh,Occasional
+656,Male,22,Riyadh,Occasional
+657,Female,22,Riyadh,Regular Family
+658,Female,37,Riyadh,Regular Family
+659,Female,33,Dammam,Premium
+660,Male,27,Buraidah,Premium
+661,Female,37,Riyadh,Budget Shopper
+662,Male,38,Buraidah,Regular Family
+663,Female,28,Makkah,Budget Shopper
+664,Male,30,Riyadh,Regular Family
+665,Female,38,Jeddah,Premium
+666,Female,25,Riyadh,Regular Family
+667,Female,29,Abha,Regular Family
+668,Female,42,Madinah,Regular Family
+669,Female,36,Jeddah,Budget Shopper
+670,Male,31,Riyadh,Premium
+671,Female,26,Riyadh,Regular Family
+672,Female,25,Makkah,Occasional
+673,Male,35,Riyadh,Premium
+674,Male,58,Khobar,Occasional
+675,Female,42,Makkah,Budget Shopper
+676,Male,21,Madinah,Regular Family
+677,Female,44,Riyadh,Regular Family
+678,Female,28,Dammam,Premium
+679,Female,36,Dammam,Regular Family
+680,Male,30,Tabuk,Budget Shopper
+681,Male,58,Dammam,Regular Family
+682,Female,24,Jeddah,Premium
+683,Male,39,Riyadh,Budget Shopper
+684,Male,28,Madinah,Premium
+685,Male,44,Makkah,Occasional
+686,Male,39,Madinah,Budget Shopper
+687,Male,50,Makkah,Regular Family
+688,Male,44,Buraidah,Occasional
+689,Female,28,Buraidah,Budget Shopper
+690,Female,68,Jeddah,Budget Shopper
+691,Female,42,Riyadh,Regular Family
+692,Female,30,Buraidah,Regular Family
+693,Male,38,Madinah,Premium
+694,Male,43,Taif,Regular Family
+695,Female,43,Dammam,Regular Family
+696,Male,41,Taif,Regular Family
+697,Male,47,Riyadh,Budget Shopper
+698,Male,46,Khobar,Regular Family
+699,Female,27,Dammam,Budget Shopper
+700,Male,59,Riyadh,Occasional
+701,Male,58,Riyadh,Budget Shopper
+702,Male,45,Riyadh,Budget Shopper
+703,Female,36,Riyadh,Premium
+704,Male,37,Taif,Budget Shopper
+705,Female,32,Taif,Regular Family
+706,Male,34,Buraidah,Occasional
+707,Male,18,Taif,Premium
+708,Male,53,Tabuk,Budget Shopper
+709,Male,49,Taif,Budget Shopper
+710,Male,18,Riyadh,Regular Family
+711,Female,46,Jeddah,Regular Family
+712,Male,36,Buraidah,Budget Shopper
+713,Female,34,Dammam,Budget Shopper
+714,Male,41,Madinah,Occasional
+715,Male,18,Khobar,Regular Family
+716,Female,36,Jeddah,Premium
+717,Female,37,Jeddah,Budget Shopper
+718,Male,37,Madinah,Regular Family
+719,Male,21,Khobar,Regular Family
+720,Female,41,Jeddah,Regular Family
+721,Male,48,Makkah,Regular Family
+722,Female,40,Jeddah,Budget Shopper
+723,Female,33,Dammam,Occasional
+724,Male,66,Makkah,Premium
+725,Female,26,Dammam,Budget Shopper
+726,Male,45,Taif,Regular Family
+727,Female,39,Dammam,Occasional
+728,Female,58,Taif,Regular Family
+729,Female,40,Tabuk,Regular Family
+730,Female,43,Buraidah,Premium
+731,Female,42,Abha,Budget Shopper
+732,Male,24,Makkah,Premium
+733,Male,26,Khobar,Budget Shopper
+734,Male,33,Khobar,Premium
+735,Male,47,Riyadh,Regular Family
+736,Female,39,Riyadh,Budget Shopper
+737,Male,34,Riyadh,Occasional
+738,Female,51,Madinah,Regular Family
+739,Male,18,Riyadh,Regular Family
+740,Male,22,Khobar,Premium
+741,Male,18,Riyadh,Regular Family
+742,Female,49,Riyadh,Budget Shopper
+743,Male,35,Khobar,Premium
+744,Male,47,Buraidah,Occasional
+745,Male,35,Jeddah,Budget Shopper
+746,Female,47,Buraidah,Occasional
+747,Male,35,Riyadh,Regular Family
+748,Female,41,Dammam,Budget Shopper
+749,Male,39,Riyadh,Premium
+750,Male,40,Jeddah,Regular Family
+751,Female,55,Riyadh,Premium
+752,Female,18,Riyadh,Regular Family
+753,Female,35,Madinah,Budget Shopper
+754,Male,38,Makkah,Budget Shopper
+755,Female,37,Riyadh,Regular Family
+756,Female,32,Buraidah,Regular Family
+757,Female,30,Madinah,Occasional
+758,Male,53,Jeddah,Occasional
+759,Male,35,Jeddah,Occasional
+760,Male,63,Jeddah,Regular Family
+761,Female,42,Tabuk,Budget Shopper
+762,Female,33,Dammam,Premium
+763,Male,42,Riyadh,Budget Shopper
+764,Male,37,Riyadh,Budget Shopper
+765,Male,51,Jeddah,Budget Shopper
+766,Male,23,Jeddah,Occasional
+767,Female,18,Khobar,Premium
+768,Male,40,Taif,Budget Shopper
+769,Male,45,Jeddah,Occasional
+770,Male,39,Jeddah,Premium
+771,Male,43,Riyadh,Regular Family
+772,Female,42,Jeddah,Budget Shopper
+773,Male,20,Makkah,Regular Family
+774,Female,39,Taif,Regular Family
+775,Female,50,Madinah,Regular Family
+776,Female,38,Riyadh,Regular Family
+777,Male,22,Buraidah,Budget Shopper
+778,Female,32,Tabuk,Regular Family
+779,Female,42,Riyadh,Regular Family
+780,Male,56,Taif,Occasional
+781,Female,18,Madinah,Budget Shopper
+782,Male,40,Abha,Premium
+783,Male,26,Dammam,Occasional
+784,Male,42,Riyadh,Premium
+785,Female,42,Abha,Regular Family
+786,Male,33,Dammam,Premium
+787,Male,43,Taif,Occasional
+788,Male,49,Riyadh,Premium
+789,Male,34,Jeddah,Budget Shopper
+790,Male,21,Madinah,Budget Shopper
+791,Female,52,Khobar,Budget Shopper
+792,Male,45,Dammam,Budget Shopper
+793,Female,42,Madinah,Premium
+794,Female,28,Madinah,Budget Shopper
+795,Female,47,Khobar,Premium
+796,Female,58,Jeddah,Premium
+797,Male,35,Makkah,Regular Family
+798,Female,37,Khobar,Budget Shopper
+799,Male,24,Abha,Regular Family
+800,Male,28,Makkah,Budget Shopper
+801,Male,24,Dammam,Occasional
+802,Female,37,Riyadh,Regular Family
+803,Female,32,Riyadh,Budget Shopper
+804,Male,40,Jeddah,Budget Shopper
+805,Female,26,Makkah,Regular Family
+806,Male,34,Abha,Regular Family
+807,Male,26,Taif,Occasional
+808,Male,38,Khobar,Budget Shopper
+809,Female,18,Madinah,Budget Shopper
+810,Male,38,Makkah,Premium
+811,Male,33,Dammam,Regular Family
+812,Male,38,Makkah,Regular Family
+813,Female,18,Jeddah,Occasional
+814,Female,43,Dammam,Regular Family
+815,Male,33,Buraidah,Regular Family
+816,Female,38,Khobar,Occasional
+817,Female,18,Riyadh,Budget Shopper
+818,Male,22,Dammam,Budget Shopper
+819,Male,32,Taif,Budget Shopper
+820,Female,51,Riyadh,Budget Shopper
+821,Male,42,Taif,Regular Family
+822,Male,37,Taif,Occasional
+823,Female,26,Khobar,Occasional
+824,Female,24,Jeddah,Premium
+825,Female,39,Riyadh,Occasional
+826,Female,44,Riyadh,Regular Family
+827,Male,38,Jeddah,Regular Family
+828,Female,55,Abha,Budget Shopper
+829,Male,28,Taif,Regular Family
+830,Female,38,Riyadh,Regular Family
+831,Male,18,Dammam,Budget Shopper
+832,Male,38,Dammam,Occasional
+833,Male,52,Jeddah,Budget Shopper
+834,Female,25,Khobar,Premium
+835,Male,45,Buraidah,Budget Shopper
+836,Female,52,Dammam,Regular Family
+837,Male,28,Riyadh,Premium
+838,Male,41,Makkah,Budget Shopper
+839,Female,53,Riyadh,Budget Shopper
+840,Male,39,Taif,Regular Family
+841,Female,45,Taif,Regular Family
+842,Female,18,Riyadh,Regular Family
+843,Female,43,Khobar,Regular Family
+844,Male,42,Abha,Budget Shopper
+845,Female,21,Dammam,Budget Shopper
+846,Female,25,Dammam,Occasional
+847,Female,43,Taif,Budget Shopper
+848,Female,33,Riyadh,Regular Family
+849,Male,48,Dammam,Premium
+850,Female,39,Riyadh,Occasional
+851,Male,37,Jeddah,Budget Shopper
+852,Female,34,Buraidah,Regular Family
+853,Female,39,Madinah,Regular Family
+854,Female,45,Makkah,Budget Shopper
+855,Male,42,Riyadh,Budget Shopper
+856,Female,31,Buraidah,Occasional
+857,Male,50,Jeddah,Regular Family
+858,Male,43,Khobar,Budget Shopper
+859,Female,40,Riyadh,Regular Family
+860,Male,37,Dammam,Regular Family
+861,Male,42,Khobar,Budget Shopper
+862,Female,18,Jeddah,Budget Shopper
+863,Female,39,Dammam,Regular Family
+864,Female,54,Jeddah,Regular Family
+865,Female,38,Madinah,Regular Family
+866,Female,37,Khobar,Budget Shopper
+867,Male,29,Buraidah,Regular Family
+868,Male,41,Riyadh,Premium
+869,Female,34,Riyadh,Regular Family
+870,Female,50,Riyadh,Budget Shopper
+871,Male,27,Riyadh,Budget Shopper
+872,Male,31,Dammam,Occasional
+873,Female,29,Riyadh,Budget Shopper
+874,Female,56,Riyadh,Regular Family
+875,Female,34,Jeddah,Premium
+876,Female,30,Dammam,Premium
+877,Female,18,Madinah,Occasional
+878,Female,26,Dammam,Regular Family
+879,Male,42,Taif,Occasional
+880,Female,42,Riyadh,Budget Shopper
+881,Female,29,Dammam,Occasional
+882,Female,29,Jeddah,Budget Shopper
+883,Male,56,Tabuk,Occasional
+884,Female,66,Riyadh,Occasional
+885,Female,49,Taif,Premium
+886,Male,53,Madinah,Regular Family
+887,Female,55,Khobar,Budget Shopper
+888,Female,60,Khobar,Regular Family
+889,Female,33,Jeddah,Budget Shopper
+890,Female,26,Riyadh,Premium
+891,Male,56,Buraidah,Budget Shopper
+892,Female,25,Abha,Budget Shopper
+893,Male,25,Riyadh,Budget Shopper
+894,Female,25,Riyadh,Premium
+895,Female,35,Jeddah,Regular Family
+896,Female,18,Abha,Regular Family
+897,Female,20,Dammam,Budget Shopper
+898,Female,29,Makkah,Regular Family
+899,Male,23,Riyadh,Regular Family
+900,Male,48,Buraidah,Budget Shopper
+901,Male,36,Riyadh,Premium
+902,Female,42,Jeddah,Regular Family
+903,Female,41,Taif,Occasional
+904,Female,34,Madinah,Budget Shopper
+905,Male,47,Dammam,Regular Family
+906,Female,41,Buraidah,Occasional
+907,Male,32,Riyadh,Occasional
+908,Female,18,Riyadh,Regular Family
+909,Female,42,Riyadh,Budget Shopper
+910,Female,22,Jeddah,Regular Family
+911,Female,40,Madinah,Regular Family
+912,Male,37,Khobar,Budget Shopper
+913,Male,21,Jeddah,Budget Shopper
+914,Female,39,Abha,Regular Family
+915,Female,38,Jeddah,Budget Shopper
+916,Male,38,Riyadh,Occasional
+917,Male,38,Jeddah,Budget Shopper
+918,Female,29,Abha,Occasional
+919,Male,43,Dammam,Regular Family
+920,Male,28,Taif,Occasional
+921,Male,24,Buraidah,Premium
+922,Female,43,Abha,Budget Shopper
+923,Male,46,Abha,Budget Shopper
+924,Male,43,Khobar,Budget Shopper
+925,Male,34,Buraidah,Premium
+926,Male,18,Khobar,Budget Shopper
+927,Female,52,Jeddah,Premium
+928,Male,18,Riyadh,Occasional
+929,Male,42,Tabuk,Regular Family
+930,Female,59,Jeddah,Premium
+931,Female,38,Abha,Occasional
+932,Male,39,Taif,Premium
+933,Male,40,Jeddah,Budget Shopper
+934,Female,38,Jeddah,Budget Shopper
+935,Female,62,Riyadh,Regular Family
+936,Female,27,Dammam,Budget Shopper
+937,Male,25,Makkah,Regular Family
+938,Female,32,Jeddah,Occasional
+939,Male,55,Dammam,Regular Family
+940,Male,30,Khobar,Budget Shopper
+941,Female,41,Jeddah,Budget Shopper
+942,Female,48,Riyadh,Occasional
+943,Male,45,Riyadh,Budget Shopper
+944,Male,47,Tabuk,Budget Shopper
+945,Female,52,Jeddah,Regular Family
+946,Male,39,Riyadh,Regular Family
+947,Male,31,Jeddah,Regular Family
+948,Male,38,Madinah,Regular Family
+949,Male,32,Abha,Regular Family
+950,Female,64,Jeddah,Budget Shopper
+951,Male,30,Khobar,Regular Family
+952,Female,41,Madinah,Premium
+953,Female,19,Buraidah,Regular Family
+954,Male,37,Makkah,Occasional
+955,Female,33,Madinah,Budget Shopper
+956,Male,43,Riyadh,Regular Family
+957,Female,44,Jeddah,Premium
+958,Female,52,Buraidah,Regular Family
+959,Female,51,Riyadh,Budget Shopper
+960,Male,35,Jeddah,Regular Family
+961,Female,26,Makkah,Occasional
+962,Female,27,Buraidah,Regular Family
+963,Male,39,Riyadh,Budget Shopper
+964,Male,38,Buraidah,Budget Shopper
+965,Male,39,Riyadh,Regular Family
+966,Male,30,Buraidah,Budget Shopper
+967,Male,52,Buraidah,Occasional
+968,Female,20,Abha,Occasional
+969,Female,30,Buraidah,Occasional
+970,Male,24,Taif,Regular Family
+971,Female,34,Buraidah,Regular Family
+972,Female,50,Dammam,Regular Family
+973,Male,33,Dammam,Budget Shopper
+974,Female,37,Riyadh,Regular Family
+975,Female,43,Riyadh,Budget Shopper
+976,Female,32,Makkah,Budget Shopper
+977,Male,40,Riyadh,Occasional
+978,Male,39,Taif,Premium
+979,Female,24,Riyadh,Occasional
+980,Male,31,Riyadh,Regular Family
+981,Male,40,Riyadh,Occasional
+982,Male,50,Riyadh,Regular Family
+983,Male,50,Riyadh,Budget Shopper
+984,Male,59,Khobar,Regular Family
+985,Female,41,Jeddah,Regular Family
+986,Male,31,Tabuk,Regular Family
+987,Female,35,Jeddah,Premium
+988,Female,35,Madinah,Regular Family
+989,Female,32,Madinah,Occasional
+990,Male,40,Riyadh,Budget Shopper
+991,Male,41,Riyadh,Premium
+992,Female,23,Tabuk,Occasional
+993,Female,48,Madinah,Regular Family
+994,Male,18,Riyadh,Occasional
+995,Female,34,Makkah,Premium
+996,Female,49,Jeddah,Budget Shopper
+997,Male,43,Riyadh,Premium
+998,Female,32,Riyadh,Premium
+999,Female,58,Abha,Budget Shopper
+1000,Female,31,Jeddah,Regular Family
+1001,Male,18,Khobar,Budget Shopper
+1002,Male,41,Riyadh,Budget Shopper
+1003,Male,18,Riyadh,Occasional
+1004,Male,27,Riyadh,Occasional
+1005,Male,43,Dammam,Premium
+1006,Female,31,Tabuk,Regular Family
+1007,Male,42,Abha,Regular Family
+1008,Male,23,Riyadh,Budget Shopper
+1009,Female,45,Riyadh,Regular Family
+1010,Male,18,Riyadh,Premium
+1011,Male,51,Buraidah,Regular Family
+1012,Female,31,Dammam,Regular Family
+1013,Female,53,Tabuk,Budget Shopper
+1014,Male,27,Jeddah,Occasional
+1015,Female,57,Khobar,Budget Shopper
+1016,Female,25,Khobar,Regular Family
+1017,Female,18,Makkah,Regular Family
+1018,Female,36,Dammam,Regular Family
+1019,Male,50,Riyadh,Regular Family
+1020,Male,45,Jeddah,Regular Family
+1021,Female,49,Taif,Regular Family
+1022,Male,45,Jeddah,Budget Shopper
+1023,Male,27,Madinah,Occasional
+1024,Male,44,Taif,Premium
+1025,Male,37,Khobar,Occasional
+1026,Male,28,Dammam,Budget Shopper
+1027,Male,38,Riyadh,Occasional
+1028,Female,35,Abha,Premium
+1029,Male,52,Buraidah,Regular Family
+1030,Female,30,Taif,Budget Shopper
+1031,Male,30,Riyadh,Budget Shopper
+1032,Male,28,Buraidah,Occasional
+1033,Female,57,Jeddah,Regular Family
+1034,Male,29,Makkah,Premium
+1035,Male,50,Riyadh,Premium
+1036,Female,25,Riyadh,Premium
+1037,Male,42,Makkah,Regular Family
+1038,Male,39,Dammam,Occasional
+1039,Female,50,Taif,Budget Shopper
+1040,Male,48,Jeddah,Occasional
+1041,Female,37,Buraidah,Regular Family
+1042,Male,30,Dammam,Budget Shopper
+1043,Male,54,Riyadh,Regular Family
+1044,Male,29,Riyadh,Premium
+1045,Female,18,Abha,Regular Family
+1046,Male,18,Tabuk,Budget Shopper
+1047,Female,18,Riyadh,Budget Shopper
+1048,Female,43,Jeddah,Premium
+1049,Female,60,Dammam,Budget Shopper
+1050,Male,18,Makkah,Budget Shopper
+1051,Female,27,Makkah,Premium
+1052,Female,37,Tabuk,Regular Family
+1053,Male,53,Jeddah,Budget Shopper
+1054,Female,27,Riyadh,Regular Family
+1055,Male,42,Riyadh,Regular Family
+1056,Female,33,Taif,Regular Family
+1057,Female,65,Khobar,Budget Shopper
+1058,Male,38,Riyadh,Regular Family
+1059,Male,40,Abha,Regular Family
+1060,Female,37,Khobar,Regular Family
+1061,Female,31,Jeddah,Budget Shopper
+1062,Female,46,Riyadh,Budget Shopper
+1063,Male,23,Abha,Regular Family
+1064,Female,18,Madinah,Budget Shopper
+1065,Female,34,Jeddah,Occasional
+1066,Female,45,Jeddah,Occasional
+1067,Male,30,Jeddah,Regular Family
+1068,Female,38,Makkah,Premium
+1069,Male,23,Jeddah,Regular Family
+1070,Female,48,Jeddah,Budget Shopper
+1071,Male,43,Jeddah,Regular Family
+1072,Female,36,Taif,Occasional
+1073,Male,38,Dammam,Budget Shopper
+1074,Male,21,Jeddah,Regular Family
+1075,Male,21,Dammam,Regular Family
+1076,Female,35,Madinah,Budget Shopper
+1077,Female,42,Buraidah,Regular Family
+1078,Female,42,Taif,Occasional
+1079,Female,32,Dammam,Budget Shopper
+1080,Male,44,Dammam,Budget Shopper
+1081,Male,52,Jeddah,Budget Shopper
+1082,Male,35,Abha,Premium
+1083,Male,39,Makkah,Regular Family
+1084,Female,34,Jeddah,Regular Family
+1085,Male,35,Dammam,Premium
+1086,Female,38,Riyadh,Occasional
+1087,Female,55,Madinah,Budget Shopper
+1088,Female,46,Jeddah,Occasional
+1089,Male,45,Jeddah,Regular Family
+1090,Female,31,Riyadh,Budget Shopper
+1091,Female,26,Riyadh,Budget Shopper
+1092,Male,40,Riyadh,Regular Family
+1093,Female,50,Madinah,Occasional
+1094,Male,55,Madinah,Regular Family
+1095,Female,18,Khobar,Regular Family
+1096,Female,63,Jeddah,Budget Shopper
+1097,Female,41,Buraidah,Budget Shopper
+1098,Female,46,Buraidah,Occasional
+1099,Female,18,Makkah,Occasional
+1100,Male,33,Makkah,Regular Family
+1101,Male,45,Abha,Budget Shopper
+1102,Female,23,Madinah,Budget Shopper
+1103,Female,18,Riyadh,Occasional
+1104,Female,40,Dammam,Budget Shopper
+1105,Male,35,Riyadh,Budget Shopper
+1106,Male,52,Tabuk,Premium
+1107,Female,34,Makkah,Occasional
+1108,Female,35,Taif,Budget Shopper
+1109,Male,44,Riyadh,Premium
+1110,Male,47,Dammam,Regular Family
+1111,Female,28,Madinah,Premium
+1112,Female,46,Buraidah,Budget Shopper
+1113,Male,30,Buraidah,Occasional
+1114,Female,36,Riyadh,Premium
+1115,Male,43,Taif,Occasional
+1116,Male,45,Taif,Regular Family
+1117,Male,40,Taif,Occasional
+1118,Male,24,Makkah,Regular Family
+1119,Female,18,Tabuk,Regular Family
+1120,Male,34,Riyadh,Budget Shopper
+1121,Female,47,Jeddah,Occasional
+1122,Male,41,Riyadh,Regular Family
+1123,Male,39,Dammam,Regular Family
+1124,Male,36,Taif,Premium
+1125,Male,39,Makkah,Premium
+1126,Female,25,Dammam,Regular Family
+1127,Female,45,Abha,Regular Family
+1128,Female,45,Khobar,Regular Family
+1129,Female,32,Dammam,Regular Family
+1130,Female,41,Makkah,Regular Family
+1131,Female,18,Dammam,Premium
+1132,Female,38,Makkah,Occasional
+1133,Female,35,Tabuk,Regular Family
+1134,Male,50,Dammam,Budget Shopper
+1135,Male,34,Jeddah,Regular Family
+1136,Female,46,Khobar,Occasional
+1137,Female,32,Buraidah,Occasional
+1138,Male,18,Jeddah,Budget Shopper
+1139,Female,34,Tabuk,Occasional
+1140,Male,38,Makkah,Budget Shopper
+1141,Female,38,Riyadh,Occasional
+1142,Female,38,Dammam,Occasional
+1143,Male,30,Riyadh,Regular Family
+1144,Female,32,Riyadh,Occasional
+1145,Female,24,Riyadh,Regular Family
+1146,Female,18,Madinah,Regular Family
+1147,Female,35,Makkah,Occasional
+1148,Female,28,Khobar,Budget Shopper
+1149,Male,48,Dammam,Budget Shopper
+1150,Female,18,Jeddah,Budget Shopper
+1151,Male,39,Buraidah,Regular Family
+1152,Male,59,Taif,Premium
+1153,Male,34,Abha,Occasional
+1154,Male,36,Jeddah,Occasional
+1155,Female,41,Buraidah,Occasional
+1156,Female,42,Tabuk,Premium
+1157,Female,32,Riyadh,Occasional
+1158,Male,25,Jeddah,Budget Shopper
+1159,Female,43,Jeddah,Premium
+1160,Female,18,Madinah,Budget Shopper
+1161,Male,45,Dammam,Budget Shopper
+1162,Female,32,Jeddah,Budget Shopper
+1163,Male,36,Riyadh,Budget Shopper
+1164,Female,30,Dammam,Occasional
+1165,Male,52,Makkah,Regular Family
+1166,Female,39,Dammam,Occasional
+1167,Female,32,Jeddah,Regular Family
+1168,Female,32,Makkah,Premium
+1169,Male,34,Taif,Regular Family
+1170,Male,62,Riyadh,Occasional
+1171,Female,22,Dammam,Budget Shopper
+1172,Male,48,Jeddah,Premium
+1173,Male,42,Riyadh,Occasional
+1174,Female,53,Buraidah,Premium
+1175,Female,43,Taif,Occasional
+1176,Female,36,Jeddah,Budget Shopper
+1177,Male,47,Jeddah,Regular Family
+1178,Male,39,Riyadh,Budget Shopper
+1179,Female,44,Makkah,Regular Family
+1180,Male,52,Riyadh,Budget Shopper
+1181,Male,37,Dammam,Premium
+1182,Male,31,Riyadh,Occasional
+1183,Female,29,Makkah,Premium
+1184,Male,41,Buraidah,Occasional
+1185,Female,26,Riyadh,Regular Family
+1186,Male,32,Abha,Budget Shopper
+1187,Male,25,Tabuk,Premium
+1188,Female,42,Riyadh,Budget Shopper
+1189,Female,28,Buraidah,Regular Family
+1190,Female,22,Makkah,Occasional
+1191,Female,24,Khobar,Regular Family
+1192,Male,30,Makkah,Budget Shopper
+1193,Male,31,Jeddah,Budget Shopper
+1194,Male,39,Riyadh,Premium
+1195,Male,34,Dammam,Budget Shopper
+1196,Female,40,Madinah,Regular Family
+1197,Female,41,Buraidah,Regular Family
+1198,Male,44,Dammam,Premium
+1199,Male,18,Jeddah,Occasional
+1200,Female,24,Riyadh,Budget Shopper
+1201,Female,42,Taif,Premium
+1202,Male,38,Riyadh,Budget Shopper
+1203,Male,47,Buraidah,Budget Shopper
+1204,Male,19,Riyadh,Regular Family
+1205,Male,31,Riyadh,Regular Family
+1206,Male,33,Riyadh,Occasional
+1207,Male,38,Dammam,Occasional
+1208,Male,36,Jeddah,Occasional
+1209,Male,41,Buraidah,Budget Shopper
+1210,Male,35,Khobar,Premium
+1211,Male,51,Riyadh,Regular Family
+1212,Male,55,Makkah,Budget Shopper
+1213,Female,24,Jeddah,Premium
+1214,Female,36,Makkah,Occasional
+1215,Male,45,Abha,Occasional
+1216,Male,42,Taif,Occasional
+1217,Female,32,Khobar,Budget Shopper
+1218,Male,39,Jeddah,Occasional
+1219,Female,19,Dammam,Occasional
+1220,Female,36,Jeddah,Premium
+1221,Male,20,Dammam,Budget Shopper
+1222,Male,42,Riyadh,Regular Family
+1223,Male,24,Riyadh,Budget Shopper
+1224,Female,38,Taif,Budget Shopper
+1225,Male,40,Buraidah,Occasional
+1226,Female,37,Riyadh,Occasional
+1227,Male,29,Taif,Occasional
+1228,Female,34,Abha,Budget Shopper
+1229,Female,49,Riyadh,Regular Family
+1230,Male,31,Buraidah,Regular Family
+1231,Female,36,Taif,Regular Family
+1232,Female,30,Makkah,Regular Family
+1233,Female,47,Abha,Occasional
+1234,Female,37,Jeddah,Premium
+1235,Female,28,Khobar,Occasional
+1236,Male,36,Madinah,Budget Shopper
+1237,Female,33,Khobar,Regular Family
+1238,Female,51,Jeddah,Regular Family
+1239,Female,36,Makkah,Premium
+1240,Female,21,Tabuk,Occasional
+1241,Male,41,Tabuk,Budget Shopper
+1242,Male,56,Riyadh,Budget Shopper
+1243,Male,49,Dammam,Occasional
+1244,Female,24,Riyadh,Regular Family
+1245,Male,33,Makkah,Regular Family
+1246,Male,36,Riyadh,Occasional
+1247,Male,36,Taif,Premium
+1248,Female,40,Makkah,Premium
+1249,Male,32,Jeddah,Budget Shopper
+1250,Male,26,Madinah,Regular Family
+1251,Male,46,Riyadh,Regular Family
+1252,Male,24,Riyadh,Regular Family
+1253,Male,27,Riyadh,Regular Family
+1254,Male,24,Khobar,Budget Shopper
+1255,Female,43,Buraidah,Regular Family
+1256,Male,37,Riyadh,Regular Family
+1257,Male,46,Abha,Regular Family
+1258,Female,27,Riyadh,Budget Shopper
+1259,Male,22,Jeddah,Occasional
+1260,Male,31,Makkah,Regular Family
+1261,Male,34,Tabuk,Regular Family
+1262,Male,38,Taif,Premium
+1263,Female,18,Makkah,Premium
+1264,Female,41,Dammam,Regular Family
+1265,Male,26,Riyadh,Budget Shopper
+1266,Female,29,Jeddah,Budget Shopper
+1267,Female,49,Buraidah,Budget Shopper
+1268,Male,18,Khobar,Budget Shopper
+1269,Female,40,Jeddah,Regular Family
+1270,Female,40,Riyadh,Regular Family
+1271,Female,27,Riyadh,Budget Shopper
+1272,Female,31,Abha,Premium
+1273,Male,49,Jeddah,Budget Shopper
+1274,Female,58,Taif,Occasional
+1275,Male,48,Dammam,Regular Family
+1276,Female,57,Tabuk,Regular Family
+1277,Male,28,Riyadh,Budget Shopper
+1278,Male,19,Riyadh,Regular Family
+1279,Male,35,Jeddah,Regular Family
+1280,Female,45,Riyadh,Occasional
+1281,Female,18,Taif,Budget Shopper
+1282,Female,26,Tabuk,Regular Family
+1283,Male,27,Jeddah,Premium
+1284,Male,40,Dammam,Regular Family
+1285,Male,39,Khobar,Regular Family
+1286,Male,27,Makkah,Occasional
+1287,Male,38,Riyadh,Regular Family
+1288,Female,23,Jeddah,Budget Shopper
+1289,Female,31,Riyadh,Occasional
+1290,Male,22,Buraidah,Budget Shopper
+1291,Male,34,Jeddah,Premium
+1292,Female,27,Madinah,Budget Shopper
+1293,Female,44,Buraidah,Budget Shopper
+1294,Female,36,Jeddah,Regular Family
+1295,Female,34,Riyadh,Occasional
+1296,Male,55,Jeddah,Budget Shopper
+1297,Male,40,Makkah,Budget Shopper
+1298,Female,32,Dammam,Budget Shopper
+1299,Female,30,Riyadh,Budget Shopper
+1300,Female,23,Riyadh,Budget Shopper
+1301,Male,35,Madinah,Occasional
+1302,Female,39,Madinah,Premium
+1303,Male,18,Riyadh,Regular Family
+1304,Female,21,Abha,Budget Shopper
+1305,Male,30,Jeddah,Budget Shopper
+1306,Female,24,Riyadh,Regular Family
+1307,Male,36,Jeddah,Regular Family
+1308,Male,38,Madinah,Occasional
+1309,Male,35,Makkah,Budget Shopper
+1310,Female,42,Dammam,Regular Family
+1311,Female,30,Jeddah,Premium
+1312,Female,35,Jeddah,Regular Family
+1313,Female,25,Jeddah,Premium
+1314,Female,39,Jeddah,Premium
+1315,Female,37,Dammam,Budget Shopper
+1316,Male,23,Dammam,Occasional
+1317,Female,34,Riyadh,Regular Family
+1318,Female,36,Jeddah,Budget Shopper
+1319,Female,39,Riyadh,Premium
+1320,Male,39,Makkah,Premium
+1321,Male,28,Jeddah,Budget Shopper
+1322,Male,44,Makkah,Regular Family
+1323,Female,42,Riyadh,Occasional
+1324,Female,28,Jeddah,Premium
+1325,Male,23,Riyadh,Regular Family
+1326,Male,29,Riyadh,Regular Family
+1327,Female,20,Abha,Regular Family
+1328,Male,38,Riyadh,Premium
+1329,Male,49,Riyadh,Budget Shopper
+1330,Female,52,Jeddah,Regular Family
+1331,Male,24,Jeddah,Regular Family
+1332,Male,45,Buraidah,Premium
+1333,Male,37,Taif,Premium
+1334,Male,18,Jeddah,Regular Family
+1335,Female,32,Riyadh,Regular Family
+1336,Female,31,Dammam,Regular Family
+1337,Female,49,Dammam,Occasional
+1338,Female,26,Dammam,Occasional
+1339,Male,42,Riyadh,Occasional
+1340,Male,35,Riyadh,Occasional
+1341,Female,20,Riyadh,Occasional
+1342,Male,30,Jeddah,Budget Shopper
+1343,Female,53,Khobar,Regular Family
+1344,Male,34,Buraidah,Regular Family
+1345,Female,46,Riyadh,Regular Family
+1346,Female,45,Abha,Occasional
+1347,Female,31,Riyadh,Regular Family
+1348,Female,22,Riyadh,Budget Shopper
+1349,Female,23,Makkah,Budget Shopper
+1350,Male,52,Riyadh,Budget Shopper
+1351,Female,38,Buraidah,Regular Family
+1352,Female,18,Taif,Budget Shopper
+1353,Male,45,Riyadh,Budget Shopper
+1354,Female,18,Riyadh,Regular Family
+1355,Male,27,Riyadh,Regular Family
+1356,Male,37,Buraidah,Regular Family
+1357,Female,64,Riyadh,Budget Shopper
+1358,Male,45,Abha,Occasional
+1359,Female,31,Jeddah,Budget Shopper
+1360,Male,36,Khobar,Premium
+1361,Female,46,Riyadh,Occasional
+1362,Male,52,Tabuk,Occasional
+1363,Male,33,Makkah,Regular Family
+1364,Female,34,Riyadh,Budget Shopper
+1365,Female,27,Riyadh,Occasional
+1366,Female,43,Dammam,Regular Family
+1367,Male,47,Khobar,Premium
+1368,Male,18,Tabuk,Regular Family
+1369,Female,32,Jeddah,Occasional
+1370,Female,23,Buraidah,Occasional
+1371,Female,38,Riyadh,Premium
+1372,Female,22,Buraidah,Occasional
+1373,Female,21,Buraidah,Regular Family
+1374,Female,48,Makkah,Budget Shopper
+1375,Female,34,Taif,Premium
+1376,Female,35,Jeddah,Premium
+1377,Female,41,Madinah,Regular Family
+1378,Male,47,Riyadh,Budget Shopper
+1379,Female,31,Jeddah,Regular Family
+1380,Female,32,Khobar,Budget Shopper
+1381,Female,32,Buraidah,Premium
+1382,Male,48,Taif,Occasional
+1383,Male,35,Khobar,Budget Shopper
+1384,Female,33,Buraidah,Occasional
+1385,Female,40,Abha,Budget Shopper
+1386,Male,56,Abha,Regular Family
+1387,Male,37,Riyadh,Occasional
+1388,Female,33,Dammam,Budget Shopper
+1389,Female,57,Dammam,Budget Shopper
+1390,Male,51,Abha,Occasional
+1391,Male,49,Khobar,Budget Shopper
+1392,Male,30,Tabuk,Regular Family
+1393,Male,29,Taif,Regular Family
+1394,Male,18,Khobar,Budget Shopper
+1395,Female,47,Abha,Budget Shopper
+1396,Female,37,Khobar,Occasional
+1397,Male,18,Makkah,Regular Family
+1398,Male,49,Dammam,Regular Family
+1399,Female,32,Taif,Premium
+1400,Male,34,Tabuk,Regular Family
+1401,Female,19,Abha,Regular Family
+1402,Male,41,Jeddah,Occasional
+1403,Female,42,Dammam,Premium
+1404,Female,35,Buraidah,Regular Family
+1405,Male,31,Taif,Regular Family
+1406,Female,65,Taif,Occasional
+1407,Female,23,Madinah,Regular Family
+1408,Male,28,Madinah,Regular Family
+1409,Female,44,Riyadh,Regular Family
+1410,Male,25,Abha,Budget Shopper
+1411,Male,24,Jeddah,Occasional
+1412,Female,48,Buraidah,Premium
+1413,Male,43,Riyadh,Regular Family
+1414,Male,41,Taif,Regular Family
+1415,Male,38,Dammam,Occasional
+1416,Female,28,Riyadh,Regular Family
+1417,Male,33,Makkah,Premium
+1418,Male,35,Madinah,Occasional
+1419,Female,45,Abha,Occasional
+1420,Female,41,Madinah,Regular Family
+1421,Female,26,Khobar,Premium
+1422,Female,45,Riyadh,Regular Family
+1423,Male,18,Buraidah,Occasional
+1424,Female,32,Taif,Budget Shopper
+1425,Female,23,Abha,Regular Family
+1426,Male,27,Riyadh,Regular Family
+1427,Female,57,Abha,Occasional
+1428,Female,20,Jeddah,Budget Shopper
+1429,Male,27,Taif,Budget Shopper
+1430,Male,42,Riyadh,Occasional
+1431,Male,31,Riyadh,Regular Family
+1432,Female,38,Riyadh,Regular Family
+1433,Male,52,Abha,Budget Shopper
+1434,Female,43,Makkah,Occasional
+1435,Male,31,Madinah,Regular Family
+1436,Female,35,Jeddah,Premium
+1437,Female,42,Buraidah,Occasional
+1438,Male,43,Dammam,Occasional
+1439,Male,36,Riyadh,Regular Family
+1440,Female,40,Abha,Budget Shopper
+1441,Male,40,Dammam,Premium
+1442,Male,35,Khobar,Premium
+1443,Female,29,Jeddah,Budget Shopper
+1444,Female,44,Madinah,Occasional
+1445,Female,39,Riyadh,Regular Family
+1446,Female,18,Dammam,Regular Family
+1447,Female,27,Jeddah,Regular Family
+1448,Female,31,Madinah,Occasional
+1449,Male,34,Jeddah,Budget Shopper
+1450,Female,49,Riyadh,Regular Family
+1451,Female,71,Jeddah,Regular Family
+1452,Female,18,Dammam,Occasional
+1453,Female,39,Riyadh,Regular Family
+1454,Male,37,Madinah,Regular Family
+1455,Female,34,Jeddah,Occasional
+1456,Male,42,Jeddah,Premium
+1457,Male,38,Khobar,Budget Shopper
+1458,Male,32,Jeddah,Budget Shopper
+1459,Female,36,Madinah,Regular Family
+1460,Male,42,Makkah,Regular Family
+1461,Female,41,Abha,Budget Shopper
+1462,Female,38,Dammam,Regular Family
+1463,Female,30,Jeddah,Occasional
+1464,Female,67,Riyadh,Premium
+1465,Male,40,Dammam,Regular Family
+1466,Male,44,Buraidah,Budget Shopper
+1467,Female,30,Riyadh,Regular Family
+1468,Male,38,Riyadh,Occasional
+1469,Male,38,Makkah,Premium
+1470,Male,18,Khobar,Budget Shopper
+1471,Male,28,Buraidah,Premium
+1472,Female,28,Riyadh,Budget Shopper
+1473,Female,29,Buraidah,Regular Family
+1474,Female,24,Madinah,Budget Shopper
+1475,Male,36,Abha,Occasional
+1476,Female,51,Jeddah,Premium
+1477,Female,37,Jeddah,Regular Family
+1478,Female,23,Riyadh,Regular Family
+1479,Male,25,Abha,Occasional
+1480,Male,32,Riyadh,Budget Shopper
+1481,Female,20,Riyadh,Budget Shopper
+1482,Female,39,Jeddah,Occasional
+1483,Male,51,Buraidah,Occasional
+1484,Male,30,Jeddah,Budget Shopper
+1485,Female,37,Jeddah,Budget Shopper
+1486,Female,31,Madinah,Premium
+1487,Female,29,Buraidah,Budget Shopper
+1488,Female,38,Abha,Regular Family
+1489,Female,29,Khobar,Premium
+1490,Female,27,Riyadh,Regular Family
+1491,Male,18,Riyadh,Regular Family
+1492,Male,37,Jeddah,Occasional
+1493,Female,48,Jeddah,Occasional
+1494,Female,44,Jeddah,Premium
+1495,Male,52,Dammam,Regular Family
+1496,Male,29,Jeddah,Occasional
+1497,Female,45,Madinah,Regular Family
+1498,Female,24,Riyadh,Budget Shopper
+1499,Male,44,Taif,Budget Shopper
+1500,Female,54,Tabuk,Regular Family
+1501,Male,41,Jeddah,Budget Shopper
+1502,Male,54,Jeddah,Premium
+1503,Male,29,Taif,Budget Shopper
+1504,Male,35,Taif,Regular Family
+1505,Male,26,Jeddah,Occasional
+1506,Female,36,Riyadh,Budget Shopper
+1507,Female,39,Taif,Regular Family
+1508,Female,36,Makkah,Occasional
+1509,Female,31,Madinah,Budget Shopper
+1510,Female,31,Jeddah,Regular Family
+1511,Male,40,Tabuk,Budget Shopper
+1512,Male,34,Khobar,Premium
+1513,Male,23,Dammam,Regular Family
+1514,Female,18,Madinah,Occasional
+1515,Male,29,Jeddah,Premium
+1516,Female,21,Jeddah,Regular Family
+1517,Female,27,Makkah,Occasional
+1518,Female,31,Makkah,Budget Shopper
+1519,Male,34,Taif,Premium
+1520,Male,29,Khobar,Premium
+1521,Male,60,Jeddah,Premium
+1522,Female,22,Jeddah,Regular Family
+1523,Female,49,Khobar,Budget Shopper
+1524,Female,34,Riyadh,Occasional
+1525,Female,29,Khobar,Regular Family
+1526,Male,42,Jeddah,Premium
+1527,Male,31,Jeddah,Occasional
+1528,Male,27,Riyadh,Regular Family
+1529,Male,56,Dammam,Occasional
+1530,Male,18,Riyadh,Budget Shopper
+1531,Male,33,Makkah,Budget Shopper
+1532,Female,38,Jeddah,Regular Family
+1533,Male,51,Buraidah,Budget Shopper
+1534,Male,32,Dammam,Regular Family
+1535,Male,65,Abha,Budget Shopper
+1536,Male,44,Buraidah,Premium
+1537,Male,18,Buraidah,Occasional
+1538,Male,20,Buraidah,Premium
+1539,Male,39,Riyadh,Regular Family
+1540,Female,23,Jeddah,Occasional
+1541,Male,42,Madinah,Premium
+1542,Male,31,Khobar,Occasional
+1543,Male,23,Makkah,Budget Shopper
+1544,Male,25,Makkah,Premium
+1545,Female,45,Riyadh,Budget Shopper
+1546,Male,18,Riyadh,Budget Shopper
+1547,Female,47,Makkah,Budget Shopper
+1548,Female,48,Makkah,Premium
+1549,Female,32,Tabuk,Budget Shopper
+1550,Male,21,Madinah,Regular Family
+1551,Male,42,Riyadh,Regular Family
+1552,Male,31,Riyadh,Regular Family
+1553,Female,19,Jeddah,Regular Family
+1554,Male,57,Jeddah,Occasional
+1555,Female,26,Abha,Occasional
+1556,Male,20,Makkah,Occasional
+1557,Male,39,Buraidah,Premium
+1558,Male,35,Dammam,Budget Shopper
+1559,Male,52,Jeddah,Budget Shopper
+1560,Female,32,Dammam,Regular Family
+1561,Female,32,Riyadh,Occasional
+1562,Male,40,Riyadh,Budget Shopper
+1563,Male,38,Dammam,Budget Shopper
+1564,Female,39,Jeddah,Premium
+1565,Male,39,Riyadh,Regular Family
+1566,Female,38,Madinah,Regular Family
+1567,Male,31,Makkah,Occasional
+1568,Female,45,Riyadh,Regular Family
+1569,Female,32,Madinah,Occasional
+1570,Male,45,Riyadh,Regular Family
+1571,Female,51,Dammam,Regular Family
+1572,Male,29,Makkah,Budget Shopper
+1573,Male,62,Dammam,Regular Family
+1574,Female,28,Madinah,Budget Shopper
+1575,Male,28,Jeddah,Budget Shopper
+1576,Male,42,Riyadh,Budget Shopper
+1577,Female,41,Dammam,Regular Family
+1578,Female,37,Jeddah,Budget Shopper
+1579,Male,45,Riyadh,Budget Shopper
+1580,Female,39,Dammam,Regular Family
+1581,Male,59,Riyadh,Budget Shopper
+1582,Female,35,Dammam,Budget Shopper
+1583,Male,27,Khobar,Occasional
+1584,Female,30,Abha,Regular Family
+1585,Male,41,Buraidah,Occasional
+1586,Male,41,Makkah,Budget Shopper
+1587,Female,38,Buraidah,Regular Family
+1588,Male,27,Khobar,Budget Shopper
+1589,Male,48,Madinah,Regular Family
+1590,Male,57,Abha,Occasional
+1591,Female,36,Tabuk,Occasional
+1592,Male,56,Abha,Regular Family
+1593,Female,46,Buraidah,Budget Shopper
+1594,Male,60,Dammam,Premium
+1595,Female,41,Taif,Regular Family
+1596,Female,38,Jeddah,Regular Family
+1597,Male,45,Riyadh,Regular Family
+1598,Female,31,Riyadh,Regular Family
+1599,Male,40,Khobar,Regular Family
+1600,Male,51,Riyadh,Regular Family
+1601,Female,45,Riyadh,Budget Shopper
+1602,Female,36,Jeddah,Regular Family
+1603,Female,38,Makkah,Regular Family
+1604,Female,44,Riyadh,Regular Family
+1605,Male,44,Khobar,Regular Family
+1606,Female,44,Makkah,Regular Family
+1607,Male,40,Abha,Regular Family
+1608,Female,27,Makkah,Budget Shopper
+1609,Female,29,Jeddah,Regular Family
+1610,Male,41,Taif,Budget Shopper
+1611,Female,45,Buraidah,Regular Family
+1612,Female,44,Jeddah,Regular Family
+1613,Female,29,Riyadh,Regular Family
+1614,Female,34,Dammam,Regular Family
+1615,Female,23,Buraidah,Budget Shopper
+1616,Female,21,Tabuk,Regular Family
+1617,Male,37,Buraidah,Budget Shopper
+1618,Female,51,Taif,Occasional
+1619,Male,37,Madinah,Regular Family
+1620,Male,57,Riyadh,Regular Family
+1621,Female,34,Riyadh,Budget Shopper
+1622,Female,36,Riyadh,Occasional
+1623,Female,25,Riyadh,Regular Family
+1624,Male,32,Riyadh,Regular Family
+1625,Male,23,Dammam,Premium
+1626,Female,19,Abha,Regular Family
+1627,Male,23,Riyadh,Occasional
+1628,Male,37,Tabuk,Budget Shopper
+1629,Male,28,Buraidah,Occasional
+1630,Female,31,Riyadh,Occasional
+1631,Male,41,Riyadh,Regular Family
+1632,Male,19,Dammam,Occasional
+1633,Female,37,Buraidah,Budget Shopper
+1634,Male,45,Madinah,Regular Family
+1635,Female,46,Riyadh,Regular Family
+1636,Female,42,Makkah,Regular Family
+1637,Female,35,Tabuk,Regular Family
+1638,Male,29,Jeddah,Regular Family
+1639,Male,35,Makkah,Regular Family
+1640,Male,54,Dammam,Budget Shopper
+1641,Female,39,Riyadh,Regular Family
+1642,Male,35,Buraidah,Budget Shopper
+1643,Male,42,Riyadh,Regular Family
+1644,Male,37,Tabuk,Budget Shopper
+1645,Female,38,Madinah,Regular Family
+1646,Female,33,Riyadh,Occasional
+1647,Male,31,Madinah,Occasional
+1648,Female,47,Riyadh,Regular Family
+1649,Male,18,Riyadh,Budget Shopper
+1650,Female,41,Jeddah,Regular Family
+1651,Female,31,Buraidah,Regular Family
+1652,Female,18,Buraidah,Budget Shopper
+1653,Female,25,Jeddah,Occasional
+1654,Male,36,Dammam,Regular Family
+1655,Male,37,Taif,Regular Family
+1656,Female,44,Makkah,Regular Family
+1657,Female,45,Riyadh,Occasional
+1658,Male,19,Jeddah,Premium
+1659,Male,40,Jeddah,Budget Shopper
+1660,Male,44,Jeddah,Premium
+1661,Male,38,Dammam,Occasional
+1662,Female,42,Madinah,Premium
+1663,Male,18,Madinah,Budget Shopper
+1664,Female,25,Jeddah,Regular Family
+1665,Male,51,Madinah,Occasional
+1666,Female,33,Khobar,Budget Shopper
+1667,Female,60,Abha,Regular Family
+1668,Female,22,Riyadh,Premium
+1669,Female,53,Jeddah,Regular Family
+1670,Male,29,Jeddah,Budget Shopper
+1671,Male,45,Jeddah,Budget Shopper
+1672,Female,33,Madinah,Regular Family
+1673,Female,37,Khobar,Budget Shopper
+1674,Female,43,Jeddah,Regular Family
+1675,Female,29,Khobar,Regular Family
+1676,Male,45,Madinah,Budget Shopper
+1677,Male,33,Makkah,Regular Family
+1678,Female,38,Abha,Occasional
+1679,Female,18,Buraidah,Regular Family
+1680,Female,32,Madinah,Budget Shopper
+1681,Female,50,Riyadh,Budget Shopper
+1682,Female,44,Tabuk,Regular Family
+1683,Female,46,Jeddah,Regular Family
+1684,Male,37,Makkah,Occasional
+1685,Female,54,Taif,Regular Family
+1686,Male,39,Jeddah,Regular Family
+1687,Male,29,Jeddah,Regular Family
+1688,Female,45,Riyadh,Regular Family
+1689,Male,46,Taif,Budget Shopper
+1690,Male,43,Jeddah,Regular Family
+1691,Female,32,Abha,Budget Shopper
+1692,Female,39,Riyadh,Regular Family
+1693,Male,51,Riyadh,Regular Family
+1694,Female,41,Riyadh,Occasional
+1695,Female,20,Tabuk,Budget Shopper
+1696,Male,29,Riyadh,Occasional
+1697,Female,29,Buraidah,Regular Family
+1698,Female,28,Makkah,Premium
+1699,Female,18,Buraidah,Regular Family
+1700,Female,57,Jeddah,Occasional
+1701,Female,26,Dammam,Premium
+1702,Female,27,Riyadh,Budget Shopper
+1703,Male,18,Dammam,Regular Family
+1704,Female,46,Khobar,Occasional
+1705,Female,35,Riyadh,Regular Family
+1706,Male,32,Taif,Occasional
+1707,Female,33,Riyadh,Occasional
+1708,Female,42,Jeddah,Regular Family
+1709,Male,31,Makkah,Occasional
+1710,Male,18,Dammam,Regular Family
+1711,Female,22,Riyadh,Budget Shopper
+1712,Male,21,Taif,Premium
+1713,Female,39,Riyadh,Occasional
+1714,Male,46,Khobar,Regular Family
+1715,Female,52,Riyadh,Budget Shopper
+1716,Female,18,Riyadh,Regular Family
+1717,Male,43,Dammam,Premium
+1718,Female,29,Tabuk,Premium
+1719,Male,68,Khobar,Regular Family
+1720,Male,51,Jeddah,Regular Family
+1721,Female,55,Riyadh,Regular Family
+1722,Male,45,Taif,Budget Shopper
+1723,Female,40,Riyadh,Occasional
+1724,Female,32,Khobar,Budget Shopper
+1725,Male,29,Riyadh,Regular Family
+1726,Male,27,Riyadh,Occasional
+1727,Female,43,Riyadh,Regular Family
+1728,Male,53,Riyadh,Premium
+1729,Female,32,Khobar,Budget Shopper
+1730,Male,28,Jeddah,Regular Family
+1731,Female,20,Tabuk,Premium
+1732,Male,39,Riyadh,Occasional
+1733,Male,50,Dammam,Regular Family
+1734,Female,50,Jeddah,Budget Shopper
+1735,Male,51,Riyadh,Budget Shopper
+1736,Female,41,Riyadh,Occasional
+1737,Male,37,Riyadh,Regular Family
+1738,Male,50,Riyadh,Budget Shopper
+1739,Male,24,Jeddah,Regular Family
+1740,Female,31,Riyadh,Budget Shopper
+1741,Female,55,Jeddah,Budget Shopper
+1742,Male,24,Dammam,Occasional
+1743,Female,36,Dammam,Regular Family
+1744,Female,43,Riyadh,Budget Shopper
+1745,Male,37,Dammam,Occasional
+1746,Male,49,Jeddah,Occasional
+1747,Male,53,Taif,Occasional
+1748,Male,41,Riyadh,Premium
+1749,Female,51,Riyadh,Occasional
+1750,Male,26,Tabuk,Budget Shopper
+1751,Male,34,Jeddah,Occasional
+1752,Female,62,Riyadh,Regular Family
+1753,Male,57,Buraidah,Budget Shopper
+1754,Female,22,Khobar,Budget Shopper
+1755,Female,36,Makkah,Budget Shopper
+1756,Male,37,Riyadh,Premium
+1757,Female,41,Jeddah,Occasional
+1758,Male,50,Jeddah,Budget Shopper
+1759,Female,56,Abha,Occasional
+1760,Male,36,Jeddah,Premium
+1761,Female,48,Khobar,Budget Shopper
+1762,Female,43,Taif,Premium
+1763,Female,36,Taif,Budget Shopper
+1764,Female,18,Riyadh,Budget Shopper
+1765,Female,47,Khobar,Regular Family
+1766,Male,43,Madinah,Occasional
+1767,Female,40,Abha,Budget Shopper
+1768,Male,25,Buraidah,Regular Family
+1769,Female,58,Madinah,Regular Family
+1770,Female,38,Madinah,Premium
+1771,Male,23,Riyadh,Occasional
+1772,Male,22,Khobar,Regular Family
+1773,Male,43,Khobar,Occasional
+1774,Male,44,Madinah,Regular Family
+1775,Female,31,Khobar,Budget Shopper
+1776,Male,41,Jeddah,Regular Family
+1777,Female,43,Dammam,Regular Family
+1778,Male,38,Taif,Premium
+1779,Male,28,Jeddah,Budget Shopper
+1780,Male,47,Abha,Budget Shopper
+1781,Male,45,Makkah,Occasional
+1782,Female,42,Dammam,Occasional
+1783,Male,27,Jeddah,Regular Family
+1784,Female,21,Khobar,Premium
+1785,Female,37,Abha,Occasional
+1786,Male,46,Riyadh,Budget Shopper
+1787,Male,47,Buraidah,Regular Family
+1788,Male,42,Abha,Budget Shopper
+1789,Male,31,Jeddah,Occasional
+1790,Female,27,Riyadh,Budget Shopper
+1791,Male,36,Riyadh,Premium
+1792,Male,36,Riyadh,Budget Shopper
+1793,Female,48,Riyadh,Regular Family
+1794,Male,31,Riyadh,Occasional
+1795,Female,32,Taif,Budget Shopper
+1796,Female,59,Makkah,Occasional
+1797,Female,53,Tabuk,Budget Shopper
+1798,Male,26,Khobar,Regular Family
+1799,Male,52,Makkah,Premium
+1800,Male,24,Buraidah,Budget Shopper
+1801,Female,31,Jeddah,Regular Family
+1802,Male,32,Madinah,Regular Family
+1803,Male,35,Buraidah,Regular Family
+1804,Female,43,Taif,Premium
+1805,Female,37,Dammam,Regular Family
+1806,Female,43,Buraidah,Budget Shopper
+1807,Male,32,Dammam,Budget Shopper
+1808,Female,40,Jeddah,Occasional
+1809,Male,37,Jeddah,Regular Family
+1810,Female,21,Dammam,Budget Shopper
+1811,Male,41,Jeddah,Budget Shopper
+1812,Female,37,Riyadh,Premium
+1813,Female,28,Riyadh,Regular Family
+1814,Male,31,Tabuk,Budget Shopper
+1815,Female,32,Buraidah,Occasional
+1816,Male,33,Buraidah,Occasional
+1817,Male,55,Khobar,Occasional
+1818,Male,59,Taif,Regular Family
+1819,Female,18,Dammam,Regular Family
+1820,Male,41,Dammam,Budget Shopper
+1821,Male,47,Dammam,Regular Family
+1822,Female,34,Jeddah,Regular Family
+1823,Female,46,Makkah,Budget Shopper
+1824,Male,54,Dammam,Regular Family
+1825,Female,21,Taif,Regular Family
+1826,Male,37,Riyadh,Premium
+1827,Male,58,Riyadh,Budget Shopper
+1828,Female,22,Jeddah,Occasional
+1829,Female,35,Riyadh,Regular Family
+1830,Male,31,Taif,Regular Family
+1831,Male,48,Khobar,Occasional
+1832,Male,49,Jeddah,Budget Shopper
+1833,Male,38,Makkah,Occasional
+1834,Male,36,Dammam,Occasional
+1835,Male,18,Riyadh,Occasional
+1836,Male,52,Jeddah,Regular Family
+1837,Male,32,Jeddah,Budget Shopper
+1838,Female,34,Makkah,Budget Shopper
+1839,Female,47,Tabuk,Premium
+1840,Female,38,Jeddah,Budget Shopper
+1841,Male,47,Makkah,Regular Family
+1842,Female,43,Madinah,Occasional
+1843,Male,38,Jeddah,Regular Family
+1844,Female,39,Dammam,Budget Shopper
+1845,Male,24,Jeddah,Premium
+1846,Female,34,Jeddah,Budget Shopper
+1847,Male,48,Dammam,Regular Family
+1848,Female,26,Jeddah,Budget Shopper
+1849,Male,28,Dammam,Regular Family
+1850,Female,26,Abha,Budget Shopper
+1851,Female,38,Jeddah,Premium
+1852,Male,51,Taif,Regular Family
+1853,Female,42,Riyadh,Regular Family
+1854,Male,18,Dammam,Occasional
+1855,Female,43,Makkah,Occasional
+1856,Male,31,Khobar,Regular Family
+1857,Female,42,Taif,Occasional
+1858,Female,34,Jeddah,Budget Shopper
+1859,Male,27,Jeddah,Regular Family
+1860,Female,35,Khobar,Occasional
+1861,Female,31,Khobar,Regular Family
+1862,Female,39,Abha,Regular Family
+1863,Male,26,Abha,Occasional
+1864,Male,24,Riyadh,Budget Shopper
+1865,Male,44,Abha,Budget Shopper
+1866,Male,48,Madinah,Premium
+1867,Male,42,Khobar,Budget Shopper
+1868,Female,29,Jeddah,Budget Shopper
+1869,Female,28,Buraidah,Regular Family
+1870,Female,28,Madinah,Regular Family
+1871,Male,46,Jeddah,Regular Family
+1872,Male,27,Jeddah,Premium
+1873,Female,46,Madinah,Regular Family
+1874,Female,43,Buraidah,Premium
+1875,Female,50,Dammam,Budget Shopper
+1876,Female,48,Buraidah,Regular Family
+1877,Male,42,Jeddah,Occasional
+1878,Female,20,Jeddah,Regular Family
+1879,Female,43,Madinah,Budget Shopper
+1880,Male,37,Riyadh,Occasional
+1881,Female,32,Riyadh,Regular Family
+1882,Male,51,Madinah,Regular Family
+1883,Male,34,Riyadh,Budget Shopper
+1884,Male,30,Riyadh,Premium
+1885,Female,48,Riyadh,Budget Shopper
+1886,Female,32,Riyadh,Regular Family
+1887,Male,30,Jeddah,Premium
+1888,Female,24,Jeddah,Premium
+1889,Female,27,Taif,Budget Shopper
+1890,Male,28,Makkah,Budget Shopper
+1891,Male,43,Madinah,Occasional
+1892,Male,25,Riyadh,Occasional
+1893,Male,18,Riyadh,Budget Shopper
+1894,Female,39,Buraidah,Regular Family
+1895,Female,29,Makkah,Premium
+1896,Male,36,Tabuk,Occasional
+1897,Male,50,Jeddah,Occasional
+1898,Male,37,Khobar,Premium
+1899,Male,53,Dammam,Budget Shopper
+1900,Male,35,Riyadh,Premium
+1901,Male,47,Tabuk,Occasional
+1902,Male,30,Jeddah,Regular Family
+1903,Male,37,Dammam,Regular Family
+1904,Male,26,Riyadh,Budget Shopper
+1905,Male,27,Makkah,Regular Family
+1906,Female,34,Abha,Occasional
+1907,Male,21,Jeddah,Budget Shopper
+1908,Male,38,Taif,Premium
+1909,Male,33,Jeddah,Budget Shopper
+1910,Female,39,Buraidah,Budget Shopper
+1911,Male,22,Madinah,Regular Family
+1912,Female,44,Buraidah,Budget Shopper
+1913,Male,55,Madinah,Premium
+1914,Male,52,Dammam,Regular Family
+1915,Female,57,Jeddah,Premium
+1916,Female,36,Tabuk,Occasional
+1917,Female,32,Tabuk,Regular Family
+1918,Male,41,Khobar,Budget Shopper
+1919,Male,33,Madinah,Occasional
+1920,Female,18,Dammam,Budget Shopper
+1921,Male,45,Riyadh,Budget Shopper
+1922,Male,33,Riyadh,Occasional
+1923,Female,20,Makkah,Budget Shopper
+1924,Male,30,Makkah,Regular Family
+1925,Female,34,Makkah,Budget Shopper
+1926,Male,36,Khobar,Premium
+1927,Male,36,Jeddah,Regular Family
+1928,Female,51,Riyadh,Regular Family
+1929,Male,22,Riyadh,Regular Family
+1930,Male,34,Riyadh,Budget Shopper
+1931,Male,26,Makkah,Budget Shopper
+1932,Male,50,Abha,Occasional
+1933,Male,30,Buraidah,Occasional
+1934,Male,32,Riyadh,Premium
+1935,Male,48,Tabuk,Premium
+1936,Male,51,Khobar,Regular Family
+1937,Female,52,Jeddah,Regular Family
+1938,Male,18,Madinah,Premium
+1939,Female,41,Taif,Budget Shopper
+1940,Male,39,Jeddah,Regular Family
+1941,Male,35,Makkah,Budget Shopper
+1942,Female,37,Jeddah,Regular Family
+1943,Female,50,Riyadh,Premium
+1944,Male,47,Riyadh,Regular Family
+1945,Male,46,Riyadh,Premium
+1946,Female,38,Madinah,Occasional
+1947,Male,61,Riyadh,Occasional
+1948,Male,32,Makkah,Occasional
+1949,Female,18,Buraidah,Occasional
+1950,Female,33,Tabuk,Regular Family
+1951,Female,37,Jeddah,Premium
+1952,Male,50,Riyadh,Premium
+1953,Female,30,Dammam,Occasional
+1954,Male,41,Riyadh,Regular Family
+1955,Female,20,Jeddah,Regular Family
+1956,Male,48,Khobar,Occasional
+1957,Female,37,Makkah,Premium
+1958,Female,33,Riyadh,Budget Shopper
+1959,Male,59,Riyadh,Regular Family
+1960,Female,48,Buraidah,Regular Family
+1961,Female,25,Taif,Regular Family
+1962,Male,35,Makkah,Occasional
+1963,Male,66,Khobar,Regular Family
+1964,Male,58,Makkah,Occasional
+1965,Female,46,Riyadh,Regular Family
+1966,Female,18,Buraidah,Budget Shopper
+1967,Male,51,Riyadh,Regular Family
+1968,Male,29,Makkah,Regular Family
+1969,Female,51,Riyadh,Occasional
+1970,Male,28,Madinah,Regular Family
+1971,Male,41,Abha,Regular Family
+1972,Male,29,Madinah,Regular Family
+1973,Female,32,Jeddah,Occasional
+1974,Female,43,Makkah,Budget Shopper
+1975,Female,21,Khobar,Budget Shopper
+1976,Male,62,Madinah,Regular Family
+1977,Female,25,Dammam,Premium
+1978,Male,24,Dammam,Regular Family
+1979,Female,43,Madinah,Budget Shopper
+1980,Male,50,Riyadh,Regular Family
+1981,Female,32,Makkah,Budget Shopper
+1982,Female,24,Riyadh,Budget Shopper
+1983,Female,26,Madinah,Regular Family
+1984,Male,25,Jeddah,Budget Shopper
+1985,Female,39,Tabuk,Regular Family
+1986,Female,35,Riyadh,Premium
+1987,Male,41,Dammam,Budget Shopper
+1988,Male,40,Riyadh,Regular Family
+1989,Female,45,Buraidah,Regular Family
+1990,Female,31,Riyadh,Budget Shopper
+1991,Female,28,Dammam,Premium
+1992,Male,38,Riyadh,Budget Shopper
+1993,Female,35,Abha,Occasional
+1994,Male,39,Jeddah,Regular Family
+1995,Male,28,Khobar,Budget Shopper
+1996,Female,43,Riyadh,Occasional
+1997,Female,23,Jeddah,Regular Family
+1998,Female,31,Riyadh,Budget Shopper
+1999,Male,48,Khobar,Regular Family
+2000,Male,24,Riyadh,Regular Family
+2001,Female,48,Taif,Premium
+2002,Male,20,Jeddah,Premium
+2003,Female,19,Makkah,Occasional
+2004,Female,20,Jeddah,Occasional
+2005,Female,37,Jeddah,Budget Shopper
+2006,Female,44,Tabuk,Occasional
+2007,Male,50,Abha,Budget Shopper
+2008,Male,49,Makkah,Occasional
+2009,Female,45,Abha,Budget Shopper
+2010,Male,27,Riyadh,Budget Shopper
+2011,Female,27,Taif,Regular Family
+2012,Male,45,Dammam,Budget Shopper
+2013,Female,52,Buraidah,Occasional
+2014,Female,25,Madinah,Budget Shopper
+2015,Female,50,Jeddah,Regular Family
+2016,Male,18,Khobar,Occasional
+2017,Female,40,Taif,Regular Family
+2018,Female,35,Riyadh,Regular Family
+2019,Male,34,Jeddah,Occasional
+2020,Male,36,Makkah,Budget Shopper
+2021,Male,27,Jeddah,Regular Family
+2022,Female,41,Jeddah,Budget Shopper
+2023,Female,37,Madinah,Budget Shopper
+2024,Female,46,Buraidah,Budget Shopper
+2025,Male,53,Khobar,Regular Family
+2026,Male,37,Taif,Budget Shopper
+2027,Female,27,Riyadh,Premium
+2028,Female,23,Riyadh,Premium
+2029,Male,55,Riyadh,Regular Family
+2030,Male,53,Dammam,Regular Family
+2031,Male,46,Makkah,Budget Shopper
+2032,Female,37,Riyadh,Premium
+2033,Female,45,Dammam,Regular Family
+2034,Female,50,Madinah,Occasional
+2035,Female,29,Makkah,Regular Family
+2036,Female,36,Makkah,Premium
+2037,Male,24,Makkah,Regular Family
+2038,Male,35,Taif,Regular Family
+2039,Male,53,Madinah,Regular Family
+2040,Female,48,Buraidah,Regular Family
+2041,Female,37,Taif,Regular Family
+2042,Female,18,Buraidah,Occasional
+2043,Female,29,Riyadh,Budget Shopper
+2044,Male,37,Dammam,Occasional
+2045,Male,34,Jeddah,Occasional
+2046,Female,36,Riyadh,Budget Shopper
+2047,Female,39,Khobar,Budget Shopper
+2048,Male,30,Riyadh,Regular Family
+2049,Male,36,Khobar,Budget Shopper
+2050,Female,34,Tabuk,Budget Shopper
+2051,Female,28,Jeddah,Regular Family
+2052,Female,56,Taif,Regular Family
+2053,Male,31,Abha,Budget Shopper
+2054,Male,18,Tabuk,Occasional
+2055,Male,56,Riyadh,Budget Shopper
+2056,Male,27,Taif,Budget Shopper
+2057,Female,46,Riyadh,Budget Shopper
+2058,Female,29,Tabuk,Occasional
+2059,Female,42,Riyadh,Occasional
+2060,Male,35,Riyadh,Budget Shopper
+2061,Male,47,Jeddah,Premium
+2062,Female,34,Madinah,Budget Shopper
+2063,Male,29,Buraidah,Budget Shopper
+2064,Male,39,Makkah,Budget Shopper
+2065,Male,32,Madinah,Occasional
+2066,Male,18,Jeddah,Regular Family
+2067,Male,29,Taif,Regular Family
+2068,Male,68,Jeddah,Budget Shopper
+2069,Female,18,Buraidah,Occasional
+2070,Male,39,Abha,Occasional
+2071,Female,33,Jeddah,Budget Shopper
+2072,Female,56,Jeddah,Premium
+2073,Female,24,Makkah,Premium
+2074,Male,37,Taif,Occasional
+2075,Male,44,Makkah,Regular Family
+2076,Male,34,Buraidah,Budget Shopper
+2077,Male,28,Taif,Regular Family
+2078,Female,36,Jeddah,Regular Family
+2079,Male,33,Khobar,Regular Family
+2080,Male,33,Makkah,Budget Shopper
+2081,Female,46,Riyadh,Occasional
+2082,Female,40,Abha,Occasional
+2083,Female,42,Jeddah,Regular Family
+2084,Male,40,Madinah,Regular Family
+2085,Female,47,Dammam,Regular Family
+2086,Female,50,Tabuk,Regular Family
+2087,Female,33,Dammam,Budget Shopper
+2088,Female,45,Khobar,Regular Family
+2089,Male,22,Riyadh,Regular Family
+2090,Female,18,Tabuk,Occasional
+2091,Female,56,Jeddah,Budget Shopper
+2092,Female,32,Khobar,Regular Family
+2093,Male,39,Tabuk,Regular Family
+2094,Female,23,Dammam,Occasional
+2095,Male,22,Jeddah,Regular Family
+2096,Female,28,Jeddah,Budget Shopper
+2097,Male,43,Khobar,Regular Family
+2098,Female,30,Jeddah,Budget Shopper
+2099,Female,32,Jeddah,Regular Family
+2100,Male,28,Riyadh,Premium
+2101,Female,49,Dammam,Regular Family
+2102,Female,46,Dammam,Regular Family
+2103,Male,31,Dammam,Budget Shopper
+2104,Male,44,Khobar,Premium
+2105,Male,33,Khobar,Occasional
+2106,Female,32,Jeddah,Regular Family
+2107,Male,35,Buraidah,Occasional
+2108,Male,43,Dammam,Regular Family
+2109,Male,26,Tabuk,Premium
+2110,Male,42,Khobar,Regular Family
+2111,Male,63,Jeddah,Occasional
+2112,Female,38,Madinah,Budget Shopper
+2113,Male,36,Riyadh,Budget Shopper
+2114,Female,35,Taif,Budget Shopper
+2115,Female,41,Khobar,Regular Family
+2116,Female,18,Riyadh,Regular Family
+2117,Male,55,Jeddah,Regular Family
+2118,Female,47,Madinah,Budget Shopper
+2119,Female,29,Riyadh,Premium
+2120,Male,36,Jeddah,Budget Shopper
+2121,Male,30,Buraidah,Premium
+2122,Male,39,Jeddah,Budget Shopper
+2123,Female,37,Riyadh,Regular Family
+2124,Male,39,Riyadh,Regular Family
+2125,Female,25,Makkah,Regular Family
+2126,Female,31,Khobar,Premium
+2127,Female,49,Makkah,Occasional
+2128,Female,30,Taif,Regular Family
+2129,Female,18,Riyadh,Regular Family
+2130,Male,34,Riyadh,Budget Shopper
+2131,Male,63,Riyadh,Regular Family
+2132,Female,45,Jeddah,Regular Family
+2133,Male,30,Riyadh,Premium
+2134,Female,35,Jeddah,Regular Family
+2135,Male,43,Tabuk,Regular Family
+2136,Male,18,Riyadh,Occasional
+2137,Female,27,Buraidah,Budget Shopper
+2138,Female,40,Buraidah,Premium
+2139,Female,54,Dammam,Regular Family
+2140,Male,31,Buraidah,Budget Shopper
+2141,Male,53,Madinah,Budget Shopper
+2142,Female,28,Jeddah,Regular Family
+2143,Female,18,Khobar,Budget Shopper
+2144,Male,44,Riyadh,Occasional
+2145,Female,42,Dammam,Regular Family
+2146,Male,44,Tabuk,Regular Family
+2147,Female,44,Khobar,Premium
+2148,Male,38,Jeddah,Budget Shopper
+2149,Female,33,Makkah,Budget Shopper
+2150,Male,34,Taif,Regular Family
+2151,Female,31,Riyadh,Regular Family
+2152,Female,32,Jeddah,Regular Family
+2153,Male,18,Riyadh,Regular Family
+2154,Male,23,Taif,Premium
+2155,Female,34,Khobar,Occasional
+2156,Female,18,Riyadh,Regular Family
+2157,Female,18,Makkah,Premium
+2158,Female,32,Dammam,Budget Shopper
+2159,Male,35,Riyadh,Regular Family
+2160,Female,33,Buraidah,Regular Family
+2161,Male,18,Madinah,Regular Family
+2162,Female,53,Riyadh,Budget Shopper
+2163,Female,20,Taif,Budget Shopper
+2164,Female,27,Riyadh,Budget Shopper
+2165,Male,22,Riyadh,Budget Shopper
+2166,Male,50,Jeddah,Regular Family
+2167,Female,41,Riyadh,Regular Family
+2168,Male,31,Khobar,Budget Shopper
+2169,Female,30,Jeddah,Regular Family
+2170,Female,38,Riyadh,Regular Family
+2171,Male,22,Taif,Budget Shopper
+2172,Male,40,Jeddah,Budget Shopper
+2173,Female,30,Jeddah,Regular Family
+2174,Female,42,Jeddah,Regular Family
+2175,Male,41,Tabuk,Premium
+2176,Male,29,Riyadh,Budget Shopper
+2177,Male,18,Riyadh,Regular Family
+2178,Female,33,Buraidah,Regular Family
+2179,Female,20,Riyadh,Occasional
+2180,Female,37,Buraidah,Premium
+2181,Female,33,Khobar,Budget Shopper
+2182,Female,30,Tabuk,Occasional
+2183,Female,22,Riyadh,Regular Family
+2184,Male,49,Taif,Occasional
+2185,Female,31,Jeddah,Budget Shopper
+2186,Female,62,Riyadh,Regular Family
+2187,Female,36,Abha,Regular Family
+2188,Female,40,Riyadh,Budget Shopper
+2189,Male,36,Jeddah,Premium
+2190,Female,40,Khobar,Budget Shopper
+2191,Female,48,Riyadh,Budget Shopper
+2192,Female,48,Riyadh,Budget Shopper
+2193,Male,18,Dammam,Occasional
+2194,Female,45,Jeddah,Occasional
+2195,Female,41,Khobar,Regular Family
+2196,Female,36,Madinah,Regular Family
+2197,Male,55,Jeddah,Budget Shopper
+2198,Female,55,Jeddah,Regular Family
+2199,Female,46,Jeddah,Occasional
+2200,Female,30,Jeddah,Premium
+2201,Female,23,Riyadh,Premium
+2202,Male,44,Khobar,Budget Shopper
+2203,Female,51,Riyadh,Premium
+2204,Male,18,Madinah,Occasional
+2205,Male,48,Riyadh,Occasional
+2206,Male,33,Riyadh,Regular Family
+2207,Male,18,Jeddah,Budget Shopper
+2208,Male,41,Dammam,Occasional
+2209,Male,46,Madinah,Regular Family
+2210,Male,32,Madinah,Budget Shopper
+2211,Female,24,Taif,Budget Shopper
+2212,Male,55,Jeddah,Regular Family
+2213,Male,29,Riyadh,Occasional
+2214,Male,49,Buraidah,Occasional
+2215,Male,19,Madinah,Occasional
+2216,Male,41,Riyadh,Regular Family
+2217,Female,40,Riyadh,Occasional
+2218,Female,46,Dammam,Budget Shopper
+2219,Male,52,Jeddah,Budget Shopper
+2220,Female,27,Khobar,Budget Shopper
+2221,Male,42,Riyadh,Premium
+2222,Female,21,Taif,Occasional
+2223,Female,21,Dammam,Occasional
+2224,Male,30,Abha,Occasional
+2225,Male,41,Riyadh,Regular Family
+2226,Female,54,Makkah,Premium
+2227,Male,56,Buraidah,Regular Family
+2228,Male,32,Riyadh,Premium
+2229,Female,39,Khobar,Premium
+2230,Female,46,Riyadh,Regular Family
+2231,Male,44,Dammam,Budget Shopper
+2232,Female,34,Tabuk,Budget Shopper
+2233,Male,37,Madinah,Occasional
+2234,Male,35,Abha,Regular Family
+2235,Female,34,Riyadh,Regular Family
+2236,Female,32,Tabuk,Occasional
+2237,Female,35,Makkah,Regular Family
+2238,Female,32,Riyadh,Regular Family
+2239,Female,24,Buraidah,Premium
+2240,Female,45,Riyadh,Regular Family
+2241,Female,42,Riyadh,Regular Family
+2242,Male,57,Tabuk,Premium
+2243,Female,40,Riyadh,Regular Family
+2244,Male,31,Riyadh,Regular Family
+2245,Female,29,Riyadh,Budget Shopper
+2246,Male,37,Buraidah,Occasional
+2247,Male,42,Riyadh,Regular Family
+2248,Female,33,Jeddah,Occasional
+2249,Female,20,Riyadh,Regular Family
+2250,Male,28,Jeddah,Budget Shopper
+2251,Male,36,Jeddah,Regular Family
+2252,Female,44,Buraidah,Regular Family
+2253,Female,20,Abha,Premium
+2254,Male,39,Buraidah,Regular Family
+2255,Male,38,Madinah,Regular Family
+2256,Male,31,Jeddah,Premium
+2257,Male,30,Riyadh,Budget Shopper
+2258,Male,28,Dammam,Occasional
+2259,Female,38,Jeddah,Regular Family
+2260,Female,48,Makkah,Premium
+2261,Male,49,Riyadh,Budget Shopper
+2262,Male,24,Madinah,Budget Shopper
+2263,Male,34,Jeddah,Premium
+2264,Male,18,Dammam,Regular Family
+2265,Male,37,Taif,Occasional
+2266,Male,43,Riyadh,Premium
+2267,Female,53,Riyadh,Premium
+2268,Male,18,Riyadh,Regular Family
+2269,Female,24,Jeddah,Occasional
+2270,Female,38,Khobar,Occasional
+2271,Male,18,Taif,Budget Shopper
+2272,Male,38,Buraidah,Regular Family
+2273,Female,43,Madinah,Occasional
+2274,Male,22,Madinah,Budget Shopper
+2275,Male,37,Jeddah,Budget Shopper
+2276,Female,23,Buraidah,Occasional
+2277,Female,51,Khobar,Regular Family
+2278,Female,38,Riyadh,Occasional
+2279,Male,29,Taif,Regular Family
+2280,Male,22,Dammam,Regular Family
+2281,Male,40,Riyadh,Regular Family
+2282,Male,51,Madinah,Regular Family
+2283,Female,28,Riyadh,Occasional
+2284,Male,31,Riyadh,Premium
+2285,Male,28,Jeddah,Occasional
+2286,Male,53,Khobar,Regular Family
+2287,Male,18,Jeddah,Occasional
+2288,Male,50,Riyadh,Premium
+2289,Female,32,Jeddah,Budget Shopper
+2290,Male,35,Riyadh,Regular Family
+2291,Female,32,Dammam,Budget Shopper
+2292,Male,39,Dammam,Budget Shopper
+2293,Male,28,Riyadh,Occasional
+2294,Female,48,Riyadh,Occasional
+2295,Female,48,Jeddah,Budget Shopper
+2296,Male,25,Dammam,Budget Shopper
+2297,Male,43,Tabuk,Budget Shopper
+2298,Female,32,Riyadh,Occasional
+2299,Female,37,Riyadh,Regular Family
+2300,Male,53,Riyadh,Regular Family
+2301,Male,29,Makkah,Regular Family
+2302,Male,46,Jeddah,Occasional
+2303,Female,41,Makkah,Budget Shopper
+2304,Female,34,Madinah,Budget Shopper
+2305,Male,40,Riyadh,Regular Family
+2306,Male,39,Jeddah,Occasional
+2307,Male,23,Taif,Premium
+2308,Female,29,Jeddah,Occasional
+2309,Female,25,Dammam,Occasional
+2310,Female,33,Khobar,Budget Shopper
+2311,Female,51,Jeddah,Premium
+2312,Male,42,Abha,Occasional
+2313,Female,20,Riyadh,Budget Shopper
+2314,Male,33,Riyadh,Premium
+2315,Male,39,Khobar,Budget Shopper
+2316,Male,44,Buraidah,Occasional
+2317,Female,29,Riyadh,Budget Shopper
+2318,Male,22,Makkah,Regular Family
+2319,Male,35,Riyadh,Premium
+2320,Female,42,Makkah,Regular Family
+2321,Female,39,Jeddah,Budget Shopper
+2322,Male,26,Dammam,Budget Shopper
+2323,Male,55,Taif,Occasional
+2324,Female,35,Madinah,Occasional
+2325,Male,38,Riyadh,Premium
+2326,Male,29,Taif,Budget Shopper
+2327,Male,48,Jeddah,Premium
+2328,Male,42,Madinah,Regular Family
+2329,Female,39,Madinah,Regular Family
+2330,Female,23,Tabuk,Budget Shopper
+2331,Male,48,Jeddah,Budget Shopper
+2332,Female,44,Madinah,Budget Shopper
+2333,Female,47,Makkah,Regular Family
+2334,Female,36,Dammam,Regular Family
+2335,Male,35,Buraidah,Regular Family
+2336,Male,34,Jeddah,Regular Family
+2337,Female,61,Riyadh,Regular Family
+2338,Female,30,Makkah,Regular Family
+2339,Male,23,Riyadh,Regular Family
+2340,Male,32,Tabuk,Budget Shopper
+2341,Male,30,Jeddah,Budget Shopper
+2342,Male,50,Jeddah,Regular Family
+2343,Male,21,Madinah,Regular Family
+2344,Male,30,Buraidah,Regular Family
+2345,Male,38,Madinah,Regular Family
+2346,Female,50,Riyadh,Budget Shopper
+2347,Female,44,Jeddah,Budget Shopper
+2348,Male,54,Abha,Premium
+2349,Male,40,Buraidah,Regular Family
+2350,Male,34,Makkah,Regular Family
+2351,Male,45,Khobar,Budget Shopper
+2352,Female,21,Jeddah,Occasional
+2353,Male,18,Dammam,Regular Family
+2354,Female,47,Dammam,Regular Family
+2355,Male,38,Riyadh,Regular Family
+2356,Female,47,Riyadh,Regular Family
+2357,Female,27,Makkah,Premium
+2358,Female,50,Dammam,Budget Shopper
+2359,Female,43,Riyadh,Budget Shopper
+2360,Male,36,Buraidah,Budget Shopper
+2361,Male,38,Riyadh,Occasional
+2362,Male,40,Madinah,Occasional
+2363,Female,27,Abha,Premium
+2364,Female,32,Tabuk,Regular Family
+2365,Male,40,Tabuk,Budget Shopper
+2366,Female,31,Abha,Occasional
+2367,Male,20,Dammam,Budget Shopper
+2368,Male,39,Makkah,Budget Shopper
+2369,Female,45,Buraidah,Occasional
+2370,Male,48,Jeddah,Budget Shopper
+2371,Male,42,Makkah,Occasional
+2372,Female,45,Riyadh,Premium
+2373,Female,47,Khobar,Occasional
+2374,Female,37,Riyadh,Premium
+2375,Male,18,Makkah,Regular Family
+2376,Male,49,Jeddah,Premium
+2377,Female,26,Riyadh,Occasional
+2378,Female,24,Jeddah,Premium
+2379,Male,24,Madinah,Occasional
+2380,Female,63,Buraidah,Occasional
+2381,Female,41,Riyadh,Premium
+2382,Female,25,Riyadh,Occasional
+2383,Female,28,Madinah,Budget Shopper
+2384,Male,36,Khobar,Occasional
+2385,Female,42,Jeddah,Occasional
+2386,Male,39,Makkah,Budget Shopper
+2387,Male,26,Buraidah,Regular Family
+2388,Male,39,Jeddah,Regular Family
+2389,Male,29,Dammam,Occasional
+2390,Male,48,Riyadh,Budget Shopper
+2391,Female,37,Taif,Regular Family
+2392,Male,28,Tabuk,Regular Family
+2393,Male,44,Dammam,Regular Family
+2394,Female,40,Taif,Occasional
+2395,Male,31,Riyadh,Regular Family
+2396,Male,44,Madinah,Regular Family
+2397,Female,43,Abha,Occasional
+2398,Female,49,Tabuk,Budget Shopper
+2399,Female,44,Madinah,Budget Shopper
+2400,Male,34,Riyadh,Budget Shopper
+2401,Female,18,Riyadh,Occasional
+2402,Female,38,Riyadh,Occasional
+2403,Female,40,Buraidah,Regular Family
+2404,Male,37,Jeddah,Regular Family
+2405,Female,18,Khobar,Regular Family
+2406,Female,43,Riyadh,Regular Family
+2407,Male,26,Dammam,Regular Family
+2408,Male,44,Jeddah,Budget Shopper
+2409,Male,55,Khobar,Budget Shopper
+2410,Female,33,Jeddah,Occasional
+2411,Male,41,Riyadh,Regular Family
+2412,Female,36,Riyadh,Budget Shopper
+2413,Male,42,Taif,Occasional
+2414,Female,37,Makkah,Regular Family
+2415,Male,30,Makkah,Premium
+2416,Female,26,Buraidah,Budget Shopper
+2417,Female,53,Khobar,Occasional
+2418,Female,41,Makkah,Budget Shopper
+2419,Female,45,Dammam,Occasional
+2420,Female,40,Riyadh,Premium
+2421,Female,47,Jeddah,Budget Shopper
+2422,Male,26,Buraidah,Budget Shopper
+2423,Female,37,Dammam,Occasional
+2424,Male,42,Riyadh,Budget Shopper
+2425,Female,50,Tabuk,Budget Shopper
+2426,Female,65,Riyadh,Premium
+2427,Female,40,Makkah,Budget Shopper
+2428,Male,29,Madinah,Regular Family
+2429,Male,23,Jeddah,Regular Family
+2430,Female,26,Riyadh,Budget Shopper
+2431,Male,27,Dammam,Regular Family
+2432,Female,18,Abha,Budget Shopper
+2433,Male,29,Buraidah,Occasional
+2434,Male,44,Tabuk,Budget Shopper
+2435,Female,37,Riyadh,Premium
+2436,Male,33,Riyadh,Premium
+2437,Male,18,Makkah,Premium
+2438,Male,48,Madinah,Regular Family
+2439,Female,42,Riyadh,Budget Shopper
+2440,Female,36,Riyadh,Regular Family
+2441,Female,18,Riyadh,Premium
+2442,Male,31,Jeddah,Premium
+2443,Male,41,Madinah,Budget Shopper
+2444,Male,36,Taif,Premium
+2445,Male,38,Riyadh,Budget Shopper
+2446,Male,44,Dammam,Regular Family
+2447,Male,38,Jeddah,Regular Family
+2448,Male,43,Jeddah,Budget Shopper
+2449,Female,27,Riyadh,Occasional
+2450,Male,23,Jeddah,Regular Family
+2451,Male,41,Jeddah,Budget Shopper
+2452,Male,44,Madinah,Budget Shopper
+2453,Female,42,Makkah,Premium
+2454,Female,37,Makkah,Occasional
+2455,Female,32,Dammam,Budget Shopper
+2456,Female,38,Jeddah,Budget Shopper
+2457,Male,40,Riyadh,Regular Family
+2458,Male,41,Riyadh,Regular Family
+2459,Female,65,Riyadh,Regular Family
+2460,Female,26,Riyadh,Regular Family
+2461,Female,71,Taif,Regular Family
+2462,Male,22,Taif,Budget Shopper
+2463,Female,40,Abha,Regular Family
+2464,Female,23,Makkah,Budget Shopper
+2465,Male,39,Makkah,Budget Shopper
+2466,Male,47,Makkah,Occasional
+2467,Female,36,Makkah,Budget Shopper
+2468,Female,47,Riyadh,Budget Shopper
+2469,Male,31,Taif,Occasional
+2470,Male,18,Abha,Occasional
+2471,Female,43,Riyadh,Occasional
+2472,Female,36,Dammam,Budget Shopper
+2473,Female,31,Abha,Regular Family
+2474,Male,31,Buraidah,Premium
+2475,Male,40,Jeddah,Premium
+2476,Female,27,Dammam,Budget Shopper
+2477,Male,40,Jeddah,Regular Family
+2478,Male,49,Jeddah,Budget Shopper
+2479,Female,59,Riyadh,Premium
+2480,Male,51,Riyadh,Regular Family
+2481,Female,38,Jeddah,Regular Family
+2482,Male,39,Dammam,Regular Family
+2483,Female,32,Abha,Occasional
+2484,Female,31,Dammam,Occasional
+2485,Male,46,Jeddah,Premium
+2486,Female,33,Dammam,Budget Shopper
+2487,Male,40,Abha,Occasional
+2488,Female,25,Dammam,Budget Shopper
+2489,Male,51,Khobar,Budget Shopper
+2490,Female,32,Riyadh,Regular Family
+2491,Male,48,Riyadh,Premium
+2492,Female,28,Buraidah,Budget Shopper
+2493,Male,28,Jeddah,Budget Shopper
+2494,Male,51,Jeddah,Budget Shopper
+2495,Male,29,Riyadh,Regular Family
+2496,Male,19,Dammam,Premium
+2497,Male,25,Madinah,Regular Family
+2498,Male,45,Madinah,Regular Family
+2499,Female,44,Buraidah,Occasional
+2500,Male,28,Jeddah,Regular Family
+2501,Male,29,Jeddah,Regular Family
+2502,Female,43,Taif,Regular Family
+2503,Female,50,Dammam,Premium
+2504,Male,35,Tabuk,Premium
+2505,Male,42,Makkah,Budget Shopper
+2506,Male,46,Riyadh,Occasional
+2507,Female,60,Taif,Regular Family
+2508,Female,23,Jeddah,Occasional
+2509,Female,29,Makkah,Regular Family
+2510,Female,30,Jeddah,Regular Family
+2511,Female,45,Khobar,Budget Shopper
+2512,Female,33,Khobar,Regular Family
+2513,Female,39,Jeddah,Regular Family
+2514,Female,37,Taif,Occasional
+2515,Female,36,Riyadh,Occasional
+2516,Female,37,Dammam,Regular Family
+2517,Male,47,Riyadh,Occasional
+2518,Male,25,Madinah,Occasional
+2519,Male,34,Dammam,Occasional
+2520,Male,23,Khobar,Regular Family
+2521,Female,38,Madinah,Budget Shopper
+2522,Female,34,Abha,Occasional
+2523,Male,48,Taif,Regular Family
+2524,Male,36,Buraidah,Regular Family
+2525,Male,31,Jeddah,Regular Family
+2526,Female,33,Madinah,Budget Shopper
+2527,Female,55,Riyadh,Budget Shopper
+2528,Male,19,Riyadh,Budget Shopper
+2529,Male,29,Dammam,Regular Family
+2530,Female,36,Dammam,Regular Family
+2531,Female,29,Dammam,Regular Family
+2532,Female,41,Dammam,Budget Shopper
+2533,Male,35,Makkah,Budget Shopper
+2534,Male,39,Taif,Regular Family
+2535,Female,37,Riyadh,Budget Shopper
+2536,Male,35,Jeddah,Occasional
+2537,Female,22,Riyadh,Regular Family
+2538,Female,38,Riyadh,Regular Family
+2539,Male,18,Taif,Regular Family
+2540,Male,29,Riyadh,Regular Family
+2541,Female,41,Riyadh,Budget Shopper
+2542,Female,49,Jeddah,Premium
+2543,Male,62,Jeddah,Budget Shopper
+2544,Female,31,Khobar,Regular Family
+2545,Male,26,Taif,Regular Family
+2546,Female,42,Madinah,Regular Family
+2547,Female,57,Jeddah,Premium
+2548,Male,53,Madinah,Occasional
+2549,Female,25,Buraidah,Regular Family
+2550,Female,34,Riyadh,Budget Shopper
+2551,Female,45,Madinah,Premium
+2552,Male,46,Makkah,Regular Family
+2553,Female,43,Madinah,Regular Family
+2554,Female,31,Riyadh,Regular Family
+2555,Male,42,Madinah,Regular Family
+2556,Male,46,Abha,Premium
+2557,Female,26,Madinah,Regular Family
+2558,Female,51,Riyadh,Occasional
+2559,Male,47,Riyadh,Premium
+2560,Female,28,Madinah,Regular Family
+2561,Male,46,Makkah,Budget Shopper
+2562,Female,45,Taif,Budget Shopper
+2563,Male,45,Dammam,Budget Shopper
+2564,Male,53,Riyadh,Budget Shopper
+2565,Female,36,Abha,Budget Shopper
+2566,Female,40,Madinah,Premium
+2567,Male,18,Dammam,Regular Family
+2568,Female,48,Madinah,Budget Shopper
+2569,Female,47,Jeddah,Regular Family
+2570,Female,51,Riyadh,Premium
+2571,Male,26,Riyadh,Regular Family
+2572,Male,47,Jeddah,Occasional
+2573,Female,47,Makkah,Occasional
+2574,Female,29,Jeddah,Occasional
+2575,Male,48,Buraidah,Premium
+2576,Male,41,Riyadh,Occasional
+2577,Male,18,Madinah,Regular Family
+2578,Male,42,Dammam,Premium
+2579,Female,28,Riyadh,Budget Shopper
+2580,Male,18,Khobar,Budget Shopper
+2581,Female,40,Taif,Occasional
+2582,Female,35,Taif,Regular Family
+2583,Male,51,Jeddah,Budget Shopper
+2584,Female,38,Khobar,Budget Shopper
+2585,Male,45,Riyadh,Regular Family
+2586,Male,42,Dammam,Occasional
+2587,Male,47,Jeddah,Occasional
+2588,Female,26,Buraidah,Budget Shopper
+2589,Male,38,Makkah,Budget Shopper
+2590,Female,34,Riyadh,Budget Shopper
+2591,Male,43,Taif,Premium
+2592,Male,39,Madinah,Regular Family
+2593,Female,29,Riyadh,Premium
+2594,Female,32,Abha,Regular Family
+2595,Female,54,Khobar,Budget Shopper
+2596,Male,18,Jeddah,Budget Shopper
+2597,Male,44,Riyadh,Regular Family
+2598,Male,50,Jeddah,Premium
+2599,Male,42,Riyadh,Regular Family
+2600,Female,58,Tabuk,Occasional
+2601,Male,46,Jeddah,Budget Shopper
+2602,Female,40,Dammam,Occasional
+2603,Female,31,Taif,Budget Shopper
+2604,Male,40,Taif,Regular Family
+2605,Male,43,Abha,Budget Shopper
+2606,Female,36,Abha,Budget Shopper
+2607,Male,28,Taif,Budget Shopper
+2608,Male,23,Abha,Budget Shopper
+2609,Male,38,Dammam,Regular Family
+2610,Female,20,Riyadh,Premium
+2611,Female,31,Riyadh,Premium
+2612,Female,18,Dammam,Occasional
+2613,Male,45,Jeddah,Premium
+2614,Female,49,Jeddah,Occasional
+2615,Male,37,Riyadh,Budget Shopper
+2616,Female,56,Khobar,Occasional
+2617,Female,51,Jeddah,Regular Family
+2618,Female,41,Jeddah,Regular Family
+2619,Male,35,Makkah,Regular Family
+2620,Female,32,Jeddah,Budget Shopper
+2621,Male,42,Dammam,Budget Shopper
+2622,Male,34,Riyadh,Regular Family
+2623,Female,42,Madinah,Premium
+2624,Male,43,Buraidah,Occasional
+2625,Male,33,Riyadh,Budget Shopper
+2626,Female,48,Tabuk,Budget Shopper
+2627,Female,33,Buraidah,Regular Family
+2628,Female,36,Taif,Regular Family
+2629,Male,25,Tabuk,Budget Shopper
+2630,Female,33,Khobar,Regular Family
+2631,Male,60,Riyadh,Premium
+2632,Female,26,Riyadh,Budget Shopper
+2633,Male,41,Riyadh,Budget Shopper
+2634,Male,31,Dammam,Budget Shopper
+2635,Female,18,Taif,Regular Family
+2636,Male,42,Riyadh,Budget Shopper
+2637,Female,30,Khobar,Regular Family
+2638,Male,40,Taif,Occasional
+2639,Male,47,Riyadh,Budget Shopper
+2640,Male,39,Riyadh,Budget Shopper
+2641,Male,40,Jeddah,Budget Shopper
+2642,Male,26,Riyadh,Occasional
+2643,Male,44,Dammam,Regular Family
+2644,Male,34,Jeddah,Occasional
+2645,Female,18,Khobar,Occasional
+2646,Female,45,Riyadh,Occasional
+2647,Male,48,Madinah,Occasional
+2648,Male,52,Riyadh,Budget Shopper
+2649,Male,60,Dammam,Regular Family
+2650,Male,45,Riyadh,Occasional
+2651,Male,42,Abha,Regular Family
+2652,Male,48,Makkah,Premium
+2653,Female,26,Riyadh,Occasional
+2654,Female,18,Makkah,Regular Family
+2655,Male,31,Dammam,Premium
+2656,Male,50,Tabuk,Regular Family
+2657,Male,29,Taif,Regular Family
+2658,Male,41,Riyadh,Budget Shopper
+2659,Female,42,Dammam,Regular Family
+2660,Male,39,Jeddah,Occasional
+2661,Male,22,Madinah,Occasional
+2662,Male,40,Riyadh,Budget Shopper
+2663,Female,31,Khobar,Occasional
+2664,Male,55,Buraidah,Budget Shopper
+2665,Female,49,Jeddah,Regular Family
+2666,Male,32,Tabuk,Occasional
+2667,Male,55,Riyadh,Occasional
+2668,Male,40,Buraidah,Regular Family
+2669,Male,18,Abha,Regular Family
+2670,Male,35,Jeddah,Regular Family
+2671,Male,54,Riyadh,Premium
+2672,Male,27,Dammam,Budget Shopper
+2673,Male,35,Makkah,Budget Shopper
+2674,Male,21,Riyadh,Occasional
+2675,Female,23,Taif,Budget Shopper
+2676,Female,27,Abha,Premium
+2677,Female,22,Taif,Regular Family
+2678,Female,29,Jeddah,Budget Shopper
+2679,Male,55,Dammam,Budget Shopper
+2680,Female,36,Riyadh,Budget Shopper
+2681,Male,45,Jeddah,Budget Shopper
+2682,Male,48,Riyadh,Regular Family
+2683,Female,24,Riyadh,Regular Family
+2684,Male,27,Makkah,Regular Family
+2685,Male,44,Riyadh,Occasional
+2686,Male,29,Riyadh,Premium
+2687,Male,44,Khobar,Premium
+2688,Male,54,Madinah,Regular Family
+2689,Female,20,Abha,Premium
+2690,Male,32,Khobar,Budget Shopper
+2691,Male,34,Riyadh,Budget Shopper
+2692,Male,30,Khobar,Budget Shopper
+2693,Female,29,Makkah,Premium
+2694,Female,31,Jeddah,Regular Family
+2695,Female,36,Riyadh,Occasional
+2696,Male,38,Buraidah,Budget Shopper
+2697,Male,46,Riyadh,Regular Family
+2698,Male,36,Jeddah,Budget Shopper
+2699,Female,48,Riyadh,Occasional
+2700,Female,29,Buraidah,Regular Family
+2701,Female,23,Dammam,Regular Family
+2702,Male,33,Taif,Regular Family
+2703,Female,41,Tabuk,Budget Shopper
+2704,Male,45,Abha,Premium
+2705,Male,52,Riyadh,Occasional
+2706,Male,39,Jeddah,Regular Family
+2707,Female,44,Tabuk,Budget Shopper
+2708,Female,51,Taif,Premium
+2709,Male,27,Buraidah,Premium
+2710,Female,34,Taif,Occasional
+2711,Male,66,Makkah,Budget Shopper
+2712,Male,45,Dammam,Occasional
+2713,Male,42,Dammam,Occasional
+2714,Male,46,Dammam,Budget Shopper
+2715,Female,21,Riyadh,Premium
+2716,Male,29,Jeddah,Budget Shopper
+2717,Male,25,Riyadh,Budget Shopper
+2718,Male,41,Riyadh,Regular Family
+2719,Female,32,Jeddah,Budget Shopper
+2720,Female,37,Makkah,Budget Shopper
+2721,Female,33,Makkah,Premium
+2722,Male,18,Khobar,Occasional
+2723,Male,46,Madinah,Budget Shopper
+2724,Male,18,Jeddah,Budget Shopper
+2725,Female,28,Dammam,Budget Shopper
+2726,Male,22,Dammam,Budget Shopper
+2727,Female,26,Riyadh,Occasional
+2728,Female,38,Khobar,Regular Family
+2729,Female,50,Abha,Premium
+2730,Female,19,Jeddah,Regular Family
+2731,Male,30,Buraidah,Occasional
+2732,Male,18,Jeddah,Regular Family
+2733,Male,29,Dammam,Occasional
+2734,Male,37,Buraidah,Regular Family
+2735,Female,44,Madinah,Occasional
+2736,Male,18,Khobar,Regular Family
+2737,Female,42,Makkah,Occasional
+2738,Female,25,Riyadh,Regular Family
+2739,Male,23,Madinah,Premium
+2740,Male,37,Makkah,Regular Family
+2741,Male,43,Riyadh,Regular Family
+2742,Male,35,Riyadh,Regular Family
+2743,Female,24,Taif,Budget Shopper
+2744,Female,35,Riyadh,Occasional
+2745,Female,28,Buraidah,Regular Family
+2746,Male,43,Jeddah,Budget Shopper
+2747,Female,48,Jeddah,Premium
+2748,Female,47,Khobar,Premium
+2749,Female,36,Makkah,Budget Shopper
+2750,Female,48,Dammam,Regular Family
+2751,Female,25,Jeddah,Regular Family
+2752,Male,56,Dammam,Occasional
+2753,Female,25,Madinah,Regular Family
+2754,Male,18,Jeddah,Budget Shopper
+2755,Male,51,Khobar,Premium
+2756,Male,28,Jeddah,Budget Shopper
+2757,Male,37,Jeddah,Occasional
+2758,Male,25,Jeddah,Premium
+2759,Male,62,Riyadh,Occasional
+2760,Female,56,Abha,Regular Family
+2761,Female,53,Taif,Budget Shopper
+2762,Female,37,Riyadh,Regular Family
+2763,Female,47,Riyadh,Budget Shopper
+2764,Male,35,Taif,Budget Shopper
+2765,Female,48,Jeddah,Regular Family
+2766,Female,31,Jeddah,Regular Family
+2767,Male,53,Makkah,Regular Family
+2768,Female,31,Jeddah,Budget Shopper
+2769,Female,32,Dammam,Budget Shopper
+2770,Male,31,Buraidah,Premium
+2771,Female,38,Khobar,Regular Family
+2772,Male,32,Makkah,Premium
+2773,Female,41,Riyadh,Premium
+2774,Female,31,Jeddah,Premium
+2775,Male,45,Buraidah,Occasional
+2776,Female,53,Buraidah,Occasional
+2777,Male,37,Tabuk,Budget Shopper
+2778,Male,60,Riyadh,Regular Family
+2779,Female,48,Tabuk,Premium
+2780,Female,60,Riyadh,Premium
+2781,Male,35,Khobar,Budget Shopper
+2782,Female,18,Makkah,Occasional
+2783,Male,28,Jeddah,Occasional
+2784,Male,29,Dammam,Occasional
+2785,Female,26,Madinah,Budget Shopper
+2786,Male,18,Buraidah,Regular Family
+2787,Male,47,Riyadh,Regular Family
+2788,Female,18,Riyadh,Regular Family
+2789,Female,46,Makkah,Budget Shopper
+2790,Female,60,Riyadh,Budget Shopper
+2791,Female,27,Riyadh,Occasional
+2792,Female,40,Riyadh,Regular Family
+2793,Female,32,Riyadh,Regular Family
+2794,Male,45,Dammam,Budget Shopper
+2795,Male,23,Taif,Occasional
+2796,Male,35,Tabuk,Occasional
+2797,Male,48,Khobar,Premium
+2798,Male,35,Riyadh,Regular Family
+2799,Female,18,Makkah,Budget Shopper
+2800,Female,50,Dammam,Regular Family
+2801,Female,22,Abha,Occasional
+2802,Male,37,Dammam,Occasional
+2803,Male,42,Makkah,Budget Shopper
+2804,Male,37,Riyadh,Regular Family
+2805,Male,64,Tabuk,Regular Family
+2806,Male,44,Abha,Regular Family
+2807,Female,34,Jeddah,Premium
+2808,Male,43,Taif,Regular Family
+2809,Female,38,Riyadh,Occasional
+2810,Male,36,Riyadh,Budget Shopper
+2811,Female,39,Abha,Regular Family
+2812,Female,31,Makkah,Regular Family
+2813,Female,38,Riyadh,Occasional
+2814,Male,30,Riyadh,Occasional
+2815,Female,18,Riyadh,Occasional
+2816,Male,49,Riyadh,Regular Family
+2817,Female,30,Dammam,Budget Shopper
+2818,Male,38,Riyadh,Premium
+2819,Female,28,Dammam,Occasional
+2820,Female,28,Makkah,Budget Shopper
+2821,Female,25,Madinah,Budget Shopper
+2822,Female,46,Taif,Budget Shopper
+2823,Male,49,Riyadh,Premium
+2824,Female,36,Riyadh,Regular Family
+2825,Male,30,Riyadh,Budget Shopper
+2826,Male,18,Jeddah,Budget Shopper
+2827,Male,45,Dammam,Premium
+2828,Male,29,Riyadh,Regular Family
+2829,Male,24,Madinah,Budget Shopper
+2830,Female,36,Taif,Regular Family
+2831,Male,32,Riyadh,Budget Shopper
+2832,Female,19,Riyadh,Budget Shopper
+2833,Male,21,Abha,Budget Shopper
+2834,Female,40,Abha,Budget Shopper
+2835,Male,29,Riyadh,Budget Shopper
+2836,Male,42,Makkah,Budget Shopper
+2837,Female,38,Riyadh,Budget Shopper
+2838,Female,48,Makkah,Premium
+2839,Female,27,Madinah,Occasional
+2840,Male,39,Riyadh,Budget Shopper
+2841,Female,43,Jeddah,Premium
+2842,Female,29,Makkah,Budget Shopper
+2843,Female,48,Khobar,Occasional
+2844,Male,18,Buraidah,Budget Shopper
+2845,Male,27,Dammam,Budget Shopper
+2846,Male,18,Abha,Regular Family
+2847,Female,28,Madinah,Budget Shopper
+2848,Male,34,Makkah,Budget Shopper
+2849,Male,45,Riyadh,Regular Family
+2850,Female,34,Jeddah,Premium
+2851,Female,29,Khobar,Budget Shopper
+2852,Female,19,Riyadh,Budget Shopper
+2853,Female,23,Riyadh,Occasional
+2854,Male,39,Riyadh,Budget Shopper
+2855,Female,46,Buraidah,Budget Shopper
+2856,Male,31,Madinah,Regular Family
+2857,Male,49,Tabuk,Budget Shopper
+2858,Male,26,Taif,Occasional
+2859,Male,32,Madinah,Budget Shopper
+2860,Female,33,Dammam,Budget Shopper
+2861,Female,53,Dammam,Occasional
+2862,Male,37,Madinah,Occasional
+2863,Male,18,Buraidah,Premium
+2864,Male,46,Tabuk,Budget Shopper
+2865,Male,56,Dammam,Regular Family
+2866,Female,33,Abha,Occasional
+2867,Female,26,Dammam,Regular Family
+2868,Male,46,Jeddah,Occasional
+2869,Male,58,Jeddah,Premium
+2870,Female,45,Riyadh,Occasional
+2871,Female,18,Riyadh,Budget Shopper
+2872,Female,44,Madinah,Occasional
+2873,Male,40,Riyadh,Occasional
+2874,Female,25,Buraidah,Premium
+2875,Male,50,Riyadh,Occasional
+2876,Female,41,Riyadh,Premium
+2877,Male,50,Dammam,Regular Family
+2878,Female,24,Riyadh,Regular Family
+2879,Male,40,Riyadh,Occasional
+2880,Female,26,Riyadh,Premium
+2881,Male,39,Dammam,Regular Family
+2882,Female,52,Jeddah,Regular Family
+2883,Male,20,Khobar,Occasional
+2884,Female,21,Riyadh,Budget Shopper
+2885,Male,47,Riyadh,Premium
+2886,Female,36,Riyadh,Regular Family
+2887,Female,49,Riyadh,Occasional
+2888,Male,27,Abha,Budget Shopper
+2889,Male,37,Dammam,Regular Family
+2890,Male,44,Makkah,Budget Shopper
+2891,Male,38,Buraidah,Premium
+2892,Female,18,Riyadh,Premium
+2893,Male,67,Buraidah,Regular Family
+2894,Male,38,Madinah,Regular Family
+2895,Male,21,Madinah,Regular Family
+2896,Male,39,Buraidah,Regular Family
+2897,Male,41,Riyadh,Occasional
+2898,Female,47,Khobar,Premium
+2899,Male,46,Dammam,Budget Shopper
+2900,Female,34,Makkah,Regular Family
+2901,Female,18,Riyadh,Premium
+2902,Male,41,Riyadh,Regular Family
+2903,Female,18,Taif,Regular Family
+2904,Female,49,Dammam,Occasional
+2905,Female,28,Riyadh,Occasional
+2906,Male,43,Riyadh,Budget Shopper
+2907,Female,29,Khobar,Regular Family
+2908,Male,31,Riyadh,Regular Family
+2909,Female,27,Riyadh,Occasional
+2910,Male,44,Taif,Budget Shopper
+2911,Male,29,Riyadh,Budget Shopper
+2912,Female,44,Riyadh,Regular Family
+2913,Male,29,Makkah,Regular Family
+2914,Male,33,Riyadh,Budget Shopper
+2915,Female,36,Riyadh,Occasional
+2916,Male,38,Khobar,Regular Family
+2917,Male,26,Madinah,Budget Shopper
+2918,Male,44,Dammam,Budget Shopper
+2919,Female,33,Abha,Budget Shopper
+2920,Female,42,Tabuk,Budget Shopper
+2921,Female,36,Makkah,Regular Family
+2922,Female,42,Khobar,Budget Shopper
+2923,Female,31,Tabuk,Regular Family
+2924,Female,27,Riyadh,Regular Family
+2925,Female,41,Dammam,Regular Family
+2926,Female,31,Riyadh,Occasional
+2927,Female,52,Riyadh,Occasional
+2928,Male,37,Taif,Regular Family
+2929,Male,21,Riyadh,Regular Family
+2930,Male,30,Jeddah,Premium
+2931,Male,25,Riyadh,Regular Family
+2932,Female,48,Khobar,Premium
+2933,Female,45,Tabuk,Regular Family
+2934,Female,35,Jeddah,Budget Shopper
+2935,Female,39,Tabuk,Regular Family
+2936,Female,35,Dammam,Occasional
+2937,Female,45,Buraidah,Regular Family
+2938,Male,42,Tabuk,Premium
+2939,Male,44,Riyadh,Premium
+2940,Male,34,Buraidah,Regular Family
+2941,Male,29,Riyadh,Budget Shopper
+2942,Male,43,Dammam,Regular Family
+2943,Male,53,Riyadh,Budget Shopper
+2944,Male,48,Jeddah,Regular Family
+2945,Male,53,Taif,Budget Shopper
+2946,Female,38,Abha,Occasional
+2947,Male,25,Khobar,Premium
+2948,Female,26,Taif,Budget Shopper
+2949,Male,51,Jeddah,Premium
+2950,Female,18,Riyadh,Premium
+2951,Female,53,Tabuk,Premium
+2952,Female,27,Riyadh,Regular Family
+2953,Female,57,Tabuk,Regular Family
+2954,Female,35,Riyadh,Regular Family
+2955,Male,44,Jeddah,Regular Family
+2956,Male,62,Jeddah,Regular Family
+2957,Female,32,Jeddah,Budget Shopper
+2958,Male,32,Riyadh,Occasional
+2959,Male,28,Riyadh,Occasional
+2960,Female,25,Riyadh,Regular Family
+2961,Male,32,Abha,Regular Family
+2962,Female,30,Dammam,Budget Shopper
+2963,Male,22,Riyadh,Occasional
+2964,Male,34,Riyadh,Budget Shopper
+2965,Male,41,Jeddah,Premium
+2966,Male,26,Jeddah,Occasional
+2967,Female,34,Dammam,Regular Family
+2968,Female,51,Riyadh,Premium
+2969,Male,20,Taif,Regular Family
+2970,Male,57,Jeddah,Regular Family
+2971,Female,29,Dammam,Occasional
+2972,Male,38,Madinah,Regular Family
+2973,Male,50,Jeddah,Budget Shopper
+2974,Male,53,Riyadh,Regular Family
+2975,Female,41,Jeddah,Premium
+2976,Male,28,Khobar,Regular Family
+2977,Male,27,Tabuk,Regular Family
+2978,Female,30,Jeddah,Premium
+2979,Female,57,Buraidah,Budget Shopper
+2980,Female,32,Khobar,Regular Family
+2981,Female,40,Madinah,Budget Shopper
+2982,Female,25,Riyadh,Regular Family
+2983,Female,23,Buraidah,Occasional
+2984,Female,36,Riyadh,Budget Shopper
+2985,Male,32,Jeddah,Budget Shopper
+2986,Male,33,Dammam,Premium
+2987,Female,20,Taif,Regular Family
+2988,Female,35,Jeddah,Regular Family
+2989,Male,53,Riyadh,Regular Family
+2990,Female,27,Taif,Regular Family
+2991,Female,46,Tabuk,Budget Shopper
+2992,Male,18,Makkah,Premium
+2993,Female,27,Jeddah,Budget Shopper
+2994,Male,18,Jeddah,Occasional
+2995,Female,50,Taif,Premium
+2996,Female,46,Riyadh,Budget Shopper
+2997,Female,25,Abha,Premium
+2998,Female,39,Makkah,Premium
+2999,Female,49,Taif,Occasional
+3000,Male,51,Khobar,Premium
+3001,Female,32,Jeddah,Regular Family
+3002,Male,18,Abha,Regular Family
+3003,Female,26,Taif,Premium
+3004,Female,44,Buraidah,Premium
+3005,Female,59,Jeddah,Regular Family
+3006,Male,35,Jeddah,Occasional
+3007,Male,29,Abha,Budget Shopper
+3008,Male,62,Khobar,Occasional
+3009,Male,40,Riyadh,Regular Family
+3010,Male,22,Riyadh,Budget Shopper
+3011,Male,35,Riyadh,Budget Shopper
+3012,Female,47,Riyadh,Occasional
+3013,Male,35,Jeddah,Premium
+3014,Female,45,Taif,Regular Family
+3015,Male,18,Makkah,Occasional
+3016,Female,20,Riyadh,Budget Shopper
+3017,Female,28,Makkah,Budget Shopper
+3018,Female,33,Dammam,Budget Shopper
+3019,Female,40,Abha,Regular Family
+3020,Female,43,Buraidah,Regular Family
+3021,Male,63,Riyadh,Budget Shopper
+3022,Female,28,Taif,Budget Shopper
+3023,Male,33,Riyadh,Regular Family
+3024,Female,28,Madinah,Budget Shopper
+3025,Female,48,Buraidah,Regular Family
+3026,Male,48,Abha,Regular Family
+3027,Female,31,Riyadh,Budget Shopper
+3028,Male,59,Riyadh,Budget Shopper
+3029,Female,28,Riyadh,Regular Family
+3030,Female,47,Riyadh,Premium
+3031,Male,52,Riyadh,Regular Family
+3032,Female,21,Riyadh,Regular Family
+3033,Male,42,Khobar,Occasional
+3034,Female,18,Riyadh,Premium
+3035,Female,45,Jeddah,Regular Family
+3036,Male,24,Madinah,Occasional
+3037,Male,42,Riyadh,Regular Family
+3038,Male,44,Makkah,Regular Family
+3039,Female,48,Abha,Premium
+3040,Female,46,Khobar,Regular Family
+3041,Male,37,Dammam,Occasional
+3042,Male,32,Madinah,Budget Shopper
+3043,Male,35,Dammam,Regular Family
+3044,Male,24,Dammam,Budget Shopper
+3045,Male,34,Tabuk,Premium
+3046,Female,33,Tabuk,Budget Shopper
+3047,Male,27,Jeddah,Regular Family
+3048,Female,18,Jeddah,Occasional
+3049,Male,22,Tabuk,Budget Shopper
+3050,Female,18,Khobar,Budget Shopper
+3051,Male,33,Madinah,Regular Family
+3052,Male,40,Riyadh,Regular Family
+3053,Male,18,Riyadh,Budget Shopper
+3054,Female,39,Khobar,Budget Shopper
+3055,Female,35,Tabuk,Budget Shopper
+3056,Male,23,Jeddah,Budget Shopper
+3057,Female,31,Taif,Premium
+3058,Female,48,Abha,Regular Family
+3059,Male,25,Abha,Regular Family
+3060,Female,37,Tabuk,Budget Shopper
+3061,Male,40,Jeddah,Occasional
+3062,Female,27,Jeddah,Premium
+3063,Female,47,Riyadh,Regular Family
+3064,Male,40,Jeddah,Premium
+3065,Female,33,Riyadh,Regular Family
+3066,Male,62,Abha,Budget Shopper
+3067,Female,47,Tabuk,Regular Family
+3068,Female,18,Riyadh,Regular Family
+3069,Female,32,Dammam,Regular Family
+3070,Male,63,Makkah,Regular Family
+3071,Male,25,Madinah,Premium
+3072,Female,37,Taif,Occasional
+3073,Female,50,Riyadh,Occasional
+3074,Female,43,Riyadh,Regular Family
+3075,Male,45,Buraidah,Regular Family
+3076,Female,44,Riyadh,Regular Family
+3077,Female,36,Abha,Regular Family
+3078,Female,27,Riyadh,Premium
+3079,Male,41,Dammam,Budget Shopper
+3080,Male,32,Khobar,Occasional
+3081,Male,31,Abha,Budget Shopper
+3082,Female,52,Riyadh,Budget Shopper
+3083,Female,32,Tabuk,Budget Shopper
+3084,Female,55,Buraidah,Occasional
+3085,Male,39,Abha,Budget Shopper
+3086,Female,34,Taif,Regular Family
+3087,Female,18,Buraidah,Regular Family
+3088,Male,59,Abha,Premium
+3089,Male,36,Khobar,Regular Family
+3090,Male,18,Tabuk,Occasional
+3091,Female,47,Taif,Regular Family
+3092,Male,35,Makkah,Regular Family
+3093,Male,26,Riyadh,Budget Shopper
+3094,Female,46,Riyadh,Regular Family
+3095,Female,18,Abha,Occasional
+3096,Female,28,Taif,Budget Shopper
+3097,Female,33,Riyadh,Occasional
+3098,Female,45,Taif,Budget Shopper
+3099,Female,61,Jeddah,Occasional
+3100,Female,33,Jeddah,Premium
+3101,Male,41,Buraidah,Occasional
+3102,Female,66,Taif,Regular Family
+3103,Female,36,Khobar,Premium
+3104,Female,41,Taif,Budget Shopper
+3105,Male,22,Tabuk,Regular Family
+3106,Male,58,Buraidah,Premium
+3107,Male,28,Buraidah,Budget Shopper
+3108,Male,39,Jeddah,Premium
+3109,Male,39,Riyadh,Regular Family
+3110,Male,37,Riyadh,Regular Family
+3111,Male,31,Riyadh,Regular Family
+3112,Female,39,Riyadh,Budget Shopper
+3113,Female,55,Riyadh,Regular Family
+3114,Female,61,Jeddah,Occasional
+3115,Male,34,Khobar,Budget Shopper
+3116,Male,31,Riyadh,Budget Shopper
+3117,Male,27,Jeddah,Budget Shopper
+3118,Female,66,Riyadh,Regular Family
+3119,Male,37,Riyadh,Premium
+3120,Female,48,Makkah,Occasional
+3121,Male,44,Buraidah,Regular Family
+3122,Male,60,Madinah,Budget Shopper
+3123,Male,33,Madinah,Budget Shopper
+3124,Male,24,Taif,Regular Family
+3125,Male,56,Madinah,Regular Family
+3126,Female,46,Riyadh,Occasional
+3127,Male,41,Riyadh,Budget Shopper
+3128,Male,53,Makkah,Premium
+3129,Male,42,Makkah,Regular Family
+3130,Female,53,Tabuk,Occasional
+3131,Female,39,Riyadh,Occasional
+3132,Female,46,Taif,Occasional
+3133,Male,42,Dammam,Regular Family
+3134,Female,32,Buraidah,Regular Family
+3135,Male,34,Dammam,Budget Shopper
+3136,Female,32,Riyadh,Budget Shopper
+3137,Female,39,Jeddah,Regular Family
+3138,Male,31,Riyadh,Occasional
+3139,Male,41,Jeddah,Regular Family
+3140,Female,40,Buraidah,Regular Family
+3141,Male,38,Jeddah,Budget Shopper
+3142,Male,38,Riyadh,Premium
+3143,Male,30,Jeddah,Budget Shopper
+3144,Male,33,Makkah,Budget Shopper
+3145,Female,18,Riyadh,Budget Shopper
+3146,Male,35,Riyadh,Occasional
+3147,Female,25,Buraidah,Regular Family
+3148,Male,37,Riyadh,Occasional
+3149,Male,28,Taif,Regular Family
+3150,Male,18,Riyadh,Premium
+3151,Female,61,Makkah,Occasional
+3152,Male,33,Makkah,Occasional
+3153,Female,52,Riyadh,Budget Shopper
+3154,Female,30,Makkah,Budget Shopper
+3155,Female,55,Jeddah,Budget Shopper
+3156,Male,23,Jeddah,Regular Family
+3157,Male,38,Buraidah,Budget Shopper
+3158,Female,24,Taif,Premium
+3159,Female,65,Riyadh,Regular Family
+3160,Female,33,Madinah,Occasional
+3161,Female,45,Riyadh,Occasional
+3162,Male,41,Riyadh,Premium
+3163,Female,36,Riyadh,Premium
+3164,Female,42,Makkah,Budget Shopper
+3165,Female,51,Madinah,Budget Shopper
+3166,Female,43,Dammam,Regular Family
+3167,Male,38,Taif,Occasional
+3168,Female,42,Abha,Budget Shopper
+3169,Female,57,Riyadh,Regular Family
+3170,Male,31,Riyadh,Premium
+3171,Female,18,Khobar,Regular Family
+3172,Male,24,Jeddah,Occasional
+3173,Male,25,Riyadh,Occasional
+3174,Female,26,Riyadh,Budget Shopper
+3175,Male,27,Jeddah,Regular Family
+3176,Female,36,Dammam,Budget Shopper
+3177,Male,39,Makkah,Regular Family
+3178,Female,39,Abha,Occasional
+3179,Female,28,Taif,Budget Shopper
+3180,Female,47,Tabuk,Occasional
+3181,Male,42,Jeddah,Occasional
+3182,Female,53,Khobar,Premium
+3183,Male,45,Riyadh,Regular Family
+3184,Female,32,Taif,Budget Shopper
+3185,Male,50,Khobar,Regular Family
+3186,Male,39,Riyadh,Budget Shopper
+3187,Female,45,Madinah,Budget Shopper
+3188,Male,44,Dammam,Budget Shopper
+3189,Male,35,Taif,Premium
+3190,Male,37,Riyadh,Budget Shopper
+3191,Male,35,Jeddah,Regular Family
+3192,Female,27,Taif,Premium
+3193,Female,18,Dammam,Budget Shopper
+3194,Male,28,Jeddah,Regular Family
+3195,Female,38,Makkah,Budget Shopper
+3196,Female,48,Makkah,Budget Shopper
+3197,Female,45,Riyadh,Budget Shopper
+3198,Female,33,Jeddah,Budget Shopper
+3199,Male,29,Jeddah,Regular Family
+3200,Male,34,Riyadh,Budget Shopper
+3201,Female,25,Jeddah,Regular Family
+3202,Female,18,Jeddah,Premium
+3203,Female,19,Madinah,Premium
+3204,Male,51,Khobar,Regular Family
+3205,Female,56,Jeddah,Occasional
+3206,Male,44,Riyadh,Premium
+3207,Female,35,Jeddah,Regular Family
+3208,Male,21,Riyadh,Regular Family
+3209,Female,34,Taif,Budget Shopper
+3210,Female,43,Riyadh,Regular Family
+3211,Male,45,Buraidah,Regular Family
+3212,Female,44,Makkah,Occasional
+3213,Female,49,Tabuk,Occasional
+3214,Male,57,Buraidah,Budget Shopper
+3215,Male,32,Tabuk,Occasional
+3216,Female,67,Khobar,Premium
+3217,Male,18,Jeddah,Premium
+3218,Male,27,Makkah,Occasional
+3219,Female,38,Riyadh,Regular Family
+3220,Female,42,Jeddah,Regular Family
+3221,Female,34,Buraidah,Occasional
+3222,Female,31,Khobar,Budget Shopper
+3223,Male,60,Jeddah,Premium
+3224,Female,30,Buraidah,Occasional
+3225,Male,25,Riyadh,Occasional
+3226,Male,55,Buraidah,Budget Shopper
+3227,Female,45,Abha,Premium
+3228,Female,48,Riyadh,Budget Shopper
+3229,Male,38,Riyadh,Occasional
+3230,Female,21,Taif,Regular Family
+3231,Female,37,Riyadh,Regular Family
+3232,Male,19,Taif,Occasional
+3233,Male,39,Jeddah,Regular Family
+3234,Male,43,Jeddah,Regular Family
+3235,Female,48,Makkah,Regular Family
+3236,Male,35,Dammam,Regular Family
+3237,Male,44,Jeddah,Premium
+3238,Male,26,Makkah,Occasional
+3239,Female,47,Jeddah,Budget Shopper
+3240,Male,43,Riyadh,Regular Family
+3241,Male,27,Tabuk,Regular Family
+3242,Male,42,Dammam,Budget Shopper
+3243,Male,48,Madinah,Premium
+3244,Male,37,Khobar,Regular Family
+3245,Female,27,Makkah,Budget Shopper
+3246,Female,38,Riyadh,Regular Family
+3247,Male,42,Taif,Regular Family
+3248,Female,27,Dammam,Premium
+3249,Male,25,Buraidah,Budget Shopper
+3250,Female,42,Tabuk,Budget Shopper
+3251,Male,45,Madinah,Budget Shopper
+3252,Female,60,Dammam,Regular Family
+3253,Female,43,Riyadh,Premium
+3254,Female,23,Jeddah,Regular Family
+3255,Male,58,Makkah,Budget Shopper
+3256,Female,48,Jeddah,Regular Family
+3257,Female,18,Riyadh,Regular Family
+3258,Female,25,Dammam,Premium
+3259,Male,31,Riyadh,Budget Shopper
+3260,Male,45,Jeddah,Premium
+3261,Male,18,Dammam,Regular Family
+3262,Male,35,Riyadh,Regular Family
+3263,Male,45,Riyadh,Regular Family
+3264,Female,18,Riyadh,Budget Shopper
+3265,Male,44,Khobar,Budget Shopper
+3266,Male,46,Taif,Occasional
+3267,Male,27,Riyadh,Regular Family
+3268,Female,23,Madinah,Regular Family
+3269,Female,27,Riyadh,Regular Family
+3270,Female,18,Makkah,Budget Shopper
+3271,Female,32,Riyadh,Regular Family
+3272,Female,38,Tabuk,Regular Family
+3273,Male,23,Madinah,Budget Shopper
+3274,Female,47,Madinah,Occasional
+3275,Male,37,Riyadh,Budget Shopper
+3276,Female,39,Tabuk,Premium
+3277,Male,32,Riyadh,Regular Family
+3278,Female,44,Khobar,Occasional
+3279,Male,50,Abha,Occasional
+3280,Male,32,Makkah,Regular Family
+3281,Female,44,Tabuk,Regular Family
+3282,Male,44,Madinah,Occasional
+3283,Male,41,Abha,Regular Family
+3284,Female,54,Jeddah,Budget Shopper
+3285,Female,28,Jeddah,Premium
+3286,Female,31,Dammam,Regular Family
+3287,Male,27,Khobar,Budget Shopper
+3288,Male,44,Madinah,Occasional
+3289,Male,33,Khobar,Occasional
+3290,Female,28,Madinah,Budget Shopper
+3291,Female,54,Riyadh,Regular Family
+3292,Male,56,Jeddah,Budget Shopper
+3293,Male,32,Buraidah,Occasional
+3294,Male,21,Riyadh,Occasional
+3295,Male,56,Riyadh,Occasional
+3296,Male,41,Madinah,Budget Shopper
+3297,Male,41,Riyadh,Budget Shopper
+3298,Male,37,Dammam,Regular Family
+3299,Male,27,Madinah,Budget Shopper
+3300,Male,31,Dammam,Budget Shopper
+3301,Female,43,Buraidah,Budget Shopper
+3302,Female,31,Buraidah,Premium
+3303,Male,41,Dammam,Premium
+3304,Male,36,Taif,Premium
+3305,Female,24,Jeddah,Budget Shopper
+3306,Male,54,Riyadh,Premium
+3307,Male,43,Makkah,Regular Family
+3308,Male,40,Khobar,Regular Family
+3309,Male,42,Jeddah,Regular Family
+3310,Female,18,Jeddah,Premium
+3311,Female,31,Riyadh,Budget Shopper
+3312,Male,19,Riyadh,Occasional
+3313,Male,37,Jeddah,Regular Family
+3314,Female,40,Buraidah,Regular Family
+3315,Male,38,Tabuk,Occasional
+3316,Female,49,Dammam,Premium
+3317,Female,20,Dammam,Regular Family
+3318,Male,27,Riyadh,Regular Family
+3319,Male,41,Dammam,Regular Family
+3320,Male,39,Makkah,Occasional
+3321,Female,22,Abha,Occasional
+3322,Male,49,Jeddah,Premium
+3323,Female,53,Buraidah,Premium
+3324,Female,41,Tabuk,Premium
+3325,Female,19,Riyadh,Premium
+3326,Female,38,Buraidah,Budget Shopper
+3327,Male,40,Riyadh,Regular Family
+3328,Male,33,Buraidah,Regular Family
+3329,Female,51,Makkah,Regular Family
+3330,Female,35,Jeddah,Regular Family
+3331,Female,59,Dammam,Occasional
+3332,Female,45,Khobar,Occasional
+3333,Female,39,Tabuk,Occasional
+3334,Male,46,Tabuk,Occasional
+3335,Male,53,Jeddah,Premium
+3336,Female,46,Tabuk,Premium
+3337,Female,35,Dammam,Budget Shopper
+3338,Female,29,Jeddah,Occasional
+3339,Male,24,Riyadh,Budget Shopper
+3340,Female,18,Tabuk,Premium
+3341,Male,38,Makkah,Budget Shopper
+3342,Male,32,Dammam,Regular Family
+3343,Male,32,Makkah,Regular Family
+3344,Female,47,Buraidah,Premium
+3345,Male,35,Riyadh,Occasional
+3346,Male,57,Jeddah,Budget Shopper
+3347,Male,30,Jeddah,Budget Shopper
+3348,Male,25,Riyadh,Occasional
+3349,Female,22,Jeddah,Budget Shopper
+3350,Female,44,Abha,Premium
+3351,Female,49,Jeddah,Occasional
+3352,Male,29,Tabuk,Premium
+3353,Male,24,Taif,Budget Shopper
+3354,Male,53,Riyadh,Premium
+3355,Female,20,Jeddah,Occasional
+3356,Female,47,Riyadh,Regular Family
+3357,Male,30,Madinah,Premium
+3358,Female,40,Dammam,Budget Shopper
+3359,Male,48,Khobar,Occasional
+3360,Female,41,Abha,Budget Shopper
+3361,Female,33,Abha,Regular Family
+3362,Female,51,Dammam,Budget Shopper
+3363,Female,39,Buraidah,Occasional
+3364,Male,75,Taif,Regular Family
+3365,Female,18,Makkah,Budget Shopper
+3366,Male,18,Riyadh,Budget Shopper
+3367,Female,47,Abha,Occasional
+3368,Male,36,Buraidah,Budget Shopper
+3369,Male,45,Khobar,Regular Family
+3370,Female,24,Madinah,Regular Family
+3371,Male,37,Jeddah,Premium
+3372,Male,41,Dammam,Premium
+3373,Male,30,Abha,Occasional
+3374,Female,39,Buraidah,Budget Shopper
+3375,Female,21,Riyadh,Regular Family
+3376,Female,40,Riyadh,Budget Shopper
+3377,Female,52,Jeddah,Regular Family
+3378,Male,22,Jeddah,Regular Family
+3379,Male,22,Abha,Regular Family
+3380,Male,49,Riyadh,Occasional
+3381,Female,22,Abha,Occasional
+3382,Female,45,Khobar,Regular Family
+3383,Male,37,Madinah,Premium
+3384,Male,31,Dammam,Premium
+3385,Female,52,Abha,Occasional
+3386,Female,46,Dammam,Budget Shopper
+3387,Female,39,Jeddah,Regular Family
+3388,Male,18,Makkah,Regular Family
+3389,Male,44,Dammam,Regular Family
+3390,Male,24,Jeddah,Regular Family
+3391,Male,34,Buraidah,Budget Shopper
+3392,Female,36,Madinah,Budget Shopper
+3393,Male,57,Riyadh,Premium
+3394,Male,33,Madinah,Budget Shopper
+3395,Female,20,Jeddah,Regular Family
+3396,Female,52,Dammam,Regular Family
+3397,Male,44,Riyadh,Regular Family
+3398,Female,44,Riyadh,Premium
+3399,Male,52,Jeddah,Occasional
+3400,Female,55,Khobar,Regular Family
+3401,Male,26,Jeddah,Budget Shopper
+3402,Female,21,Riyadh,Budget Shopper
+3403,Male,45,Riyadh,Regular Family
+3404,Male,33,Riyadh,Regular Family
+3405,Female,34,Khobar,Occasional
+3406,Female,24,Jeddah,Regular Family
+3407,Male,42,Khobar,Regular Family
+3408,Male,40,Dammam,Occasional
+3409,Male,34,Jeddah,Premium
+3410,Male,21,Madinah,Premium
+3411,Female,49,Makkah,Regular Family
+3412,Male,39,Madinah,Budget Shopper
+3413,Female,48,Dammam,Regular Family
+3414,Female,18,Jeddah,Budget Shopper
+3415,Female,37,Khobar,Regular Family
+3416,Male,28,Taif,Occasional
+3417,Male,36,Dammam,Regular Family
+3418,Female,46,Makkah,Budget Shopper
+3419,Male,40,Dammam,Budget Shopper
+3420,Male,36,Taif,Occasional
+3421,Female,36,Jeddah,Budget Shopper
+3422,Female,19,Dammam,Regular Family
+3423,Male,26,Dammam,Premium
+3424,Male,48,Madinah,Budget Shopper
+3425,Male,30,Madinah,Premium
+3426,Female,49,Madinah,Budget Shopper
+3427,Male,45,Madinah,Premium
+3428,Female,46,Dammam,Budget Shopper
+3429,Female,40,Riyadh,Budget Shopper
+3430,Male,31,Buraidah,Budget Shopper
+3431,Female,34,Jeddah,Occasional
+3432,Female,43,Riyadh,Regular Family
+3433,Female,18,Riyadh,Occasional
+3434,Male,50,Dammam,Regular Family
+3435,Male,30,Jeddah,Occasional
+3436,Female,35,Makkah,Regular Family
+3437,Female,35,Makkah,Regular Family
+3438,Female,36,Riyadh,Premium
+3439,Male,22,Jeddah,Budget Shopper
+3440,Female,38,Buraidah,Occasional
+3441,Male,43,Abha,Occasional
+3442,Male,18,Buraidah,Budget Shopper
+3443,Male,22,Riyadh,Occasional
+3444,Male,46,Buraidah,Budget Shopper
+3445,Male,44,Buraidah,Premium
+3446,Male,39,Dammam,Occasional
+3447,Female,28,Makkah,Budget Shopper
+3448,Female,44,Jeddah,Budget Shopper
+3449,Male,23,Makkah,Premium
+3450,Female,34,Abha,Regular Family
+3451,Male,22,Dammam,Regular Family
+3452,Male,34,Riyadh,Premium
+3453,Female,25,Jeddah,Budget Shopper
+3454,Male,44,Madinah,Budget Shopper
+3455,Male,41,Madinah,Occasional
+3456,Female,30,Dammam,Premium
+3457,Male,48,Taif,Premium
+3458,Male,25,Riyadh,Regular Family
+3459,Female,36,Riyadh,Occasional
+3460,Female,29,Jeddah,Budget Shopper
+3461,Male,44,Tabuk,Budget Shopper
+3462,Female,43,Abha,Regular Family
+3463,Male,50,Abha,Premium
+3464,Male,37,Buraidah,Budget Shopper
+3465,Male,18,Dammam,Regular Family
+3466,Male,31,Jeddah,Regular Family
+3467,Female,53,Makkah,Regular Family
+3468,Female,32,Jeddah,Budget Shopper
+3469,Male,18,Dammam,Premium
+3470,Male,41,Riyadh,Regular Family
+3471,Male,42,Jeddah,Regular Family
+3472,Female,28,Dammam,Budget Shopper
+3473,Male,33,Riyadh,Occasional
+3474,Female,27,Taif,Premium
+3475,Male,42,Riyadh,Budget Shopper
+3476,Male,37,Buraidah,Regular Family
+3477,Female,23,Riyadh,Budget Shopper
+3478,Female,36,Buraidah,Regular Family
+3479,Male,28,Khobar,Premium
+3480,Male,52,Riyadh,Budget Shopper
+3481,Female,46,Riyadh,Occasional
+3482,Female,35,Jeddah,Regular Family
+3483,Female,37,Abha,Budget Shopper
+3484,Female,47,Riyadh,Budget Shopper
+3485,Female,34,Riyadh,Budget Shopper
+3486,Male,44,Madinah,Occasional
+3487,Male,52,Makkah,Regular Family
+3488,Male,31,Jeddah,Premium
+3489,Female,54,Riyadh,Budget Shopper
+3490,Male,51,Khobar,Regular Family
+3491,Male,39,Riyadh,Regular Family
+3492,Female,31,Makkah,Regular Family
+3493,Male,39,Jeddah,Budget Shopper
+3494,Female,33,Taif,Budget Shopper
+3495,Male,27,Khobar,Occasional
+3496,Female,42,Khobar,Premium
+3497,Female,25,Tabuk,Budget Shopper
+3498,Male,32,Taif,Premium
+3499,Male,32,Abha,Regular Family
+3500,Male,21,Khobar,Premium
+3501,Female,43,Buraidah,Occasional
+3502,Female,33,Riyadh,Budget Shopper
+3503,Male,50,Abha,Occasional
+3504,Male,33,Makkah,Budget Shopper
+3505,Female,32,Khobar,Budget Shopper
+3506,Male,26,Buraidah,Regular Family
+3507,Female,36,Madinah,Premium
+3508,Male,36,Madinah,Budget Shopper
+3509,Male,44,Buraidah,Budget Shopper
+3510,Female,37,Madinah,Budget Shopper
+3511,Male,59,Jeddah,Regular Family
+3512,Female,41,Riyadh,Regular Family
+3513,Female,25,Dammam,Budget Shopper
+3514,Female,24,Riyadh,Occasional
+3515,Female,42,Madinah,Premium
+3516,Female,25,Tabuk,Occasional
+3517,Female,43,Jeddah,Budget Shopper
+3518,Female,46,Buraidah,Budget Shopper
+3519,Female,46,Madinah,Regular Family
+3520,Female,26,Taif,Regular Family
+3521,Male,46,Riyadh,Regular Family
+3522,Male,40,Dammam,Budget Shopper
+3523,Male,29,Makkah,Occasional
+3524,Male,34,Abha,Regular Family
+3525,Male,41,Buraidah,Regular Family
+3526,Male,29,Buraidah,Regular Family
+3527,Male,39,Riyadh,Budget Shopper
+3528,Female,52,Jeddah,Budget Shopper
+3529,Female,47,Madinah,Occasional
+3530,Male,37,Riyadh,Regular Family
+3531,Female,39,Taif,Budget Shopper
+3532,Female,30,Madinah,Budget Shopper
+3533,Female,30,Tabuk,Budget Shopper
+3534,Male,19,Buraidah,Occasional
+3535,Male,39,Riyadh,Occasional
+3536,Male,44,Jeddah,Regular Family
+3537,Female,35,Makkah,Occasional
+3538,Female,26,Tabuk,Regular Family
+3539,Female,37,Madinah,Occasional
+3540,Female,51,Riyadh,Regular Family
+3541,Female,46,Makkah,Occasional
+3542,Female,36,Jeddah,Occasional
+3543,Female,59,Jeddah,Regular Family
+3544,Female,66,Taif,Budget Shopper
+3545,Male,31,Riyadh,Budget Shopper
+3546,Female,33,Riyadh,Budget Shopper
+3547,Male,44,Jeddah,Budget Shopper
+3548,Male,26,Buraidah,Regular Family
+3549,Female,45,Riyadh,Regular Family
+3550,Male,37,Riyadh,Budget Shopper
+3551,Male,40,Jeddah,Occasional
+3552,Female,30,Makkah,Budget Shopper
+3553,Male,27,Riyadh,Budget Shopper
+3554,Male,18,Tabuk,Budget Shopper
+3555,Male,52,Tabuk,Occasional
+3556,Female,46,Dammam,Regular Family
+3557,Male,43,Riyadh,Budget Shopper
+3558,Male,40,Dammam,Budget Shopper
+3559,Female,18,Riyadh,Regular Family
+3560,Male,28,Dammam,Occasional
+3561,Female,33,Abha,Regular Family
+3562,Male,24,Riyadh,Regular Family
+3563,Male,18,Riyadh,Regular Family
+3564,Female,25,Riyadh,Budget Shopper
+3565,Male,37,Riyadh,Regular Family
+3566,Male,37,Jeddah,Regular Family
+3567,Male,46,Jeddah,Premium
+3568,Male,59,Abha,Budget Shopper
+3569,Male,44,Riyadh,Budget Shopper
+3570,Male,34,Jeddah,Regular Family
+3571,Male,56,Buraidah,Premium
+3572,Male,19,Khobar,Regular Family
+3573,Male,18,Tabuk,Premium
+3574,Female,26,Dammam,Occasional
+3575,Male,45,Riyadh,Occasional
+3576,Female,38,Riyadh,Regular Family
+3577,Female,24,Abha,Occasional
+3578,Male,28,Buraidah,Premium
+3579,Male,22,Dammam,Regular Family
+3580,Male,22,Dammam,Regular Family
+3581,Female,53,Dammam,Budget Shopper
+3582,Male,34,Riyadh,Regular Family
+3583,Male,55,Riyadh,Premium
+3584,Female,26,Taif,Occasional
+3585,Female,41,Riyadh,Regular Family
+3586,Male,38,Jeddah,Occasional
+3587,Female,46,Madinah,Budget Shopper
+3588,Male,39,Jeddah,Occasional
+3589,Male,47,Taif,Regular Family
+3590,Male,42,Riyadh,Premium
+3591,Female,24,Buraidah,Regular Family
+3592,Male,44,Riyadh,Occasional
+3593,Female,35,Riyadh,Budget Shopper
+3594,Female,27,Dammam,Regular Family
+3595,Male,44,Buraidah,Occasional
+3596,Male,46,Jeddah,Budget Shopper
+3597,Male,31,Jeddah,Regular Family
+3598,Female,32,Jeddah,Regular Family
+3599,Male,21,Riyadh,Occasional
+3600,Female,18,Tabuk,Occasional
+3601,Male,33,Buraidah,Budget Shopper
+3602,Female,45,Makkah,Premium
+3603,Female,30,Dammam,Regular Family
+3604,Female,52,Makkah,Premium
+3605,Male,34,Khobar,Budget Shopper
+3606,Male,34,Riyadh,Budget Shopper
+3607,Male,33,Jeddah,Regular Family
+3608,Male,47,Makkah,Budget Shopper
+3609,Female,25,Tabuk,Premium
+3610,Male,35,Jeddah,Budget Shopper
+3611,Male,30,Tabuk,Occasional
+3612,Male,30,Abha,Occasional
+3613,Male,36,Buraidah,Regular Family
+3614,Female,35,Taif,Occasional
+3615,Female,48,Riyadh,Occasional
+3616,Male,36,Dammam,Premium
+3617,Male,42,Abha,Regular Family
+3618,Female,38,Tabuk,Regular Family
+3619,Female,51,Riyadh,Occasional
+3620,Female,33,Makkah,Premium
+3621,Female,33,Buraidah,Regular Family
+3622,Female,44,Riyadh,Regular Family
+3623,Female,33,Jeddah,Budget Shopper
+3624,Female,41,Jeddah,Premium
+3625,Female,62,Jeddah,Occasional
+3626,Female,25,Khobar,Budget Shopper
+3627,Female,53,Riyadh,Budget Shopper
+3628,Male,31,Abha,Occasional
+3629,Male,51,Riyadh,Budget Shopper
+3630,Female,44,Tabuk,Premium
+3631,Female,43,Riyadh,Regular Family
+3632,Male,34,Abha,Regular Family
+3633,Male,33,Jeddah,Budget Shopper
+3634,Male,28,Makkah,Budget Shopper
+3635,Male,36,Riyadh,Regular Family
+3636,Female,34,Khobar,Regular Family
+3637,Male,38,Jeddah,Premium
+3638,Male,20,Riyadh,Occasional
+3639,Male,36,Madinah,Occasional
+3640,Male,50,Riyadh,Regular Family
+3641,Male,46,Taif,Regular Family
+3642,Male,36,Khobar,Budget Shopper
+3643,Female,64,Riyadh,Premium
+3644,Male,30,Taif,Regular Family
+3645,Female,35,Riyadh,Occasional
+3646,Female,20,Tabuk,Premium
+3647,Male,32,Jeddah,Budget Shopper
+3648,Male,56,Khobar,Regular Family
+3649,Male,32,Tabuk,Premium
+3650,Male,19,Riyadh,Occasional
+3651,Female,46,Madinah,Regular Family
+3652,Female,40,Riyadh,Premium
+3653,Female,45,Madinah,Budget Shopper
+3654,Female,33,Riyadh,Occasional
+3655,Female,25,Riyadh,Regular Family
+3656,Female,34,Riyadh,Premium
+3657,Male,42,Makkah,Regular Family
+3658,Male,35,Taif,Occasional
+3659,Male,40,Taif,Premium
+3660,Male,30,Madinah,Budget Shopper
+3661,Female,41,Tabuk,Regular Family
+3662,Male,36,Buraidah,Budget Shopper
+3663,Female,28,Dammam,Occasional
+3664,Male,38,Riyadh,Premium
+3665,Female,32,Makkah,Regular Family
+3666,Male,43,Riyadh,Regular Family
+3667,Male,46,Tabuk,Occasional
+3668,Female,42,Jeddah,Occasional
+3669,Male,18,Jeddah,Regular Family
+3670,Female,25,Tabuk,Premium
+3671,Female,29,Riyadh,Budget Shopper
+3672,Male,27,Taif,Regular Family
+3673,Male,30,Taif,Occasional
+3674,Male,46,Makkah,Premium
+3675,Male,44,Madinah,Budget Shopper
+3676,Female,31,Riyadh,Regular Family
+3677,Female,43,Dammam,Regular Family
+3678,Male,40,Buraidah,Budget Shopper
+3679,Female,36,Riyadh,Occasional
+3680,Female,49,Jeddah,Budget Shopper
+3681,Male,29,Jeddah,Regular Family
+3682,Male,37,Makkah,Occasional
+3683,Female,24,Madinah,Budget Shopper
+3684,Female,25,Riyadh,Regular Family
+3685,Male,21,Riyadh,Regular Family
+3686,Male,25,Tabuk,Regular Family
+3687,Male,37,Riyadh,Regular Family
+3688,Female,33,Jeddah,Regular Family
+3689,Female,33,Riyadh,Occasional
+3690,Male,33,Abha,Occasional
+3691,Female,56,Riyadh,Budget Shopper
+3692,Male,23,Jeddah,Regular Family
+3693,Female,22,Khobar,Premium
+3694,Female,27,Riyadh,Regular Family
+3695,Male,35,Taif,Budget Shopper
+3696,Male,42,Buraidah,Regular Family
+3697,Male,43,Makkah,Regular Family
+3698,Female,46,Dammam,Occasional
+3699,Female,35,Riyadh,Budget Shopper
+3700,Male,32,Khobar,Budget Shopper
+3701,Female,54,Riyadh,Occasional
+3702,Female,18,Makkah,Occasional
+3703,Male,37,Riyadh,Regular Family
+3704,Male,41,Madinah,Premium
+3705,Female,57,Jeddah,Occasional
+3706,Male,18,Dammam,Budget Shopper
+3707,Female,31,Riyadh,Premium
+3708,Female,21,Jeddah,Premium
+3709,Male,18,Dammam,Regular Family
+3710,Male,34,Dammam,Occasional
+3711,Male,45,Taif,Occasional
+3712,Male,49,Jeddah,Regular Family
+3713,Male,30,Riyadh,Budget Shopper
+3714,Female,43,Dammam,Occasional
+3715,Female,34,Jeddah,Regular Family
+3716,Female,42,Buraidah,Budget Shopper
+3717,Male,49,Riyadh,Premium
+3718,Male,34,Buraidah,Premium
+3719,Female,48,Makkah,Budget Shopper
+3720,Male,23,Riyadh,Budget Shopper
+3721,Male,43,Jeddah,Occasional
+3722,Female,47,Dammam,Occasional
+3723,Female,46,Dammam,Regular Family
+3724,Female,23,Jeddah,Budget Shopper
+3725,Male,34,Khobar,Regular Family
+3726,Female,39,Madinah,Regular Family
+3727,Male,41,Dammam,Regular Family
+3728,Male,37,Makkah,Regular Family
+3729,Male,52,Buraidah,Budget Shopper
+3730,Female,22,Dammam,Occasional
+3731,Male,33,Jeddah,Occasional
+3732,Female,18,Riyadh,Premium
+3733,Female,43,Riyadh,Regular Family
+3734,Female,42,Jeddah,Regular Family
+3735,Male,73,Jeddah,Regular Family
+3736,Female,47,Abha,Regular Family
+3737,Male,40,Riyadh,Premium
+3738,Male,39,Madinah,Occasional
+3739,Male,33,Riyadh,Occasional
+3740,Female,37,Riyadh,Budget Shopper
+3741,Female,39,Jeddah,Premium
+3742,Female,18,Dammam,Budget Shopper
+3743,Male,38,Riyadh,Regular Family
+3744,Male,37,Riyadh,Regular Family
+3745,Male,55,Khobar,Premium
+3746,Female,35,Jeddah,Occasional
+3747,Female,28,Jeddah,Budget Shopper
+3748,Female,39,Jeddah,Occasional
+3749,Male,37,Jeddah,Premium
+3750,Male,35,Riyadh,Regular Family
+3751,Female,22,Jeddah,Regular Family
+3752,Male,34,Khobar,Regular Family
+3753,Male,30,Dammam,Budget Shopper
+3754,Male,34,Buraidah,Budget Shopper
+3755,Male,44,Tabuk,Premium
+3756,Male,29,Riyadh,Budget Shopper
+3757,Female,34,Riyadh,Regular Family
+3758,Female,42,Buraidah,Occasional
+3759,Female,33,Jeddah,Premium
+3760,Male,65,Dammam,Budget Shopper
+3761,Female,39,Makkah,Premium
+3762,Male,22,Khobar,Budget Shopper
+3763,Male,27,Riyadh,Premium
+3764,Male,26,Riyadh,Budget Shopper
+3765,Male,27,Riyadh,Budget Shopper
+3766,Female,42,Riyadh,Occasional
+3767,Female,24,Riyadh,Budget Shopper
+3768,Male,32,Makkah,Budget Shopper
+3769,Female,49,Jeddah,Budget Shopper
+3770,Male,30,Riyadh,Regular Family
+3771,Male,43,Riyadh,Occasional
+3772,Female,18,Taif,Budget Shopper
+3773,Female,32,Riyadh,Budget Shopper
+3774,Female,26,Jeddah,Occasional
+3775,Male,39,Khobar,Budget Shopper
+3776,Male,25,Riyadh,Budget Shopper
+3777,Male,59,Riyadh,Budget Shopper
+3778,Male,18,Riyadh,Occasional
+3779,Male,48,Taif,Regular Family
+3780,Male,46,Makkah,Regular Family
+3781,Male,39,Dammam,Regular Family
+3782,Male,37,Buraidah,Regular Family
+3783,Female,56,Khobar,Premium
+3784,Male,63,Jeddah,Occasional
+3785,Male,34,Dammam,Regular Family
+3786,Female,38,Dammam,Occasional
+3787,Female,30,Jeddah,Budget Shopper
+3788,Male,23,Abha,Regular Family
+3789,Male,41,Riyadh,Regular Family
+3790,Male,39,Riyadh,Budget Shopper
+3791,Female,18,Jeddah,Budget Shopper
+3792,Male,41,Riyadh,Budget Shopper
+3793,Male,39,Taif,Budget Shopper
+3794,Female,29,Dammam,Occasional
+3795,Female,29,Riyadh,Budget Shopper
+3796,Male,41,Makkah,Regular Family
+3797,Male,54,Abha,Budget Shopper
+3798,Male,40,Jeddah,Regular Family
+3799,Male,45,Dammam,Budget Shopper
+3800,Male,27,Madinah,Budget Shopper
+3801,Female,31,Riyadh,Regular Family
+3802,Female,43,Khobar,Budget Shopper
+3803,Female,21,Makkah,Regular Family
+3804,Female,38,Tabuk,Regular Family
+3805,Female,41,Buraidah,Occasional
+3806,Male,36,Taif,Regular Family
+3807,Female,40,Riyadh,Regular Family
+3808,Male,37,Tabuk,Regular Family
+3809,Male,29,Makkah,Regular Family
+3810,Male,23,Jeddah,Regular Family
+3811,Female,35,Buraidah,Regular Family
+3812,Female,50,Buraidah,Regular Family
+3813,Male,47,Abha,Premium
+3814,Male,32,Riyadh,Regular Family
+3815,Female,32,Riyadh,Budget Shopper
+3816,Male,31,Buraidah,Regular Family
+3817,Male,31,Taif,Premium
+3818,Female,39,Jeddah,Premium
+3819,Female,48,Jeddah,Budget Shopper
+3820,Male,61,Makkah,Regular Family
+3821,Male,27,Riyadh,Occasional
+3822,Female,43,Khobar,Budget Shopper
+3823,Male,42,Taif,Regular Family
+3824,Female,32,Jeddah,Regular Family
+3825,Female,25,Madinah,Premium
+3826,Female,39,Dammam,Regular Family
+3827,Male,59,Jeddah,Premium
+3828,Male,39,Jeddah,Budget Shopper
+3829,Male,27,Khobar,Budget Shopper
+3830,Male,34,Abha,Budget Shopper
+3831,Male,23,Khobar,Budget Shopper
+3832,Male,36,Buraidah,Occasional
+3833,Male,44,Riyadh,Budget Shopper
+3834,Female,28,Taif,Budget Shopper
+3835,Male,18,Khobar,Occasional
+3836,Male,39,Jeddah,Regular Family
+3837,Male,30,Riyadh,Regular Family
+3838,Female,28,Jeddah,Budget Shopper
+3839,Male,28,Dammam,Occasional
+3840,Female,40,Taif,Regular Family
+3841,Male,32,Abha,Budget Shopper
+3842,Female,46,Riyadh,Regular Family
+3843,Female,46,Jeddah,Regular Family
+3844,Male,33,Dammam,Regular Family
+3845,Female,30,Buraidah,Regular Family
+3846,Female,37,Abha,Regular Family
+3847,Male,34,Riyadh,Regular Family
+3848,Male,18,Riyadh,Budget Shopper
+3849,Female,57,Riyadh,Premium
+3850,Female,44,Dammam,Budget Shopper
+3851,Female,31,Riyadh,Premium
+3852,Male,18,Riyadh,Budget Shopper
+3853,Male,34,Tabuk,Regular Family
+3854,Female,30,Jeddah,Regular Family
+3855,Female,35,Taif,Regular Family
+3856,Male,18,Abha,Premium
+3857,Male,31,Jeddah,Regular Family
+3858,Female,31,Riyadh,Occasional
+3859,Female,34,Dammam,Occasional
+3860,Female,33,Madinah,Occasional
+3861,Male,37,Dammam,Regular Family
+3862,Male,53,Buraidah,Budget Shopper
+3863,Male,30,Abha,Premium
+3864,Male,26,Dammam,Budget Shopper
+3865,Male,18,Riyadh,Premium
+3866,Male,30,Jeddah,Budget Shopper
+3867,Male,21,Dammam,Premium
+3868,Male,47,Jeddah,Budget Shopper
+3869,Female,35,Tabuk,Occasional
+3870,Male,46,Jeddah,Premium
+3871,Male,52,Riyadh,Budget Shopper
+3872,Female,26,Abha,Regular Family
+3873,Male,32,Makkah,Regular Family
+3874,Female,51,Riyadh,Occasional
+3875,Female,38,Khobar,Regular Family
+3876,Female,42,Madinah,Regular Family
+3877,Male,47,Dammam,Regular Family
+3878,Female,46,Jeddah,Premium
+3879,Female,41,Madinah,Budget Shopper
+3880,Female,51,Madinah,Occasional
+3881,Male,35,Riyadh,Regular Family
+3882,Female,42,Riyadh,Occasional
+3883,Female,34,Makkah,Premium
+3884,Male,47,Riyadh,Budget Shopper
+3885,Male,28,Taif,Budget Shopper
+3886,Female,18,Riyadh,Budget Shopper
+3887,Male,43,Madinah,Budget Shopper
+3888,Female,25,Taif,Budget Shopper
+3889,Female,24,Jeddah,Occasional
+3890,Male,50,Makkah,Regular Family
+3891,Male,47,Riyadh,Regular Family
+3892,Female,32,Makkah,Regular Family
+3893,Male,18,Taif,Budget Shopper
+3894,Female,42,Taif,Regular Family
+3895,Male,43,Jeddah,Budget Shopper
+3896,Male,42,Tabuk,Occasional
+3897,Male,41,Tabuk,Premium
+3898,Male,34,Jeddah,Budget Shopper
+3899,Female,31,Tabuk,Premium
+3900,Male,24,Riyadh,Regular Family
+3901,Male,28,Taif,Budget Shopper
+3902,Female,40,Buraidah,Budget Shopper
+3903,Female,40,Dammam,Budget Shopper
+3904,Male,45,Jeddah,Occasional
+3905,Female,21,Taif,Occasional
+3906,Male,18,Riyadh,Regular Family
+3907,Female,32,Dammam,Budget Shopper
+3908,Female,25,Dammam,Regular Family
+3909,Female,38,Jeddah,Regular Family
+3910,Female,22,Riyadh,Budget Shopper
+3911,Female,49,Jeddah,Regular Family
+3912,Male,27,Taif,Budget Shopper
+3913,Female,54,Tabuk,Budget Shopper
+3914,Female,42,Tabuk,Regular Family
+3915,Male,24,Dammam,Budget Shopper
+3916,Female,59,Makkah,Premium
+3917,Female,39,Dammam,Premium
+3918,Female,38,Makkah,Regular Family
+3919,Male,35,Buraidah,Occasional
+3920,Female,41,Riyadh,Regular Family
+3921,Male,42,Taif,Premium
+3922,Female,26,Buraidah,Regular Family
+3923,Male,34,Jeddah,Occasional
+3924,Female,37,Taif,Regular Family
+3925,Male,42,Buraidah,Regular Family
+3926,Female,43,Riyadh,Regular Family
+3927,Male,38,Riyadh,Regular Family
+3928,Female,30,Madinah,Regular Family
+3929,Female,29,Abha,Occasional
+3930,Male,23,Riyadh,Regular Family
+3931,Female,43,Dammam,Regular Family
+3932,Female,29,Khobar,Regular Family
+3933,Male,34,Dammam,Premium
+3934,Male,39,Riyadh,Occasional
+3935,Male,36,Riyadh,Regular Family
+3936,Male,36,Tabuk,Budget Shopper
+3937,Male,26,Riyadh,Occasional
+3938,Female,39,Makkah,Occasional
+3939,Male,33,Makkah,Occasional
+3940,Female,35,Taif,Premium
+3941,Male,49,Taif,Budget Shopper
+3942,Female,42,Taif,Occasional
+3943,Female,30,Khobar,Budget Shopper
+3944,Female,34,Riyadh,Budget Shopper
+3945,Female,54,Jeddah,Regular Family
+3946,Male,33,Dammam,Regular Family
+3947,Female,36,Riyadh,Premium
+3948,Female,43,Riyadh,Regular Family
+3949,Female,38,Jeddah,Budget Shopper
+3950,Male,32,Jeddah,Regular Family
+3951,Female,28,Khobar,Occasional
+3952,Male,36,Taif,Occasional
+3953,Female,43,Jeddah,Budget Shopper
+3954,Female,51,Riyadh,Regular Family
+3955,Male,20,Khobar,Budget Shopper
+3956,Male,55,Jeddah,Premium
+3957,Male,33,Buraidah,Regular Family
+3958,Male,46,Dammam,Regular Family
+3959,Male,28,Jeddah,Budget Shopper
+3960,Male,18,Madinah,Premium
+3961,Male,22,Dammam,Premium
+3962,Female,32,Khobar,Regular Family
+3963,Female,42,Riyadh,Budget Shopper
+3964,Male,36,Jeddah,Regular Family
+3965,Male,33,Riyadh,Occasional
+3966,Female,48,Abha,Regular Family
+3967,Male,36,Riyadh,Premium
+3968,Male,39,Riyadh,Budget Shopper
+3969,Male,70,Khobar,Regular Family
+3970,Female,36,Khobar,Budget Shopper
+3971,Male,28,Jeddah,Regular Family
+3972,Female,41,Taif,Budget Shopper
+3973,Male,44,Makkah,Regular Family
+3974,Male,39,Buraidah,Regular Family
+3975,Male,38,Jeddah,Occasional
+3976,Female,52,Khobar,Regular Family
+3977,Female,51,Jeddah,Budget Shopper
+3978,Female,35,Jeddah,Budget Shopper
+3979,Female,29,Riyadh,Budget Shopper
+3980,Male,41,Riyadh,Premium
+3981,Male,29,Buraidah,Regular Family
+3982,Female,46,Tabuk,Regular Family
+3983,Male,41,Riyadh,Occasional
+3984,Female,65,Riyadh,Budget Shopper
+3985,Female,52,Riyadh,Regular Family
+3986,Male,24,Makkah,Budget Shopper
+3987,Male,30,Riyadh,Budget Shopper
+3988,Female,18,Abha,Regular Family
+3989,Male,18,Riyadh,Premium
+3990,Male,37,Madinah,Occasional
+3991,Male,23,Buraidah,Regular Family
+3992,Male,54,Riyadh,Regular Family
+3993,Male,49,Buraidah,Occasional
+3994,Female,33,Buraidah,Premium
+3995,Male,32,Khobar,Premium
+3996,Male,52,Jeddah,Regular Family
+3997,Female,55,Khobar,Regular Family
+3998,Male,26,Jeddah,Premium
+3999,Male,24,Taif,Budget Shopper
+4000,Female,33,Khobar,Regular Family
+4001,Male,41,Abha,Budget Shopper
+4002,Female,30,Makkah,Regular Family
+4003,Female,41,Jeddah,Regular Family
+4004,Female,57,Dammam,Budget Shopper
+4005,Male,21,Buraidah,Regular Family
+4006,Male,31,Jeddah,Budget Shopper
+4007,Female,21,Jeddah,Premium
+4008,Male,27,Taif,Occasional
+4009,Female,33,Jeddah,Regular Family
+4010,Female,28,Buraidah,Budget Shopper
+4011,Female,42,Riyadh,Occasional
+4012,Male,38,Abha,Occasional
+4013,Female,39,Makkah,Premium
+4014,Female,33,Riyadh,Regular Family
+4015,Male,34,Riyadh,Budget Shopper
+4016,Female,32,Jeddah,Occasional
+4017,Male,33,Makkah,Regular Family
+4018,Female,41,Jeddah,Regular Family
+4019,Male,18,Jeddah,Premium
+4020,Male,39,Khobar,Premium
+4021,Female,26,Taif,Budget Shopper
+4022,Male,32,Riyadh,Occasional
+4023,Male,19,Makkah,Regular Family
+4024,Male,32,Buraidah,Budget Shopper
+4025,Female,39,Khobar,Budget Shopper
+4026,Male,41,Taif,Regular Family
+4027,Female,23,Khobar,Regular Family
+4028,Female,40,Makkah,Budget Shopper
+4029,Male,49,Abha,Regular Family
+4030,Male,31,Riyadh,Regular Family
+4031,Male,36,Khobar,Regular Family
+4032,Female,18,Makkah,Occasional
+4033,Female,26,Riyadh,Budget Shopper
+4034,Female,39,Dammam,Occasional
+4035,Female,47,Abha,Regular Family
+4036,Female,29,Riyadh,Budget Shopper
+4037,Female,65,Jeddah,Budget Shopper
+4038,Male,39,Riyadh,Occasional
+4039,Female,22,Riyadh,Budget Shopper
+4040,Male,50,Dammam,Budget Shopper
+4041,Male,22,Riyadh,Regular Family
+4042,Male,40,Jeddah,Premium
+4043,Male,26,Riyadh,Regular Family
+4044,Male,21,Buraidah,Budget Shopper
+4045,Female,47,Buraidah,Regular Family
+4046,Female,33,Riyadh,Occasional
+4047,Female,55,Riyadh,Occasional
+4048,Male,25,Jeddah,Occasional
+4049,Male,19,Riyadh,Regular Family
+4050,Female,31,Madinah,Budget Shopper
+4051,Female,68,Khobar,Budget Shopper
+4052,Female,45,Khobar,Occasional
+4053,Male,42,Buraidah,Premium
+4054,Male,42,Tabuk,Regular Family
+4055,Female,31,Jeddah,Regular Family
+4056,Male,66,Makkah,Regular Family
+4057,Female,41,Dammam,Regular Family
+4058,Male,40,Makkah,Regular Family
+4059,Male,47,Riyadh,Regular Family
+4060,Female,22,Jeddah,Budget Shopper
+4061,Male,26,Jeddah,Budget Shopper
+4062,Male,33,Riyadh,Budget Shopper
+4063,Female,47,Jeddah,Occasional
+4064,Male,22,Madinah,Occasional
+4065,Male,35,Jeddah,Premium
+4066,Female,34,Taif,Occasional
+4067,Male,19,Jeddah,Budget Shopper
+4068,Female,30,Taif,Budget Shopper
+4069,Male,42,Riyadh,Budget Shopper
+4070,Male,20,Jeddah,Budget Shopper
+4071,Male,52,Riyadh,Premium
+4072,Female,41,Riyadh,Budget Shopper
+4073,Male,40,Riyadh,Occasional
+4074,Female,36,Makkah,Premium
+4075,Male,24,Riyadh,Budget Shopper
+4076,Male,29,Riyadh,Occasional
+4077,Female,40,Jeddah,Occasional
+4078,Male,29,Makkah,Regular Family
+4079,Female,38,Jeddah,Budget Shopper
+4080,Female,26,Riyadh,Regular Family
+4081,Female,41,Riyadh,Regular Family
+4082,Male,42,Madinah,Premium
+4083,Female,18,Madinah,Budget Shopper
+4084,Male,37,Dammam,Occasional
+4085,Female,19,Dammam,Budget Shopper
+4086,Male,18,Riyadh,Occasional
+4087,Male,29,Dammam,Budget Shopper
+4088,Female,67,Madinah,Occasional
+4089,Male,45,Abha,Budget Shopper
+4090,Female,51,Jeddah,Premium
+4091,Male,43,Makkah,Occasional
+4092,Male,38,Dammam,Regular Family
+4093,Female,46,Madinah,Budget Shopper
+4094,Male,29,Madinah,Occasional
+4095,Female,41,Abha,Occasional
+4096,Male,49,Riyadh,Premium
+4097,Male,44,Jeddah,Regular Family
+4098,Male,50,Jeddah,Budget Shopper
+4099,Male,38,Dammam,Regular Family
+4100,Male,55,Dammam,Premium
+4101,Female,34,Makkah,Budget Shopper
+4102,Male,59,Khobar,Budget Shopper
+4103,Female,42,Khobar,Occasional
+4104,Female,32,Makkah,Premium
+4105,Female,23,Jeddah,Premium
+4106,Male,27,Riyadh,Occasional
+4107,Male,25,Riyadh,Regular Family
+4108,Male,35,Abha,Regular Family
+4109,Female,22,Riyadh,Occasional
+4110,Female,50,Jeddah,Occasional
+4111,Male,37,Jeddah,Budget Shopper
+4112,Male,37,Khobar,Regular Family
+4113,Female,23,Buraidah,Regular Family
+4114,Male,28,Buraidah,Budget Shopper
+4115,Male,18,Riyadh,Budget Shopper
+4116,Male,54,Khobar,Budget Shopper
+4117,Male,20,Riyadh,Premium
+4118,Male,21,Abha,Budget Shopper
+4119,Female,52,Jeddah,Occasional
+4120,Female,40,Riyadh,Regular Family
+4121,Female,37,Dammam,Regular Family
+4122,Male,40,Dammam,Occasional
+4123,Male,46,Taif,Premium
+4124,Female,37,Riyadh,Premium
+4125,Male,19,Taif,Occasional
+4126,Male,44,Riyadh,Occasional
+4127,Male,41,Riyadh,Premium
+4128,Female,49,Madinah,Premium
+4129,Male,22,Dammam,Regular Family
+4130,Female,28,Buraidah,Premium
+4131,Male,40,Khobar,Regular Family
+4132,Female,26,Dammam,Occasional
+4133,Male,18,Riyadh,Regular Family
+4134,Female,38,Taif,Budget Shopper
+4135,Male,46,Makkah,Regular Family
+4136,Female,35,Makkah,Regular Family
+4137,Male,42,Abha,Regular Family
+4138,Female,40,Riyadh,Regular Family
+4139,Female,36,Buraidah,Occasional
+4140,Female,37,Dammam,Budget Shopper
+4141,Male,51,Tabuk,Occasional
+4142,Male,25,Madinah,Premium
+4143,Female,45,Dammam,Budget Shopper
+4144,Female,23,Abha,Budget Shopper
+4145,Male,27,Madinah,Occasional
+4146,Male,49,Riyadh,Occasional
+4147,Male,23,Madinah,Budget Shopper
+4148,Male,33,Dammam,Regular Family
+4149,Male,62,Tabuk,Budget Shopper
+4150,Female,47,Tabuk,Regular Family
+4151,Male,28,Riyadh,Budget Shopper
+4152,Female,30,Riyadh,Regular Family
+4153,Female,34,Riyadh,Regular Family
+4154,Male,50,Madinah,Regular Family
+4155,Male,25,Buraidah,Budget Shopper
+4156,Female,24,Madinah,Premium
+4157,Male,44,Tabuk,Occasional
+4158,Female,18,Khobar,Regular Family
+4159,Female,26,Dammam,Occasional
+4160,Male,35,Taif,Premium
+4161,Female,36,Riyadh,Budget Shopper
+4162,Male,21,Jeddah,Budget Shopper
+4163,Male,40,Jeddah,Premium
+4164,Female,42,Riyadh,Premium
+4165,Male,29,Makkah,Occasional
+4166,Male,54,Jeddah,Budget Shopper
+4167,Male,40,Dammam,Budget Shopper
+4168,Male,25,Riyadh,Occasional
+4169,Male,54,Jeddah,Occasional
+4170,Female,30,Riyadh,Regular Family
+4171,Male,38,Buraidah,Regular Family
+4172,Female,31,Dammam,Occasional
+4173,Male,43,Abha,Regular Family
+4174,Male,31,Dammam,Premium
+4175,Female,31,Riyadh,Occasional
+4176,Female,34,Madinah,Budget Shopper
+4177,Female,30,Riyadh,Budget Shopper
+4178,Male,48,Jeddah,Occasional
+4179,Male,22,Khobar,Regular Family
+4180,Female,36,Abha,Budget Shopper
+4181,Female,37,Buraidah,Regular Family
+4182,Female,35,Riyadh,Regular Family
+4183,Male,47,Makkah,Budget Shopper
+4184,Male,19,Dammam,Premium
+4185,Male,42,Abha,Budget Shopper
+4186,Male,22,Taif,Budget Shopper
+4187,Male,30,Khobar,Budget Shopper
+4188,Male,21,Jeddah,Regular Family
+4189,Male,32,Abha,Occasional
+4190,Female,30,Dammam,Regular Family
+4191,Female,54,Buraidah,Occasional
+4192,Female,39,Khobar,Budget Shopper
+4193,Male,41,Taif,Regular Family
+4194,Male,24,Riyadh,Regular Family
+4195,Female,44,Madinah,Occasional
+4196,Male,54,Jeddah,Regular Family
+4197,Female,46,Makkah,Premium
+4198,Male,22,Taif,Regular Family
+4199,Female,31,Makkah,Occasional
+4200,Male,37,Madinah,Occasional
+4201,Female,30,Riyadh,Occasional
+4202,Female,64,Riyadh,Budget Shopper
+4203,Male,31,Khobar,Budget Shopper
+4204,Female,36,Dammam,Regular Family
+4205,Female,29,Riyadh,Regular Family
+4206,Female,39,Madinah,Premium
+4207,Male,51,Madinah,Budget Shopper
+4208,Male,37,Riyadh,Regular Family
+4209,Female,34,Riyadh,Budget Shopper
+4210,Female,24,Jeddah,Regular Family
+4211,Female,49,Makkah,Budget Shopper
+4212,Male,34,Buraidah,Occasional
+4213,Female,34,Dammam,Budget Shopper
+4214,Female,18,Riyadh,Regular Family
+4215,Female,35,Tabuk,Budget Shopper
+4216,Female,32,Riyadh,Budget Shopper
+4217,Male,18,Makkah,Regular Family
+4218,Female,47,Jeddah,Budget Shopper
+4219,Female,30,Buraidah,Regular Family
+4220,Male,57,Madinah,Budget Shopper
+4221,Male,52,Riyadh,Premium
+4222,Female,28,Jeddah,Occasional
+4223,Male,51,Riyadh,Premium
+4224,Male,54,Jeddah,Budget Shopper
+4225,Female,30,Jeddah,Regular Family
+4226,Female,25,Khobar,Budget Shopper
+4227,Female,18,Abha,Regular Family
+4228,Male,40,Riyadh,Occasional
+4229,Male,25,Dammam,Budget Shopper
+4230,Male,41,Buraidah,Budget Shopper
+4231,Male,30,Dammam,Occasional
+4232,Female,27,Dammam,Regular Family
+4233,Male,30,Abha,Budget Shopper
+4234,Male,22,Madinah,Occasional
+4235,Female,30,Dammam,Budget Shopper
+4236,Male,28,Taif,Premium
+4237,Male,36,Riyadh,Budget Shopper
+4238,Male,37,Riyadh,Occasional
+4239,Male,24,Jeddah,Premium
+4240,Male,48,Riyadh,Budget Shopper
+4241,Female,34,Riyadh,Occasional
+4242,Female,53,Riyadh,Budget Shopper
+4243,Female,39,Madinah,Occasional
+4244,Female,37,Jeddah,Premium
+4245,Male,31,Tabuk,Budget Shopper
+4246,Female,43,Jeddah,Regular Family
+4247,Male,36,Makkah,Budget Shopper
+4248,Male,45,Riyadh,Regular Family
+4249,Male,54,Riyadh,Regular Family
+4250,Male,28,Madinah,Regular Family
+4251,Male,43,Riyadh,Occasional
+4252,Male,42,Madinah,Occasional
+4253,Male,41,Madinah,Regular Family
+4254,Male,31,Makkah,Premium
+4255,Male,31,Khobar,Budget Shopper
+4256,Female,30,Buraidah,Occasional
+4257,Male,29,Riyadh,Occasional
+4258,Female,27,Taif,Occasional
+4259,Male,35,Riyadh,Premium
+4260,Male,28,Dammam,Regular Family
+4261,Female,41,Buraidah,Budget Shopper
+4262,Female,37,Jeddah,Regular Family
+4263,Male,38,Tabuk,Budget Shopper
+4264,Female,33,Khobar,Regular Family
+4265,Female,37,Buraidah,Regular Family
+4266,Male,33,Riyadh,Premium
+4267,Female,45,Khobar,Regular Family
+4268,Male,31,Riyadh,Budget Shopper
+4269,Female,40,Riyadh,Premium
+4270,Male,22,Madinah,Regular Family
+4271,Female,44,Madinah,Budget Shopper
+4272,Female,30,Madinah,Regular Family
+4273,Female,26,Madinah,Budget Shopper
+4274,Male,23,Abha,Regular Family
+4275,Female,23,Dammam,Budget Shopper
+4276,Male,31,Jeddah,Budget Shopper
+4277,Male,52,Abha,Regular Family
+4278,Male,29,Makkah,Regular Family
+4279,Female,18,Riyadh,Occasional
+4280,Female,40,Dammam,Budget Shopper
+4281,Female,24,Riyadh,Regular Family
+4282,Male,45,Abha,Budget Shopper
+4283,Female,31,Riyadh,Budget Shopper
+4284,Female,33,Makkah,Regular Family
+4285,Female,49,Madinah,Regular Family
+4286,Female,43,Taif,Premium
+4287,Male,22,Dammam,Premium
+4288,Female,24,Buraidah,Occasional
+4289,Female,18,Makkah,Occasional
+4290,Female,65,Riyadh,Budget Shopper
+4291,Male,27,Jeddah,Budget Shopper
+4292,Male,49,Jeddah,Regular Family
+4293,Male,30,Riyadh,Regular Family
+4294,Male,24,Dammam,Regular Family
+4295,Male,36,Riyadh,Regular Family
+4296,Female,32,Tabuk,Occasional
+4297,Male,45,Jeddah,Regular Family
+4298,Male,45,Riyadh,Occasional
+4299,Male,30,Makkah,Occasional
+4300,Male,20,Buraidah,Regular Family
+4301,Male,23,Taif,Budget Shopper
+4302,Female,18,Buraidah,Regular Family
+4303,Female,33,Buraidah,Regular Family
+4304,Male,36,Jeddah,Occasional
+4305,Male,23,Dammam,Occasional
+4306,Female,22,Jeddah,Budget Shopper
+4307,Male,36,Buraidah,Budget Shopper
+4308,Female,29,Riyadh,Occasional
+4309,Female,34,Khobar,Regular Family
+4310,Female,32,Riyadh,Premium
+4311,Male,39,Buraidah,Regular Family
+4312,Female,30,Jeddah,Budget Shopper
+4313,Female,31,Buraidah,Budget Shopper
+4314,Male,18,Buraidah,Budget Shopper
+4315,Male,35,Riyadh,Regular Family
+4316,Male,37,Abha,Budget Shopper
+4317,Male,34,Jeddah,Regular Family
+4318,Female,57,Jeddah,Premium
+4319,Male,38,Jeddah,Budget Shopper
+4320,Male,34,Makkah,Occasional
+4321,Male,41,Jeddah,Budget Shopper
+4322,Female,59,Madinah,Premium
+4323,Female,39,Abha,Budget Shopper
+4324,Female,18,Jeddah,Occasional
+4325,Female,41,Riyadh,Budget Shopper
+4326,Male,26,Riyadh,Regular Family
+4327,Female,18,Jeddah,Occasional
+4328,Male,55,Taif,Budget Shopper
+4329,Male,52,Jeddah,Premium
+4330,Female,26,Madinah,Premium
+4331,Female,26,Taif,Regular Family
+4332,Female,38,Jeddah,Budget Shopper
+4333,Female,26,Khobar,Occasional
+4334,Male,35,Buraidah,Occasional
+4335,Male,28,Makkah,Budget Shopper
+4336,Female,32,Riyadh,Occasional
+4337,Female,21,Abha,Occasional
+4338,Female,45,Buraidah,Regular Family
+4339,Female,49,Abha,Premium
+4340,Male,35,Abha,Budget Shopper
+4341,Male,36,Abha,Regular Family
+4342,Male,43,Makkah,Occasional
+4343,Female,36,Riyadh,Premium
+4344,Female,55,Buraidah,Budget Shopper
+4345,Female,22,Riyadh,Regular Family
+4346,Female,45,Tabuk,Budget Shopper
+4347,Female,35,Jeddah,Budget Shopper
+4348,Male,24,Makkah,Budget Shopper
+4349,Male,61,Tabuk,Budget Shopper
+4350,Male,62,Abha,Regular Family
+4351,Female,34,Riyadh,Regular Family
+4352,Male,41,Makkah,Premium
+4353,Female,31,Riyadh,Occasional
+4354,Male,33,Riyadh,Regular Family
+4355,Female,24,Dammam,Budget Shopper
+4356,Male,22,Taif,Occasional
+4357,Female,56,Taif,Budget Shopper
+4358,Male,36,Khobar,Regular Family
+4359,Female,37,Abha,Budget Shopper
+4360,Female,27,Riyadh,Occasional
+4361,Male,38,Riyadh,Regular Family
+4362,Female,19,Madinah,Occasional
+4363,Female,27,Abha,Occasional
+4364,Male,23,Madinah,Occasional
+4365,Female,50,Riyadh,Premium
+4366,Female,18,Jeddah,Premium
+4367,Female,23,Riyadh,Occasional
+4368,Female,18,Abha,Budget Shopper
+4369,Female,26,Jeddah,Occasional
+4370,Male,31,Jeddah,Budget Shopper
+4371,Male,47,Khobar,Regular Family
+4372,Male,34,Riyadh,Regular Family
+4373,Female,31,Jeddah,Occasional
+4374,Male,39,Madinah,Regular Family
+4375,Male,31,Jeddah,Regular Family
+4376,Female,63,Khobar,Regular Family
+4377,Male,29,Taif,Premium
+4378,Male,41,Riyadh,Budget Shopper
+4379,Female,45,Jeddah,Regular Family
+4380,Female,29,Madinah,Regular Family
+4381,Female,38,Khobar,Occasional
+4382,Male,30,Taif,Occasional
+4383,Female,39,Riyadh,Budget Shopper
+4384,Female,37,Buraidah,Budget Shopper
+4385,Male,34,Dammam,Premium
+4386,Male,23,Riyadh,Regular Family
+4387,Male,57,Dammam,Premium
+4388,Female,42,Jeddah,Occasional
+4389,Male,19,Riyadh,Budget Shopper
+4390,Male,31,Riyadh,Occasional
+4391,Female,19,Jeddah,Budget Shopper
+4392,Female,44,Khobar,Occasional
+4393,Male,36,Riyadh,Regular Family
+4394,Female,36,Riyadh,Occasional
+4395,Female,27,Jeddah,Budget Shopper
+4396,Male,33,Madinah,Regular Family
+4397,Female,45,Taif,Budget Shopper
+4398,Male,48,Riyadh,Premium
+4399,Male,45,Taif,Occasional
+4400,Male,19,Madinah,Occasional
+4401,Male,34,Buraidah,Premium
+4402,Male,39,Khobar,Budget Shopper
+4403,Female,28,Dammam,Occasional
+4404,Male,18,Abha,Regular Family
+4405,Male,22,Khobar,Regular Family
+4406,Female,52,Buraidah,Budget Shopper
+4407,Female,23,Buraidah,Occasional
+4408,Male,37,Khobar,Regular Family
+4409,Male,34,Khobar,Regular Family
+4410,Male,34,Dammam,Budget Shopper
+4411,Female,32,Madinah,Regular Family
+4412,Female,45,Madinah,Budget Shopper
+4413,Male,36,Makkah,Occasional
+4414,Male,29,Riyadh,Premium
+4415,Female,37,Taif,Occasional
+4416,Female,22,Jeddah,Regular Family
+4417,Male,41,Riyadh,Premium
+4418,Male,29,Riyadh,Regular Family
+4419,Male,29,Riyadh,Occasional
+4420,Female,42,Dammam,Regular Family
+4421,Female,32,Riyadh,Regular Family
+4422,Male,32,Riyadh,Regular Family
+4423,Female,49,Riyadh,Regular Family
+4424,Male,25,Riyadh,Occasional
+4425,Female,41,Taif,Budget Shopper
+4426,Female,46,Khobar,Premium
+4427,Female,49,Riyadh,Regular Family
+4428,Male,60,Khobar,Budget Shopper
+4429,Male,29,Makkah,Occasional
+4430,Female,26,Khobar,Premium
+4431,Female,45,Jeddah,Occasional
+4432,Male,46,Makkah,Regular Family
+4433,Female,27,Riyadh,Premium
+4434,Male,41,Riyadh,Premium
+4435,Male,66,Taif,Regular Family
+4436,Female,37,Jeddah,Budget Shopper
+4437,Male,46,Riyadh,Budget Shopper
+4438,Male,53,Riyadh,Budget Shopper
+4439,Male,64,Madinah,Premium
+4440,Female,39,Riyadh,Premium
+4441,Male,50,Jeddah,Regular Family
+4442,Male,27,Jeddah,Budget Shopper
+4443,Male,36,Riyadh,Premium
+4444,Male,31,Dammam,Budget Shopper
+4445,Male,18,Riyadh,Occasional
+4446,Male,18,Dammam,Regular Family
+4447,Male,41,Riyadh,Premium
+4448,Female,41,Taif,Budget Shopper
+4449,Male,25,Makkah,Regular Family
+4450,Male,53,Riyadh,Regular Family
+4451,Female,24,Riyadh,Regular Family
+4452,Male,39,Madinah,Budget Shopper
+4453,Male,31,Madinah,Regular Family
+4454,Female,37,Jeddah,Budget Shopper
+4455,Female,46,Riyadh,Occasional
+4456,Female,44,Khobar,Regular Family
+4457,Male,44,Jeddah,Regular Family
+4458,Female,42,Riyadh,Regular Family
+4459,Male,22,Jeddah,Premium
+4460,Male,48,Abha,Budget Shopper
+4461,Female,24,Jeddah,Premium
+4462,Male,35,Riyadh,Occasional
+4463,Female,32,Riyadh,Regular Family
+4464,Male,40,Khobar,Budget Shopper
+4465,Male,31,Dammam,Budget Shopper
+4466,Female,34,Makkah,Occasional
+4467,Female,54,Khobar,Budget Shopper
+4468,Female,22,Dammam,Budget Shopper
+4469,Male,36,Dammam,Occasional
+4470,Male,24,Taif,Occasional
+4471,Female,43,Buraidah,Regular Family
+4472,Male,28,Jeddah,Budget Shopper
+4473,Female,36,Makkah,Regular Family
+4474,Male,21,Riyadh,Occasional
+4475,Male,50,Riyadh,Budget Shopper
+4476,Male,37,Jeddah,Budget Shopper
+4477,Female,38,Abha,Occasional
+4478,Male,45,Buraidah,Premium
+4479,Male,22,Madinah,Regular Family
+4480,Female,29,Madinah,Occasional
+4481,Male,38,Riyadh,Regular Family
+4482,Female,18,Taif,Occasional
+4483,Male,18,Riyadh,Budget Shopper
+4484,Male,27,Taif,Regular Family
+4485,Male,23,Riyadh,Premium
+4486,Male,32,Riyadh,Regular Family
+4487,Female,42,Khobar,Regular Family
+4488,Male,44,Riyadh,Premium
+4489,Female,56,Riyadh,Regular Family
+4490,Female,36,Makkah,Budget Shopper
+4491,Female,38,Madinah,Regular Family
+4492,Male,36,Jeddah,Premium
+4493,Male,40,Khobar,Regular Family
+4494,Male,40,Khobar,Regular Family
+4495,Female,46,Riyadh,Budget Shopper
+4496,Female,46,Dammam,Budget Shopper
+4497,Female,42,Makkah,Occasional
+4498,Male,53,Buraidah,Occasional
+4499,Male,36,Jeddah,Regular Family
+4500,Male,29,Madinah,Regular Family
+4501,Male,31,Dammam,Budget Shopper
+4502,Male,35,Madinah,Regular Family
+4503,Male,24,Abha,Regular Family
+4504,Male,29,Khobar,Regular Family
+4505,Female,23,Riyadh,Budget Shopper
+4506,Male,40,Buraidah,Budget Shopper
+4507,Male,40,Makkah,Occasional
+4508,Female,18,Makkah,Regular Family
+4509,Female,29,Dammam,Occasional
+4510,Male,56,Riyadh,Premium
+4511,Female,43,Dammam,Occasional
+4512,Male,41,Khobar,Budget Shopper
+4513,Male,29,Jeddah,Budget Shopper
+4514,Female,39,Riyadh,Regular Family
+4515,Male,36,Abha,Regular Family
+4516,Female,27,Dammam,Budget Shopper
+4517,Male,31,Madinah,Regular Family
+4518,Male,31,Riyadh,Budget Shopper
+4519,Male,20,Dammam,Budget Shopper
+4520,Male,21,Riyadh,Occasional
+4521,Male,34,Madinah,Regular Family
+4522,Male,27,Khobar,Regular Family
+4523,Male,33,Dammam,Budget Shopper
+4524,Male,18,Taif,Occasional
+4525,Male,45,Jeddah,Occasional
+4526,Male,59,Jeddah,Budget Shopper
+4527,Male,47,Madinah,Regular Family
+4528,Male,48,Dammam,Regular Family
+4529,Female,43,Makkah,Budget Shopper
+4530,Female,39,Taif,Regular Family
+4531,Male,37,Madinah,Budget Shopper
+4532,Male,26,Riyadh,Budget Shopper
+4533,Female,44,Riyadh,Regular Family
+4534,Female,43,Buraidah,Regular Family
+4535,Female,31,Riyadh,Regular Family
+4536,Female,42,Dammam,Budget Shopper
+4537,Female,28,Buraidah,Regular Family
+4538,Male,29,Abha,Occasional
+4539,Male,45,Riyadh,Regular Family
+4540,Female,41,Madinah,Regular Family
+4541,Female,33,Jeddah,Regular Family
+4542,Female,32,Buraidah,Occasional
+4543,Female,38,Khobar,Premium
+4544,Male,18,Khobar,Budget Shopper
+4545,Male,28,Riyadh,Budget Shopper
+4546,Female,22,Riyadh,Regular Family
+4547,Female,36,Jeddah,Premium
+4548,Female,48,Madinah,Budget Shopper
+4549,Female,41,Dammam,Regular Family
+4550,Female,30,Buraidah,Regular Family
+4551,Male,28,Riyadh,Regular Family
+4552,Male,28,Jeddah,Premium
+4553,Male,58,Khobar,Regular Family
+4554,Male,37,Makkah,Regular Family
+4555,Female,38,Dammam,Premium
+4556,Male,18,Jeddah,Occasional
+4557,Female,23,Riyadh,Regular Family
+4558,Male,36,Madinah,Regular Family
+4559,Female,31,Buraidah,Premium
+4560,Male,37,Tabuk,Occasional
+4561,Female,37,Madinah,Regular Family
+4562,Male,43,Makkah,Regular Family
+4563,Male,18,Abha,Budget Shopper
+4564,Male,24,Abha,Premium
+4565,Female,35,Riyadh,Regular Family
+4566,Male,29,Jeddah,Budget Shopper
+4567,Female,33,Buraidah,Regular Family
+4568,Female,37,Buraidah,Occasional
+4569,Male,28,Madinah,Budget Shopper
+4570,Male,38,Jeddah,Regular Family
+4571,Male,42,Abha,Occasional
+4572,Male,37,Riyadh,Occasional
+4573,Male,44,Riyadh,Regular Family
+4574,Female,18,Khobar,Budget Shopper
+4575,Female,30,Khobar,Regular Family
+4576,Male,46,Jeddah,Regular Family
+4577,Female,26,Makkah,Regular Family
+4578,Female,25,Madinah,Regular Family
+4579,Male,35,Riyadh,Premium
+4580,Female,36,Jeddah,Regular Family
+4581,Female,30,Madinah,Occasional
+4582,Female,56,Buraidah,Premium
+4583,Female,39,Buraidah,Regular Family
+4584,Male,26,Riyadh,Budget Shopper
+4585,Male,20,Khobar,Occasional
+4586,Female,40,Tabuk,Premium
+4587,Male,26,Riyadh,Regular Family
+4588,Male,60,Makkah,Budget Shopper
+4589,Male,41,Jeddah,Premium
+4590,Male,42,Makkah,Budget Shopper
+4591,Male,39,Riyadh,Premium
+4592,Female,48,Jeddah,Budget Shopper
+4593,Male,18,Jeddah,Regular Family
+4594,Male,23,Jeddah,Regular Family
+4595,Male,47,Riyadh,Regular Family
+4596,Female,53,Dammam,Occasional
+4597,Female,22,Khobar,Budget Shopper
+4598,Female,18,Riyadh,Budget Shopper
+4599,Female,38,Jeddah,Budget Shopper
+4600,Male,41,Riyadh,Budget Shopper
+4601,Female,38,Taif,Regular Family
+4602,Female,35,Riyadh,Budget Shopper
+4603,Female,18,Makkah,Regular Family
+4604,Female,32,Jeddah,Premium
+4605,Male,34,Jeddah,Occasional
+4606,Male,30,Buraidah,Budget Shopper
+4607,Female,18,Makkah,Occasional
+4608,Male,42,Makkah,Occasional
+4609,Female,46,Riyadh,Regular Family
+4610,Male,27,Jeddah,Premium
+4611,Female,34,Jeddah,Regular Family
+4612,Female,31,Dammam,Budget Shopper
+4613,Male,31,Buraidah,Occasional
+4614,Male,41,Jeddah,Occasional
+4615,Female,42,Jeddah,Regular Family
+4616,Male,48,Riyadh,Budget Shopper
+4617,Male,48,Jeddah,Budget Shopper
+4618,Female,34,Riyadh,Regular Family
+4619,Male,67,Jeddah,Occasional
+4620,Female,53,Taif,Budget Shopper
+4621,Male,29,Khobar,Regular Family
+4622,Male,37,Riyadh,Occasional
+4623,Male,18,Jeddah,Regular Family
+4624,Female,36,Khobar,Regular Family
+4625,Female,54,Riyadh,Regular Family
+4626,Male,67,Buraidah,Budget Shopper
+4627,Male,35,Khobar,Regular Family
+4628,Female,40,Dammam,Budget Shopper
+4629,Female,43,Madinah,Premium
+4630,Male,58,Riyadh,Regular Family
+4631,Male,25,Riyadh,Occasional
+4632,Male,65,Makkah,Regular Family
+4633,Female,33,Riyadh,Occasional
+4634,Female,23,Riyadh,Premium
+4635,Female,33,Buraidah,Premium
+4636,Female,27,Abha,Regular Family
+4637,Male,41,Riyadh,Regular Family
+4638,Female,18,Buraidah,Premium
+4639,Female,38,Riyadh,Premium
+4640,Male,43,Tabuk,Premium
+4641,Female,52,Jeddah,Budget Shopper
+4642,Male,43,Dammam,Budget Shopper
+4643,Female,52,Makkah,Budget Shopper
+4644,Female,29,Riyadh,Budget Shopper
+4645,Female,40,Buraidah,Premium
+4646,Male,18,Riyadh,Regular Family
+4647,Female,35,Taif,Regular Family
+4648,Male,40,Riyadh,Budget Shopper
+4649,Male,41,Riyadh,Premium
+4650,Female,19,Riyadh,Budget Shopper
+4651,Male,32,Jeddah,Budget Shopper
+4652,Female,33,Khobar,Occasional
+4653,Male,31,Makkah,Premium
+4654,Female,44,Tabuk,Budget Shopper
+4655,Female,34,Dammam,Budget Shopper
+4656,Male,37,Dammam,Regular Family
+4657,Female,31,Jeddah,Regular Family
+4658,Male,48,Makkah,Budget Shopper
+4659,Female,49,Buraidah,Regular Family
+4660,Female,33,Jeddah,Regular Family
+4661,Female,67,Jeddah,Regular Family
+4662,Female,28,Jeddah,Premium
+4663,Female,47,Riyadh,Occasional
+4664,Female,26,Khobar,Budget Shopper
+4665,Female,45,Riyadh,Budget Shopper
+4666,Male,44,Tabuk,Budget Shopper
+4667,Male,25,Riyadh,Budget Shopper
+4668,Female,35,Riyadh,Regular Family
+4669,Male,57,Riyadh,Budget Shopper
+4670,Male,27,Jeddah,Occasional
+4671,Female,40,Abha,Occasional
+4672,Female,40,Buraidah,Premium
+4673,Male,36,Dammam,Regular Family
+4674,Male,18,Riyadh,Premium
+4675,Male,45,Madinah,Regular Family
+4676,Male,36,Madinah,Premium
+4677,Male,48,Madinah,Budget Shopper
+4678,Female,39,Dammam,Occasional
+4679,Male,37,Khobar,Regular Family
+4680,Female,40,Riyadh,Budget Shopper
+4681,Female,25,Jeddah,Regular Family
+4682,Male,53,Buraidah,Budget Shopper
+4683,Female,32,Riyadh,Occasional
+4684,Male,32,Jeddah,Regular Family
+4685,Female,50,Riyadh,Occasional
+4686,Female,39,Riyadh,Occasional
+4687,Female,33,Buraidah,Regular Family
+4688,Male,41,Riyadh,Occasional
+4689,Male,43,Dammam,Occasional
+4690,Male,35,Tabuk,Budget Shopper
+4691,Female,46,Riyadh,Budget Shopper
+4692,Male,22,Riyadh,Regular Family
+4693,Male,39,Jeddah,Regular Family
+4694,Male,45,Riyadh,Premium
+4695,Male,43,Riyadh,Regular Family
+4696,Male,18,Khobar,Occasional
+4697,Male,35,Riyadh,Premium
+4698,Female,23,Makkah,Regular Family
+4699,Male,50,Buraidah,Premium
+4700,Male,32,Riyadh,Occasional
+4701,Male,49,Riyadh,Regular Family
+4702,Male,23,Riyadh,Regular Family
+4703,Female,40,Riyadh,Premium
+4704,Male,36,Jeddah,Regular Family
+4705,Male,66,Dammam,Budget Shopper
+4706,Male,49,Riyadh,Occasional
+4707,Male,48,Jeddah,Budget Shopper
+4708,Female,58,Riyadh,Budget Shopper
+4709,Female,39,Madinah,Occasional
+4710,Male,35,Jeddah,Regular Family
+4711,Male,34,Madinah,Regular Family
+4712,Male,40,Khobar,Regular Family
+4713,Female,18,Jeddah,Budget Shopper
+4714,Male,36,Makkah,Budget Shopper
+4715,Female,38,Riyadh,Occasional
+4716,Male,34,Madinah,Budget Shopper
+4717,Female,19,Jeddah,Budget Shopper
+4718,Male,34,Dammam,Premium
+4719,Male,19,Dammam,Occasional
+4720,Male,56,Khobar,Premium
+4721,Male,33,Madinah,Budget Shopper
+4722,Female,18,Riyadh,Budget Shopper
+4723,Male,34,Dammam,Occasional
+4724,Male,46,Riyadh,Premium
+4725,Female,38,Riyadh,Occasional
+4726,Male,26,Riyadh,Regular Family
+4727,Male,29,Khobar,Premium
+4728,Male,33,Makkah,Occasional
+4729,Male,31,Tabuk,Regular Family
+4730,Female,22,Dammam,Regular Family
+4731,Male,35,Madinah,Budget Shopper
+4732,Female,21,Buraidah,Premium
+4733,Male,46,Riyadh,Budget Shopper
+4734,Male,48,Madinah,Budget Shopper
+4735,Female,25,Jeddah,Regular Family
+4736,Female,28,Jeddah,Premium
+4737,Female,31,Taif,Regular Family
+4738,Male,36,Riyadh,Occasional
+4739,Male,39,Buraidah,Budget Shopper
+4740,Female,41,Tabuk,Regular Family
+4741,Female,41,Buraidah,Regular Family
+4742,Male,53,Khobar,Regular Family
+4743,Male,37,Khobar,Premium
+4744,Female,22,Jeddah,Regular Family
+4745,Male,18,Jeddah,Premium
+4746,Female,54,Buraidah,Occasional
+4747,Female,42,Jeddah,Occasional
+4748,Male,38,Dammam,Occasional
+4749,Male,41,Taif,Regular Family
+4750,Female,38,Jeddah,Premium
+4751,Female,41,Tabuk,Regular Family
+4752,Female,32,Jeddah,Premium
+4753,Female,48,Riyadh,Budget Shopper
+4754,Male,30,Khobar,Regular Family
+4755,Male,26,Dammam,Occasional
+4756,Female,18,Abha,Premium
+4757,Male,33,Riyadh,Budget Shopper
+4758,Female,50,Riyadh,Regular Family
+4759,Male,31,Buraidah,Regular Family
+4760,Male,21,Dammam,Occasional
+4761,Male,39,Dammam,Budget Shopper
+4762,Female,29,Riyadh,Regular Family
+4763,Female,53,Buraidah,Premium
+4764,Female,48,Buraidah,Regular Family
+4765,Male,22,Dammam,Budget Shopper
+4766,Female,34,Riyadh,Premium
+4767,Female,28,Taif,Premium
+4768,Male,23,Buraidah,Regular Family
+4769,Female,35,Dammam,Budget Shopper
+4770,Female,45,Makkah,Premium
+4771,Male,35,Dammam,Regular Family
+4772,Male,30,Riyadh,Regular Family
+4773,Female,18,Madinah,Regular Family
+4774,Male,29,Makkah,Regular Family
+4775,Female,42,Khobar,Occasional
+4776,Female,21,Tabuk,Occasional
+4777,Male,50,Dammam,Premium
+4778,Male,30,Buraidah,Budget Shopper
+4779,Female,38,Riyadh,Regular Family
+4780,Male,32,Taif,Budget Shopper
+4781,Male,23,Riyadh,Premium
+4782,Male,41,Riyadh,Regular Family
+4783,Female,29,Makkah,Occasional
+4784,Male,27,Riyadh,Regular Family
+4785,Male,18,Riyadh,Budget Shopper
+4786,Female,50,Madinah,Regular Family
+4787,Male,36,Jeddah,Regular Family
+4788,Female,48,Tabuk,Budget Shopper
+4789,Male,43,Riyadh,Regular Family
+4790,Female,48,Jeddah,Budget Shopper
+4791,Male,30,Jeddah,Budget Shopper
+4792,Male,21,Dammam,Regular Family
+4793,Male,44,Jeddah,Occasional
+4794,Female,37,Jeddah,Occasional
+4795,Female,31,Jeddah,Budget Shopper
+4796,Male,44,Riyadh,Regular Family
+4797,Male,39,Makkah,Occasional
+4798,Male,43,Dammam,Occasional
+4799,Male,25,Jeddah,Occasional
+4800,Male,47,Riyadh,Regular Family
+4801,Female,36,Buraidah,Occasional
+4802,Male,48,Riyadh,Premium
+4803,Female,47,Buraidah,Budget Shopper
+4804,Male,44,Riyadh,Budget Shopper
+4805,Female,35,Taif,Occasional
+4806,Male,44,Jeddah,Occasional
+4807,Male,48,Khobar,Regular Family
+4808,Female,43,Jeddah,Premium
+4809,Male,38,Taif,Regular Family
+4810,Female,44,Jeddah,Premium
+4811,Female,30,Madinah,Regular Family
+4812,Female,53,Riyadh,Regular Family
+4813,Female,18,Khobar,Regular Family
+4814,Male,36,Madinah,Regular Family
+4815,Male,32,Dammam,Occasional
+4816,Female,29,Makkah,Occasional
+4817,Male,39,Abha,Budget Shopper
+4818,Female,24,Dammam,Budget Shopper
+4819,Male,60,Riyadh,Budget Shopper
+4820,Female,21,Jeddah,Budget Shopper
+4821,Male,26,Madinah,Regular Family
+4822,Male,24,Jeddah,Regular Family
+4823,Female,38,Makkah,Budget Shopper
+4824,Female,47,Riyadh,Occasional
+4825,Male,42,Taif,Premium
+4826,Male,52,Makkah,Budget Shopper
+4827,Female,27,Dammam,Premium
+4828,Male,43,Tabuk,Regular Family
+4829,Female,33,Abha,Regular Family
+4830,Female,39,Riyadh,Regular Family
+4831,Male,48,Jeddah,Budget Shopper
+4832,Male,18,Dammam,Regular Family
+4833,Male,58,Jeddah,Occasional
+4834,Male,34,Jeddah,Premium
+4835,Female,18,Jeddah,Regular Family
+4836,Male,28,Riyadh,Occasional
+4837,Female,37,Riyadh,Occasional
+4838,Female,28,Jeddah,Occasional
+4839,Male,18,Riyadh,Budget Shopper
+4840,Female,37,Dammam,Budget Shopper
+4841,Male,28,Riyadh,Premium
+4842,Male,43,Riyadh,Occasional
+4843,Female,24,Tabuk,Regular Family
+4844,Male,61,Khobar,Occasional
+4845,Male,42,Buraidah,Premium
+4846,Male,38,Taif,Budget Shopper
+4847,Male,43,Khobar,Occasional
+4848,Female,18,Abha,Occasional
+4849,Female,31,Riyadh,Regular Family
+4850,Female,56,Madinah,Premium
+4851,Female,32,Khobar,Regular Family
+4852,Female,35,Makkah,Regular Family
+4853,Male,31,Riyadh,Regular Family
+4854,Female,52,Taif,Regular Family
+4855,Male,33,Jeddah,Regular Family
+4856,Male,22,Abha,Budget Shopper
+4857,Female,64,Taif,Budget Shopper
+4858,Female,21,Buraidah,Budget Shopper
+4859,Female,35,Jeddah,Regular Family
+4860,Male,27,Jeddah,Regular Family
+4861,Female,28,Makkah,Regular Family
+4862,Male,24,Khobar,Regular Family
+4863,Male,30,Jeddah,Budget Shopper
+4864,Female,47,Makkah,Premium
+4865,Male,18,Buraidah,Premium
+4866,Female,50,Jeddah,Premium
+4867,Female,48,Riyadh,Budget Shopper
+4868,Female,42,Makkah,Premium
+4869,Male,37,Khobar,Regular Family
+4870,Male,39,Buraidah,Premium
+4871,Female,52,Madinah,Budget Shopper
+4872,Female,18,Jeddah,Premium
+4873,Male,44,Makkah,Occasional
+4874,Male,28,Buraidah,Occasional
+4875,Male,45,Jeddah,Occasional
+4876,Female,29,Riyadh,Budget Shopper
+4877,Male,44,Makkah,Regular Family
+4878,Female,19,Riyadh,Budget Shopper
+4879,Male,18,Taif,Regular Family
+4880,Male,35,Riyadh,Premium
+4881,Female,52,Jeddah,Premium
+4882,Female,42,Taif,Occasional
+4883,Male,42,Riyadh,Occasional
+4884,Male,45,Riyadh,Budget Shopper
+4885,Female,32,Riyadh,Occasional
+4886,Male,43,Taif,Occasional
+4887,Male,30,Taif,Premium
+4888,Female,33,Jeddah,Budget Shopper
+4889,Male,34,Madinah,Budget Shopper
+4890,Female,30,Madinah,Regular Family
+4891,Male,35,Riyadh,Budget Shopper
+4892,Female,33,Riyadh,Budget Shopper
+4893,Female,28,Buraidah,Budget Shopper
+4894,Female,34,Riyadh,Regular Family
+4895,Female,38,Dammam,Regular Family
+4896,Female,24,Riyadh,Budget Shopper
+4897,Male,41,Khobar,Occasional
+4898,Male,31,Riyadh,Budget Shopper
+4899,Male,38,Riyadh,Regular Family
+4900,Female,29,Riyadh,Regular Family
+4901,Male,48,Taif,Regular Family
+4902,Male,47,Riyadh,Regular Family
+4903,Male,24,Jeddah,Premium
+4904,Female,42,Jeddah,Regular Family
+4905,Male,52,Jeddah,Budget Shopper
+4906,Male,26,Abha,Regular Family
+4907,Female,26,Jeddah,Budget Shopper
+4908,Female,44,Makkah,Occasional
+4909,Female,22,Khobar,Regular Family
+4910,Male,27,Buraidah,Budget Shopper
+4911,Female,25,Tabuk,Premium
+4912,Male,44,Riyadh,Premium
+4913,Male,28,Abha,Regular Family
+4914,Male,33,Abha,Occasional
+4915,Male,28,Buraidah,Regular Family
+4916,Female,49,Taif,Budget Shopper
+4917,Female,27,Madinah,Premium
+4918,Female,21,Dammam,Occasional
+4919,Female,20,Jeddah,Budget Shopper
+4920,Male,44,Buraidah,Budget Shopper
+4921,Female,44,Buraidah,Regular Family
+4922,Female,50,Riyadh,Premium
+4923,Male,22,Khobar,Budget Shopper
+4924,Male,33,Riyadh,Occasional
+4925,Female,63,Jeddah,Budget Shopper
+4926,Female,33,Jeddah,Occasional
+4927,Male,30,Jeddah,Occasional
+4928,Female,36,Madinah,Budget Shopper
+4929,Male,42,Riyadh,Regular Family
+4930,Male,42,Makkah,Budget Shopper
+4931,Female,29,Khobar,Regular Family
+4932,Female,30,Abha,Regular Family
+4933,Female,33,Riyadh,Premium
+4934,Male,28,Jeddah,Regular Family
+4935,Female,22,Madinah,Regular Family
+4936,Male,56,Madinah,Budget Shopper
+4937,Male,32,Dammam,Budget Shopper
+4938,Female,32,Dammam,Regular Family
+4939,Male,32,Taif,Occasional
+4940,Female,35,Jeddah,Premium
+4941,Female,41,Riyadh,Regular Family
+4942,Male,31,Taif,Occasional
+4943,Male,49,Tabuk,Budget Shopper
+4944,Male,43,Riyadh,Occasional
+4945,Male,34,Buraidah,Budget Shopper
+4946,Female,29,Jeddah,Budget Shopper
+4947,Female,48,Tabuk,Occasional
+4948,Female,34,Makkah,Regular Family
+4949,Female,22,Dammam,Occasional
+4950,Male,47,Buraidah,Premium
+4951,Male,28,Tabuk,Budget Shopper
+4952,Male,46,Riyadh,Budget Shopper
+4953,Female,18,Madinah,Regular Family
+4954,Male,32,Abha,Regular Family
+4955,Male,49,Khobar,Regular Family
+4956,Male,36,Jeddah,Budget Shopper
+4957,Male,43,Riyadh,Budget Shopper
+4958,Female,26,Taif,Regular Family
+4959,Female,40,Dammam,Budget Shopper
+4960,Male,36,Dammam,Regular Family
+4961,Female,39,Khobar,Budget Shopper
+4962,Male,58,Riyadh,Occasional
+4963,Male,50,Riyadh,Regular Family
+4964,Male,45,Riyadh,Budget Shopper
+4965,Female,45,Riyadh,Premium
+4966,Female,26,Buraidah,Regular Family
+4967,Female,31,Riyadh,Regular Family
+4968,Female,19,Riyadh,Budget Shopper
+4969,Male,22,Khobar,Regular Family
+4970,Female,26,Buraidah,Occasional
+4971,Female,36,Riyadh,Budget Shopper
+4972,Male,23,Riyadh,Regular Family
+4973,Male,36,Madinah,Budget Shopper
+4974,Male,34,Dammam,Regular Family
+4975,Male,24,Khobar,Regular Family
+4976,Male,53,Riyadh,Budget Shopper
+4977,Male,21,Buraidah,Budget Shopper
+4978,Female,48,Khobar,Regular Family
+4979,Female,18,Tabuk,Regular Family
+4980,Female,34,Taif,Occasional
+4981,Female,23,Madinah,Premium
+4982,Female,29,Riyadh,Occasional
+4983,Male,56,Madinah,Occasional
+4984,Female,32,Khobar,Budget Shopper
+4985,Female,24,Riyadh,Occasional
+4986,Female,41,Jeddah,Occasional
+4987,Female,32,Riyadh,Regular Family
+4988,Male,38,Buraidah,Regular Family
+4989,Female,26,Abha,Regular Family
+4990,Male,26,Madinah,Budget Shopper
+4991,Male,27,Abha,Budget Shopper
+4992,Female,45,Makkah,Budget Shopper
+4993,Female,34,Buraidah,Regular Family
+4994,Male,24,Riyadh,Premium
+4995,Male,38,Jeddah,Budget Shopper
+4996,Female,37,Khobar,Budget Shopper
+4997,Male,42,Tabuk,Budget Shopper
+4998,Female,31,Tabuk,Occasional
+4999,Male,35,Taif,Occasional
+5000,Female,41,Abha,Budget Shopper

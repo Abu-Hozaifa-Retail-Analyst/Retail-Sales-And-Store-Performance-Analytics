@@ -1,0 +1,26 @@
+store_id,store_name,store_type,cluster
+1,GulfMart Riyadh HYP-01,Hypermarket,0
+2,GulfMart Jeddah HYP-02,Hypermarket,2
+3,GulfMart Dammam HYP-03,Hypermarket,0
+4,GulfMart Dammam HYP-04,Hypermarket,0
+5,GulfMart Madinah HYP-05,Hypermarket,0
+6,GulfMart Buraidah SUP-06,Supermarket,2
+7,GulfMart Jeddah SUP-07,Supermarket,2
+8,GulfMart Makkah SUP-08,Supermarket,2
+9,GulfMart Tabuk SUP-09,Supermarket,2
+10,GulfMart Riyadh SUP-10,Supermarket,0
+11,GulfMart Khobar SUP-11,Supermarket,2
+12,GulfMart Abha SUP-12,Supermarket,0
+13,GulfMart Taif SUP-13,Supermarket,0
+14,GulfMart Dammam SUP-14,Supermarket,0
+15,GulfMart Madinah SUP-15,Supermarket,2
+16,GulfMart Buraidah EXP-16,Express,1
+17,GulfMart Jeddah EXP-17,Express,3
+18,GulfMart Makkah EXP-18,Express,3
+19,GulfMart Tabuk EXP-19,Express,1
+20,GulfMart Riyadh EXP-20,Express,1
+21,GulfMart Khobar EXP-21,Express,3
+22,GulfMart Abha EXP-22,Express,1
+23,GulfMart Taif NEI-23,Neighborhood,1
+24,GulfMart Dammam NEI-24,Neighborhood,3
+25,GulfMart Madinah NEI-25,Neighborhood,3

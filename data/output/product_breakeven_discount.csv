@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,brand,unit_cost,selling_price,breakeven_discount,max_safe_discount_tier
+1,Snacks Item 001,Food & Beverages,Snacks,Brand J,24.86,33.39,0.2555,25%
+2,Beverages Item 002,Food & Beverages,Beverages,Brand G,17.89,25.66,0.3028,25%
+3,Pantry Item 003,Food & Beverages,Pantry,Brand K,14.57,20.58,0.292,25%
+4,Dairy & Eggs Item 004,Food & Beverages,Dairy & Eggs,Brand T,14.78,20.02,0.2617,25%
+5,Frozen Item 005,Food & Beverages,Frozen,Brand R,7.76,10.08,0.2302,20%
+6,Snacks Item 006,Food & Beverages,Snacks,Brand Q,3.89,5.56,0.3004,25%
+7,Beverages Item 007,Food & Beverages,Beverages,Brand J,10.85,14.46,0.2497,20%
+8,Pantry Item 008,Food & Beverages,Pantry,Brand P,6.19,9.08,0.3183,25%
+9,Dairy & Eggs Item 009,Food & Beverages,Dairy & Eggs,Brand H,10.1,13.41,0.2468,20%
+10,Frozen Item 010,Food & Beverages,Frozen,Brand N,31.07,40.53,0.2334,20%
+11,Snacks Item 011,Food & Beverages,Snacks,Brand M,6.5,9.4,0.3085,25%
+12,Beverages Item 012,Food & Beverages,Beverages,Brand E,4.17,5.47,0.2377,20%
+13,Pantry Item 013,Food & Beverages,Pantry,Brand F,7.33,9.65,0.2404,20%
+14,Dairy & Eggs Item 014,Food & Beverages,Dairy & Eggs,Brand B,7.56,10.58,0.2854,25%
+15,Frozen Item 015,Food & Beverages,Frozen,Brand C,19.16,27.88,0.3128,25%
+16,Snacks Item 016,Food & Beverages,Snacks,Brand I,14.7,19.39,0.2419,20%
+17,Beverages Item 017,Food & Beverages,Beverages,Brand J,26.07,34.99,0.2549,25%
+18,Pantry Item 018,Food & Beverages,Pantry,Brand D,19.28,27.68,0.3035,25%
+19,Dairy & Eggs Item 019,Food & Beverages,Dairy & Eggs,Brand I,10.05,14.82,0.3219,25%
+20,Frozen Item 020,Food & Beverages,Frozen,Brand M,28.13,38.82,0.2754,25%
+21,Snacks Item 021,Food & Beverages,Snacks,Brand E,5.49,7.19,0.2364,20%
+22,Beverages Item 022,Food & Beverages,Beverages,Brand G,3.81,4.89,0.2209,20%
+23,Pantry Item 023,Food & Beverages,Pantry,Brand H,4.52,5.99,0.2454,20%
+24,Dairy & Eggs Item 024,Food & Beverages,Dairy & Eggs,Brand K,22.32,29.16,0.2346,20%
+25,Frozen Item 025,Food & Beverages,Frozen,Brand H,11.56,16.36,0.2934,25%
+26,Snacks Item 026,Food & Beverages,Snacks,Brand O,5.41,7.06,0.2337,20%
+27,Beverages Item 027,Food & Beverages,Beverages,Brand G,12.76,17.62,0.2758,25%
+28,Pantry Item 028,Food & Beverages,Pantry,Brand I,5.29,7.51,0.2956,25%
+29,Dairy & Eggs Item 029,Food & Beverages,Dairy & Eggs,Brand H,20.9,29.18,0.2838,25%
+30,Frozen Item 030,Food & Beverages,Frozen,Brand D,11.11,14.66,0.2422,20%
+31,Snacks Item 031,Food & Beverages,Snacks,Brand N,9.42,13.57,0.3058,25%
+32,Beverages Item 032,Food & Beverages,Beverages,Brand E,7.71,10.97,0.2972,25%
+33,Pantry Item 033,Food & Beverages,Pantry,Brand F,17.69,25.26,0.2997,25%
+34,Dairy & Eggs Item 034,Food & Beverages,Dairy & Eggs,Brand P,8.98,11.73,0.2344,20%
+35,Frozen Item 035,Food & Beverages,Frozen,Brand S,4.49,5.86,0.2338,20%
+36,Snacks Item 036,Food & Beverages,Snacks,Brand N,4.85,7.11,0.3179,25%
+37,Beverages Item 037,Food & Beverages,Beverages,Brand S,40.87,55.56,0.2644,25%
+38,Pantry Item 038,Food & Beverages,Pantry,Brand R,35.72,47.87,0.2538,25%
+39,Dairy & Eggs Item 039,Food & Beverages,Dairy & Eggs,Brand J,21.08,29.04,0.2741,25%
+40,Frozen Item 040,Food & Beverages,Frozen,Brand P,7.05,9.96,0.2922,25%
+41,Snacks Item 041,Food & Beverages,Snacks,Brand G,41.63,61.24,0.3202,25%
+42,Beverages Item 042,Food & Beverages,Beverages,Brand J,25.73,34.41,0.2523,25%
+43,Pantry Item 043,Food & Beverages,Pantry,Brand K,22.01,32.24,0.3173,25%
+44,Dairy & Eggs Item 044,Food & Beverages,Dairy & Eggs,Brand T,11.2,14.39,0.2217,20%
+45,Frozen Item 045,Food & Beverages,Frozen,Brand Q,7.16,9.96,0.2811,25%
+46,Snacks Item 046,Food & Beverages,Snacks,Brand J,4.59,6.46,0.2895,25%
+47,Beverages Item 047,Food & Beverages,Beverages,Brand N,35.19,45.79,0.2315,20%
+48,Pantry Item 048,Food & Beverages,Pantry,Brand E,11.38,14.89,0.2357,20%
+49,Dairy & Eggs Item 049,Food & Beverages,Dairy & Eggs,Brand Q,6.0,8.18,0.2665,25%
+50,Frozen Item 050,Food & Beverages,Frozen,Brand L,7.8,11.49,0.3211,25%
+51,Snacks Item 051,Food & Beverages,Snacks,Brand K,15.55,21.76,0.2854,25%
+52,Beverages Item 052,Food & Beverages,Beverages,Brand P,5.63,8.26,0.3184,25%
+53,Pantry Item 053,Food & Beverages,Pantry,Brand M,31.33,45.14,0.3059,25%
+54,Dairy & Eggs Item 054,Food & Beverages,Dairy & Eggs,Brand B,24.45,33.58,0.2719,25%
+55,Frozen Item 055,Food & Beverages,Frozen,Brand F,22.16,31.84,0.304,25%
+56,Snacks Item 056,Food & Beverages,Snacks,Brand D,10.72,13.76,0.2209,20%
+57,Beverages Item 057,Food & Beverages,Beverages,Brand O,17.56,22.86,0.2318,20%
+58,Pantry Item 058,Food & Beverages,Pantry,Brand A,15.74,22.76,0.3084,25%
+59,Dairy & Eggs Item 059,Food & Beverages,Dairy & Eggs,Brand E,18.58,26.74,0.3052,25%
+60,Frozen Item 060,Food & Beverages,Frozen,Brand L,4.46,5.92,0.2466,20%
+61,Snacks Item 061,Food & Beverages,Snacks,Brand N,10.29,14.26,0.2784,25%
+62,Beverages Item 062,Food & Beverages,Beverages,Brand K,4.0,5.6,0.2857,25%
+63,Pantry Item 063,Food & Beverages,Pantry,Brand R,12.54,18.23,0.3121,25%
+64,Dairy & Eggs Item 064,Food & Beverages,Dairy & Eggs,Brand S,8.28,11.6,0.2862,25%
+65,Frozen Item 065,Food & Beverages,Frozen,Brand C,5.19,7.07,0.2659,25%
+66,Snacks Item 066,Food & Beverages,Snacks,Brand T,4.67,6.33,0.2622,25%
+67,Beverages Item 067,Food & Beverages,Beverages,Brand M,15.88,21.68,0.2675,25%
+68,Pantry Item 068,Food & Beverages,Pantry,Brand M,5.54,7.81,0.2907,25%
+69,Dairy & Eggs Item 069,Food & Beverages,Dairy & Eggs,Brand B,37.25,54.14,0.312,25%
+70,Frozen Item 070,Food & Beverages,Frozen,Brand M,15.62,21.41,0.2704,25%
+71,Snacks Item 071,Food & Beverages,Snacks,Brand O,8.65,11.5,0.2478,20%
+72,Beverages Item 072,Food & Beverages,Beverages,Brand L,16.01,21.25,0.2466,20%
+73,Pantry Item 073,Food & Beverages,Pantry,Brand B,3.81,5.45,0.3009,25%
+74,Dairy & Eggs Item 074,Food & Beverages,Dairy & Eggs,Brand K,40.53,58.5,0.3072,25%
+75,Frozen Item 075,Food & Beverages,Frozen,Brand S,12.17,15.83,0.2312,20%
+76,Snacks Item 076,Food & Beverages,Snacks,Brand O,26.0,33.63,0.2269,20%
+77,Beverages Item 077,Food & Beverages,Beverages,Brand C,4.44,6.21,0.285,25%
+78,Pantry Item 078,Food & Beverages,Pantry,Brand T,12.31,16.12,0.2364,20%
+79,Dairy & Eggs Item 079,Food & Beverages,Dairy & Eggs,Brand T,12.43,17.96,0.3079,25%
+80,Frozen Item 080,Food & Beverages,Frozen,Brand D,38.46,51.62,0.2549,25%
+81,Snacks Item 081,Food & Beverages,Snacks,Brand Q,15.26,19.97,0.2359,20%
+82,Beverages Item 082,Food & Beverages,Beverages,Brand I,11.9,17.42,0.3169,25%
+83,Pantry Item 083,Food & Beverages,Pantry,Brand L,7.07,9.28,0.2381,20%
+84,Dairy & Eggs Item 084,Food & Beverages,Dairy & Eggs,Brand I,8.32,11.12,0.2518,25%
+85,Frozen Item 085,Food & Beverages,Frozen,Brand P,13.41,17.58,0.2372,20%
+86,Snacks Item 086,Food & Beverages,Snacks,Brand T,10.91,14.22,0.2328,20%
+87,Beverages Item 087,Food & Beverages,Beverages,Brand P,3.8,4.88,0.2213,20%
+88,Pantry Item 088,Food & Beverages,Pantry,Brand S,29.02,37.47,0.2255,20%
+89,Dairy & Eggs Item 089,Food & Beverages,Dairy & Eggs,Brand S,34.62,45.52,0.2395,20%
+90,Frozen Item 090,Food & Beverages,Frozen,Brand B,5.13,6.62,0.2251,20%
+91,Snacks Item 091,Food & Beverages,Snacks,Brand F,14.59,20.4,0.2848,25%
+92,Beverages Item 092,Food & Beverages,Beverages,Brand O,4.74,6.71,0.2936,25%
+93,Pantry Item 093,Food & Beverages,Pantry,Brand L,19.66,26.71,0.2639,25%
+94,Dairy & Eggs Item 094,Food & Beverages,Dairy & Eggs,Brand B,7.32,9.84,0.2561,25%
+95,Frozen Item 095,Food & Beverages,Frozen,Brand B,19.04,26.29,0.2758,25%
+96,Snacks Item 096,Food & Beverages,Snacks,Brand K,22.58,32.85,0.3126,25%
+97,Beverages Item 097,Food & Beverages,Beverages,Brand M,25.09,36.39,0.3105,25%
+98,Pantry Item 098,Food & Beverages,Pantry,Brand D,4.73,6.1,0.2246,20%
+99,Dairy & Eggs Item 099,Food & Beverages,Dairy & Eggs,Brand D,36.4,47.91,0.2402,20%
+100,Frozen Item 100,Food & Beverages,Frozen,Brand C,6.44,8.55,0.2468,20%
+101,Snacks Item 101,Food & Beverages,Snacks,Brand L,3.96,5.27,0.2486,20%
+102,Beverages Item 102,Food & Beverages,Beverages,Brand A,14.62,20.38,0.2826,25%
+103,Pantry Item 103,Food & Beverages,Pantry,Brand L,9.19,12.53,0.2666,25%
+104,Dairy & Eggs Item 104,Food & Beverages,Dairy & Eggs,Brand J,29.28,37.77,0.2248,20%
+105,Frozen Item 105,Food & Beverages,Frozen,Brand J,27.73,37.57,0.2619,25%
+106,Snacks Item 106,Food & Beverages,Snacks,Brand N,8.02,11.11,0.2781,25%
+107,Beverages Item 107,Food & Beverages,Beverages,Brand K,39.95,51.95,0.231,20%
+108,Pantry Item 108,Food & Beverages,Pantry,Brand O,7.51,10.86,0.3085,25%
+109,Dairy & Eggs Item 109,Food & Beverages,Dairy & Eggs,Brand P,13.22,17.06,0.2251,20%
+110,Frozen Item 110,Food & Beverages,Frozen,Brand S,6.87,10.06,0.3171,25%
+111,Snacks Item 111,Food & Beverages,Snacks,Brand P,38.29,49.77,0.2307,20%
+112,Beverages Item 112,Food & Beverages,Beverages,Brand K,5.46,7.91,0.3097,25%
+113,Pantry Item 113,Food & Beverages,Pantry,Brand J,4.03,5.89,0.3158,25%
+114,Dairy & Eggs Item 114,Food & Beverages,Dairy & Eggs,Brand E,10.8,15.94,0.3225,25%
+115,Frozen Item 115,Food & Beverages,Frozen,Brand L,44.14,63.58,0.3058,25%
+116,Snacks Item 116,Food & Beverages,Snacks,Brand C,34.23,49.15,0.3036,25%
+117,Beverages Item 117,Food & Beverages,Beverages,Brand S,23.85,33.59,0.29,25%
+118,Pantry Item 118,Food & Beverages,Pantry,Brand Q,34.15,49.03,0.3035,25%
+119,Dairy & Eggs Item 119,Food & Beverages,Dairy & Eggs,Brand C,34.38,44.93,0.2348,20%
+120,Frozen Item 120,Food & Beverages,Frozen,Brand P,13.35,18.52,0.2792,25%
+121,Fruits Item 121,Fresh Food,Fruits,Brand C,6.61,8.46,0.2187,20%
+122,Vegetables Item 122,Fresh Food,Vegetables,Brand Q,24.56,31.08,0.2098,20%
+123,Meat & Poultry Item 123,Fresh Food,Meat & Poultry,Brand T,14.16,18.14,0.2194,20%
+124,Bakery Item 124,Fresh Food,Bakery,Brand N,32.12,45.5,0.2941,25%
+125,Seafood Item 125,Fresh Food,Seafood,Brand C,25.33,33.64,0.247,20%
+126,Fruits Item 126,Fresh Food,Fruits,Brand K,11.64,16.1,0.277,25%
+127,Vegetables Item 127,Fresh Food,Vegetables,Brand I,42.73,58.04,0.2638,25%
+128,Meat & Poultry Item 128,Fresh Food,Meat & Poultry,Brand Q,31.26,42.12,0.2578,25%
+129,Bakery Item 129,Fresh Food,Bakery,Brand H,10.07,12.84,0.2157,20%
+130,Seafood Item 130,Fresh Food,Seafood,Brand G,12.49,17.62,0.2911,25%
+131,Fruits Item 131,Fresh Food,Fruits,Brand B,11.14,14.5,0.2317,20%
+132,Vegetables Item 132,Fresh Food,Vegetables,Brand Q,7.76,10.46,0.2581,25%
+133,Meat & Poultry Item 133,Fresh Food,Meat & Poultry,Brand P,7.59,10.39,0.2695,25%
+134,Bakery Item 134,Fresh Food,Bakery,Brand A,46.61,63.41,0.2649,25%
+135,Seafood Item 135,Fresh Food,Seafood,Brand I,14.8,20.87,0.2908,25%
+136,Fruits Item 136,Fresh Food,Fruits,Brand J,13.05,16.64,0.2157,20%
+137,Vegetables Item 137,Fresh Food,Vegetables,Brand J,28.98,38.73,0.2517,25%
+138,Meat & Poultry Item 138,Fresh Food,Meat & Poultry,Brand S,19.29,25.44,0.2417,20%
+139,Bakery Item 139,Fresh Food,Bakery,Brand D,46.62,62.03,0.2484,20%
+140,Seafood Item 140,Fresh Food,Seafood,Brand G,32.56,41.36,0.2128,20%
+141,Fruits Item 141,Fresh Food,Fruits,Brand D,16.28,20.72,0.2143,20%
+142,Vegetables Item 142,Fresh Food,Vegetables,Brand E,12.85,16.67,0.2292,20%
+143,Meat & Poultry Item 143,Fresh Food,Meat & Poultry,Brand S,52.36,68.16,0.2318,20%
+144,Bakery Item 144,Fresh Food,Bakery,Brand S,28.19,37.29,0.244,20%
+145,Seafood Item 145,Fresh Food,Seafood,Brand A,48.26,65.34,0.2614,25%
+146,Fruits Item 146,Fresh Food,Fruits,Brand M,7.09,9.63,0.2638,25%
+147,Vegetables Item 147,Fresh Food,Vegetables,Brand E,38.28,50.53,0.2424,20%
+148,Meat & Poultry Item 148,Fresh Food,Meat & Poultry,Brand D,23.41,30.89,0.2421,20%
+149,Bakery Item 149,Fresh Food,Bakery,Brand F,7.15,9.2,0.2228,20%
+150,Seafood Item 150,Fresh Food,Seafood,Brand D,20.92,28.24,0.2592,25%
+151,Fruits Item 151,Fresh Food,Fruits,Brand J,26.21,34.18,0.2332,20%
+152,Vegetables Item 152,Fresh Food,Vegetables,Brand T,5.56,6.98,0.2034,20%
+153,Meat & Poultry Item 153,Fresh Food,Meat & Poultry,Brand L,15.37,20.31,0.2432,20%
+154,Bakery Item 154,Fresh Food,Bakery,Brand O,36.12,48.06,0.2484,20%
+155,Seafood Item 155,Fresh Food,Seafood,Brand J,10.66,13.73,0.2236,20%
+156,Fruits Item 156,Fresh Food,Fruits,Brand A,15.52,20.91,0.2578,25%
+157,Vegetables Item 157,Fresh Food,Vegetables,Brand B,14.95,20.13,0.2573,25%
+158,Meat & Poultry Item 158,Fresh Food,Meat & Poultry,Brand F,10.82,14.82,0.2699,25%
+159,Bakery Item 159,Fresh Food,Bakery,Brand E,44.75,60.87,0.2648,25%
+160,Seafood Item 160,Fresh Food,Seafood,Brand Q,32.64,44.42,0.2652,25%
+161,Fruits Item 161,Fresh Food,Fruits,Brand Q,6.97,9.09,0.2332,20%
+162,Vegetables Item 162,Fresh Food,Vegetables,Brand R,53.63,74.22,0.2774,25%
+163,Meat & Poultry Item 163,Fresh Food,Meat & Poultry,Brand M,40.89,54.93,0.2556,25%
+164,Bakery Item 164,Fresh Food,Bakery,Brand L,10.38,13.74,0.2445,20%
+165,Seafood Item 165,Fresh Food,Seafood,Brand M,37.09,50.31,0.2628,25%
+166,Fruits Item 166,Fresh Food,Fruits,Brand I,6.9,9.05,0.2376,20%
+167,Vegetables Item 167,Fresh Food,Vegetables,Brand N,53.89,72.06,0.2522,25%
+168,Meat & Poultry Item 168,Fresh Food,Meat & Poultry,Brand P,25.01,34.39,0.2728,25%
+169,Bakery Item 169,Fresh Food,Bakery,Brand P,24.13,33.8,0.2861,25%
+170,Seafood Item 170,Fresh Food,Seafood,Brand M,6.65,9.35,0.2888,25%
+171,Fruits Item 171,Fresh Food,Fruits,Brand B,42.6,56.9,0.2513,25%
+172,Vegetables Item 172,Fresh Food,Vegetables,Brand O,5.77,7.72,0.2526,25%
+173,Meat & Poultry Item 173,Fresh Food,Meat & Poultry,Brand H,9.4,13.03,0.2786,25%
+174,Bakery Item 174,Fresh Food,Bakery,Brand O,7.51,9.79,0.2329,20%
+175,Seafood Item 175,Fresh Food,Seafood,Brand K,32.3,44.97,0.2817,25%
+176,Fruits Item 176,Fresh Food,Fruits,Brand R,8.52,11.37,0.2507,25%
+177,Vegetables Item 177,Fresh Food,Vegetables,Brand G,43.96,55.82,0.2125,20%
+178,Meat & Poultry Item 178,Fresh Food,Meat & Poultry,Brand S,24.47,30.89,0.2078,20%
+179,Bakery Item 179,Fresh Food,Bakery,Brand Q,5.87,8.18,0.2824,25%
+180,Seafood Item 180,Fresh Food,Seafood,Brand G,5.47,6.89,0.2061,20%
+181,Fruits Item 181,Fresh Food,Fruits,Brand J,6.08,7.89,0.2294,20%
+182,Vegetables Item 182,Fresh Food,Vegetables,Brand K,21.79,28.48,0.2349,20%
+183,Meat & Poultry Item 183,Fresh Food,Meat & Poultry,Brand P,34.19,43.74,0.2183,20%
+184,Bakery Item 184,Fresh Food,Bakery,Brand N,9.35,12.19,0.233,20%
+185,Seafood Item 185,Fresh Food,Seafood,Brand R,38.18,52.55,0.2735,25%
+186,Fruits Item 186,Fresh Food,Fruits,Brand H,6.16,7.72,0.2021,20%
+187,Vegetables Item 187,Fresh Food,Vegetables,Brand K,34.15,47.49,0.2809,25%
+188,Meat & Poultry Item 188,Fresh Food,Meat & Poultry,Brand I,45.73,63.82,0.2835,25%
+189,Bakery Item 189,Fresh Food,Bakery,Brand S,31.95,41.96,0.2386,20%
+190,Seafood Item 190,Fresh Food,Seafood,Brand G,26.95,34.39,0.2163,20%
+191,Fruits Item 191,Fresh Food,Fruits,Brand L,37.19,50.29,0.2605,25%
+192,Vegetables Item 192,Fresh Food,Vegetables,Brand C,5.92,7.52,0.2128,20%
+193,Meat & Poultry Item 193,Fresh Food,Meat & Poultry,Brand R,8.59,11.27,0.2378,20%
+194,Bakery Item 194,Fresh Food,Bakery,Brand H,7.2,10.17,0.292,25%
+195,Seafood Item 195,Fresh Food,Seafood,Brand G,17.26,24.5,0.2955,25%
+196,Fruits Item 196,Fresh Food,Fruits,Brand L,30.03,41.48,0.276,25%
+197,Vegetables Item 197,Fresh Food,Vegetables,Brand J,23.04,30.02,0.2325,20%
+198,Meat & Poultry Item 198,Fresh Food,Meat & Poultry,Brand Q,38.33,52.39,0.2684,25%
+199,Bakery Item 199,Fresh Food,Bakery,Brand K,7.72,10.58,0.2703,25%
+200,Seafood Item 200,Fresh Food,Seafood,Brand K,29.31,38.57,0.2401,20%
+201,Fruits Item 201,Fresh Food,Fruits,Brand C,8.42,11.44,0.264,25%
+202,Vegetables Item 202,Fresh Food,Vegetables,Brand A,10.07,12.61,0.2014,20%
+203,Meat & Poultry Item 203,Fresh Food,Meat & Poultry,Brand H,27.69,35.6,0.2222,20%
+204,Bakery Item 204,Fresh Food,Bakery,Brand T,51.59,69.09,0.2533,25%
+205,Seafood Item 205,Fresh Food,Seafood,Brand S,22.08,28.21,0.2173,20%
+206,Fruits Item 206,Fresh Food,Fruits,Brand M,6.12,7.82,0.2174,20%
+207,Vegetables Item 207,Fresh Food,Vegetables,Brand M,22.32,31.07,0.2816,25%
+208,Meat & Poultry Item 208,Fresh Food,Meat & Poultry,Brand H,5.95,8.44,0.295,25%
+209,Bakery Item 209,Fresh Food,Bakery,Brand D,41.36,55.61,0.2562,25%
+210,Seafood Item 210,Fresh Food,Seafood,Brand A,27.67,38.53,0.2819,25%
+211,Cleaning Item 211,Household,Cleaning,Brand G,11.45,16.24,0.295,25%
+212,Paper Goods Item 212,Household,Paper Goods,Brand T,7.65,10.55,0.2749,25%
+213,Kitchenware Item 213,Household,Kitchenware,Brand J,67.96,92.08,0.2619,25%
+214,Laundry Item 214,Household,Laundry,Brand F,21.3,31.47,0.3232,25%
+215,Cleaning Item 215,Household,Cleaning,Brand K,15.16,20.28,0.2525,25%
+216,Paper Goods Item 216,Household,Paper Goods,Brand P,30.65,40.36,0.2406,20%
+217,Kitchenware Item 217,Household,Kitchenware,Brand G,7.33,10.03,0.2692,25%
+218,Laundry Item 218,Household,Laundry,Brand A,14.11,20.37,0.3073,25%
+219,Cleaning Item 219,Household,Cleaning,Brand B,39.48,57.7,0.3158,25%
+220,Paper Goods Item 220,Household,Paper Goods,Brand R,33.38,50.06,0.3332,25%
+221,Kitchenware Item 221,Household,Kitchenware,Brand C,77.51,105.36,0.2643,25%
+222,Laundry Item 222,Household,Laundry,Brand M,32.32,44.65,0.2761,25%
+223,Cleaning Item 223,Household,Cleaning,Brand H,22.87,30.36,0.2467,20%
+224,Paper Goods Item 224,Household,Paper Goods,Brand P,45.47,64.34,0.2933,25%
+225,Kitchenware Item 225,Household,Kitchenware,Brand B,64.1,96.12,0.3331,25%
+226,Laundry Item 226,Household,Laundry,Brand R,41.2,59.34,0.3057,25%
+227,Cleaning Item 227,Household,Cleaning,Brand N,74.1,105.15,0.2953,25%
+228,Paper Goods Item 228,Household,Paper Goods,Brand I,47.79,65.88,0.2746,25%
+229,Kitchenware Item 229,Household,Kitchenware,Brand E,58.68,87.03,0.3257,25%
+230,Laundry Item 230,Household,Laundry,Brand T,9.49,13.28,0.2854,25%
+231,Cleaning Item 231,Household,Cleaning,Brand G,42.38,56.23,0.2463,20%
+232,Paper Goods Item 232,Household,Paper Goods,Brand J,20.89,28.68,0.2716,25%
+233,Kitchenware Item 233,Household,Kitchenware,Brand H,27.46,36.07,0.2387,20%
+234,Laundry Item 234,Household,Laundry,Brand E,35.07,47.01,0.254,25%
+235,Cleaning Item 235,Household,Cleaning,Brand I,75.29,98.14,0.2328,20%
+236,Paper Goods Item 236,Household,Paper Goods,Brand D,78.03,108.51,0.2809,25%
+237,Kitchenware Item 237,Household,Kitchenware,Brand A,14.46,20.63,0.2991,25%
+238,Laundry Item 238,Household,Laundry,Brand F,42.52,58.2,0.2694,25%
+239,Cleaning Item 239,Household,Cleaning,Brand C,44.23,61.22,0.2775,25%
+240,Paper Goods Item 240,Household,Paper Goods,Brand I,16.66,24.85,0.3296,25%
+241,Kitchenware Item 241,Household,Kitchenware,Brand R,9.72,14.1,0.3106,25%
+242,Laundry Item 242,Household,Laundry,Brand D,7.95,11.19,0.2895,25%
+243,Cleaning Item 243,Household,Cleaning,Brand A,47.25,64.11,0.263,25%
+244,Paper Goods Item 244,Household,Paper Goods,Brand C,23.55,34.84,0.3241,25%
+245,Kitchenware Item 245,Household,Kitchenware,Brand K,78.21,105.35,0.2576,25%
+246,Laundry Item 246,Household,Laundry,Brand F,22.19,30.29,0.2674,25%
+247,Cleaning Item 247,Household,Cleaning,Brand J,76.78,113.77,0.3251,25%
+248,Paper Goods Item 248,Household,Paper Goods,Brand A,19.5,27.42,0.2888,25%
+249,Kitchenware Item 249,Household,Kitchenware,Brand G,49.16,71.21,0.3096,25%
+250,Laundry Item 250,Household,Laundry,Brand I,8.84,12.54,0.2951,25%
+251,Cleaning Item 251,Household,Cleaning,Brand I,27.62,39.52,0.3011,25%
+252,Paper Goods Item 252,Household,Paper Goods,Brand L,50.17,68.23,0.2647,25%
+253,Kitchenware Item 253,Household,Kitchenware,Brand P,67.5,91.01,0.2583,25%
+254,Laundry Item 254,Household,Laundry,Brand J,52.72,71.94,0.2672,25%
+255,Cleaning Item 255,Household,Cleaning,Brand Q,7.87,10.48,0.249,20%
+256,Paper Goods Item 256,Household,Paper Goods,Brand K,17.75,26.18,0.322,25%
+257,Kitchenware Item 257,Household,Kitchenware,Brand F,8.1,10.99,0.263,25%
+258,Laundry Item 258,Household,Laundry,Brand E,9.38,13.25,0.2921,25%
+259,Cleaning Item 259,Household,Cleaning,Brand G,36.91,53.83,0.3143,25%
+260,Paper Goods Item 260,Household,Paper Goods,Brand L,40.46,58.94,0.3135,25%
+261,Kitchenware Item 261,Household,Kitchenware,Brand E,46.84,65.0,0.2794,25%
+262,Laundry Item 262,Household,Laundry,Brand S,58.49,81.61,0.2833,25%
+263,Cleaning Item 263,Household,Cleaning,Brand J,43.11,64.62,0.3329,25%
+264,Paper Goods Item 264,Household,Paper Goods,Brand R,50.02,71.77,0.3031,25%
+265,Kitchenware Item 265,Household,Kitchenware,Brand N,8.11,11.86,0.3162,25%
+266,Laundry Item 266,Household,Laundry,Brand G,12.7,18.8,0.3245,25%
+267,Cleaning Item 267,Household,Cleaning,Brand E,32.44,47.28,0.3139,25%
+268,Paper Goods Item 268,Household,Paper Goods,Brand O,57.46,76.83,0.2521,25%
+269,Kitchenware Item 269,Household,Kitchenware,Brand G,7.28,10.28,0.2918,25%
+270,Laundry Item 270,Household,Laundry,Brand E,25.02,33.04,0.2427,20%
+271,Cleaning Item 271,Household,Cleaning,Brand S,37.09,53.06,0.301,25%
+272,Paper Goods Item 272,Household,Paper Goods,Brand J,7.73,11.53,0.3296,25%
+273,Kitchenware Item 273,Household,Kitchenware,Brand A,19.02,26.68,0.2871,25%
+274,Laundry Item 274,Household,Laundry,Brand J,62.92,87.24,0.2788,25%
+275,Cleaning Item 275,Household,Cleaning,Brand J,36.58,47.82,0.235,20%
+276,Paper Goods Item 276,Household,Paper Goods,Brand R,12.8,19.1,0.3298,25%
+277,Kitchenware Item 277,Household,Kitchenware,Brand O,56.72,74.9,0.2427,20%
+278,Laundry Item 278,Household,Laundry,Brand D,16.72,21.87,0.2355,20%
+279,Cleaning Item 279,Household,Cleaning,Brand D,56.8,76.64,0.2589,25%
+280,Paper Goods Item 280,Household,Paper Goods,Brand M,14.84,19.49,0.2386,20%
+281,Hair Care Item 281,Personal Care,Hair Care,Brand A,7.72,11.88,0.3502,25%
+282,Skin Care Item 282,Personal Care,Skin Care,Brand K,58.35,92.23,0.3673,25%
+283,Oral Care Item 283,Personal Care,Oral Care,Brand J,5.53,7.66,0.2781,25%
+284,Hygiene Item 284,Personal Care,Hygiene,Brand B,8.8,13.4,0.3433,25%
+285,Hair Care Item 285,Personal Care,Hair Care,Brand D,5.86,8.41,0.3032,25%
+286,Skin Care Item 286,Personal Care,Skin Care,Brand G,7.19,11.43,0.371,25%
+287,Oral Care Item 287,Personal Care,Oral Care,Brand H,26.92,38.79,0.306,25%
+288,Hygiene Item 288,Personal Care,Hygiene,Brand H,10.1,15.42,0.345,25%
+289,Hair Care Item 289,Personal Care,Hair Care,Brand H,23.59,35.69,0.339,25%
+290,Skin Care Item 290,Personal Care,Skin Care,Brand P,24.91,36.74,0.322,25%
+291,Oral Care Item 291,Personal Care,Oral Care,Brand C,48.75,75.2,0.3517,25%
+292,Hygiene Item 292,Personal Care,Hygiene,Brand G,5.47,8.5,0.3565,25%
+293,Hair Care Item 293,Personal Care,Hair Care,Brand D,49.25,74.67,0.3404,25%
+294,Skin Care Item 294,Personal Care,Skin Care,Brand G,26.85,41.94,0.3598,25%
+295,Oral Care Item 295,Personal Care,Oral Care,Brand N,8.23,13.3,0.3812,25%
+296,Hygiene Item 296,Personal Care,Hygiene,Brand A,39.99,59.21,0.3246,25%
+297,Hair Care Item 297,Personal Care,Hair Care,Brand G,49.52,74.45,0.3349,25%
+298,Skin Care Item 298,Personal Care,Skin Care,Brand A,10.43,14.42,0.2767,25%
+299,Oral Care Item 299,Personal Care,Oral Care,Brand T,58.34,91.65,0.3634,25%
+300,Hygiene Item 300,Personal Care,Hygiene,Brand O,17.52,26.37,0.3356,25%
+301,Hair Care Item 301,Personal Care,Hair Care,Brand E,25.78,38.1,0.3234,25%
+302,Skin Care Item 302,Personal Care,Skin Care,Brand D,69.19,97.04,0.287,25%
+303,Oral Care Item 303,Personal Care,Oral Care,Brand B,13.78,21.96,0.3725,25%
+304,Hygiene Item 304,Personal Care,Hygiene,Brand J,44.38,65.45,0.3219,25%
+305,Hair Care Item 305,Personal Care,Hair Care,Brand P,12.32,19.02,0.3523,25%
+306,Skin Care Item 306,Personal Care,Skin Care,Brand L,42.8,60.6,0.2937,25%
+307,Oral Care Item 307,Personal Care,Oral Care,Brand R,25.6,41.24,0.3792,25%
+308,Hygiene Item 308,Personal Care,Hygiene,Brand G,9.46,13.46,0.2972,25%
+309,Hair Care Item 309,Personal Care,Hair Care,Brand F,15.78,22.53,0.2996,25%
+310,Skin Care Item 310,Personal Care,Skin Care,Brand J,12.29,19.49,0.3694,25%
+311,Oral Care Item 311,Personal Care,Oral Care,Brand E,6.61,10.57,0.3746,25%
+312,Hygiene Item 312,Personal Care,Hygiene,Brand T,5.83,8.34,0.301,25%
+313,Hair Care Item 313,Personal Care,Hair Care,Brand D,13.25,19.78,0.3301,25%
+314,Skin Care Item 314,Personal Care,Skin Care,Brand J,5.67,8.82,0.3571,25%
+315,Oral Care Item 315,Personal Care,Oral Care,Brand K,8.29,13.19,0.3715,25%
+316,Hygiene Item 316,Personal Care,Hygiene,Brand B,35.33,51.97,0.3202,25%
+317,Hair Care Item 317,Personal Care,Hair Care,Brand J,33.8,50.84,0.3352,25%
+318,Skin Care Item 318,Personal Care,Skin Care,Brand J,36.58,56.99,0.3581,25%
+319,Oral Care Item 319,Personal Care,Oral Care,Brand F,12.28,19.1,0.3571,25%
+320,Hygiene Item 320,Personal Care,Hygiene,Brand C,54.15,84.9,0.3622,25%
+321,Hair Care Item 321,Personal Care,Hair Care,Brand A,25.14,38.13,0.3407,25%
+322,Skin Care Item 322,Personal Care,Skin Care,Brand A,7.48,10.51,0.2883,25%
+323,Oral Care Item 323,Personal Care,Oral Care,Brand J,7.84,12.52,0.3738,25%
+324,Hygiene Item 324,Personal Care,Hygiene,Brand B,32.51,51.62,0.3702,25%
+325,Hair Care Item 325,Personal Care,Hair Care,Brand T,8.45,13.28,0.3637,25%
+326,Skin Care Item 326,Personal Care,Skin Care,Brand E,20.09,28.21,0.2878,25%
+327,Oral Care Item 327,Personal Care,Oral Care,Brand N,70.48,100.72,0.3002,25%
+328,Hygiene Item 328,Personal Care,Hygiene,Brand N,5.46,8.51,0.3584,25%
+329,Hair Care Item 329,Personal Care,Hair Care,Brand J,5.64,7.81,0.2778,25%
+330,Skin Care Item 330,Personal Care,Skin Care,Brand R,70.72,114.21,0.3808,25%
+331,Oral Care Item 331,Personal Care,Oral Care,Brand C,24.55,36.1,0.3199,25%
+332,Hygiene Item 332,Personal Care,Hygiene,Brand E,7.5,11.64,0.3557,25%
+333,Hair Care Item 333,Personal Care,Hair Care,Brand F,55.18,87.9,0.3722,25%
+334,Skin Care Item 334,Personal Care,Skin Care,Brand C,52.82,77.89,0.3219,25%
+335,Oral Care Item 335,Personal Care,Oral Care,Brand F,21.66,31.55,0.3135,25%
+336,Hygiene Item 336,Personal Care,Hygiene,Brand G,27.03,41.25,0.3447,25%
+337,Hair Care Item 337,Personal Care,Hair Care,Brand P,10.96,16.65,0.3417,25%
+338,Skin Care Item 338,Personal Care,Skin Care,Brand G,6.15,9.09,0.3234,25%
+339,Oral Care Item 339,Personal Care,Oral Care,Brand R,25.19,38.4,0.344,25%
+340,Hygiene Item 340,Personal Care,Hygiene,Brand P,11.59,18.6,0.3769,25%
+341,Vitamins Item 341,Health & Wellness,Vitamins,Brand S,120.97,176.96,0.3164,25%
+342,OTC Item 342,Health & Wellness,OTC,Brand I,120.27,177.02,0.3206,25%
+343,Fitness Nutrition Item 343,Health & Wellness,Fitness Nutrition,Brand D,111.3,163.99,0.3213,25%
+344,First Aid Item 344,Health & Wellness,First Aid,Brand P,10.88,15.78,0.3105,25%
+345,Vitamins Item 345,Health & Wellness,Vitamins,Brand M,12.95,17.87,0.2753,25%
+346,OTC Item 346,Health & Wellness,OTC,Brand J,20.1,27.72,0.2749,25%
+347,Fitness Nutrition Item 347,Health & Wellness,Fitness Nutrition,Brand H,38.72,60.75,0.3626,25%
+348,First Aid Item 348,Health & Wellness,First Aid,Brand D,11.62,16.98,0.3157,25%
+349,Vitamins Item 349,Health & Wellness,Vitamins,Brand S,83.88,131.63,0.3628,25%
+350,OTC Item 350,Health & Wellness,OTC,Brand M,45.83,63.59,0.2793,25%
+351,Fitness Nutrition Item 351,Health & Wellness,Fitness Nutrition,Brand G,37.66,55.64,0.3231,25%
+352,First Aid Item 352,Health & Wellness,First Aid,Brand I,13.92,19.46,0.2847,25%
+353,Vitamins Item 353,Health & Wellness,Vitamins,Brand O,17.56,24.73,0.2899,25%
+354,OTC Item 354,Health & Wellness,OTC,Brand O,13.74,18.64,0.2629,25%
+355,Fitness Nutrition Item 355,Health & Wellness,Fitness Nutrition,Brand J,85.24,117.41,0.274,25%
+356,First Aid Item 356,Health & Wellness,First Aid,Brand G,42.06,65.65,0.3593,25%
+357,Vitamins Item 357,Health & Wellness,Vitamins,Brand N,62.63,89.18,0.2977,25%
+358,OTC Item 358,Health & Wellness,OTC,Brand N,19.66,29.29,0.3288,25%
+359,Fitness Nutrition Item 359,Health & Wellness,Fitness Nutrition,Brand L,23.97,34.92,0.3136,25%
+360,First Aid Item 360,Health & Wellness,First Aid,Brand B,26.2,37.78,0.3065,25%
+361,Vitamins Item 361,Health & Wellness,Vitamins,Brand J,66.88,98.47,0.3208,25%
+362,OTC Item 362,Health & Wellness,OTC,Brand M,69.1,96.26,0.2822,25%
+363,Fitness Nutrition Item 363,Health & Wellness,Fitness Nutrition,Brand T,15.53,24.5,0.3661,25%
+364,First Aid Item 364,Health & Wellness,First Aid,Brand K,107.99,166.11,0.3499,25%
+365,Vitamins Item 365,Health & Wellness,Vitamins,Brand G,12.37,18.81,0.3424,25%
+366,OTC Item 366,Health & Wellness,OTC,Brand L,95.79,139.64,0.314,25%
+367,Fitness Nutrition Item 367,Health & Wellness,Fitness Nutrition,Brand D,11.73,16.25,0.2782,25%
+368,First Aid Item 368,Health & Wellness,First Aid,Brand B,18.09,28.25,0.3596,25%
+369,Vitamins Item 369,Health & Wellness,Vitamins,Brand N,84.03,120.04,0.3,25%
+370,OTC Item 370,Health & Wellness,OTC,Brand T,14.45,19.67,0.2654,25%
+371,Fitness Nutrition Item 371,Health & Wellness,Fitness Nutrition,Brand Q,26.81,38.3,0.3,25%
+372,First Aid Item 372,Health & Wellness,First Aid,Brand L,29.5,45.22,0.3476,25%
+373,Vitamins Item 373,Health & Wellness,Vitamins,Brand A,17.19,25.67,0.3303,25%
+374,OTC Item 374,Health & Wellness,OTC,Brand T,58.65,89.31,0.3433,25%
+375,Fitness Nutrition Item 375,Health & Wellness,Fitness Nutrition,Brand I,85.11,130.43,0.3475,25%
+376,First Aid Item 376,Health & Wellness,First Aid,Brand F,90.49,126.57,0.2851,25%
+377,Vitamins Item 377,Health & Wellness,Vitamins,Brand R,22.04,34.44,0.36,25%
+378,OTC Item 378,Health & Wellness,OTC,Brand O,36.53,53.0,0.3108,25%
+379,Fitness Nutrition Item 379,Health & Wellness,Fitness Nutrition,Brand O,17.34,25.96,0.332,25%
+380,First Aid Item 380,Health & Wellness,First Aid,Brand F,17.17,23.19,0.2596,25%
+381,Vitamins Item 381,Health & Wellness,Vitamins,Brand T,13.77,21.74,0.3666,25%
+382,OTC Item 382,Health & Wellness,OTC,Brand J,107.55,152.14,0.2931,25%
+383,Fitness Nutrition Item 383,Health & Wellness,Fitness Nutrition,Brand K,93.75,127.9,0.267,25%
+384,First Aid Item 384,Health & Wellness,First Aid,Brand P,70.02,101.91,0.3129,25%
+385,Vitamins Item 385,Health & Wellness,Vitamins,Brand N,35.28,48.68,0.2753,25%
+386,Diapers Item 386,Baby Care,Diapers,Brand M,23.64,33.78,0.3002,25%
+387,Baby Food Item 387,Baby Care,Baby Food,Brand B,125.7,173.94,0.2773,25%
+388,Baby Hygiene Item 388,Baby Care,Baby Hygiene,Brand S,27.9,37.82,0.2623,25%
+389,Toys Item 389,Baby Care,Toys,Brand C,73.15,105.27,0.3051,25%
+390,Diapers Item 390,Baby Care,Diapers,Brand L,30.69,43.74,0.2984,25%
+391,Baby Food Item 391,Baby Care,Baby Food,Brand P,46.28,61.77,0.2508,25%
+392,Baby Hygiene Item 392,Baby Care,Baby Hygiene,Brand E,69.68,95.64,0.2714,25%
+393,Toys Item 393,Baby Care,Toys,Brand F,40.36,55.02,0.2664,25%
+394,Diapers Item 394,Baby Care,Diapers,Brand J,113.2,157.06,0.2793,25%
+395,Baby Food Item 395,Baby Care,Baby Food,Brand R,32.0,42.78,0.252,25%
+396,Baby Hygiene Item 396,Baby Care,Baby Hygiene,Brand E,57.72,76.28,0.2433,20%
+397,Toys Item 397,Baby Care,Toys,Brand N,26.22,37.63,0.3032,25%
+398,Diapers Item 398,Baby Care,Diapers,Brand J,31.09,44.68,0.3042,25%
+399,Baby Food Item 399,Baby Care,Baby Food,Brand C,33.76,48.05,0.2974,25%
+400,Baby Hygiene Item 400,Baby Care,Baby Hygiene,Brand O,14.96,21.64,0.3087,25%
+401,Toys Item 401,Baby Care,Toys,Brand Q,13.7,19.27,0.2891,25%
+402,Diapers Item 402,Baby Care,Diapers,Brand L,60.86,85.81,0.2908,25%
+403,Baby Food Item 403,Baby Care,Baby Food,Brand D,59.0,83.17,0.2906,25%
+404,Baby Hygiene Item 404,Baby Care,Baby Hygiene,Brand D,60.14,81.89,0.2656,25%
+405,Toys Item 405,Baby Care,Toys,Brand I,11.37,15.44,0.2636,25%
+406,Diapers Item 406,Baby Care,Diapers,Brand K,25.16,33.23,0.2429,20%
+407,Baby Food Item 407,Baby Care,Baby Food,Brand L,18.03,25.05,0.2802,25%
+408,Baby Hygiene Item 408,Baby Care,Baby Hygiene,Brand E,81.06,107.74,0.2476,20%
+409,Toys Item 409,Baby Care,Toys,Brand K,100.36,132.86,0.2446,20%
+410,Diapers Item 410,Baby Care,Diapers,Brand F,20.46,28.23,0.2752,25%
+411,Baby Food Item 411,Baby Care,Baby Food,Brand N,60.91,82.21,0.2591,25%
+412,Baby Hygiene Item 412,Baby Care,Baby Hygiene,Brand P,15.1,19.89,0.2408,20%
+413,Toys Item 413,Baby Care,Toys,Brand N,22.03,31.25,0.295,25%
+414,Diapers Item 414,Baby Care,Diapers,Brand A,15.47,22.06,0.2987,25%
+415,Baby Food Item 415,Baby Care,Baby Food,Brand T,22.51,29.45,0.2357,20%
+416,Baby Hygiene Item 416,Baby Care,Baby Hygiene,Brand A,62.01,79.45,0.2195,20%
+417,Toys Item 417,Baby Care,Toys,Brand T,114.15,152.63,0.2521,25%
+418,Diapers Item 418,Baby Care,Diapers,Brand A,18.25,25.83,0.2935,25%
+419,Baby Food Item 419,Baby Care,Baby Food,Brand K,43.98,62.57,0.2971,25%
+420,Baby Hygiene Item 420,Baby Care,Baby Hygiene,Brand C,66.44,86.61,0.2329,20%
+421,Toys Item 421,Baby Care,Toys,Brand B,127.47,179.94,0.2916,25%
+422,Diapers Item 422,Baby Care,Diapers,Brand N,52.45,68.17,0.2306,20%
+423,Baby Food Item 423,Baby Care,Baby Food,Brand O,20.91,28.15,0.2572,25%
+424,Baby Hygiene Item 424,Baby Care,Baby Hygiene,Brand C,54.58,79.13,0.3102,25%
+425,Toys Item 425,Baby Care,Toys,Brand T,24.77,32.52,0.2383,20%
+426,Diapers Item 426,Baby Care,Diapers,Brand G,135.37,176.82,0.2344,20%
+427,Baby Food Item 427,Baby Care,Baby Food,Brand G,30.41,41.11,0.2603,25%
+428,Baby Hygiene Item 428,Baby Care,Baby Hygiene,Brand F,63.75,88.32,0.2782,25%
+429,Toys Item 429,Baby Care,Toys,Brand J,11.47,16.5,0.3048,25%
+430,Diapers Item 430,Baby Care,Diapers,Brand D,30.44,44.04,0.3088,25%
+431,Fragrance Item 431,Beauty,Fragrance,Brand I,16.55,25.84,0.3595,25%
+432,Makeup Item 432,Beauty,Makeup,Brand M,88.92,138.46,0.3578,25%
+433,Beauty Tools Item 433,Beauty,Beauty Tools,Brand N,37.49,65.91,0.4312,25%
+434,Nail Care Item 434,Beauty,Nail Care,Brand Q,121.48,185.14,0.3438,25%
+435,Fragrance Item 435,Beauty,Fragrance,Brand B,137.09,207.25,0.3385,25%
+436,Makeup Item 436,Beauty,Makeup,Brand H,133.11,205.69,0.3529,25%
+437,Beauty Tools Item 437,Beauty,Beauty Tools,Brand A,44.5,68.75,0.3527,25%
+438,Nail Care Item 438,Beauty,Nail Care,Brand A,34.4,61.39,0.4396,25%
+439,Fragrance Item 439,Beauty,Fragrance,Brand E,109.41,178.06,0.3855,25%
+440,Makeup Item 440,Beauty,Makeup,Brand L,126.14,232.91,0.4584,25%
+441,Beauty Tools Item 441,Beauty,Beauty Tools,Brand R,54.47,83.38,0.3467,25%
+442,Nail Care Item 442,Beauty,Nail Care,Brand P,161.68,278.38,0.4192,25%
+443,Fragrance Item 443,Beauty,Fragrance,Brand M,21.26,34.99,0.3924,25%
+444,Makeup Item 444,Beauty,Makeup,Brand P,155.68,253.04,0.3848,25%
+445,Beauty Tools Item 445,Beauty,Beauty Tools,Brand D,18.68,33.69,0.4455,25%
+446,Nail Care Item 446,Beauty,Nail Care,Brand Q,21.82,40.17,0.4568,25%
+447,Fragrance Item 447,Beauty,Fragrance,Brand R,61.12,110.2,0.4454,25%
+448,Makeup Item 448,Beauty,Makeup,Brand B,17.29,26.82,0.3553,25%
+449,Beauty Tools Item 449,Beauty,Beauty Tools,Brand J,16.61,25.94,0.3597,25%
+450,Nail Care Item 450,Beauty,Nail Care,Brand Q,14.42,24.84,0.4195,25%
+451,Fragrance Item 451,Beauty,Fragrance,Brand J,46.94,74.49,0.3698,25%
+452,Makeup Item 452,Beauty,Makeup,Brand Q,117.33,205.54,0.4292,25%
+453,Beauty Tools Item 453,Beauty,Beauty Tools,Brand S,15.82,26.73,0.4082,25%
+454,Nail Care Item 454,Beauty,Nail Care,Brand J,84.23,141.83,0.4061,25%
+455,Fragrance Item 455,Beauty,Fragrance,Brand B,133.79,239.02,0.4403,25%
+456,Makeup Item 456,Beauty,Makeup,Brand G,22.7,39.56,0.4262,25%
+457,Beauty Tools Item 457,Beauty,Beauty Tools,Brand E,21.43,31.93,0.3288,25%
+458,Nail Care Item 458,Beauty,Nail Care,Brand J,148.16,221.99,0.3326,25%
+459,Fragrance Item 459,Beauty,Fragrance,Brand L,133.79,227.79,0.4127,25%
+460,Makeup Item 460,Beauty,Makeup,Brand J,61.97,102.86,0.3975,25%
+461,Beauty Tools Item 461,Beauty,Beauty Tools,Brand D,132.38,208.67,0.3656,25%
+462,Nail Care Item 462,Beauty,Nail Care,Brand G,18.51,30.26,0.3883,25%
+463,Fragrance Item 463,Beauty,Fragrance,Brand N,41.91,73.78,0.432,25%
+464,Makeup Item 464,Beauty,Makeup,Brand A,106.19,189.64,0.44,25%
+465,Beauty Tools Item 465,Beauty,Beauty Tools,Brand E,28.92,48.81,0.4075,25%
+466,Nail Care Item 466,Beauty,Nail Care,Brand R,110.45,179.21,0.3837,25%
+467,Fragrance Item 467,Beauty,Fragrance,Brand B,56.41,89.14,0.3672,25%
+468,Makeup Item 468,Beauty,Makeup,Brand I,109.84,183.77,0.4023,25%
+469,Beauty Tools Item 469,Beauty,Beauty Tools,Brand E,50.68,80.91,0.3736,25%
+470,Nail Care Item 470,Beauty,Nail Care,Brand C,39.0,65.86,0.4078,25%
+471,Accessories Item 471,Electronics,Accessories,Brand I,78.76,95.28,0.1734,15%
+472,Small Appliances Item 472,Electronics,Small Appliances,Brand K,69.04,83.46,0.1728,15%
+473,Audio Item 473,Electronics,Audio,Brand O,692.76,896.96,0.2277,20%
+474,Mobile Item 474,Electronics,Mobile,Brand T,124.57,148.06,0.1587,15%
+475,Accessories Item 475,Electronics,Accessories,Brand H,141.62,168.75,0.1608,15%
+476,Small Appliances Item 476,Electronics,Small Appliances,Brand R,53.64,65.72,0.1838,15%
+477,Audio Item 477,Electronics,Audio,Brand E,140.11,160.15,0.1251,10%
+478,Mobile Item 478,Electronics,Mobile,Brand P,104.4,122.96,0.1509,15%
+479,Accessories Item 479,Electronics,Accessories,Brand L,313.19,361.66,0.134,10%
+480,Small Appliances Item 480,Electronics,Small Appliances,Brand P,86.44,98.42,0.1217,10%
+481,Audio Item 481,Electronics,Audio,Brand P,757.43,966.41,0.2162,20%
+482,Mobile Item 482,Electronics,Mobile,Brand K,863.67,1058.93,0.1844,15%
+483,Accessories Item 483,Electronics,Accessories,Brand F,61.8,73.21,0.1559,15%
+484,Small Appliances Item 484,Electronics,Small Appliances,Brand K,63.31,75.56,0.1621,15%
+485,Audio Item 485,Electronics,Audio,Brand Q,64.92,77.75,0.165,15%
+486,Mobile Item 486,Electronics,Mobile,Brand T,322.37,397.79,0.1896,15%
+487,Accessories Item 487,Electronics,Accessories,Brand S,66.31,85.33,0.2229,20%
+488,Small Appliances Item 488,Electronics,Small Appliances,Brand D,675.59,870.09,0.2235,20%
+489,Audio Item 489,Electronics,Audio,Brand L,494.61,588.82,0.16,15%
+490,Mobile Item 490,Electronics,Mobile,Brand C,609.15,718.35,0.152,15%
+491,Accessories Item 491,Electronics,Accessories,Brand N,239.49,287.67,0.1675,15%
+492,Small Appliances Item 492,Electronics,Small Appliances,Brand T,1068.66,1306.15,0.1818,15%
+493,Audio Item 493,Electronics,Audio,Brand B,51.78,62.3,0.1689,15%
+494,Mobile Item 494,Electronics,Mobile,Brand N,161.08,199.51,0.1926,15%
+495,Accessories Item 495,Electronics,Accessories,Brand S,125.98,153.67,0.1802,15%
+496,Small Appliances Item 496,Electronics,Small Appliances,Brand Q,917.37,1080.41,0.1509,15%
+497,Audio Item 497,Electronics,Audio,Brand H,281.45,332.74,0.1541,15%
+498,Mobile Item 498,Electronics,Mobile,Brand C,583.35,693.11,0.1584,15%
+499,Accessories Item 499,Electronics,Accessories,Brand S,77.32,87.92,0.1206,10%
+500,Small Appliances Item 500,Electronics,Small Appliances,Brand S,1009.1,1160.36,0.1304,10%

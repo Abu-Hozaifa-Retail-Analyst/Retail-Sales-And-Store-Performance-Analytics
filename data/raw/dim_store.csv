@@ -1,0 +1,26 @@
+store_id,store_name,city,region,store_type,store_size_sqft,opening_date,target_sales,target_margin
+1,GulfMart Riyadh HYP-01,Riyadh,Central,Hypermarket,64462,2018-08-01,413664.0,0.22
+2,GulfMart Jeddah HYP-02,Jeddah,Western,Hypermarket,81943,2009-09-01,273063.0,0.22
+3,GulfMart Dammam HYP-03,Dammam,Eastern,Hypermarket,86323,2021-09-01,638346.0,0.22
+4,GulfMart Dammam HYP-04,Dammam,Eastern,Hypermarket,98056,2015-02-01,575174.0,0.22
+5,GulfMart Madinah HYP-05,Madinah,Western,Hypermarket,85017,2013-03-01,446053.0,0.22
+6,GulfMart Buraidah SUP-06,Buraidah,Central,Supermarket,38388,2013-10-01,341656.0,0.24
+7,GulfMart Jeddah SUP-07,Jeddah,Western,Supermarket,27910,2011-02-01,165313.0,0.24
+8,GulfMart Makkah SUP-08,Makkah,Western,Supermarket,30200,2020-10-01,258282.0,0.24
+9,GulfMart Tabuk SUP-09,Tabuk,Northern,Supermarket,21635,2018-09-01,211835.0,0.24
+10,GulfMart Riyadh SUP-10,Riyadh,Central,Supermarket,25799,2014-11-01,222082.0,0.24
+11,GulfMart Khobar SUP-11,Khobar,Eastern,Supermarket,34717,2010-05-01,350851.0,0.24
+12,GulfMart Abha SUP-12,Abha,Southern,Supermarket,28267,2015-02-01,220792.0,0.24
+13,GulfMart Taif SUP-13,Taif,Western,Supermarket,38295,2018-05-01,252882.0,0.24
+14,GulfMart Dammam SUP-14,Dammam,Eastern,Supermarket,39285,2020-05-01,287142.0,0.24
+15,GulfMart Madinah SUP-15,Madinah,Western,Supermarket,35504,2010-06-01,180318.0,0.24
+16,GulfMart Buraidah EXP-16,Buraidah,Central,Express,3649,2012-03-01,111511.0,0.27
+17,GulfMart Jeddah EXP-17,Jeddah,Western,Express,7701,2014-02-01,108445.0,0.27
+18,GulfMart Makkah EXP-18,Makkah,Western,Express,7163,2009-04-01,126779.0,0.27
+19,GulfMart Tabuk EXP-19,Tabuk,Northern,Express,5176,2019-11-01,154326.0,0.27
+20,GulfMart Riyadh EXP-20,Riyadh,Central,Express,4937,2011-09-01,106004.0,0.27
+21,GulfMart Khobar EXP-21,Khobar,Eastern,Express,7163,2010-10-01,173738.0,0.27
+22,GulfMart Abha EXP-22,Abha,Southern,Express,3036,2018-08-01,69628.0,0.27
+23,GulfMart Taif NEI-23,Taif,Western,Neighborhood,2192,2018-07-01,74383.0,0.28
+24,GulfMart Dammam NEI-24,Dammam,Eastern,Neighborhood,2647,2008-02-01,117822.0,0.28
+25,GulfMart Madinah NEI-25,Madinah,Western,Neighborhood,2599,2017-08-01,47442.0,0.28

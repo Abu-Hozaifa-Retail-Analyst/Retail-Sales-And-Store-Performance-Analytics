@@ -1,0 +1,13 @@
+check,passed
+gross_sales = qty*price,True
+net_sales = gross*(1-disc),True
+total_cost = qty*unit_cost,True
+gross_profit = net-cost,True
+discount_amount = gross-net,True
+FK store valid,True
+FK product valid,True
+FK customer valid,True
+FK date valid,True
+quantity > 0,True
+"discount in [0, .25]",True
+no future dates,True
